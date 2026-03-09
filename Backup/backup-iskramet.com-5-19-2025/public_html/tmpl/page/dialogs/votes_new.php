@@ -1,0 +1,207 @@
+<?php
+include_once $_SERVER['DOCUMENT_ROOT'] . '/Connections/dbconn.php';
+if (el_checkAjax()) {
+    if (isset($_POST['params'])) {
+        $init = '';
+        $init = el_dbselect("SELECT * FROM catalog_init_data WHERE id=" . intval($_POST['params']),
+            0, $init, 'row', true);
+        $formId = 'edit_initiative';
+        $idField = '<input type="hidden" name="vote_id" value="'.intval($_POST['params']).'">';
+        $answerField = '
+					<div class="item w_100">
+						<div class="el_data w_100">
+							<label>Ответ 1</label>
+							<input class="el_input" name="answers[]" type="text">
+							<div class="button icon add"><span class="material-icons">add_circle_outline</span></div>
+						</div>
+					</div>';
+
+		$answers = el_dbselect("SELECT id, field1 FROM catalog_votesQuestions_data 
+				WHERE field2 = ".intval($_POST['params']), 0, $exist, 'result', true);
+		$totalAnswers = el_dbnumrows($answers);
+		if($totalAnswers > 0){
+			$ra = el_dbfetch($answers);
+			$answerField = '';
+			$ac = 1;
+			$buttonClass = 'remove';
+			$buttonText = 'remove_circle_outline';
+			do{
+				if($ac == $totalAnswers){
+					$buttonClass = 'add';
+					$buttonText = 'add_circle_outline';
+				}
+				$answerField .= '
+					<div class="item w_100">
+						<div class="el_data w_100">
+							<label>Ответ '.$ac.'</label>
+							<input class="el_input" name="answers[]" type="text" value="'.$ra['field1'].'">
+							<div class="button icon '.$buttonClass.'"><span class="material-icons">'.$buttonText.'</span></div>
+						</div>
+					</div>
+					<input type="hidden" name="old_answers[]" value="'.$ra['field1'].'">';
+				$ac++;
+			}while($ra = el_dbfetch($answers));
+		}
+    } else {
+        $init = array();
+        $formId = 'add_initiative';
+        $idField = '';
+		$answerField = '
+					<div class="item w_100">
+						<div class="el_data w_100">
+							<label>Ответ 1</label>
+							<input class="el_input" name="answers[]" type="text">
+							<div class="button icon add"><span class="material-icons">add_circle_outline</span></div>
+						</div>
+					</div>';
+    }
+    ?>
+    <div class="pop_up">
+        <div class="title">
+            <h2>Голосование</h2>
+            <div class="close"><span class="material-icons">highlight_off</span></div>
+        </div>
+        <section> 
+            <form class="ajaxFrm noreset" id="<?=$formId?>">
+                <h3>Тема</h3>
+                <div class="group">
+                    <div class="item">
+                        <div class="el_data w_50">
+                            <select name="theme" class="el_select" data-label="Тема голосования" data-place="Выберите">
+                                <?= el_buildRegistryList('registryVote', $init['field12'], false) ?>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <h3>Вопрос</h3>
+                <div class="group">
+
+                    <div class="item w_100">
+                        <div class="el_data w_100">
+                            <label>Текст вопроса</label>
+                            <textarea class="el_textarea" name="question" id="demo-01"><?= $init['field1'] ?></textarea>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <h3>Варинаты ответов</h3>
+				<div class="group" id="answers">
+					<?=$answerField?>
+				</div>
+
+                <h3>Участники</h3>
+                <div class="group">
+
+                    <div class="item w_100">
+                        <div class="custom_checkbox">
+                            <label class="container">Выбрать всех
+                                <input type="checkbox" id="init_select_all" name="init_select_all" checked value="1">
+                                <span class="checkmark"></span></label>
+                        </div>
+                    </div>
+                    <div class="item subject" style="display: none">
+                        <select multiple data-label="Субъект" data-place="Выберите" name="region"
+                                data-multibarshow="false">
+                            <?= el_buildRegistryList('subjects', $init['field5']) ?>
+                        </select>
+                    </div>
+                    <div class="item detail" style="display: none">
+                        <select multiple data-label="Район / Округ" data-place="Выберите" name="district" id="district">
+                        </select>
+                    </div>
+                    <div class="item detail" style="display: none">
+                        <div class="el_data">
+                            <label for="city">Населённый пункт</label>
+                            <input class="el_input" value="<?= $init['field8'] ?>" id="city" name="city" type="text">
+                        </div>
+                    </div>
+                    <div class="item detail" style="display: none">
+                        <div class="el_data">
+                            <label for="post_index">Индекс</label>
+                            <input class="el_input" id="post_index" name="post_index" type="text"
+                                   value="<?= $init['field9'] ?>">
+                        </div>
+                    </div>
+                    <div class="item detail" style="display: none">
+                        <div class="el_data">
+                            <label for="street">Улица</label>
+                            <input class="el_input" value="<?= $init['field10'] ?>" id="street" name="street"
+                                   type="text">
+                        </div>
+                    </div>
+                    <div class="item detail" style="display: none">
+                        <div class="el_data">
+                            <label for="house">Номер дома</label>
+                            <input class="el_input" value="<?= $init['field11'] ?>" id="house" name="house" type="text">
+                        </div>
+                    </div>
+                    <div class="item" style="display: none">
+                        <div class="el_data">
+                            <select multiple data-label="Группа в индексе" data-place="Выберите" name="groups[]" id="groups">
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="group prof" style="display: none">
+                    <div class="item w_100">
+
+                        <select multiple data-label="Профессия" data-place="Выберите" name="professions">
+                            <?= el_buildRegistryList('proffesions', $init['field7']) ?>
+                        </select>
+
+                    </div>
+                </div>
+                <?
+                //if ($_SESSION['user_level'] == 11) {
+                    ?>
+                    <h3 class="prof" style="display: none">Для кого</h3>
+                    <div class="group prof" style="display: none">
+                        <div class="item">
+                            <select multiple data-label="Ранг" data-place="Выберите" name="rank">
+                                <?= el_buildRegistryList('userstatus', $init['field13'], false, array(11)) ?>
+                            </select>
+                        </div>
+                    </div>
+
+                <h3>Период проведения</h3>
+                <div class="group">
+                    <div class="item">
+                        <div class="el_data">
+                            <label for="init_start">Начало</label>
+                            <input class="el_input" id="init_start" type="date" name="init_start"
+                                   value="<?= $init['field2'] ?>">
+
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="el_data">
+                            <label for="init_end">Окончание</label>
+                            <input class="el_input" id="init_end" type="date" name="init_end"
+                                   value="<?= $init['field3'] ?>">
+                        </div>
+                    </div>
+                </div>
+                    <?
+                //}
+                echo $idField;
+                ?>
+				<input type="hidden" name="is_vote" value="1">
+                <div class="group">
+                    <div class="item">
+                        <button class="button text icon"><span class="material-icons">save</span>Сохранить</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+    </div>
+    <script>
+        initiatives.popupNewInit();
+    </script>
+    <?php
+}
+?>

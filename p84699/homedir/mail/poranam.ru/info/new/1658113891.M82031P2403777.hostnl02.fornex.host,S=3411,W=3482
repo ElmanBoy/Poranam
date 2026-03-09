@@ -1,0 +1,71 @@
+Return-Path: <test123@ra-de-sync.de>
+Delivered-To: info@poranam.ru
+Received: from hostnl02.fornex.host
+	by hostnl02.fornex.host with LMTP
+	id KFRIBGPP1GLBrSQAPMQOpA
+	(envelope-from <test123@ra-de-sync.de>)
+	for <info@poranam.ru>; Mon, 18 Jul 2022 03:11:31 +0000
+Return-path: <test123@ra-de-sync.de>
+Envelope-to: info@poranam.ru
+Delivery-date: Mon, 18 Jul 2022 06:11:31 +0300
+Received: from ip208.ip-141-95-39.eu ([141.95.39.208]:38398 helo=oma-mail1.ra-de-sync.de)
+	by hostnl02.fornex.host with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <test123@ra-de-sync.de>)
+	id 1oDHAP-00A6MM-6X
+	for info@poranam.ru; Mon, 18 Jul 2022 06:11:31 +0300
+Received: from 141.95.39.208 (unknown [193.151.183.17])
+	by oma-mail1.ra-de-sync.de (Postfix) with ESMTPSA id 203BDB9C5A
+	for <info@poranam.ru>; Mon, 18 Jul 2022 01:45:20 +0200 (CEST)
+Reply-To: loanbroker2@qebsol.com
+From: Paul-Heinze <loanbrokker2@qebsol.com>
+To: info@poranam.ru
+Subject: Business Loan At 2/7 Percent Per Annum info@poranam.ru
+Date: 18 Jul 2022 01:45:19 +0200
+Message-ID: <20220718014519.92DD4E7D7622F8CF@qebsol.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=1.6
+X-Spam-Score: 16
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "hostnl02.fornex.host",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Attention info@poranam.ru We are providers of prime soft loans.
+    Our Firm is giving out retail loans to Start-up Businesses and to those who
+    wish to expand an already established business. We are expanding our investment
+    presen [...] 
+ Content analysis details:   (1.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  1.2 RCVD_HELO_IP_MISMATCH  Received: HELO and IP do not match, but
+                             should
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.1 TO_IN_SUBJ             To address is in Subject
+X-Spam-Flag: NO
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<DIV style=3D"MARGIN: 0.5em">
+<P>Attention info@poranam.ru</P>
+<P>We are providers of prime&nbsp; soft loans. Our Firm is giving out retai=
+l loans to Start-up Businesses and to those who wish to expand an already e=
+stablished business. We are expanding our investment presence by granting r=
+etail loans to fund projects outside Uk and to all viable and lucrative sec=
+tors, at 2% to 7% interest per annum with up to 20 years repayment plan and=
+ a 2 year grace period.</P>
+<P>Kindly forward your business plan/executive summary if interested.<BR>Mr=
+=2E Paul Heinze.<BR>Quality E-Business[QEB] Solutions Limited.<BR><BR>&gt;&=
+gt;&gt;&lt;&lt;&lt;</P></DIV></BODY></HTML>

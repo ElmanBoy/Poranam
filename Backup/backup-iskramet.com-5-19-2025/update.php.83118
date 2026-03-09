@@ -1,0 +1,1 @@
+<pre>UPDATE catalog_init_data SET field14 = 15 WHERE field3 < '2024-05-10 16:44:03'</pre><br>

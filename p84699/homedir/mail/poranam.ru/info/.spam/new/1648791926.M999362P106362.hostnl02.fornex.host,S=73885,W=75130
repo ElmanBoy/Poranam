@@ -1,0 +1,1245 @@
+Return-Path: <77@molop.ru>
+Delivered-To: info+spam@poranam.ru
+Received: from hostnl02.fornex.host
+	by hostnl02.fornex.host with LMTP
+	id 4I/wOnaRRmJ6nwEAPMQOpA
+	(envelope-from <77@molop.ru>)
+	for <info+spam@poranam.ru>; Fri, 01 Apr 2022 05:45:26 +0000
+Return-path: <77@molop.ru>
+Envelope-to: info@poranam.ru
+Delivery-date: Fri, 01 Apr 2022 08:45:26 +0300
+Received: from [46.8.220.159] (port=41732 helo=mail.molop.ru)
+	by hostnl02.fornex.host with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <77@molop.ru>)
+	id 1naA67-000RUV-Vj
+	for info@poranam.ru; Fri, 01 Apr 2022 08:45:26 +0300
+Message-ID: <8470bc52a674382407bef75ca86c517a58f3f4139f@molop.ru>
+Reply-To: =?utf-8?B?0K3QutCy0LjQstCw0LvQtdC90YI=?= <wityacheprakow@rambler.ru>
+From: =?utf-8?B?0K3QutCy0LjQstCw0LvQtdC90YI=?= <77@molop.ru>
+To: info@poranam.ru
+Date: Fri, 1 Apr 2022 08:44:32 +0300
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="2a256cd14390baa2812b62c92acee5ef4c5f4a"
+DKIM-Signature: v=1; c=relaxed/relaxed; a=rsa-sha256; s=mail; d=molop.ru;
+	t=1648791872; h=message-id:from:to:subject:date:mime-version;
+	bh=BGWJU3L38uw9+Ojflb2YnHqNPIqPO6D7K3ira1pOFNw=;
+	b=DN72GuKF0nWeoPN7iAWueDwLQtw+GAr9PjhuuKuKuvwIlg9JsSEtZ9m9Dfc1ugMiLCp9VzSY8
+	l0Tn1GvMYkjvlqr9OT0r19DGjvyEu2ZrExvAXTIiLp6OPXelXxbQoMyIixJ5HwVsG/zbDZW/OnZ
+	+sfGl9LjSIMi69KELaKyPBI=
+X-Spam-Status: Yes, score=22.1
+X-Spam-Score: 221
+X-Spam-Bar: ++++++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "hostnl02.fornex.host",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Сборные грузы из Китая за 22 дня от
+    1м3. Моб. тел. 8 499 686 88 08 Павел Бабенко, компания
+    Эквивалент Ежемесячно консолидируем десятки
+    контейнеров и отправляем прямым поездом
+    из Китая по всей России. На сегодн� [...] 
+ Content analysis details:   (22.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: bestmashin.ru]
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in
+                             bl.spamcop.net
+                [Blocked - see <https://www.spamcop.net/bl.shtml?46.8.220.159>]
+  0.0 URIBL_DBL_ABUSE_REDIR  Contains an abused redirector URL listed
+                             in the Spamhaus DBL blocklist
+                             [URIs: bestmashin.ru]
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: molop.ru]
+  1.9 URIBL_ABUSE_SURBL      Contains an URL listed in the ABUSE SURBL
+                             blocklist
+                             [URIs: molop.ru]
+  1.3 RCVD_IN_RP_RNBL        RBL: Relay in RNBL,
+                             https://senderscore.org/blacklistlookup/
+                             [46.8.220.159 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 T_KAM_HTML_FONT_INVALID BODY: Test for Invalidly Named or
+                             Formatted Colors in HTML
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [46.8.220.159 listed in psbl.surriel.com]
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  2.4 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+  1.7 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?utf-8?B?0KHQsdC+0YDQvdGL0LUg0LPRgNGD0LfRiyDQuNC3INCa0LjRgtCw0Y8g0Lc=?=
+	=?utf-8?B?0LAgMjIg0LTQvdGPINC+0YIgMdC8My4=?=
+
+--2a256cd14390baa2812b62c92acee5ef4c5f4a
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=D0=A1=D0=B1=D0=BE=D1=80=D0=BD=D1=8B=D0=B5 =D0=B3=D1=80=D1=83=D0=B7=D1=8B=
+ =D0=B8=D0=B7 =D0=9A=D0=B8=D1=82=D0=B0=D1=8F =D0=B7=D0=B0 22 =D0=B4=D0=BD=
+=D1=8F =D0=BE=D1=82 1=D0=BC3.
+
+=D0=9C=D0=BE=D0=B1. =D1=82=D0=B5=D0=BB. 8=C2=A0499=C2=A0686 88 08 =D0=9F=D0=
+=B0=D0=B2=D0=B5=D0=BB =D0=91=D0=B0=D0=B1=D0=B5=D0=BD=D0=BA=D0=BE, =D0=BA=D0=
+=BE=D0=BC=D0=BF=D0=B0=D0=BD=D0=B8=D1=8F =D0=AD=D0=BA=D0=B2=D0=B8=D0=B2=D0=
+=B0=D0=BB=D0=B5=D0=BD=D1=82
+
+=D0=95=D0=B6=D0=B5=D0=BC=D0=B5=D1=81=D1=8F=D1=87=D0=BD=D0=BE =D0=BA=D0=BE=
+=D0=BD=D1=81=D0=BE=D0=BB=D0=B8=D0=B4=D0=B8=D1=80=D1=83=D0=B5=D0=BC =D0=B4=
+=D0=B5=D1=81=D1=8F=D1=82=D0=BA=D0=B8 =D0=BA=D0=BE=D0=BD=D1=82=D0=B5=D0=B9=
+=D0=BD=D0=B5=D1=80=D0=BE=D0=B2 =D0=B8 =D0=BE=D1=82=D0=BF=D1=80=D0=B0=D0=B2=
+=D0=BB=D1=8F=D0=B5=D0=BC =D0=BF=D1=80=D1=8F=D0=BC=D1=8B=D0=BC =D0=BF=D0=BE=
+=D0=B5=D0=B7=D0=B4=D0=BE=D0=BC =D0=B8=D0=B7 =D0=9A=D0=B8=D1=82=D0=B0=D1=8F=
+ =D0=BF=D0=BE =D0=B2=D1=81=D0=B5=D0=B9 =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=B8=
+. =D0=9D=D0=B0 =D1=81=D0=B5=D0=B3=D0=BE=D0=B4=D0=BD=D1=8F=D1=88=D0=BD=D0=B8=
+=D0=B9 =D0=BC=D0=BE=D0=BC=D0=B5=D0=BD=D1=82 =D1=81=D0=B5=D1=80=D0=B2=D0=B8=
+=D1=81 =D0=B4=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B8 =D0=B8=D0=B7 =D0=9A=
+=D0=B8=D1=82=D0=B0=D1=8F =D0=BF=D1=80=D1=8F=D0=BC=D1=8B=D0=BC =D0=BF=D0=BE=
+=D0=B5=D0=B7=D0=B4=D0=BE=D0=BC =D0=BD=D0=B0=D0=B8=D0=B1=D0=BE=D0=BB=D0=B5=
+=D0=B5 =D1=81=D1=82=D0=B0=D0=B1=D0=B8=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D0=B8=
+ =D0=BE=D0=BF=D1=82=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D0=BF=
+=D0=BE =D1=81=D1=82=D0=BE=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8 =D0=B8 =D1=81=
+=D1=80=D0=BE=D0=BA=D0=B0=D0=BC. =D0=94=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BB=
+=D1=8F=D0=B5=D0=BC =D0=B3=D1=80=D1=83=D0=B7=D1=8B =D1=81=D1=80=D0=B0=D0=B7=
+=D1=83 =D0=BF=D0=BE=D1=81=D0=BB=D0=B5 =D1=82=D0=B0=D0=BC=D0=BE=D0=B6=D0=B5=
+=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE=D1=84=D0=BE=D1=80=D0=BC=D0=BB=D0=B5=
+=D0=BD=D0=B8=D1=8F.
+
+LCL =D0=96=D0=94 =D1=84=D1=80=D0=B0=D1=85=D1=82 FOR Suzhou =E2=80=93 FOR =
+Vorsino 1=D0=BC3 - $305 =D0=B4=D0=BE =D0=9C=D0=9E=D0=A1=D0=9A=D0=92=D0=AB=
+ =D0=B7=D0=B0 22-25 =D0=B4=D0=BD=D0=B5=D0=B9
+
+=D0=94=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B0 =D0=BF=D0=BE =D0=9A=D0=B8=
+=D1=82=D0=B0=D1=8E =D0=B4=D0=BE =D1=81=D1=82=D0=B0=D0=BD=D1=86=D0=B8=D0=B8=
+ Suzhou:
+
+1CBM (500kgs)
+
+3CBM (1000kgs)
+
+5CBM (2000kgs)
+
+10CBM (4000kgs)
+
+15CBM (5500kgs)
+
+Tianjin
+
+385
+
+507
+
+654
+
+822
+
+969
+
+Shanghai
+
+255
+
+436
+
+517
+
+549
+
+716
+
+Ningbo
+
+339
+
+465
+
+590
+
+737
+
+849
+
+Wenzhou
+
+360
+
+443
+
+599
+
+716
+
+876
+
+Hefei
+
+365
+
+486
+
+633
+
+755
+
+801
+
+Fuzhou
+
+377
+
+511
+
+549
+
+711
+
+822
+
+Xiamen
+
+381
+
+515
+
+575
+
+776
+
+861
+
+Shenzhen
+
+335
+
+463
+
+569
+
+729
+
+842
+
+Guangzhou
+
+321
+
+451
+
+582
+
+764
+
+868
+
+=D0=A3=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F:
+
+- =D0=B3=D1=80=D0=B0=D1=84=D0=B8=D0=BA =E2=80=93 =D0=B5=D0=B6=D0=B5=D0=BD=
+=D0=B5=D0=B4=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D0=B2=D1=8B=D1=85=D0=BE=
+=D0=B4=D1=8B
+
+- 22-25 =D0=B4=D0=BD=D0=B5=D0=B9 =E2=80=93 =D1=81=D1=80=D0=BE=D0=BA =D0=B4=
+=D0=BE =D1=81=D1=82=D0=B0=D0=BD=D1=86=D0=B8=D0=B8 =D0=B2 =D0=9C=D0=BE=D1=81=
+=D0=BA=D0=B2=D0=B5
+
+- =D0=BF=D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=BF=D0=B5=D1=80=D0=B5=D1=85=D0=BE=
+=D0=B4 =E2=80=93 =D0=9C=D0=B0=D0=BD=D1=8C=D1=87=D0=B6=D1=83=D1=80=D0=B8=D1=
+=8F / =D0=97=D0=B0=D0=B1=D0=B0=D0=B9=D0=BA=D0=B0=D0=BB=D1=8C=D1=81=D0=BA
+
+- =D1=82=D0=B0=D0=BC=D0=BE=D0=B6=D0=B5=D0=BD=D0=BD=D0=BE=D0=B5 =D0=BE=D1=84=
+=D0=BE=D1=80=D0=BC=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5=C2=A0 =E2=80=93 =D0=B2 =D0=
+=9C=D0=BE=D1=81=D0=BA=D0=B2=D0=B5
+
+- =D0=B2=D0=BA=D0=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=BE =D0=B2 =D1=81=D1=82=D0=
+=B0=D0=B2=D0=BA=D1=83 =E2=80=93=C2=A0 =D1=82=D0=B5=D1=80=D0=BC=D0=B8=D0=BD=
+=D0=B0=D0=BB=D1=8C=D0=BD=D0=B0=D1=8F =D0=BE=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=
+=D1=82=D0=BA=D0=B0 =D0=BD=D0=B0 =D1=81=D1=82=D0=B0=D0=BD=D1=86=D0=B8=D0=B8=
+ =D0=BD=D0=B0=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D1=8F
+
+=D0=A1=D1=82=D0=B0=D0=B2=D0=BA=D0=B0 =D0=BD=D0=B5 =D0=B2=D0=BA=D0=BB=D1=8E=
+=D1=87=D0=B0=D0=B5=D1=82:
+
+- =D0=BB=D0=BE=D0=BA=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D1=80=D0=B0=D1=81=
+=D1=85=D0=BE=D0=B4=D1=8B =D0=B2 =D0=9A=D0=B8=D1=82=D0=B0=D0=B5
+
+- =D0=B0=D0=B2=D1=82=D0=BE=D0=B2=D1=8B=D0=B2=D0=BE=D0=B7 =D0=B3=D1=80=D1=83=
+=D0=B7=D0=B0 =D1=81=D0=BE =D1=81=D1=82=D0=B0=D0=BD=D1=86=D0=B8=D0=B8
+
+- =D1=82=D0=B0=D0=BC=D0=BE=D0=B6=D0=B5=D0=BD=D0=BD=D0=BE=D0=B5 =D0=BE=D1=84=
+=D0=BE=D1=80=D0=BC=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5
+
+- =D1=85=D1=80=D0=B0=D0=BD=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BD=D0=B0 =D1=81=D1=
+=82=D0=B0=D0=BD=D1=86=D0=B8=D0=B8 =D0=BD=D0=B0=D0=B7=D0=BD=D0=B0=D1=87=D0=
+=B5=D0=BD=D0=B8=D1=8F
+
+=D0=9F=D1=80=D0=B8 =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=
+=D0=BE=D1=81=D1=82=D0=B8 =D0=B7=D0=B0=D0=B3=D1=80=D1=83=D0=B7=D0=BA=D0=B8=
+ =D0=BF=D0=BE=D0=BB=D0=BD=D0=BE=D0=B3=D0=BE =D0=BA=D0=BE=D0=BD=D1=82=D0=B5=
+=D0=B9=D0=BD=D0=B5=D1=80=D0=B0 =D0=BC=D0=BE=D0=B6=D0=B5=D0=BC =D0=BF=D1=80=
+=D0=B5=D0=B4=D0=BB=D0=BE=D0=B6=D0=B8=D1=82=D1=8C =D0=BD=D0=B0=D1=88=D0=B8=
+ =D0=BF=D0=BE=D1=81=D1=82=D0=BE=D1=8F=D0=BD=D0=BD=D1=8B=D0=B5 =D1=81=D0=B5=
+=D1=80=D0=B2=D0=B8=D1=81=D1=8B =D0=B8=D0=B7 =D0=9A=D0=B8=D1=82=D0=B0=D1=8F=
+ =D0=BF=D0=BE =D0=BF=D1=80=D1=8F=D0=BC=D0=BE=D0=BC=D1=83 =D0=96=D0=94 =D0=
+=BE=D1=82 $8500 =D0=B7=D0=B0 =D0=BA=D0=BE=D0=BD=D1=82=D0=B5=D0=B9=D0=BD=D0=
+=B5=D1=80 40HQ =D1=81=D0=BE =D1=81=D1=80=D0=BE=D0=BA=D0=BE=D0=BC =D0=B4=D0=
+=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B8 23 =D0=B4=D0=BD=D1=8F.
+
+=D0=9D=D0=B5=D0=BC=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE =D0=BD=D0=B0=D1=81.
+
+=D0=9A=D0=BE=D0=BC=D0=BF=D0=B0=D0=BD=D0=B8=D1=8F =D0=AD=D0=BA=D0=B2=D0=B8=
+=D0=B2=D0=B0=D0=BB=D0=B5=D0=BD=D1=82=C2=A0=D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 =
+22 =D0=BB=D0=B5=D1=82 =D0=B2 =D0=BC=D0=B5=D0=B6=D0=B4=D1=83=D0=BD=D0=B0=D1=
+=80=D0=BE=D0=B4=D0=BD=D1=8B=D1=85 =D0=BF=D0=B5=D1=80=D0=B5=D0=B2=D0=BE=D0=
+=B7=D0=BA=D0=B0=D1=85. =D0=9C=D1=83=D0=BB=D1=8C=D1=82=D0=B8=D0=BC=D0=BE=D0=
+=B4=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D1=81=D0=B5=D1=80=D0=B2=D0=B8=D1=
+=81: =D0=BC=D0=BE=D1=80=D0=B5, =D0=96=D0=94; =D0=BF=D1=80=D1=8F=D0=BC=D0=BE=
+=D0=B5 =D0=96=D0=94 =D0=B8=D0=B7 =D0=9A=D0=B8=D1=82=D0=B0=D1=8F; =D0=B0=D0=
+=B2=D0=B8=D0=B0; =D0=B0=D0=B2=D1=82=D0=BE =D0=B8 =D0=BC=D0=BD=D0=BE=D0=B3=
+=D0=BE=D0=B5 =D0=B4=D1=80=D1=83=D0=B3=D0=BE=D0=B5.
+
+=D0=91=D0=BE=D0=BB=D0=B5=D0=B5 =D0=BF=D0=BE=D0=B4=D1=80=D0=BE=D0=B1=D0=BD=
+=D0=BE =D0=BE =D0=BA=D0=BE=D0=BC=D0=BF=D0=B0=D0=BD=D0=B8=D0=B8 =D0=BD=D0=B0=
+ =D0=BD=D0=B0=D1=88=D0=B5=D0=BC =D1=81=D0=B0=D0=B9=D1=82=D0=B5 >>>
+
+=D0=94=D0=B0=D0=BD=D0=BD=D0=BE=D0=B5 =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=BE=
+ =D0=BE=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=BE =D0=B0=D0=B2=
+=D1=82=D0=BE=D0=BC=D0=B0=D1=82=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8. =D0=9F=
+=D0=BE=D0=B6=D0=B0=D0=BB=D1=83=D0=B9=D1=81=D1=82=D0=B0, =D0=BD=D0=B5 =D0=BE=
+=D1=82=D0=B2=D0=B5=D1=87=D0=B0=D0=B9=D1=82=D0=B5 =D0=BD=D0=B0 =D0=BD=D0=B5=
+=D0=B3=D0=BE.
+
+=D0=9F=D0=BE =D0=B2=D1=81=D0=B5=D0=BC =D0=B2=D0=BE=D0=BF=D1=80=D0=BE=D1=81=
+=D0=B0=D0=BC =D0=B2=D1=8B =D0=BC=D0=BE=D0=B6=D0=B5=D1=82=D0=B5 =D0=BE=D0=B1=
+=D1=80=D0=B0=D1=82=D0=B8=D1=82=D1=8C=D1=81=D1=8F =D0=BF=D0=BE =D1=83=D0=BA=
+=D0=B0=D0=B7=D0=B0=D0=BD=D0=BD=D0=BE=D0=BC=D1=83 =D0=BD=D0=BE=D0=BC=D0=B5=
+=D1=80=D1=83.
+
+=D0=A1 =D1=83=D0=B2=D0=B0=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5=D0=BC,
+
+=D0=9F=D0=B0=D0=B2=D0=B5=D0=BB =D0=91=D0=B0=D0=B1=D0=B5=D0=BD=D0=BA=D0=BE=
+,
+
+=D0=9E=D0=9E=D0=9E =D0=AD=D0=BA=D0=B2=D0=B8=D0=B2=D0=B0=D0=BB=D0=B5=D0=BD=
+=D1=82,
+
+=D0=9C=D0=BE=D0=B1.=D1=82=D0=B5=D0=BB.: 8-499-686-88-08
+
+*=D0=94=D0=B0=D0=BD=D0=BD=D0=BE=D0=B5 =D0=BF=D1=80=D0=B5=D0=B4=D0=BB=D0=BE=
+=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BD=D0=B5 =D1=8F=D0=B2=D0=BB=D1=8F=D0=B5=
+=D1=82=D1=81=D1=8F =D0=BF=D1=83=D0=B1=D0=BB=D0=B8=D1=87=D0=BD=D0=BE=D0=B9=
+ =D0=BE=D1=84=D0=B5=D1=80=D1=82=D0=BE=D0=B9
+
+--2a256cd14390baa2812b62c92acee5ef4c5f4a
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3Durn:schemas-microsoft-com:office:office><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+</head>
+<body bgColor=3D"#ffffff">
+<div align=3Dleft><font size=3D2 face=3DArial>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><a name=3D_MailOrigina=
+l><b><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: 18pt" =
+lang=3DRU>=D0=A1=D0=B1=D0=BE=D1=80=D0=BD=D1=8B=D0=B5 =D0=B3=D1=80=D1=83=D0=
+=B7=D1=8B =D0=B8=D0=B7 =D0=9A=D0=B8=D1=82=D0=B0=D1=8F =D0=B7=D0=B0 22 =D0=
+=B4=D0=BD=D1=8F =D0=BE=D1=82 1=D0=BC<sup>3</sup>.</span></b></a><span sty=
+le=3D"mso-bookmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','=
+sans-serif'; FONT-SIZE: 16pt" lang=3DRU><o:p></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 16pt" lang=3DRU>=D0=9C=D0=BE=D0=B1. =D1=82=D0=B5=D0=BB. 8&nbsp=
+;499&nbsp;686 88 08 =D0=9F=D0=B0=D0=B2=D0=B5=D0=BB =D0=91=D0=B0=D0=B1=D0=B5=
+=D0=BD=D0=BA=D0=BE, =D0=BA=D0=BE=D0=BC=D0=BF=D0=B0=D0=BD=D0=B8=D1=8F =D0=AD=
+=D0=BA=D0=B2=D0=B8=D0=B2=D0=B0=D0=BB=D0=B5=D0=BD=D1=82</span></span><span=
+ style=3D"mso-bookmark: _MailOriginal"><b><span style=3D"FONT-FAMILY: 'Ta=
+homa','sans-serif'; FONT-SIZE: 18pt" lang=3DRU><o:p></o:p></span></b></sp=
+an></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 16pt" lang=3DRU><o:p>&nbsp;</o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU>=D0=95=D0=B6=D0=B5=D0=BC=D0=B5=D1=81=D1=8F=D1=87=
+=D0=BD=D0=BE =D0=BA=D0=BE=D0=BD=D1=81=D0=BE=D0=BB=D0=B8=D0=B4=D0=B8=D1=80=
+=D1=83=D0=B5=D0=BC =D0=B4=D0=B5=D1=81=D1=8F=D1=82=D0=BA=D0=B8 =D0=BA=D0=BE=
+=D0=BD=D1=82=D0=B5=D0=B9=D0=BD=D0=B5=D1=80=D0=BE=D0=B2 =D0=B8 =D0=BE=D1=82=
+=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=D1=8F=D0=B5=D0=BC =D0=BF=D1=80=D1=8F=D0=BC=
+=D1=8B=D0=BC =D0=BF=D0=BE=D0=B5=D0=B7=D0=B4=D0=BE=D0=BC =D0=B8=D0=B7 =D0=9A=
+=D0=B8=D1=82=D0=B0=D1=8F =D0=BF=D0=BE =D0=B2=D1=81=D0=B5=D0=B9 =D0=A0=D0=BE=
+=D1=81=D1=81=D0=B8=D0=B8. =D0=9D=D0=B0 =D1=81=D0=B5=D0=B3=D0=BE=D0=B4=D0=BD=
+=D1=8F=D1=88=D0=BD=D0=B8=D0=B9 =D0=BC=D0=BE=D0=BC=D0=B5=D0=BD=D1=82 =D1=81=
+=D0=B5=D1=80=D0=B2=D0=B8=D1=81 =D0=B4=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BA=
+=D0=B8 =D0=B8=D0=B7 =D0=9A=D0=B8=D1=82=D0=B0=D1=8F =D0=BF=D1=80=D1=8F=D0=BC=
+=D1=8B=D0=BC =D0=BF=D0=BE=D0=B5=D0=B7=D0=B4=D0=BE=D0=BC =D0=BD=D0=B0=D0=B8=
+=D0=B1=D0=BE=D0=BB=D0=B5=D0=B5 =D1=81=D1=82=D0=B0=D0=B1=D0=B8=D0=BB=D1=8C=
+=D0=BD=D1=8B=D0=B9 =D0=B8 =D0=BE=D0=BF=D1=82=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=
+=D0=BD=D1=8B=D0=B9 =D0=BF=D0=BE =D1=81=D1=82=D0=BE=D0=B8=D0=BC=D0=BE=D1=81=
+=D1=82=D0=B8 =D0=B8 =D1=81=D1=80=D0=BE=D0=BA=D0=B0=D0=BC. =D0=94=D0=BE=D1=
+=81=D1=82=D0=B0=D0=B2=D0=BB=D1=8F=D0=B5=D0=BC =D0=B3=D1=80=D1=83=D0=B7=D1=
+=8B =D1=81=D1=80=D0=B0=D0=B7=D1=83 =D0=BF=D0=BE=D1=81=D0=BB=D0=B5 =D1=82=D0=
+=B0=D0=BC=D0=BE=D0=B6=D0=B5=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D0=BE=D1=84=D0=
+=BE=D1=80=D0=BC=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F.</span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><b><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif=
+'; COLOR: #843c0c; FONT-SIZE: 14pt" lang=3DRU><o:p>&nbsp;</o:p></span></b=
+></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><b><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif=
+'; COLOR: #843c0c; FONT-SIZE: 14pt; mso-ansi-language: EN-US">LCL</span><=
+/b></span><span style=3D"mso-bookmark: _MailOriginal"><b><span style=3D"F=
+ONT-FAMILY: 'Tahoma','sans-serif'; COLOR: #843c0c; FONT-SIZE: 14pt"> <spa=
+n lang=3DRU>=D0=96=D0=94 =D1=84=D1=80=D0=B0=D1=85=D1=82 </span></span></b=
+></span><span style=3D"mso-bookmark: _MailOriginal"><b><span style=3D"FON=
+T-FAMILY: 'Tahoma','sans-serif'; COLOR: #843c0c; FONT-SIZE: 14pt; mso-ans=
+i-language: EN-US">FOR</span></b></span><span style=3D"mso-bookmark: _Mai=
+lOriginal"><b><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; COLOR: #=
+843c0c; FONT-SIZE: 14pt"> </span></b></span><span style=3D"mso-bookmark: =
+_MailOriginal"><b><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; COLO=
+R: #843c0c; FONT-SIZE: 14pt; mso-ansi-language: EN-US">Suzhou</span></b><=
+/span><span style=3D"mso-bookmark: _MailOriginal"><b><span style=3D"FONT-=
+FAMILY: 'Tahoma','sans-serif'; COLOR: #843c0c; FONT-SIZE: 14pt"> <span la=
+ng=3DRU>=E2=80=93 </span></span></b></span><span style=3D"mso-bookmark: _=
+MailOriginal"><b><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; COLOR=
+: #843c0c; FONT-SIZE: 14pt; mso-ansi-language: EN-US">FOR</span></b></spa=
+n><span style=3D"mso-bookmark: _MailOriginal"><b><span style=3D"FONT-FAMI=
+LY: 'Tahoma','sans-serif'; COLOR: #843c0c; FONT-SIZE: 14pt"> </span></b><=
+/span><span style=3D"mso-bookmark: _MailOriginal"><b><span style=3D"FONT-=
+FAMILY: 'Tahoma','sans-serif'; COLOR: #843c0c; FONT-SIZE: 14pt; mso-ansi-=
+language: EN-US">Vorsino</span></b></span><span style=3D"mso-bookmark: _M=
+ailOriginal"><b><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; COLOR:=
+ #843c0c; FONT-SIZE: 14pt" lang=3DRU> 1=D0=BC3 - $305 =D0=B4=D0=BE =D0=9C=
+=D0=9E=D0=A1=D0=9A=D0=92=D0=AB =D0=B7=D0=B0 22-25 =D0=B4=D0=BD=D0=B5=D0=B9=
+<o:p></o:p></span></b></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU><o:p>&nbsp;</o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt; mso-bidi-font-weight: bold" lang=3DRU>=D0=94=D0=BE=D1=81=
+=D1=82=D0=B0=D0=B2=D0=BA=D0=B0 =D0=BF=D0=BE =D0=9A=D0=B8=D1=82=D0=B0=D1=8E=
+ =D0=B4=D0=BE =D1=81=D1=82=D0=B0=D0=BD=D1=86=D0=B8=D0=B8 Suzhou:</span></=
+span><span style=3D"mso-bookmark: _MailOriginal"><span style=3D"FONT-FAMI=
+LY: 'Tahoma','sans-serif'; FONT-SIZE: 14pt; mso-bidi-font-weight: bold" l=
+ang=3DRU><o:p></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><b><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif=
+'; COLOR: #843c0c; FONT-SIZE: 8pt" lang=3DRU><o:p>&nbsp;</o:p></span></b>=
+</span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'" =
+lang=3DRU><o:p><font size=3D3>
+<table style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BOR=
+DER-COLLAPSE: collapse; BORDER-TOP: medium none; BORDER-RIGHT: medium non=
+e; mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.4pt 0in 5.4pt; mso-bord=
+er-alt: solid windowtext .5pt" class=3DMsoTableGrid border=3D1 cellSpacin=
+g=3D0 cellPadding=3D0>
+<tbody>
+<tr style=3D"mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext=
+ 1pt solid; PADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-L=
+EFT: 5.4pt; WIDTH: 134.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext =
+1pt solid; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in; mso-bord=
+er-alt: solid windowtext .5pt" vAlign=3Dtop width=3D224>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"FONT-FA=
+MILY: 'Tahoma','sans-serif'; FONT-SIZE: 12pt; mso-fareast-font-family: 'T=
+imes New Roman'; mso-fareast-language: RU" lang=3DRU><o:p>&nbsp;</o:p></s=
+pan></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; BO=
+RDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid=
+ windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" vAlign=3Dto=
+p width=3D117>
+<p style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0pt" class=3DMsoNormal al=
+ign=3Dcenter><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE=
+: 12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language:=
+ RU" lang=3DRU>1CBM (500kgs)<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; BO=
+RDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid=
+ windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" vAlign=3Dto=
+p width=3D117>
+<p style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0pt" class=3DMsoNormal al=
+ign=3Dcenter><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE=
+: 12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language:=
+ RU" lang=3DRU>3CBM (1000kgs)<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; BO=
+RDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid=
+ windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" vAlign=3Dto=
+p width=3D117>
+<p style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0pt" class=3DMsoNormal al=
+ign=3Dcenter><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE=
+: 12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language:=
+ RU" lang=3DRU>5CBM (2000kgs)<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; BO=
+RDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid=
+ windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" vAlign=3Dto=
+p width=3D117>
+<p style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0pt" class=3DMsoNormal al=
+ign=3Dcenter><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE=
+: 12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language:=
+ RU" lang=3DRU>10CBM (4000kgs)<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: windowtext 1pt solid; BO=
+RDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid=
+ windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" vAlign=3Dto=
+p width=3D117>
+<p style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0pt" class=3DMsoNormal al=
+ign=3Dcenter><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE=
+: 12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language:=
+ RU" lang=3DRU>15CBM (5500kgs)<o:p></o:p></span></p></td></tr>
+<tr style=3D"mso-yfti-irow: 1">
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext=
+ 1pt solid; PADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-L=
+EFT: 5.4pt; WIDTH: 134.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BO=
+RDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid=
+ windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" vAlign=3Dtop=
+ width=3D224>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"FONT-FA=
+MILY: 'Tahoma','sans-serif'; FONT-SIZE: 12pt; mso-ansi-language: EN-US; m=
+so-fareast-font-family: 'Times New Roman'; mso-fareast-language: RU">Tian=
+jin<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>385<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>507<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>654<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>822<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>969<o:p></o:p></span></p></td></tr>
+<tr style=3D"mso-yfti-irow: 2">
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext=
+ 1pt solid; PADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-L=
+EFT: 5.4pt; WIDTH: 134.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BO=
+RDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid=
+ windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" vAlign=3Dtop=
+ width=3D224>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"FONT-FA=
+MILY: 'Tahoma','sans-serif'; FONT-SIZE: 12pt; mso-ansi-language: EN-US; m=
+so-fareast-font-family: 'Times New Roman'; mso-fareast-language: RU">Shan=
+ghai</span><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU><o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>255<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>436<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>517<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>549<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>716<o:p></o:p></span></p></td></tr>
+<tr style=3D"mso-yfti-irow: 3">
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext=
+ 1pt solid; PADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-L=
+EFT: 5.4pt; WIDTH: 134.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BO=
+RDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid=
+ windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" vAlign=3Dtop=
+ width=3D224>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"FONT-FA=
+MILY: 'Tahoma','sans-serif'; FONT-SIZE: 12pt; mso-ansi-language: EN-US; m=
+so-fareast-font-family: 'Times New Roman'; mso-fareast-language: RU">Ning=
+bo<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>339<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>465<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>590<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>737<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>849<o:p></o:p></span></p></td></tr>
+<tr style=3D"mso-yfti-irow: 4">
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext=
+ 1pt solid; PADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-L=
+EFT: 5.4pt; WIDTH: 134.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BO=
+RDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid=
+ windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" vAlign=3Dtop=
+ width=3D224>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"FONT-FA=
+MILY: 'Tahoma','sans-serif'; FONT-SIZE: 12pt; mso-ansi-language: EN-US; m=
+so-fareast-font-family: 'Times New Roman'; mso-fareast-language: RU">Wenz=
+hou<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>360<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>443<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>599<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>716<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>876<o:p></o:p></span></p></td></tr>
+<tr style=3D"mso-yfti-irow: 5">
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext=
+ 1pt solid; PADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-L=
+EFT: 5.4pt; WIDTH: 134.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BO=
+RDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid=
+ windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" vAlign=3Dtop=
+ width=3D224>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"FONT-FA=
+MILY: 'Tahoma','sans-serif'; FONT-SIZE: 12pt; mso-ansi-language: EN-US; m=
+so-fareast-font-family: 'Times New Roman'; mso-fareast-language: RU">Hefe=
+i<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>365<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>486<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>633<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>755<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>801<o:p></o:p></span></p></td></tr>
+<tr style=3D"mso-yfti-irow: 6">
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext=
+ 1pt solid; PADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-L=
+EFT: 5.4pt; WIDTH: 134.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BO=
+RDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid=
+ windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" vAlign=3Dtop=
+ width=3D224>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"FONT-FA=
+MILY: 'Tahoma','sans-serif'; FONT-SIZE: 12pt; mso-ansi-language: EN-US; m=
+so-fareast-font-family: 'Times New Roman'; mso-fareast-language: RU">Fuzh=
+ou<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>377<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>511<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>549<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>711<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>822<o:p></o:p></span></p></td></tr>
+<tr style=3D"mso-yfti-irow: 7">
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext=
+ 1pt solid; PADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-L=
+EFT: 5.4pt; WIDTH: 134.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BO=
+RDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid=
+ windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" vAlign=3Dtop=
+ width=3D224>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"FONT-FA=
+MILY: 'Tahoma','sans-serif'; FONT-SIZE: 12pt; mso-ansi-language: EN-US; m=
+so-fareast-font-family: 'Times New Roman'; mso-fareast-language: RU">Xiam=
+en<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>381<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>515<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>575<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>776<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>861<o:p></o:p></span></p></td></tr>
+<tr style=3D"mso-yfti-irow: 8">
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext=
+ 1pt solid; PADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-L=
+EFT: 5.4pt; WIDTH: 134.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BO=
+RDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid=
+ windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" vAlign=3Dtop=
+ width=3D224>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"FONT-FA=
+MILY: 'Tahoma','sans-serif'; FONT-SIZE: 12pt; mso-ansi-language: EN-US; m=
+so-fareast-font-family: 'Times New Roman'; mso-fareast-language: RU">Shen=
+zhen<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>335<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>463<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>569<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>729<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>842<o:p></o:p></span></p></td></tr>
+<tr style=3D"mso-yfti-irow: 9; mso-yfti-lastrow: yes">
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext=
+ 1pt solid; PADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-L=
+EFT: 5.4pt; WIDTH: 134.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BO=
+RDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid=
+ windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" vAlign=3Dtop=
+ width=3D224>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"FONT-FA=
+MILY: 'Tahoma','sans-serif'; FONT-SIZE: 12pt; mso-ansi-language: EN-US; m=
+so-fareast-font-family: 'Times New Roman'; mso-fareast-language: RU">Guan=
+gzhou<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>321<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>451<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>582<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>764<o:p></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; P=
+ADDING-BOTTOM: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; W=
+IDTH: 70.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: w=
+indowtext 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid windowtext .=
+5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: soli=
+d windowtext .5pt" vAlign=3Dtop width=3D117>
+<p style=3D"TEXT-ALIGN: right; MARGIN: 0in 0in 0pt" class=3DMsoNormal ali=
+gn=3Dright><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: =
+12pt; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: R=
+U" lang=3DRU>868<o:p></o:p></span></p></td></tr></tbody></table></font></=
+o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'" =
+lang=3DRU><o:p><font size=3D3>&nbsp;</font></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU>=D0=A3=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F:<o:=
+p></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU>- <span style=3D"COLOR: #984807">=D0=B3=D1=80=D0=
+=B0=D1=84=D0=B8=D0=BA </span>=E2=80=93 =D0=B5=D0=B6=D0=B5=D0=BD=D0=B5=D0=B4=
+=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D0=B2=D1=8B=D1=85=D0=BE=D0=B4=D1=8B=
+<o:p></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU>- <span style=3D"COLOR: #984807">22-25 =D0=B4=D0=
+=BD=D0=B5=D0=B9 </span><a name=3D_GoBack></a>=E2=80=93 =D1=81=D1=80=D0=BE=
+=D0=BA =D0=B4=D0=BE =D1=81=D1=82=D0=B0=D0=BD=D1=86=D0=B8=D0=B8 =D0=B2 =D0=
+=9C=D0=BE=D1=81=D0=BA=D0=B2=D0=B5<o:p></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU>- <span style=3D"COLOR: #984807">=D0=BF=D0=BE=D0=
+=B3=D1=80=D0=B0=D0=BD=D0=BF=D0=B5=D1=80=D0=B5=D1=85=D0=BE=D0=B4</span> =E2=
+=80=93 =D0=9C=D0=B0=D0=BD=D1=8C=D1=87=D0=B6=D1=83=D1=80=D0=B8=D1=8F / =D0=
+=97=D0=B0=D0=B1=D0=B0=D0=B9=D0=BA=D0=B0=D0=BB=D1=8C=D1=81=D0=BA <o:p></o:=
+p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU>- <span style=3D"COLOR: #984807">=D1=82=D0=B0=D0=
+=BC=D0=BE=D0=B6=D0=B5=D0=BD=D0=BD=D0=BE=D0=B5 =D0=BE=D1=84=D0=BE=D1=80=D0=
+=BC=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5&nbsp; </span>=E2=80=93 =D0=B2 =D0=9C=D0=
+=BE=D1=81=D0=BA=D0=B2=D0=B5<o:p></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU>- <span style=3D"COLOR: #984807">=D0=B2=D0=BA=D0=
+=BB=D1=8E=D1=87=D0=B5=D0=BD=D0=BE =D0=B2 =D1=81=D1=82=D0=B0=D0=B2=D0=BA=D1=
+=83</span> =E2=80=93<span style=3D"mso-spacerun: yes">&nbsp; </span>=D1=82=
+=D0=B5=D1=80=D0=BC=D0=B8=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D0=B0=D1=8F =D0=BE=
+=D0=B1=D1=80=D0=B0=D0=B1=D0=BE=D1=82=D0=BA=D0=B0 =D0=BD=D0=B0 =D1=81=D1=82=
+=D0=B0=D0=BD=D1=86=D0=B8=D0=B8 =D0=BD=D0=B0=D0=B7=D0=BD=D0=B0=D1=87=D0=B5=
+=D0=BD=D0=B8=D1=8F<o:p></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU><o:p>&nbsp;</o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 10pt" lang=3DRU>=D0=A1=D1=82=D0=B0=D0=B2=D0=BA=D0=B0 =D0=BD=D0=
+=B5 =D0=B2=D0=BA=D0=BB=D1=8E=D1=87=D0=B0=D0=B5=D1=82:<o:p></o:p></span></=
+span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 10pt" lang=3DRU>- =D0=BB=D0=BE=D0=BA=D0=B0=D0=BB=D1=8C=D0=BD=D1=
+=8B=D0=B5 =D1=80=D0=B0=D1=81=D1=85=D0=BE=D0=B4=D1=8B =D0=B2 =D0=9A=D0=B8=D1=
+=82=D0=B0=D0=B5<o:p></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 10pt" lang=3DRU>- =D0=B0=D0=B2=D1=82=D0=BE=D0=B2=D1=8B=D0=B2=D0=
+=BE=D0=B7 =D0=B3=D1=80=D1=83=D0=B7=D0=B0 =D1=81=D0=BE =D1=81=D1=82=D0=B0=D0=
+=BD=D1=86=D0=B8=D0=B8<o:p></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 10pt" lang=3DRU>- =D1=82=D0=B0=D0=BC=D0=BE=D0=B6=D0=B5=D0=BD=D0=
+=BD=D0=BE=D0=B5 =D0=BE=D1=84=D0=BE=D1=80=D0=BC=D0=BB=D0=B5=D0=BD=D0=B8=D0=
+=B5<o:p></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 10pt" lang=3DRU>- =D1=85=D1=80=D0=B0=D0=BD=D0=B5=D0=BD=D0=B8=D0=
+=B5 =D0=BD=D0=B0 =D1=81=D1=82=D0=B0=D0=BD=D1=86=D0=B8=D0=B8 =D0=BD=D0=B0=D0=
+=B7=D0=BD=D0=B0=D1=87=D0=B5=D0=BD=D0=B8=D1=8F<o:p></o:p></span></span></p=
+>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU><o:p>&nbsp;</o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU>=D0=9F=D1=80=D0=B8 =D0=BD=D0=B5=D0=BE=D0=B1=D1=
+=85=D0=BE=D0=B4=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8 =D0=B7=D0=B0=D0=B3=D1=
+=80=D1=83=D0=B7=D0=BA=D0=B8 =D0=BF=D0=BE=D0=BB=D0=BD=D0=BE=D0=B3=D0=BE =D0=
+=BA=D0=BE=D0=BD=D1=82=D0=B5=D0=B9=D0=BD=D0=B5=D1=80=D0=B0 =D0=BC=D0=BE=D0=
+=B6=D0=B5=D0=BC =D0=BF=D1=80=D0=B5=D0=B4=D0=BB=D0=BE=D0=B6=D0=B8=D1=82=D1=
+=8C =D0=BD=D0=B0=D1=88=D0=B8 =D0=BF=D0=BE=D1=81=D1=82=D0=BE=D1=8F=D0=BD=D0=
+=BD=D1=8B=D0=B5 =D1=81=D0=B5=D1=80=D0=B2=D0=B8=D1=81=D1=8B =D0=B8=D0=B7 =D0=
+=9A=D0=B8=D1=82=D0=B0=D1=8F =D0=BF=D0=BE =D0=BF=D1=80=D1=8F=D0=BC=D0=BE=D0=
+=BC=D1=83 =D0=96=D0=94 =D0=BE=D1=82 $8500 =D0=B7=D0=B0 =D0=BA=D0=BE=D0=BD=
+=D1=82=D0=B5=D0=B9=D0=BD=D0=B5=D1=80 40</span></span><span style=3D"mso-b=
+ookmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'=
+; FONT-SIZE: 12pt; mso-ansi-language: EN-US">HQ </span></span><span style=
+=3D"mso-bookmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sa=
+ns-serif'; FONT-SIZE: 12pt" lang=3DRU>=D1=81=D0=BE =D1=81=D1=80=D0=BE=D0=BA=
+=D0=BE=D0=BC =D0=B4=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BA=D0=B8 23 =D0=B4=D0=
+=BD=D1=8F.<o:p></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'" =
+lang=3DRU><o:p><font size=3D3>&nbsp;</font></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><b><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif=
+'; COLOR: #984807; FONT-SIZE: 12pt" lang=3DRU>=D0=9D=D0=B5=D0=BC=D0=BD=D0=
+=BE=D0=B3=D0=BE =D0=BE =D0=BD=D0=B0=D1=81.</span></b></span><span style=3D=
+"mso-bookmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-=
+serif'; FONT-SIZE: 10pt" lang=3DRU><o:p></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU>=D0=9A=D0=BE=D0=BC=D0=BF=D0=B0=D0=BD=D0=B8=D1=8F=
+ =D0=AD=D0=BA=D0=B2=D0=B8=D0=B2=D0=B0=D0=BB=D0=B5=D0=BD=D1=82&nbsp;=D0=B1=
+=D0=BE=D0=BB=D0=B5=D0=B5 22 =D0=BB=D0=B5=D1=82 =D0=B2 =D0=BC=D0=B5=D0=B6=D0=
+=B4=D1=83=D0=BD=D0=B0=D1=80=D0=BE=D0=B4=D0=BD=D1=8B=D1=85 =D0=BF=D0=B5=D1=
+=80=D0=B5=D0=B2=D0=BE=D0=B7=D0=BA=D0=B0=D1=85. =D0=9C=D1=83=D0=BB=D1=8C=D1=
+=82=D0=B8=D0=BC=D0=BE=D0=B4=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9 =D1=81=D0=
+=B5=D1=80=D0=B2=D0=B8=D1=81: =D0=BC=D0=BE=D1=80=D0=B5, =D0=96=D0=94; =D0=BF=
+=D1=80=D1=8F=D0=BC=D0=BE=D0=B5 =D0=96=D0=94 =D0=B8=D0=B7 =D0=9A=D0=B8=D1=82=
+=D0=B0=D1=8F; =D0=B0=D0=B2=D0=B8=D0=B0; =D0=B0=D0=B2=D1=82=D0=BE =D0=B8 =D0=
+=BC=D0=BD=D0=BE=D0=B3=D0=BE=D0=B5 =D0=B4=D1=80=D1=83=D0=B3=D0=BE=D0=B5. <=
+o:p></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU><o:p>&nbsp;</o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><b style=3D"mso-bidi-font-weight: normal"><span sty=
+le=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: 12pt" lang=3DRU>=D0=91=
+=D0=BE=D0=BB=D0=B5=D0=B5 =D0=BF=D0=BE=D0=B4=D1=80=D0=BE=D0=B1=D0=BD=D0=BE=
+ =D0=BE =D0=BA=D0=BE=D0=BC=D0=BF=D0=B0=D0=BD=D0=B8=D0=B8 </span></b></spa=
+n><span style=3D"mso-bookmark: _MailOriginal"></span><a href=3D"http://be=
+stmashin.ru/2ircgmeli/c6lgblp4z/"><font color=3D"#0563c1"><span style=3D"=
+mso-bookmark: _MailOriginal"><b style=3D"mso-bidi-font-weight: normal"><s=
+pan style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; FONT-SIZE: 12pt" lang=3D=
+RU>=D0=BD=D0=B0 =D0=BD=D0=B0=D1=88=D0=B5=D0=BC =D1=81=D0=B0=D0=B9=D1=82=D0=
+=B5 &gt;&gt;&gt;</span></b></span><span style=3D"mso-bookmark: _MailOrigi=
+nal"></span></font></a><span style=3D"mso-bookmark: _MailOriginal"><b sty=
+le=3D"mso-bidi-font-weight: normal"><span style=3D"FONT-FAMILY: 'Tahoma',=
+'sans-serif'; FONT-SIZE: 12pt" lang=3DRU><o:p></o:p></span></b></span></p=
+>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU><o:p>&nbsp;</o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU><o:p>=D0=94=D0=B0=D0=BD=D0=BD=D0=BE=D0=B5 =D0=BF=
+=D0=B8=D1=81=D1=8C=D0=BC=D0=BE =D0=BE=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=BB=
+=D0=B5=D0=BD=D0=BE =D0=B0=D0=B2=D1=82=D0=BE=D0=BC=D0=B0=D1=82=D0=B8=D1=87=
+=D0=B5=D1=81=D0=BA=D0=B8. =D0=9F=D0=BE=D0=B6=D0=B0=D0=BB=D1=83=D0=B9=D1=81=
+=D1=82=D0=B0, =D0=BD=D0=B5 =D0=BE=D1=82=D0=B2=D0=B5=D1=87=D0=B0=D0=B9=D1=82=
+=D0=B5 =D0=BD=D0=B0 =D0=BD=D0=B5=D0=B3=D0=BE.</o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU><o:p>=D0=9F=D0=BE =D0=B2=D1=81=D0=B5=D0=BC =D0=
+=B2=D0=BE=D0=BF=D1=80=D0=BE=D1=81=D0=B0=D0=BC =D0=B2=D1=8B =D0=BC=D0=BE=D0=
+=B6=D0=B5=D1=82=D0=B5 =D0=BE=D0=B1=D1=80=D0=B0=D1=82=D0=B8=D1=82=D1=8C=D1=
+=81=D1=8F =D0=BF=D0=BE =D1=83=D0=BA=D0=B0=D0=B7=D0=B0=D0=BD=D0=BD=D0=BE=D0=
+=BC=D1=83 =D0=BD=D0=BE=D0=BC=D0=B5=D1=80=D1=83.</o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU><o:p></o:p></span></span>&nbsp;</p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU>=D0=A1 =D1=83=D0=B2=D0=B0=D0=B6=D0=B5=D0=BD=D0=
+=B8=D0=B5=D0=BC,<o:p></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU>=D0=9F=D0=B0=D0=B2=D0=B5=D0=BB =D0=91=D0=B0=D0=
+=B1=D0=B5=D0=BD=D0=BA=D0=BE,<o:p></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU>=D0=9E=D0=9E=D0=9E =D0=AD=D0=BA=D0=B2=D0=B8=D0=
+=B2=D0=B0=D0=BB=D0=B5=D0=BD=D1=82,<o:p></o:p></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"mso-boo=
+kmark: _MailOriginal"><span style=3D"FONT-FAMILY: 'Tahoma','sans-serif'; =
+FONT-SIZE: 12pt" lang=3DRU>=D0=9C=D0=BE=D0=B1.=D1=82=D0=B5=D0=BB.: 8-499-=
+686-88-08<o:p></o:p></span></span></p><span style=3D"mso-bookmark: _MailO=
+riginal"></span>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"FONT-FA=
+MILY: 'Tahoma','sans-serif'" lang=3DRU><o:p><font size=3D3>&nbsp;</font><=
+/o:p></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt" class=3DMsoNormal><span style=3D"FONT-FA=
+MILY: 'Tahoma','sans-serif'; COLOR: #bfbfbf; FONT-SIZE: 10pt; mso-themeco=
+lor: background1; mso-themeshade: 191" lang=3DRU>*=D0=94=D0=B0=D0=BD=D0=BD=
+=D0=BE=D0=B5 =D0=BF=D1=80=D0=B5=D0=B4=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=
+=D0=B5 =D0=BD=D0=B5 =D1=8F=D0=B2=D0=BB=D1=8F=D0=B5=D1=82=D1=81=D1=8F =D0=BF=
+=D1=83=D0=B1=D0=BB=D0=B8=D1=87=D0=BD=D0=BE=D0=B9 =D0=BE=D1=84=D0=B5=D1=80=
+=D1=82=D0=BE=D0=B9</span></p></font></div></body></html>
+
+--2a256cd14390baa2812b62c92acee5ef4c5f4a--

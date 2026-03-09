@@ -1,0 +1,116 @@
+Return-Path: <android@asomu.ru>
+Delivered-To: info+spam@poranam.ru
+Received: from hostnl02.fornex.host
+	by hostnl02.fornex.host with LMTP
+	id eI07CjEv/GLJLiAAPMQOpA
+	(envelope-from <android@asomu.ru>)
+	for <info+spam@poranam.ru>; Tue, 16 Aug 2022 23:58:41 +0000
+Return-path: <android@asomu.ru>
+Envelope-to: info@poranam.ru
+Delivery-date: Wed, 17 Aug 2022 02:58:41 +0300
+Received: from [46.8.19.195] (port=58756 helo=mail.asomu.ru)
+	by hostnl02.fornex.host with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <android@asomu.ru>)
+	id 1oO6SD-008vs7-2Q
+	for info@poranam.ru; Wed, 17 Aug 2022 02:58:41 +0300
+Message-ID: <02aee76fc7436971e24801aa9e5b01532a10@asomu.ru>
+From: =?utf-8?B?0J7Qu9GM0LPQsCDQkdC+0LvQvtGC0L7QstCw?= <android@asomu.ru>
+To: info@poranam.ru
+Date: Wed, 17 Aug 2022 02:57:45 +0300
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8";
+Content-Transfer-Encoding: quoted-printable
+DKIM-Signature: v=1; c=relaxed/relaxed; a=rsa-sha256; s=mail; d=asomu.ru;
+	t=1660694265; h=message-id:from:to:subject:date:mime-version;
+	bh=CPyjwdPDFcYsetK6IE5ot1k1IvT+OFNNoSWZrkE3Wk8=;
+	b=YHsw06rhXg1AbxT6WQrxZLVyl6Arb16f6vWTdCRRiuEfBt/lP8GLaePKlHD8PLv83tf42o+u
+	epdtT1Dt5iAr6DMJQBgx/PVZRnz+G3EcfsDGVt2JxBJug3V0GEbfb9xGb/qIHEbRelqIvlrz8h
+	1O4ycPuLchF1yM6EsxCuoPS20=
+X-Spam-Status: Yes, score=38.9
+X-Spam-Score: 389
+X-Spam-Bar: ++++++++++++++++++++++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "hostnl02.fornex.host",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Используйте е-мейл рассылку, для
+    продвижения Ваших товаров и услуг. Предлагаем
+    отправить рекламные письма юр [...] 
+ Content analysis details:   (38.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  3.6 RCVD_IN_PBL            RBL: Received via a relay in Spamhaus PBL
+                             [46.8.19.195 listed in zen.spamhaus.org]
+  4.7 RCVD_IN_XBL            RBL: Received via a relay in Spamhaus XBL
+  0.1 URIBL_CSS_A            Contains URL's A record listed in the Spamhaus CSS
+                             blocklist
+                             [URIs: asomu.ru]
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [46.8.19.195 listed in psbl.surriel.com]
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in
+                             bl.spamcop.net
+                 [Blocked - see <https://www.spamcop.net/bl.shtml?46.8.19.195>]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 URIBL_CSS              Contains an URL's NS IP listed in the Spamhaus CSS
+                             blocklist
+                             [URIs: asomu.ru]
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: asomu.ru]
+  1.9 URIBL_ABUSE_SURBL      Contains an URL listed in the ABUSE SURBL
+                             blocklist
+                             [URIs: asomu.ru]
+  5.0 URIBL_BLACK            Contains an URL listed in the URIBL blacklist
+                             [URIs: legalaport.ru]
+  0.1 URIBL_SBL_A            Contains URL's A record listed in the Spamhaus SBL
+                             blocklist
+                             [URIs: legalaport.ru]
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  2.4 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+  1.7 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  5.0 KAM_VERY_BLACK_DBL     Email that hits both URIBL Black and Spamhaus
+                              DBL
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  2.0 KAM_RBL                Higher scores for hitting multiple trusted RBLs
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?utf-8?B?0JjRgdC/0L7Qu9GM0LfRg9C50YLQtSDQtS3QvNC10LnQuyDRgNCw0YHRgQ==?=
+	=?utf-8?B?0YvQu9C60YMsINC00LvRjyDQv9GA0L7QtNCy0LjQttC10L3QuNGPINCS0LA=?=
+	=?utf-8?B?0YjQuNGFINGC0L7QstCw0YDQvtCyINC4INGD0YHQu9GD0LMu?=
+
+=D0=98=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D1=83=D0=B9=D1=82=D0=B5 =D0=B5=
+-=D0=BC=D0=B5=D0=B9=D0=BB =D1=80=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D1=83=
+, =D0=B4=D0=BB=D1=8F =D0=BF=D1=80=D0=BE=D0=B4=D0=B2=D0=B8=D0=B6=D0=B5=D0=BD=
+=D0=B8=D1=8F =D0=92=D0=B0=D1=88=D0=B8=D1=85 =D1=82=D0=BE=D0=B2=D0=B0=D1=80=
+=D0=BE=D0=B2 =D0=B8 =D1=83=D1=81=D0=BB=D1=83=D0=B3.
+=D0=9F=D1=80=D0=B5=D0=B4=D0=BB=D0=B0=D0=B3=D0=B0=D0=B5=D0=BC =D0=BE=D1=82=
+=D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D1=80=D0=B5=D0=BA=D0=BB=D0=B0=
+=D0=BC=D0=BD=D1=8B=D0=B5 =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=B0 =D1=8E=D1=80=
+=D0=B8=D0=B4=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=BC =D0=BB=D0=B8=D1=86=
+=D0=B0=D0=BC =D0=BB=D1=8E=D0=B1=D0=BE=D0=B3=D0=BE =D0=B3=D0=BE=D1=80=D0=BE=
+=D0=B4=D0=B0 =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=B8.
+
+=D0=A3=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F:
+=D0=90=D0=BA=D1=82=D1=83=D0=B0=D0=BB=D1=8C=D0=BD=D0=B0=D1=8F =D0=B1=D0=B0=
+=D0=B7=D0=B0 =D1=8E=D1=80=D0=B8=D0=B4=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=
+=D1=85 =D0=BB=D0=B8=D1=86=20
+=D0=9D=D0=B0 =D0=BF=D0=BE=D0=B4=D0=B3=D0=BE=D1=82=D0=BE=D0=B2=D0=BA=D1=83=
+ 1 =D0=B4=D0=B5=D0=BD=D1=8C
+14 =D0=BB=D0=B5=D1=82=D0=BD=D0=B8=D0=B9 =D0=BE=D0=BF=D1=8B=D1=82 =D1=80=D0=
+=B0=D0=B1=D0=BE=D1=82=D1=8B
+=D0=91=D0=B0=D0=B7=D0=B0 =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=B8 11 279 621=D0=
+=B0=D0=B4=D1=80=D0=B5=D1=81=D0=B0=D1=82=D0=BE=D0=B2.=20
+
+=D0=9D=D0=B0=D1=88 =D1=81=D0=B0=D0=B9=D1=82: http://legalaport.ru/x1x6sch=
+/3hvl55z8t/vmda4v5/

@@ -1,0 +1,18 @@
+--- 
+documentroot: /home/p84699/public_html/poranam.ru
+group: p84699
+hascgi: 0
+homedir: /home/p84699
+ip: 185.18.52.211
+ipv6: ~
+owner: root
+phpopenbasedirprotect: ~
+port: 9443
+secruleengineoff: ~
+serveradmin: webmaster@poranam-ru.p84699.hostnl02.fornex.host
+serveralias: mail.poranam.ru poranam.ru www.poranam-ru.p84699.hostnl02.fornex.host www.poranam.ru
+servername: poranam-ru.p84699.hostnl02.fornex.host
+ssl: 1
+usecanonicalname: 'Off'
+user: p84699
+userdirprotect: ''

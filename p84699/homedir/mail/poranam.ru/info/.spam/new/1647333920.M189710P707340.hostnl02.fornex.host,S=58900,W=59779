@@ -1,0 +1,879 @@
+Return-Path: <roy@rekeb.ru>
+Delivered-To: info+spam@poranam.ru
+Received: from hostnl02.fornex.host
+	by hostnl02.fornex.host with LMTP
+	id oHYhCSBSMGIMywoAPMQOpA
+	(envelope-from <roy@rekeb.ru>)
+	for <info+spam@poranam.ru>; Tue, 15 Mar 2022 08:45:20 +0000
+Return-path: <roy@rekeb.ru>
+Envelope-to: info@poranam.ru
+Delivery-date: Tue, 15 Mar 2022 11:45:20 +0300
+Received: from mail.rekeb.ru ([109.237.96.173]:54612)
+	by hostnl02.fornex.host with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <roy@rekeb.ru>)
+	id 1nU2nu-002xqD-37
+	for info@poranam.ru; Tue, 15 Mar 2022 11:45:19 +0300
+Message-ID: <a2b4fd43f7311b03b01a53f81bdff4dbb47fd0@rekeb.ru>
+Reply-To: =?utf-8?B?0JrQvtC90YHQsNC70YLQuNC90LPQvtCy0LDRjyDQs9GA0YPQv9C/0LAg?=
+	=?utf-8?B?0KLRgNC40YPQvNGE?= <zhurixinvanya@rambler.ru>
+From: =?utf-8?B?0JrQvtC90YHQsNC70YLQuNC90LPQvtCy0LDRjyDQs9GA0YPQv9C/0LAg?=
+	=?utf-8?B?0KLRgNC40YPQvNGE?= <roy@rekeb.ru>
+To: info@poranam.ru
+Date: Tue, 15 Mar 2022 11:44:34 +0300
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary="a30955be488cb52e0da7ee52a6636df7f2c6"
+DKIM-Signature: v=1; c=relaxed/relaxed; a=rsa-sha256; s=mail; d=rekeb.ru;
+	t=1647330274; h=message-id:from:to:subject:date:mime-version;
+	bh=IhqqbLr+9NvjblP6+EzZ+JcwGwPm5RdY3DJeydrBAzU=;
+	b=SD4wQciRTzm00aa4MkYe6KVtfk3mG9FGSFqCRcaPh+/YoppjG/EDBsi8mJtcgI65pQJfWtD
+	GhgNOyVCOVj2otAiM6CiTrOW1eD/0rDTLG/qyzKsFamZbf+uvm6LLTeMxOFW+Cd2OHqvhZJyF
+	AmU1iXc/y/TO9MbKuVWHPRRWGi8=
+X-Spam-Status: Yes, score=17.5
+X-Spam-Score: 175
+X-Spam-Bar: +++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "hostnl02.fornex.host",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Консалтинговая группа Триумф Тел.
+    8 967 293 41 23 E-mail: kg-triumf@mail.ru 
+ Content analysis details:   (17.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [109.237.96.173 listed in psbl.surriel.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: rekeb.ru]
+  4.7 RCVD_IN_XBL            RBL: Received via a relay in Spamhaus XBL
+                             [109.237.96.173 listed in zen.spamhaus.org]
+  0.1 URIBL_CSS_A            Contains URL's A record listed in the Spamhaus CSS
+                             blocklist
+                             [URIs: rekeb.ru]
+  0.1 URIBL_SBL_A            Contains URL's A record listed in the Spamhaus SBL
+                             blocklist
+                             [URIs: rekeb.ru]
+  0.1 URIBL_CSS              Contains an URL's NS IP listed in the Spamhaus CSS
+                             blocklist
+                             [URIs: rekeb.ru]
+  0.6 URIBL_SBL              Contains an URL's NS IP listed in the Spamhaus SBL
+                             blocklist
+                             [URIs: rekeb.ru]
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: rekeb.ru]
+  1.3 RCVD_IN_RP_RNBL        RBL: Relay in RNBL,
+                             https://senderscore.org/blacklistlookup/
+                            [109.237.96.173 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 T_KAM_HTML_FONT_INVALID BODY: Test for Invalidly Named or
+                             Formatted Colors in HTML
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  1.0 FREEMAIL_REPLYTO       Reply-To/From or Reply-To/body contain
+                             different freemails
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?utf-8?B?0JvQuNC60LLQuNC00LDRhtC40Y8g0J7QntCeINCx0LXQtyDQv9C+0YE=?=
+	=?utf-8?B?0LvQtdC00YHRgtCy0LjQuQ==?=
+
+--a30955be488cb52e0da7ee52a6636df7f2c6
+Content-Type: multipart/alternative; boundary="8adf96289c5a7068db71389370b49fb0d9312a"
+
+--8adf96289c5a7068db71389370b49fb0d9312a
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=D0=9A=D0=BE=D0=BD=D1=81=D0=B0=D0=BB=D1=82=D0=B8=D0=BD=D0=B3=D0=BE=D0=B2=D0=
+=B0=D1=8F =D0=B3=D1=80=D1=83=D0=BF=D0=BF=D0=B0 =D0=A2=D1=80=D0=B8=D1=83=D0=
+=BC=D1=84
+
+=D0=A2=D0=B5=D0=BB. 8 967 293 41 23
+
+E-mail: kg-triumf@mail.ru
+
+=D0=97=D0=B0=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5 =D1=84=D0=B8=D1=80=D0=BC=
+ =D0=BF=D0=BE=D0=B4 =D0=BA=D0=BB=D1=8E=D1=87 =D0=B2 =D0=BC=D0=B0=D0=BA=D1=
+=81=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE =D1=81=D0=B6=D0=B0=D1=82=D1=
+=8B=D0=B5 =D1=81=D1=80=D0=BE=D0=BA=D0=B8
+
+=D0=9B=D0=B8=D0=BA=D0=B2=D0=B8=D0=B4=D0=B0=D1=86=D0=B8=D1=8F =D0=9E=D0=9E=
+=D0=9E =E2=80=93 =D1=8D=D1=82=D0=BE =D0=B4=D0=BE=D0=B2=D0=BE=D0=BB=D1=8C=D0=
+=BD=D0=BE =D1=81=D0=BB=D0=BE=D0=B6=D0=BD=D1=8B=D0=B9 =D0=BF=D1=80=D0=BE=D1=
+=86=D0=B5=D1=81=D1=81 =D0=B7=D0=B0=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D1=8F =D0=
+=B1=D0=B8=D0=B7=D0=BD=D0=B5=D1=81=D0=B0, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=
+=8B=D0=B9 =D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=B1=D1=8B=D1=82=D1=8C =D1=80=D0=
+=B0=D1=81=D1=82=D1=8F=D0=BD=D1=83=D1=82=D0=BE =D0=B2=D0=BE =D0=B2=D1=80=D0=
+=B5=D0=BC=D0=B5=D0=BD=D0=B8 =D0=BE=D1=82 1 =D0=BC=D0=B5=D1=81=D1=8F=D1=86=
+=D0=B0 =D0=B4=D0=BE 1 =D0=B3=D0=BE=D0=B4=D0=B0.
+
+=D0=9A=D0=BE=D0=BD=D1=81=D0=B0=D0=BB=D1=82=D0=B8=D0=BD=D0=B3=D0=BE=D0=B2=D0=
+=B0=D1=8F =D0=B3=D1=80=D1=83=D0=BF=D0=BF=D0=B0 =C2=AB=D0=A2=D1=80=D0=B8=D1=
+=83=D0=BC=D1=84=C2=BB =D0=BF=D0=BE=D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=B7=D0=
+=B0=D0=BA=D1=80=D1=8B=D1=82=D1=8C =D1=84=D0=B8=D1=80=D0=BC=D1=83 (=D0=9E=D0=
+=9E=D0=9E, =D0=90=D0=9E =D0=B8 =D0=98=D0=9F) =D0=B2 =D0=BC=D0=B0=D0=BA=D1=
+=81=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE =D1=81=D0=B6=D0=B0=D1=82=D1=
+=8B=D0=B5 =D1=81=D1=80=D0=BE=D0=BA=D0=B8 =D0=B2 =D1=81=D0=BE=D0=BE=D1=82=D0=
+=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D0=B8=D0=B8 =D1=81 =D0=B4=D0=B5=D0=B9=D1=
+=81=D1=82=D0=B2=D1=83=D1=8E=D1=89=D0=B5=D0=BC =D0=B7=D0=B0=D0=BA=D0=BE=D0=
+=BD=D0=BE=D0=B4=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D1=81=D1=82=D0=B2=D0=BE=D0=BC=
+ =D0=A0=D0=A4 =D0=B8 =D1=81 =D0=B7=D0=B0=D1=89=D0=B8=D1=82=D0=BE=D0=B9 =D0=
+=B0=D0=BA=D1=82=D0=B8=D0=B2=D0=BE=D0=B2 =D1=81=D0=BE=D0=B1=D1=81=D1=82=D0=
+=B2=D0=B5=D0=BD=D0=BD=D0=B8=D0=BA=D0=B0.
+
+=D0=9E=D0=B1=D1=80=D0=B0=D1=89=D0=B0=D1=8F=D1=81=D1=8C =D0=B7=D0=B0 =D0=BB=
+=D0=B8=D0=BA=D0=B2=D0=B8=D0=B4=D0=B0=D1=86=D0=B8=D0=B5=D0=B9 =D1=84=D0=B8=
+=D1=80=D0=BC=D1=8B =D0=B2 =D0=9A=D0=93 =C2=AB=D0=A2=D1=80=D0=B8=D1=83=D0=BC=
+=D1=84=C2=BB =D0=B2=D1=8B =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B0=D0=B5=D1=82=
+=D0=B5 =D0=BA=D0=BE=D0=BC=D0=BF=D0=BB=D0=B5=D0=BA=D1=81=D0=BD=D0=BE=D0=B5=
+ =D1=81=D0=BE=D0=BF=D1=80=D0=BE=D0=B2=D0=BE=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=
+=D0=B5 =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=B4=D1=83=D1=80=D1=8B.
+
+=D0=9B=D0=B8=D0=BA=D0=B2=D0=B8=D0=B4=D0=B0=D1=86=D0=B8=D1=8F =D0=BA=D0=BE=
+=D0=BC=D0=BF=D0=B0=D0=BD=D0=B8=D0=B9 =D0=B1=D0=B5=D0=B7 =D0=B7=D0=B0=D0=B4=
+=D0=BE=D0=BB=D0=B6=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9 =D0=B8=
+ =D1=81 =D0=BD=D1=83=D0=BB=D0=B5=D0=B2=D1=8B=D0=BC =D0=B1=D0=B0=D0=BB=D0=B0=
+=D0=BD=D1=81=D0=BE=D0=BC =E2=80=93 2=D0=9E =D0=9E=D0=9E=D0=9E
+
+=D0=93=D0=B0=D1=80=D0=B0=D0=BD=D1=82=D0=B8=D1=80=D1=83=D0=B5=D0=BC 100% =D1=
+=80=D0=B5=D0=B7=D1=83=D0=BB=D1=8C=D1=82=D0=B0=D1=82 =D0=B4=D0=B0=D0=B6=D0=
+=B5 =D0=B2 =D1=81=D0=B0=D0=BC=D1=8B=D1=85 =D1=81=D0=BB=D0=BE=D0=B6=D0=BD=D1=
+=8B=D1=85 =D1=81=D0=B8=D1=82=D1=83=D0=B0=D1=86=D0=B8=D1=8F=D1=85:
+
+=C2=B7=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 =D1=81 =D0=B1=D0=BE=D0=BB=D1=8C=
+=D1=88=D0=B8=D0=BC=D0=B8 =D0=B4=D0=BE=D0=BB=D0=B3=D0=B0=D0=BC=D0=B8 =D0=BF=
+=D0=B5=D1=80=D0=B5=D0=B4 =D0=BD=D0=B0=D0=BB=D0=BE=D0=B3=D0=BE=D0=B2=D0=BE=
+=D0=B9;
+
+=C2=B7=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 =D1=81 =D0=BD=D0=B0=D1=87=D0=B8=
+=D1=81=D0=BB=D0=B5=D0=BD=D0=BD=D1=8B=D0=BC=D0=B8 =D1=88=D1=82=D1=80=D0=B0=
+=D1=84=D0=B0=D0=BC=D0=B8;
+
+=C2=B7=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 =D1=81 =D0=B1=D0=BE=D0=BB=D1=8C=
+=D1=88=D0=BE=D0=B9 =D0=B7=D0=B0=D0=B4=D0=BE=D0=BB=D0=B6=D0=B5=D0=BD=D0=BD=
+=D0=BE=D1=81=D1=82=D1=8C=D1=8E =D0=BF=D0=BE =D0=B7=D0=B0=D1=80=D0=BF=D0=BB=
+=D0=B0=D1=82=D0=B5;
+
+=C2=B7=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 =D0=B2 =D0=BB=D1=8E=D0=B1=D0=BE=
+=D0=B9 =D0=B4=D1=80=D1=83=D0=B3=D0=BE=D0=B9 =D1=81=D0=B8=D1=82=D1=83=D0=B0=
+=D1=86=D0=B8=D0=B8 =D1=81 =D0=B4=D0=BE=D0=BB=D0=B3=D0=B0=D0=BC=D0=B8.
+
+=D0=97=D0=92=D0=9E=D0=9D=D0=98=D0=A2=D0=95 =D0=9F=D0=A0=D0=AF=D0=9C=D0=9E=
+ =D0=A1=D0=95=D0=99=D0=A7=D0=90=D0=A1
+
+8=C2=A0967=C2=A0293 41 23
+
+=D0=94=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=
+=8B=D0=B5 =D1=83=D1=81=D0=BB=D1=83=D0=B3=D0=B8
+
+=D0=A1=D0=BC=D0=B5=D0=BD=D0=B0 =D1=83=D1=87=D0=B0=D1=81=D1=82=D0=BD=D0=B8=
+=D0=BA=D0=BE=D0=B2 =D0=B8 =D0=B4=D0=B8=D1=80=D0=B5=D0=BA=D1=82=D0=BE=D1=80=
+=D0=B0 =D0=BA=D0=BE=D0=BC=D0=BF=D0=B0=D0=BD=D0=B8=D0=B8
+
+=D0=A1=D0=BC=D0=B5=D0=BD=D0=B0 =D1=8E=D1=80 =D0=B0=D0=B4=D1=80=D0=B5=D1=81=
+=D0=B0 =D1=81 =D0=BF=D1=80=D0=B5=D0=B4=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BB=
+=D0=B5=D0=BD=D0=B8=D0=B5=D0=BC =D0=B0=D0=B4=D1=80=D0=B5=D1=81=D0=B0
+
+=D0=9A=D1=83=D0=BF=D0=BB=D1=8F-=D0=BF=D1=80=D0=BE=D0=B4=D0=B0=D0=B6=D0=B0=
+ =D0=B3=D0=BE=D1=82=D0=BE=D0=B2=D0=BE=D0=B3=D0=BE =D0=B1=D0=B8=D0=B7=D0=BD=
+=D0=B5=D1=81=D0=B0
+
+=D0=91=D1=83=D1=85=D0=B3=D0=B0=D0=BB=D1=82=D0=B5=D1=80=D1=81=D0=BA=D0=BE=D0=
+=B5 =D0=BE=D0=B1=D1=81=D0=BB=D1=83=D0=B6=D0=B8=D0=B2=D0=B0=D0=BD=D0=B8=D0=
+=B5
+
+--8adf96289c5a7068db71389370b49fb0d9312a
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3Durn:schemas-microsoft-com:office:office xmlns:v=3Durn:sch=
+emas-microsoft-com:vml><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+</head>
+<body bgColor=3D"#ffffff">
+<div align=3Dleft><font size=3D2 face=3DArial>
+<div align=3Dcenter>
+<table style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BOR=
+DER-COLLAPSE: collapse; BORDER-TOP: medium none; BORDER-RIGHT: medium non=
+e; mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.4pt 0in 5.4pt; mso-bord=
+er-insideh: none; mso-border-insidev: none" class=3DMsoTableGrid border=3D=
+0 cellSpacing=3D0 cellPadding=3D0>
+<tbody>
+<tr style=3D"mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+<td style=3D"BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM=
+: 0in; PADDING-LEFT: 5.4pt; WIDTH: 542.7pt; PADDING-RIGHT: 5.4pt; BACKGRO=
+UND: #8db3e2; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0i=
+n; mso-background-themecolor: text2; mso-background-themetint: 102" vAlig=
+n=3Dtop width=3D905>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 8pt; mso-ans=
+i-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: =
+major-latin; mso-bidi-font-family: 'Times New Roman'" lang=3DRU><o:p>&nbs=
+p;</o:p></span></b></p>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 16pt; mso-an=
+si-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-font:=
+ major-latin; mso-bidi-font-family: 'Times New Roman'; mso-bidi-font-size=
+: 12.0pt" lang=3DRU>=D0=9A=D0=BE=D0=BD=D1=81=D0=B0=D0=BB=D1=82=D0=B8=D0=BD=
+=D0=B3=D0=BE=D0=B2=D0=B0=D1=8F =D0=B3=D1=80=D1=83=D0=BF=D0=BF=D0=B0 =D0=A2=
+=D1=80=D0=B8=D1=83=D0=BC=D1=84<o:p></o:p></span></b></p>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 14pt; mso-an=
+si-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-font:=
+ major-latin; mso-bidi-font-family: 'Times New Roman'; mso-bidi-font-size=
+: 12.0pt" lang=3DRU>=D0=A2=D0=B5=D0=BB. 8 967 293 41 23<o:p></o:p></span>=
+</b></p>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 14pt; mso-as=
+cii-theme-font: major-latin; mso-hansi-theme-font: major-latin; mso-bidi-=
+font-family: 'Times New Roman'; mso-bidi-font-size: 12.0pt">E</span></b><=
+b style=3D"mso-bidi-font-weight: normal"><span style=3D"FONT-FAMILY: 'Cam=
+bria','serif'; FONT-SIZE: 14pt; mso-ansi-language: RU; mso-ascii-theme-fo=
+nt: major-latin; mso-hansi-theme-font: major-latin; mso-bidi-font-family:=
+ 'Times New Roman'; mso-bidi-font-size: 12.0pt" lang=3DRU>-</span></b><b =
+style=3D"mso-bidi-font-weight: normal"><span style=3D"FONT-FAMILY: 'Cambr=
+ia','serif'; FONT-SIZE: 14pt; mso-ascii-theme-font: major-latin; mso-hans=
+i-theme-font: major-latin; mso-bidi-font-family: 'Times New Roman'; mso-b=
+idi-font-size: 12.0pt">mail</span></b><b style=3D"mso-bidi-font-weight: n=
+ormal"><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 14pt; ms=
+o-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-f=
+ont: major-latin; mso-bidi-font-family: 'Times New Roman'; mso-bidi-font-=
+size: 12.0pt" lang=3DRU>: </span></b><b style=3D"mso-bidi-font-weight: no=
+rmal"><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 14pt; mso=
+-ascii-theme-font: major-latin; mso-hansi-theme-font: major-latin; mso-bi=
+di-font-family: 'Times New Roman'; mso-bidi-font-size: 12.0pt"><a>kg<span=
+ style=3D"mso-ansi-language: RU" lang=3DRU>-</span>triumf<span style=3D"m=
+so-ansi-language: RU" lang=3DRU>@</span>mail<span style=3D"mso-ansi-langu=
+age: RU" lang=3DRU>.</span>ru</a></span></b><b style=3D"mso-bidi-font-wei=
+ght: normal"><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 14=
+pt; mso-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-t=
+heme-font: major-latin; mso-bidi-font-family: 'Times New Roman'; mso-bidi=
+-font-size: 12.0pt" lang=3DRU><o:p></o:p></span></b></p>
+<p style=3D"LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt" class=3DMsoNormal><=
+b style=3D"mso-bidi-font-weight: normal"><span style=3D"FONT-FAMILY: 'Cam=
+bria','serif'; FONT-SIZE: 8pt; mso-ansi-language: RU; mso-ascii-theme-fon=
+t: major-latin; mso-hansi-theme-font: major-latin" lang=3DRU><o:p>&nbsp;<=
+/o:p></span></b></p></td></tr>
+<tr style=3D"mso-yfti-irow: 1">
+<td style=3D"BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM=
+: 0in; PADDING-LEFT: 5.4pt; WIDTH: 542.7pt; PADDING-RIGHT: 5.4pt; BACKGRO=
+UND: white; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0in;=
+ mso-background-themecolor: background1" vAlign=3Dtop width=3D905>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 8pt; mso-ans=
+i-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: =
+major-latin; mso-bidi-font-family: 'Times New Roman'" lang=3DRU><o:p>&nbs=
+p;</o:p></span></b></p>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 8pt; mso-ans=
+i-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: =
+major-latin; mso-bidi-font-family: 'Times New Roman'" lang=3DRU><o:p>&nbs=
+p;</o:p></span></b></p></td></tr>
+<tr style=3D"mso-yfti-irow: 2">
+<td style=3D"BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM=
+: 0in; PADDING-LEFT: 5.4pt; WIDTH: 542.7pt; PADDING-RIGHT: 5.4pt; BACKGRO=
+UND: #c6d9f1; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0i=
+n; mso-background-themecolor: text2; mso-background-themetint: 51" vAlign=
+=3Dtop width=3D905>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 14pt; mso-an=
+si-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-font:=
+ major-latin; mso-bidi-font-family: 'Times New Roman'; mso-bidi-font-size=
+: 12.0pt" lang=3DRU>=D0=97=D0=B0=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D0=B5 =D1=84=
+=D0=B8=D1=80=D0=BC =D0=BF=D0=BE=D0=B4 =D0=BA=D0=BB=D1=8E=D1=87 =D0=B2 =D0=
+=BC=D0=B0=D0=BA=D1=81=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE =D1=81=D0=
+=B6=D0=B0=D1=82=D1=8B=D0=B5 =D1=81=D1=80=D0=BE=D0=BA=D0=B8</span></b><b s=
+tyle=3D"mso-bidi-font-weight: normal"><span style=3D"FONT-FAMILY: 'Cambri=
+a','serif'; FONT-SIZE: 12pt; mso-ansi-language: RU; mso-ascii-theme-font:=
+ major-latin; mso-hansi-theme-font: major-latin" lang=3DRU><o:p></o:p></s=
+pan></b></p></td></tr>
+<tr style=3D"mso-yfti-irow: 3">
+<td style=3D"BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM=
+: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 542.7pt=
+; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDI=
+NG-TOP: 0in" vAlign=3Dtop width=3D905>
+<p style=3D"TEXT-ALIGN: justify; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt=
+" class=3DMsoNormal><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-S=
+IZE: 8pt; mso-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-h=
+ansi-theme-font: major-latin; mso-bidi-font-family: 'Times New Roman'" la=
+ng=3DRU><o:p>&nbsp;</o:p></span></p>
+<p style=3D"TEXT-ALIGN: justify; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt=
+" class=3DMsoNormal><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-S=
+IZE: 8pt; mso-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-h=
+ansi-theme-font: major-latin; mso-bidi-font-family: 'Times New Roman'" la=
+ng=3DRU><o:p>&nbsp;</o:p></span></p>
+<table style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BOR=
+DER-COLLAPSE: collapse; BORDER-TOP: medium none; BORDER-RIGHT: medium non=
+e; mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.4pt 0in 5.4pt; mso-bord=
+er-insideh: none; mso-border-insidev: none" class=3DMsoTableGrid border=3D=
+0 cellSpacing=3D0 cellPadding=3D0>
+<tbody>
+<tr style=3D"mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: =
+yes">
+<td style=3D"BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM=
+: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 148.7pt=
+; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDI=
+NG-TOP: 0in" vAlign=3Dtop width=3D248>
+<p style=3D"TEXT-ALIGN: justify; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt=
+" class=3DMsoNormal><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-S=
+IZE: 12pt; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major=
+-latin; mso-bidi-font-family: 'Times New Roman'; mso-no-proof: yes"><v:sh=
+apetype id=3D_x0000_t75 stroked=3Df filled=3Df path=3D"m@4@5l@4@11@9@11@9=
+@5xe" o:preferrelative=3Dt o:spt=3D75 coordsize=3D"21600,21600"><v:stroke=
+ joinstyle=3Dmiter></v:stroke><v:formulas><v:f eqn=3D"if lineDrawn pixelL=
+ineWidth 0"></v:f><v:f eqn=3D"sum @0 1 0"></v:f><v:f eqn=3D"sum 0 0 @1"><=
+/v:f><v:f eqn=3D"prod @2 1 2"></v:f><v:f eqn=3D"prod @3 21600 pixelWidth"=
+></v:f><v:f eqn=3D"prod @3 21600 pixelHeight"></v:f><v:f eqn=3D"sum @0 0 =
+1"></v:f><v:f eqn=3D"prod @6 1 2"></v:f><v:f eqn=3D"prod @7 21600 pixelWi=
+dth"></v:f><v:f eqn=3D"sum @8 21600 0"></v:f><v:f eqn=3D"prod @7 21600 pi=
+xelHeight"></v:f><v:f eqn=3D"sum @10 21600 0"></v:f></v:formulas><v:path =
+o:connecttype=3Drect gradientshapeok=3Dt o:extrusionok=3Df></v:path><o:lo=
+ck aspectratio=3Dt v:ext=3Dedit></o:lock></v:shapetype></span><span style=
+=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 12pt; mso-ansi-language: R=
+U; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major-latin; =
+mso-bidi-font-family: 'Times New Roman'" lang=3DRU><o:p><img border=3D0 h=
+space=3D0 alt=3D"" src=3D"cid:5edc6edb43005e1f3b55be396f@rekeb.ru" width=3D=
+265 height=3D165></o:p></span></p></td>
+<td style=3D"BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM=
+: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 382.45p=
+t; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADD=
+ING-TOP: 0in" vAlign=3Dtop width=3D637>
+<p style=3D"TEXT-ALIGN: justify; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt=
+" class=3DMsoNormal><b style=3D"mso-bidi-font-weight: normal"><span style=
+=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 12pt; mso-ansi-language: R=
+U; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major-latin; =
+mso-bidi-font-family: 'Times New Roman'" lang=3DRU>=D0=9B=D0=B8=D0=BA=D0=B2=
+=D0=B8=D0=B4=D0=B0=D1=86=D0=B8=D1=8F =D0=9E=D0=9E=D0=9E</span></b><span s=
+tyle=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 12pt; mso-ansi-languag=
+e: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major-lat=
+in; mso-bidi-font-family: 'Times New Roman'" lang=3DRU> =E2=80=93 =D1=8D=D1=
+=82=D0=BE =D0=B4=D0=BE=D0=B2=D0=BE=D0=BB=D1=8C=D0=BD=D0=BE =D1=81=D0=BB=D0=
+=BE=D0=B6=D0=BD=D1=8B=D0=B9 =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D1=81=D1=81 =D0=
+=B7=D0=B0=D0=BA=D1=80=D1=8B=D1=82=D0=B8=D1=8F =D0=B1=D0=B8=D0=B7=D0=BD=D0=
+=B5=D1=81=D0=B0, =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D0=B9 =D0=BC=D0=BE=D0=
+=B6=D0=B5=D1=82 =D0=B1=D1=8B=D1=82=D1=8C =D1=80=D0=B0=D1=81=D1=82=D1=8F=D0=
+=BD=D1=83=D1=82=D0=BE =D0=B2=D0=BE =D0=B2=D1=80=D0=B5=D0=BC=D0=B5=D0=BD=D0=
+=B8 =D0=BE=D1=82 1 =D0=BC=D0=B5=D1=81=D1=8F=D1=86=D0=B0 =D0=B4=D0=BE 1 =D0=
+=B3=D0=BE=D0=B4=D0=B0.<o:p></o:p></span></p>
+<p style=3D"TEXT-ALIGN: justify; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt=
+" class=3DMsoNormal><b style=3D"mso-bidi-font-weight: normal"><span style=
+=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 12pt; mso-ansi-language: R=
+U; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major-latin; =
+mso-bidi-font-family: 'Times New Roman'" lang=3DRU>=D0=9A=D0=BE=D0=BD=D1=81=
+=D0=B0=D0=BB=D1=82=D0=B8=D0=BD=D0=B3=D0=BE=D0=B2=D0=B0=D1=8F =D0=B3=D1=80=
+=D1=83=D0=BF=D0=BF=D0=B0 =C2=AB=D0=A2=D1=80=D0=B8=D1=83=D0=BC=D1=84=C2=BB=
+ </span></b><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 12p=
+t; mso-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-th=
+eme-font: major-latin; mso-bidi-font-family: 'Times New Roman'" lang=3DRU=
+>=D0=BF=D0=BE=D0=BC=D0=BE=D0=B6=D0=B5=D1=82 =D0=B7=D0=B0=D0=BA=D1=80=D1=8B=
+=D1=82=D1=8C =D1=84=D0=B8=D1=80=D0=BC=D1=83 (=D0=9E=D0=9E=D0=9E, =D0=90=D0=
+=9E =D0=B8 =D0=98=D0=9F) =D0=B2 =D0=BC=D0=B0=D0=BA=D1=81=D0=B8=D0=BC=D0=B0=
+=D0=BB=D1=8C=D0=BD=D0=BE =D1=81=D0=B6=D0=B0=D1=82=D1=8B=D0=B5 =D1=81=D1=80=
+=D0=BE=D0=BA=D0=B8 =D0=B2 =D1=81=D0=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=
+=D1=82=D0=B2=D0=B8=D0=B8 =D1=81 =D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D1=83=
+=D1=8E=D1=89=D0=B5=D0=BC =D0=B7=D0=B0=D0=BA=D0=BE=D0=BD=D0=BE=D0=B4=D0=B0=
+=D1=82=D0=B5=D0=BB=D1=8C=D1=81=D1=82=D0=B2=D0=BE=D0=BC =D0=A0=D0=A4 =D0=B8=
+ =D1=81 =D0=B7=D0=B0=D1=89=D0=B8=D1=82=D0=BE=D0=B9 =D0=B0=D0=BA=D1=82=D0=B8=
+=D0=B2=D0=BE=D0=B2 =D1=81=D0=BE=D0=B1=D1=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=
+=D0=B8=D0=BA=D0=B0. <o:p></o:p></span></p>
+<p style=3D"TEXT-ALIGN: justify; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt=
+" class=3DMsoNormal><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-S=
+IZE: 12pt; mso-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-=
+hansi-theme-font: major-latin; mso-bidi-font-family: 'Times New Roman'" l=
+ang=3DRU>=D0=9E=D0=B1=D1=80=D0=B0=D1=89=D0=B0=D1=8F=D1=81=D1=8C =D0=B7=D0=
+=B0 =D0=BB=D0=B8=D0=BA=D0=B2=D0=B8=D0=B4=D0=B0=D1=86=D0=B8=D0=B5=D0=B9 =D1=
+=84=D0=B8=D1=80=D0=BC=D1=8B =D0=B2 =D0=9A=D0=93 =C2=AB=D0=A2=D1=80=D0=B8=D1=
+=83=D0=BC=D1=84=C2=BB =D0=B2=D1=8B =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B0=D0=
+=B5=D1=82=D0=B5 =D0=BA=D0=BE=D0=BC=D0=BF=D0=BB=D0=B5=D0=BA=D1=81=D0=BD=D0=
+=BE=D0=B5 =D1=81=D0=BE=D0=BF=D1=80=D0=BE=D0=B2=D0=BE=D0=B6=D0=B4=D0=B5=D0=
+=BD=D0=B8=D0=B5 =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D0=B4=D1=83=D1=80=D1=8B.<o=
+:p></o:p></span></p></td></tr></tbody></table>
+<p style=3D"TEXT-ALIGN: justify; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt=
+" class=3DMsoNormal><b style=3D"mso-bidi-font-weight: normal"><span style=
+=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 8pt; mso-ansi-language: RU=
+; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major-latin" l=
+ang=3DRU><o:p>&nbsp;</o:p></span></b></p>
+<p style=3D"TEXT-ALIGN: justify; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt=
+" class=3DMsoNormal><b style=3D"mso-bidi-font-weight: normal"><span style=
+=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 8pt; mso-ansi-language: RU=
+; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major-latin" l=
+ang=3DRU><o:p>&nbsp;</o:p></span></b></p></td></tr>
+<tr style=3D"mso-yfti-irow: 4">
+<td style=3D"BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM=
+: 0in; PADDING-LEFT: 5.4pt; WIDTH: 542.7pt; PADDING-RIGHT: 5.4pt; BACKGRO=
+UND: #c6d9f1; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0i=
+n; mso-background-themecolor: text2; mso-background-themetint: 51" vAlign=
+=3Dtop width=3D905>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span style=3D"FONT-FAMILY: 'Cambria','serif'; COLOR: red; FONT-SIZE: =
+14pt; mso-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi=
+-theme-font: major-latin; mso-bidi-font-family: 'Times New Roman'; mso-bi=
+di-font-size: 12.0pt" lang=3DRU>=D0=9B=D0=B8=D0=BA=D0=B2=D0=B8=D0=B4=D0=B0=
+=D1=86=D0=B8=D1=8F =D0=BA=D0=BE=D0=BC=D0=BF=D0=B0=D0=BD=D0=B8=D0=B9 =D0=B1=
+=D0=B5=D0=B7 =D0=B7=D0=B0=D0=B4=D0=BE=D0=BB=D0=B6=D0=B5=D0=BD=D0=BD=D0=BE=
+=D1=81=D1=82=D0=B5=D0=B9 =D0=B8 =D1=81 =D0=BD=D1=83=D0=BB=D0=B5=D0=B2=D1=8B=
+=D0=BC =D0=B1=D0=B0=D0=BB=D0=B0=D0=BD=D1=81=D0=BE=D0=BC =E2=80=93 2=D0=9E=
+ =D0=9E=D0=9E=D0=9E</span></b><b style=3D"mso-bidi-font-weight: normal"><=
+span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: 12pt; mso-ansi-l=
+anguage: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: maj=
+or-latin" lang=3DRU><o:p></o:p></span></b></p></td></tr>
+<tr style=3D"mso-yfti-irow: 5">
+<td style=3D"BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM=
+: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 542.7pt=
+; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDI=
+NG-TOP: 0in" vAlign=3Dtop width=3D905>
+<p style=3D"LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt" class=3DMsoNormal><=
+b style=3D"mso-bidi-font-weight: normal"><span style=3D"FONT-FAMILY: 'Cam=
+bria','serif'; FONT-SIZE: 8pt; mso-ansi-language: RU; mso-ascii-theme-fon=
+t: major-latin; mso-hansi-theme-font: major-latin; mso-bidi-font-family: =
+'Times New Roman'" lang=3DRU><o:p>&nbsp;</o:p></span></b></p>
+<p style=3D"LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt" class=3DMsoNormal><=
+b style=3D"mso-bidi-font-weight: normal"><span style=3D"FONT-FAMILY: 'Cam=
+bria','serif'; FONT-SIZE: 12pt; mso-ansi-language: RU; mso-ascii-theme-fo=
+nt: major-latin; mso-hansi-theme-font: major-latin; mso-bidi-font-family:=
+ 'Times New Roman'" lang=3DRU>=D0=93=D0=B0=D1=80=D0=B0=D0=BD=D1=82=D0=B8=D1=
+=80=D1=83=D0=B5=D0=BC 100% =D1=80=D0=B5=D0=B7=D1=83=D0=BB=D1=8C=D1=82=D0=B0=
+=D1=82 =D0=B4=D0=B0=D0=B6=D0=B5 =D0=B2 =D1=81=D0=B0=D0=BC=D1=8B=D1=85 =D1=
+=81=D0=BB=D0=BE=D0=B6=D0=BD=D1=8B=D1=85 =D1=81=D0=B8=D1=82=D1=83=D0=B0=D1=
+=86=D0=B8=D1=8F=D1=85:<o:p></o:p></span></b></p>
+<p style=3D"LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0p=
+t 0.5in; mso-add-space: auto; mso-list: l0 level1 lfo1" class=3DMsoListPa=
+ragraphbullet1.gif><span style=3D"FONT-FAMILY: Symbol; FONT-SIZE: 12pt; m=
+so-ansi-language: RU; mso-bidi-font-family: Symbol; mso-fareast-font-fami=
+ly: Symbol" lang=3DRU><span style=3D"mso-list: Ignore">=C2=B7<span style=3D=
+"FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span=
+></span></span><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: =
+12pt; mso-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi=
+-theme-font: major-latin; mso-bidi-font-family: 'Times New Roman'" lang=3D=
+RU>=D1=81 =D0=B1=D0=BE=D0=BB=D1=8C=D1=88=D0=B8=D0=BC=D0=B8 =D0=B4=D0=BE=D0=
+=BB=D0=B3=D0=B0=D0=BC=D0=B8 =D0=BF=D0=B5=D1=80=D0=B5=D0=B4 =D0=BD=D0=B0=D0=
+=BB=D0=BE=D0=B3=D0=BE=D0=B2=D0=BE=D0=B9; <o:p></o:p></span></p>
+<p style=3D"LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0p=
+t 0.5in; mso-add-space: auto; mso-list: l0 level1 lfo1" class=3DMsoListPa=
+ragraphbullet2.gif><span style=3D"FONT-FAMILY: Symbol; FONT-SIZE: 12pt; m=
+so-ansi-language: RU; mso-bidi-font-family: Symbol; mso-fareast-font-fami=
+ly: Symbol" lang=3DRU><span style=3D"mso-list: Ignore">=C2=B7<span style=3D=
+"FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span=
+></span></span><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: =
+12pt; mso-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi=
+-theme-font: major-latin; mso-bidi-font-family: 'Times New Roman'" lang=3D=
+RU>=D1=81 =D0=BD=D0=B0=D1=87=D0=B8=D1=81=D0=BB=D0=B5=D0=BD=D0=BD=D1=8B=D0=
+=BC=D0=B8 =D1=88=D1=82=D1=80=D0=B0=D1=84=D0=B0=D0=BC=D0=B8;<o:p></o:p></s=
+pan></p>
+<p style=3D"LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0p=
+t 0.5in; mso-add-space: auto; mso-list: l0 level1 lfo1" class=3DMsoListPa=
+ragraphbullet2.gif><span style=3D"FONT-FAMILY: Symbol; FONT-SIZE: 12pt; m=
+so-ansi-language: RU; mso-bidi-font-family: Symbol; mso-fareast-font-fami=
+ly: Symbol" lang=3DRU><span style=3D"mso-list: Ignore">=C2=B7<span style=3D=
+"FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span=
+></span></span><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: =
+12pt; mso-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi=
+-theme-font: major-latin; mso-bidi-font-family: 'Times New Roman'" lang=3D=
+RU>=D1=81 =D0=B1=D0=BE=D0=BB=D1=8C=D1=88=D0=BE=D0=B9 =D0=B7=D0=B0=D0=B4=D0=
+=BE=D0=BB=D0=B6=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=82=D1=8C=D1=8E =D0=BF=D0=
+=BE =D0=B7=D0=B0=D1=80=D0=BF=D0=BB=D0=B0=D1=82=D0=B5;<o:p></o:p></span></=
+p>
+<p style=3D"LINE-HEIGHT: normal; TEXT-INDENT: -0.25in; MARGIN: 0in 0in 0p=
+t 0.5in; mso-add-space: auto; mso-list: l0 level1 lfo1" class=3DMsoListPa=
+ragraphbullet3.gif><span style=3D"FONT-FAMILY: Symbol; FONT-SIZE: 12pt; m=
+so-ansi-language: RU; mso-bidi-font-family: Symbol; mso-fareast-font-fami=
+ly: Symbol" lang=3DRU><span style=3D"mso-list: Ignore">=C2=B7<span style=3D=
+"FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span=
+></span></span><span style=3D"FONT-FAMILY: 'Cambria','serif'; FONT-SIZE: =
+12pt; mso-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi=
+-theme-font: major-latin; mso-bidi-font-family: 'Times New Roman'" lang=3D=
+RU>=D0=B2 =D0=BB=D1=8E=D0=B1=D0=BE=D0=B9 =D0=B4=D1=80=D1=83=D0=B3=D0=BE=D0=
+=B9 =D1=81=D0=B8=D1=82=D1=83=D0=B0=D1=86=D0=B8=D0=B8 =D1=81 =D0=B4=D0=BE=D0=
+=BB=D0=B3=D0=B0=D0=BC=D0=B8.<o:p></o:p></span></p>
+<p style=3D"LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt" class=3DMsoNormal><=
+b style=3D"mso-bidi-font-weight: normal"><span style=3D"FONT-FAMILY: 'Cam=
+bria','serif'; FONT-SIZE: 8pt; mso-ansi-language: RU; mso-ascii-theme-fon=
+t: major-latin; mso-hansi-theme-font: major-latin" lang=3DRU><o:p>&nbsp;<=
+/o:p></span></b></p></td></tr>
+<tr style=3D"mso-yfti-irow: 6">
+<td style=3D"BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM=
+: 0in; PADDING-LEFT: 5.4pt; WIDTH: 542.7pt; PADDING-RIGHT: 5.4pt; BACKGRO=
+UND: #c6d9f1; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0i=
+n; mso-background-themecolor: text2; mso-background-themetint: 51" vAlign=
+=3Dtop width=3D905>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span style=3D"FONT-FAMILY: 'Cambria','serif'; COLOR: red; FONT-SIZE: =
+14pt; mso-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi=
+-theme-font: major-latin; mso-bidi-font-family: 'Times New Roman'; mso-bi=
+di-font-size: 12.0pt" lang=3DRU>=D0=97=D0=92=D0=9E=D0=9D=D0=98=D0=A2=D0=95=
+ =D0=9F=D0=A0=D0=AF=D0=9C=D0=9E =D0=A1=D0=95=D0=99=D0=A7=D0=90=D0=A1<o:p>=
+</o:p></span></b></p>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span style=3D"FONT-FAMILY: 'Cambria','serif'; COLOR: red; FONT-SIZE: =
+14pt; mso-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi=
+-theme-font: major-latin; mso-bidi-font-family: 'Times New Roman'; mso-bi=
+di-font-size: 12.0pt" lang=3DRU>8&nbsp;967&nbsp;293 41 23</span></b><b st=
+yle=3D"mso-bidi-font-weight: normal"><span style=3D"FONT-FAMILY: 'Cambria=
+','serif'; FONT-SIZE: 12pt; mso-ansi-language: RU; mso-ascii-theme-font: =
+major-latin; mso-hansi-theme-font: major-latin" lang=3DRU><o:p></o:p></sp=
+an></b></p></td></tr>
+<tr style=3D"mso-yfti-irow: 7">
+<td style=3D"BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM=
+: 0in; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 542.7pt=
+; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDI=
+NG-TOP: 0in" vAlign=3Dtop width=3D905>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span style=3D"FONT-FAMILY: 'Cambria','serif'; COLOR: red; FONT-SIZE: =
+8pt; mso-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-=
+theme-font: major-latin; mso-bidi-font-family: 'Times New Roman'" lang=3D=
+RU><o:p>&nbsp;</o:p></span></b></p>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span style=3D"FONT-FAMILY: 'Cambria','serif'; COLOR: red; FONT-SIZE: =
+8pt; mso-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-=
+theme-font: major-latin; mso-bidi-font-family: 'Times New Roman'" lang=3D=
+RU><o:p>&nbsp;</o:p></span></b></p></td></tr>
+<tr style=3D"HEIGHT: 65.25pt; mso-yfti-irow: 8; mso-yfti-lastrow: yes">
+<td style=3D"BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM=
+: 0in; PADDING-LEFT: 5.4pt; WIDTH: 542.7pt; PADDING-RIGHT: 5.4pt; BACKGRO=
+UND: #8db3e2; HEIGHT: 65.25pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0=
+; PADDING-TOP: 0in; mso-background-themecolor: text2; mso-background-them=
+etint: 102" vAlign=3Dtop width=3D905>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><b><span style=3D"FONT-FAMILY: 'Cambria=
+','serif'; FONT-SIZE: 8pt; mso-ansi-language: RU; mso-ascii-theme-font: m=
+ajor-latin; mso-hansi-theme-font: major-latin; mso-bidi-font-family: 'Tim=
+es New Roman'" lang=3DRU><o:p>&nbsp;</o:p></span></b></p>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><b><span style=3D"FONT-FAMILY: 'Cambria=
+','serif'; FONT-SIZE: 14pt; mso-ansi-language: RU; mso-ascii-theme-font: =
+major-latin; mso-hansi-theme-font: major-latin; mso-bidi-font-family: 'Ti=
+mes New Roman'; mso-bidi-font-size: 12.0pt" lang=3DRU>=D0=94=D0=BE=D0=BF=D0=
+=BE=D0=BB=D0=BD=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D1=83=D1=
+=81=D0=BB=D1=83=D0=B3=D0=B8<o:p></o:p></span></b></p>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><span style=3D"FONT-FAMILY: 'Cambria','=
+serif'; FONT-SIZE: 12pt; mso-ansi-language: RU; mso-ascii-theme-font: maj=
+or-latin; mso-hansi-theme-font: major-latin" lang=3DRU>=D0=A1=D0=BC=D0=B5=
+=D0=BD=D0=B0 =D1=83=D1=87=D0=B0=D1=81=D1=82=D0=BD=D0=B8=D0=BA=D0=BE=D0=B2=
+ =D0=B8 =D0=B4=D0=B8=D1=80=D0=B5=D0=BA=D1=82=D0=BE=D1=80=D0=B0 =D0=BA=D0=BE=
+=D0=BC=D0=BF=D0=B0=D0=BD=D0=B8=D0=B8<o:p></o:p></span></p>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><span style=3D"FONT-FAMILY: 'Cambria','=
+serif'; FONT-SIZE: 12pt; mso-ansi-language: RU; mso-ascii-theme-font: maj=
+or-latin; mso-hansi-theme-font: major-latin" lang=3DRU>=D0=A1=D0=BC=D0=B5=
+=D0=BD=D0=B0 =D1=8E=D1=80 =D0=B0=D0=B4=D1=80=D0=B5=D1=81=D0=B0 =D1=81 =D0=
+=BF=D1=80=D0=B5=D0=B4=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=
+=D0=B5=D0=BC =D0=B0=D0=B4=D1=80=D0=B5=D1=81=D0=B0<o:p></o:p></span></p>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><span style=3D"FONT-FAMILY: 'Cambria','=
+serif'; FONT-SIZE: 12pt; mso-ansi-language: RU; mso-ascii-theme-font: maj=
+or-latin; mso-hansi-theme-font: major-latin" lang=3DRU>=D0=9A=D1=83=D0=BF=
+=D0=BB=D1=8F-=D0=BF=D1=80=D0=BE=D0=B4=D0=B0=D0=B6=D0=B0 =D0=B3=D0=BE=D1=82=
+=D0=BE=D0=B2=D0=BE=D0=B3=D0=BE =D0=B1=D0=B8=D0=B7=D0=BD=D0=B5=D1=81=D0=B0=
+<o:p></o:p></span></p>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><span style=3D"FONT-FAMILY: 'Cambria','=
+serif'; FONT-SIZE: 12pt; mso-ansi-language: RU; mso-ascii-theme-font: maj=
+or-latin; mso-hansi-theme-font: major-latin" lang=3DRU>=D0=91=D1=83=D1=85=
+=D0=B3=D0=B0=D0=BB=D1=82=D0=B5=D1=80=D1=81=D0=BA=D0=BE=D0=B5 =D0=BE=D0=B1=
+=D1=81=D0=BB=D1=83=D0=B6=D0=B8=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5<o:p></o:p></=
+span></p>
+<p style=3D"TEXT-ALIGN: center; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt"=
+ class=3DMsoNormal align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span style=3D"FONT-FAMILY: 'Cambria','serif'; COLOR: red; FONT-SIZE: =
+8pt; mso-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-=
+theme-font: major-latin; mso-bidi-font-family: 'Times New Roman'" lang=3D=
+RU><o:p>&nbsp;</o:p></span></b></p></td></tr></tbody></table></div></font=
+></div></body></html>
+
+--8adf96289c5a7068db71389370b49fb0d9312a--
+
+--a30955be488cb52e0da7ee52a6636df7f2c6
+Content-Type: image/jpeg; name="7.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <5edc6edb43005e1f3b55be396f@rekeb.ru>
+
+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
+m0TBKsDj73tX07QKUrn/2Q==
+
+--a30955be488cb52e0da7ee52a6636df7f2c6--

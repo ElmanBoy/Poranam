@@ -1,0 +1,113 @@
+Return-Path: <support@tether-bank.com>
+Delivered-To: info+spam@poranam.ru
+Received: from hostnl02.fornex.host
+	by hostnl02.fornex.host with LMTP
+	id aG2bIHoDX2Pt9S4APMQOpA
+	(envelope-from <support@tether-bank.com>)
+	for <info+spam@poranam.ru>; Sun, 30 Oct 2022 23:06:34 +0000
+Return-path: <support@tether-bank.com>
+Envelope-to: info@poranam.ru
+Delivery-date: Mon, 31 Oct 2022 02:06:34 +0300
+Received: from [185.97.118.76] (port=50388 helo=mail.tether-bank.com)
+	by hostnl02.fornex.host with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <support@tether-bank.com>)
+	id 1opHNw-00CzO4-Bm
+	for info@poranam.ru; Mon, 31 Oct 2022 02:06:34 +0300
+Received: from [208.67.106.11] (port=64864 helo=mail.tether-bank.com)
+	by server.tether-bank.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <support@tether-bank.com>)
+	id 1oJ33g-0007nL-Ro
+	for info@poranam.ru;
+	Wed, 03 Aug 2022 05:50:22 +0430
+Reply-To: mrsbeadlelynvalarie01@gmail.com
+From: Lynn Valarie Beadle <mrsbeadlelynvalarle01@gmail.com>
+To: info@poranam.ru
+Date: 02 Aug 2022 18:20:21 -0700
+Message-ID: <20220802182021.9C375FDD985796F5@gmail.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server.tether-bank.com
+X-AntiAbuse: Original Domain - poranam.ru
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - tether-bank.com
+X-Get-Message-Sender-Via: server.tether-bank.com: authenticated_id: support@tether-bank.com
+X-Authenticated-Sender: server.tether-bank.com: support@tether-bank.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Status: Yes, score=13.5
+X-Spam-Score: 135
+X-Spam-Bar: +++++++++++++
+X-Spam-Report: Spam detection software, running on the system "hostnl02.fornex.host",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dearest in Christ, Greetings to you, I'm Mrs. Lynn Valarie
+    Beadle, an aging widow suffering from a long time illness. I'm currently
+   admitted in a private hospital here in London, United Kingdom, I have some
+    funds I inhe [...] 
+ Content analysis details:   (13.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [mrsbeadlelynvalarle01[at]gmail.com]
+  0.2 FREEMAIL_REPLYTO_END_DIGIT Reply-To freemail username ends in
+                             digit
+                             [mrsbeadlelynvalarie01[at]gmail.com]
+  0.0 DKIM_ADSP_CUSTOM_MED   No valid author signature, adsp_override is
+                              CUSTOM_MED
+  1.3 RCVD_IN_RP_RNBL        RBL: Relay in RNBL,
+                             https://senderscore.org/blacklistlookup/
+                             [185.97.118.76 listed in bl.score.senderscore.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.0 FREEMAIL_FORGED_FROMDOMAIN 2nd level domains in From and
+                             EnvelopeFrom freemail headers are
+                             different
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  0.1 HK_SCAM                No description available.
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+  1.0 FREEMAIL_REPLYTO       Reply-To/From or Reply-To/body contain
+                             different freemails
+  1.2 NML_ADSP_CUSTOM_MED    ADSP custom_med hit, and not from a mailing
+                             list
+  0.1 TO_IN_SUBJ             To address is in Subject
+  1.8 TO_NO_BRKTS_NORDNS_HTML To: lacks brackets and no rDNS and HTML
+                             only
+  3.5 ADVANCE_FEE_3_NEW      Appears to be advance fee fraud (Nigerian 419)
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Humanitarian Aid info@poranam.ru
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.19003"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<P>Dearest in Christ,</P>
+<P>
+Greetings to you, I'm Mrs. Lynn Valarie Beadle, an aging widow suffering fr=
+om a long time illness. I'm currently admitted in a private hospital here i=
+n London, United Kingdom, I have some funds I inherited from my late loving=
+ husband Dr. Michael Beadle, which he deposited in one of the famous banks =
+here in London, United Kingdom with my name as the next of kin and I need a=
+ very honest and God fearing person that can use this funds for God's work =
+towards humanitarian services, to provide succor=20
+to the less privileged and the needy.&nbsp; </P>
+<P>Please if you would be able to use these funds as I specified, kindly ge=
+t back to me immediately for more details hence I anticipate your prompt re=
+sponse ASAP. <BR>Thanks and remain blessed.</P>
+<P>Sincerely yours</P>
+<P>Mrs.&nbsp; Lynn Valarie Beadle.</P></BODY></HTML>

@@ -1,0 +1,21 @@
+<br />
+<b>Warning</b>:  mysqli_real_connect(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in <b>/home/iskrame2/public_html/Connections/dbconn.php</b> on line <b>22</b><br />
+<br />
+<b>Warning</b>:  mysqli_query(): invalid object or resource mysqli
+ in <b>/home/iskrame2/public_html/Connections/db.php</b> on line <b>240</b><br />
+<br />
+<b>Warning</b>:  mysqli_query(): invalid object or resource mysqli
+ in <b>/home/iskrame2/public_html/Connections/db.php</b> on line <b>240</b><br />
+<pre>UPDATE catalog_init_data SET field14 = 15 WHERE field3 < '2024-04-06 19:43:02'</pre><br><br />
+<b>Warning</b>:  mysqli_query(): invalid object or resource mysqli
+ in <b>/home/iskrame2/public_html/Connections/db.php</b> on line <b>240</b><br />
+<pre><br />
+<b>Warning</b>:  mysqli_errno(): invalid object or resource mysqli
+ in <b>/home/iskrame2/public_html/Connections/db.php</b> on line <b>167</b><br />
+<br />
+<b>Warning</b>:  mysqli_sqlstate(): invalid object or resource mysqli
+ in <b>/home/iskrame2/public_html/Connections/db.php</b> on line <b>167</b><br />
+<br />
+<b>Warning</b>:  mysqli_error(): invalid object or resource mysqli
+ in <b>/home/iskrame2/public_html/Connections/db.php</b> on line <b>167</b><br />
+:   in query: UPDATE catalog_init_data SET field14 = 15 WHERE field3 < '2024-04-06 19:43:02'</pre>

@@ -1,0 +1,12 @@
+[11-Apr-2024 01:18:16 Europe/Moscow] PHP Warning:  strlen() expects parameter 1 to be string, array given in /home/iskrame2/public_html/Connections/ssp.class.php on line 262
+[11-Apr-2024 01:57:54 Europe/Moscow] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/iskrame2/public_html/Connections/ssp.class.php on line 262
+[12-Apr-2024 01:54:35 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined method SSP::setQuery() in /home/iskrame2/public_html/Connections/ssp.class.php:295
+Stack trace:
+#0 /home/iskrame2/public_html/modules/ajaxHandlers/meeting_list.php(71): SSP::simple(Array, Array, 'catalog_users_d...', 'id', Array)
+#1 {main}
+  thrown in /home/iskrame2/public_html/Connections/ssp.class.php on line 295
+[12-Apr-2024 01:55:16 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::setQuery() in /home/iskrame2/public_html/Connections/ssp.class.php:295
+Stack trace:
+#0 /home/iskrame2/public_html/modules/ajaxHandlers/meeting_list.php(71): SSP::simple(Array, Array, 'catalog_users_d...', 'id', Array)
+#1 {main}
+  thrown in /home/iskrame2/public_html/Connections/ssp.class.php on line 295

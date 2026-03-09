@@ -1,0 +1,448 @@
+<?php
+include_once $_SERVER['DOCUMENT_ROOT'].'/tmpl/page/blocks/header.php';
+?>
+    <!-- Навигация для зарегистрированных. Разная в зависимости от прав -->
+    <nav id="admin_menu">
+        <div class="wrap">
+            <ul>
+                <li><a href="#"><span class="material-icons">account_box</span>Пользователи</a></li>
+                <li><a href="#"><span class="material-icons">account_balance_wallet</span>Финансы</a></li>
+                <li><a href="#"><span class="material-icons">groups</span>Мероприятия</a></li>
+                <li><a href="#"><span class="material-icons">assessment</span>Статистика</a></li>
+                <li><a class="active" href="#"><span class="material-icons">settings_applications</span>Настройки</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- оснвоное поле -->
+    <div class="content">
+        <div class="wrap">
+
+            <main>
+                <div class="box">
+                    <h1>Настройки</h1>
+                </div>
+                <div class="box">
+                    <div class="static_data">
+                        <form>
+                            <h2>Баллы</h2>
+                            <div class="group">
+
+                                <h3>За действия</h3>
+                                <div class="item">
+                                    <div class="el_data input_number">
+                                        <label for="metka_1">За участие в голосовании</label>
+                                        <div class="number-minus button icon" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><span class="material-icons">keyboard_arrow_down</span></div>
+                                        <input class="el_input" id="metka_1" value="10" type="number" min="0">
+                                        <div class="number-plus button icon" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><span class="material-icons">keyboard_arrow_up</span></div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="el_data input_number">
+                                        <label for="metka_1c">За голосование по инициативе</label>
+                                        <div class="number-minus button icon" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><span class="material-icons">keyboard_arrow_down</span></div>
+                                        <input class="el_input" id="metka_1c" value="5" type="number" min="0">
+                                        <div class="number-plus button icon" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><span class="material-icons">keyboard_arrow_up</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="el_data input_number">
+                                        <label for="metka_1v">За одобренную инициативу</label>
+                                        <div class="number-minus button icon" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><span class="material-icons">keyboard_arrow_down</span></div>
+                                        <input class="el_input" id="metka_1v" value="15" type="number" min="0">
+                                        <div class="number-plus button icon" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><span class="material-icons">keyboard_arrow_up</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="el_data input_number">
+                                        <label for="metka_1b">За орагнизацию мероприятия</label>
+                                        <div class="number-minus button icon" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><span class="material-icons">keyboard_arrow_down</span></div>
+                                        <input class="el_input" id="metka_1b" value="10" type="number" min="0">
+                                        <div class="number-plus button icon" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><span class="material-icons">keyboard_arrow_up</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="el_data input_number">
+                                        <label for="metka_1n">За участие в мероприятии</label>
+                                        <div class="number-minus button icon" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><span class="material-icons">keyboard_arrow_down</span></div>
+                                        <input class="el_input" id="metka_1n" value="5" type="number" min="0">
+                                        <div class="number-plus button icon" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><span class="material-icons">keyboard_arrow_up</span></div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="el_data input_number">
+                                        <label for="metka_1m">За привлечение</label>
+                                        <div class="number-minus button icon" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><span class="material-icons">keyboard_arrow_down</span></div>
+                                        <input class="el_input" id="metka_1m" value="1" type="number" min="0">
+                                        <div class="number-plus button icon" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><span class="material-icons">keyboard_arrow_up</span></div>
+                                    </div>
+                                </div>
+                                <h3>За взносы</h3>
+                                <div class="item">
+                                    <div class="el_data input_number">
+                                        <label for="metka_1m">За взносы 50</label>
+                                        <div class="number-minus button icon" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><span class="material-icons">keyboard_arrow_down</span></div>
+                                        <input class="el_input" id="metka_1ывфm" value="1" type="number" min="0">
+                                        <div class="number-plus button icon" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><span class="material-icons">keyboard_arrow_up</span></div>
+
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="el_data input_number">
+                                        <label for="metka_1m">За взносы 100</label>
+                                        <div class="number-minus button icon" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><span class="material-icons">keyboard_arrow_down</span></div>
+                                        <input class="el_input" id="metka_1ывm" value="1" type="number" min="0">
+                                        <div class="number-plus button icon" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><span class="material-icons">keyboard_arrow_up</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="el_data input_number">
+                                        <label for="metka_1m">За взносы 200</label>
+                                        <div class="number-minus button icon" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><span class="material-icons">keyboard_arrow_down</span></div>
+                                        <input class="el_input" id="metka_1вмm" value="1" type="number" min="0">
+                                        <div class="number-plus button icon" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><span class="material-icons">keyboard_arrow_up</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="el_data input_number">
+                                        <label for="metka_1m">За взносы 400</label>
+                                        <div class="number-minus button icon" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><span class="material-icons">keyboard_arrow_down</span></div>
+                                        <input class="el_input" id="metka_1вмm" value="1" type="number" min="0">
+                                        <div class="number-plus button icon" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><span class="material-icons">keyboard_arrow_up</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="el_data input_number">
+                                        <label for="metka_1m">За взносы 800</label>
+                                        <div class="number-minus button icon" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><span class="material-icons">keyboard_arrow_down</span></div>
+                                        <input class="el_input" id="metka_1вмm" value="1" type="number" min="0">
+                                        <div class="number-plus button icon" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><span class="material-icons">keyboard_arrow_up</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="el_data input_number">
+                                        <label for="metka_1m">За взносы 1600</label>
+                                        <div class="number-minus button icon" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><span class="material-icons">keyboard_arrow_down</span></div>
+                                        <input class="el_input" id="metka_1вмm" value="1" type="number" min="0">
+                                        <div class="number-plus button icon" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><span class="material-icons">keyboard_arrow_up</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="el_data input_number">
+                                        <label for="metka_1m">За взносы 3200</label>
+                                        <div class="number-minus button icon" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><span class="material-icons">keyboard_arrow_down</span></div>
+                                        <input class="el_input" id="metka_1вмm" value="1" type="number" min="0">
+                                        <div class="number-plus button icon" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><span class="material-icons">keyboard_arrow_up</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="el_data input_number">
+                                        <label for="metka_1m">За взносы 6400</label>
+                                        <div class="number-minus button icon" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><span class="material-icons">keyboard_arrow_down</span></div>
+                                        <input class="el_input" id="metka_1вмm" value="1" type="number" min="0">
+                                        <div class="number-plus button icon" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><span class="material-icons">keyboard_arrow_up</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="el_data input_number">
+                                        <label for="metka_1m">За взносы 12800</label>
+                                        <div class="number-minus button icon" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><span class="material-icons">keyboard_arrow_down</span></div>
+                                        <input class="el_input" id="metka_1вмm" value="1" type="number" min="0">
+                                        <div class="number-plus button icon" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><span class="material-icons">keyboard_arrow_up</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="el_data input_number">
+                                        <label for="metka_1m">За взносы 25600</label>
+                                        <div class="number-minus button icon" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><span class="material-icons">keyboard_arrow_down</span></div>
+                                        <input class="el_input" id="metka_1вмm" value="1" type="number" min="0">
+                                        <div class="number-plus button icon" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><span class="material-icons">keyboard_arrow_up</span></div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                            <button class="button icon text"><span class="material-icons">save</span>Сохранить</button>
+                        </form>
+                    </div>
+
+                    <div class="static_data">
+                        <form>
+                            <h2>Темы для голосования</h2>
+                            <div class="group">
+                                <h3>Список</h3>
+                                <div class="item">
+                                    <div class="el_data">
+                                        <label for="metka_1l">Название</label>
+                                        <input class="el_input" id="metka_1l" type="text" value="Политика">
+                                        <div class="button icon add"><span class="material-icons">remove_circle_outline</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="el_data">
+                                        <label for="metka_1k">Название</label>
+                                        <input class="el_input" id="metka_1k" type="text" value="Экономика">
+                                        <div class="button icon add"><span class="material-icons">remove_circle_outline</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="el_data">
+                                        <label for="metka_1j">Название</label>
+                                        <input class="el_input" id="metka_1j" type="text" value="Религия">
+                                        <div class="button icon add"><span class="material-icons">remove_circle_outline</span></div>
+                                        <div class="button icon add"><span class="material-icons">add_circle_outline</span></div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <button class="button icon text"><span class="material-icons">save</span>Сохранить</button>
+                        </form>
+                    </div>
+                    <div class="static_data">
+                        <form>
+                            <h2>Профессии</h2>
+                            <div class="group">
+                                <h3>Список</h3>
+                                <div class="item">
+                                    <div class="el_data">
+                                        <label for="metka_1l">Название</label>
+                                        <input class="el_input" id="metka_1l" type="text" value="Сварщик">
+                                        <div class="button icon add"><span class="material-icons">remove_circle_outline</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="el_data">
+                                        <label for="metka_1k">Название</label>
+                                        <input class="el_input" id="metka_1k" type="text" value="Строитель">
+                                        <div class="button icon add"><span class="material-icons">remove_circle_outline</span></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="el_data">
+                                        <label for="metka_1j">Название</label>
+                                        <input class="el_input" id="metka_1j" type="text" value="Юрист">
+                                        <div class="button icon add"><span class="material-icons">remove_circle_outline</span></div>
+                                        <div class="button icon add"><span class="material-icons">add_circle_outline</span></div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <button class="button icon text"><span class="material-icons">save</span>Сохранить</button>
+                        </form>
+                    </div>
+
+                    <div class="static_data">
+                        <form>
+                            <h2>Официальные информационные каналы</h2>
+                            <div class="group">
+                                <h3>Список</h3>
+                                <div class="item channel w_100">
+                                    <div class="el_data w_50">
+                                        <label for="metka_1h">Название</label>
+                                        <input class="el_input" id="metka_1h" type="text" value="Официальный канал народного движения 'Пора'">
+                                    </div>
+                                    <div class="el_data">
+                                        <label for="metka_1g">Ссылка</label>
+                                        <input class="el_input" id="metka_1g" type="text" value="https://t.me/PoraPartyOfficial">
+                                    </div>
+                                    <div class="button icon add"><span class="material-icons">remove_circle_outline</span></div>
+                                    <div class="button icon add"><span class="material-icons">add_circle_outline</span></div>
+                                </div>
+                            </div>
+                            <button class="button icon text"><span class="material-icons">save</span>Сохранить</button>
+                        </form>
+                    </div>
+                    <div class="static_data">
+                        <form>
+                            <h2>Информационные каналы по регионам</h2>
+                            <div class="group">
+                                <h3>Список</h3>
+                                <div class="item channel w_100">
+                                    <div class="el_data w_50">
+                                        <label for="metka_1f">Название</label>
+                                        <input class="el_input" id="metka_1f" type="text" value="Официальный канал народного движения 'Пора'">
+                                    </div>
+                                    <div class="el_data">
+                                        <label for="metka_1d">Ссылка</label>
+                                        <input class="el_input" id="metka_1d" type="text" value="https://t.me/PoraPartyOfficial">
+                                    </div>
+
+                                    <select multiple data-label="Субъект">
+                                        <option value="Субъект 1">Субъект 1</option>
+                                        <option value="Субъект 2">Субъект 2</option>
+                                        <option value="Субъект 3">Субъект 3</option>
+                                        <option value="Субъект 4">Субъект 4</option>
+                                        <option value="Субъект 5">Субъект 5</option>
+                                        <option value="Субъект 6">Субъект 6</option>
+                                        <option value="Субъект 7">Субъект 7</option>
+                                        <option value="Субъект 8">Субъект 8</option>
+                                        <option value="Субъект 9">Субъект 9</option>
+                                        <option value="Субъект 10">Субъект 10</option>
+                                        <option value="Субъект 11">Субъект 11</option>
+
+                                    </select>
+                                    <div class="button icon add"><span class="material-icons">remove_circle_outline</span></div>
+                                </div>
+                                <div class="item channel w_100">
+                                    <div class="el_data w_50">
+                                        <label for="metka_19">Название</label>
+                                        <input class="el_input" id="metka_19" type="text" value="Официальный канал народного движения 'Пора'">
+                                    </div>
+                                    <div class="el_data">
+                                        <label for="metka_18">Ссылка</label>
+                                        <input class="el_input" id="metka_18" type="text" value="https://t.me/MagadanGaz">
+                                    </div>
+
+                                    <select multiple data-label="Субъект">
+                                        <option value="Субъект 1">Субъект 1</option>
+                                        <option value="Субъект 2">Субъект 2</option>
+                                    </select>
+                                    <div class="button icon add"><span class="material-icons">remove_circle_outline</span></div>
+                                    <div class="button icon add"><span class="material-icons">add_circle_outline</span></div>
+                                </div>
+
+
+
+
+                            </div>
+                            <button class="button icon text"><span class="material-icons">save</span>Сохранить</button>
+                        </form>
+                    </div>
+
+                    <div class="static_data">
+                        <form>
+                            <h2>Профессиональные каналы</h2>
+                            <div class="group">
+                                <h3>Список</h3>
+                                <div class="item channel w_100">
+                                    <div class="el_data w_50">
+                                        <label for="metka_17">Название</label>
+                                        <input class="el_input" id="metka_17" type="text" value="Официальный канал народного движения 'Пора'">
+                                    </div>
+                                    <div class="el_data">
+                                        <label for="metka_16">Ссылка</label>
+                                        <input class="el_input" id="metka_16" type="text" value="https://t.me/PoraPartyOfficial">
+                                    </div>
+                                    <select multiple data-label="Профессия">
+                                        <option value="Профессия 1">Профессия 1</option>
+                                        <option value="Профессия 2">Профессия 2</option>
+                                    </select>
+                                    <div class="button icon add"><span class="material-icons">remove_circle_outline</span></div>
+                                </div>
+                                <div class="item channel w_100">
+                                    <div class="el_data w_50">
+                                        <label for="metka_15">Название</label>
+                                        <input class="el_input" id="metka_15" type="text" value="Газосварщики Магадана">
+                                    </div>
+                                    <div class="el_data">
+                                        <label for="metka_14">Ссылка</label>
+                                        <input class="el_input" id="metka_14" type="text" value="https://t.me/MagadanGaz">
+                                    </div>
+                                    <select multiple data-label="Профессия">
+                                        <option value="Профессия 1">Профессия 1</option>
+                                        <option value="Профессия 2">Профессия 2</option>
+                                    </select>
+                                    <div class="button icon add"><span class="material-icons">remove_circle_outline</span></div>
+                                    <div class="button icon add"><span class="material-icons">add_circle_outline</span></div>
+                                </div>
+
+
+
+
+                            </div>
+                            <button class="button icon text"><span class="material-icons">save</span>Сохранить</button>
+                        </form>
+                    </div>
+
+                </div>
+            </main>
+            <!-- <div class="donate">
+            <div class="wrap">
+                <div class="box">Donate section</div>
+            </div>
+
+        </div> -->
+
+        </div>
+    </div>
+    <footer>
+        <div class="wrap">
+            <div class="box">
+                <div class="logo">
+                    <a href="#"><img src="images/logo_white.svg" alt="Пора" /></a>
+                </div>
+            </div>
+            <div class="box">
+                <ul>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                    <li><a href="#">Пользовательское соглашение</a></li>
+                    <li><a href="#">Политика использования Cookie</a></li>
+                </ul>
+
+            </div>
+            <div class="box">
+                <h4>инфо 3</h4>
+            </div>
+            <!--            -->
+
+            <!--            -->
+        </div>
+    </footer>
+    <!-- Modals section -->
+
+    <div id="notify_show">
+        <div class="wrapper">
+            <div class="message error">
+                <div class="title">Внимание!</div>
+                <p>Вы уверены?</p>
+                <button type="button" class="button text">Да</button>
+                <button type="button" onclick="notify_close()" class="button text">Нет</button>
+            </div>
+        </div>
+    </div>
+    <!-- End modals -->
+
+    <!-- Универсальный wrapper для Pop-Up-ов -->
+    <div id="pop_up_...." class="wrap_pop_up">
+        <div class="pop_up">
+            pop_up_....
+
+        </div>
+    </div>
+    <!-- Конец "универсальный wrapper" для Pop-Up-ов -->
+    <!-- end pop_up-->
+    <script>
+        /*      Show hidden cells !!! Change icons don`t working :-(       */
+        $(document).ready(function () {
+            $('.more').click(function () {
+                $(this).parent().parent().next('.hidden').slideToggle(100, function () {
+
+
+                    if ($(this).is(':hidden')) {
+                        $('.more .material-icons').html('unfold_less');
+
+                    } else {
+
+                        $('.more .material-icons').html('unfold_more');
+
+                    }
+                });
+                return false;
+            });
+        });
+    </script>
+    <script src="js/notify.js"></script>
+
+    <script src="js/call_popups.js"></script>
+
+</body>
+
+
+</html>

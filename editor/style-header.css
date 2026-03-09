@@ -1,0 +1,168 @@
+        body {
+            margin: 0;
+        }
+
+        body iframe, body table{
+            height: 100%;
+        }
+
+        .style1 {
+	/* [disabled]color: #336666; */
+	/* [disabled]font-weight: bold; */
+	/* [disabled]font-size: 1rem; */
+        }
+
+        .style2 {
+	/* [disabled]font-size: 11px; */
+        }
+
+        .style3 {
+	/* [disabled]font-size: 10px; */
+	/* [disabled]color: #215253; */
+        }
+
+        .style4 {
+	/* [disabled]color: #FFFFFF; */
+        }
+
+        #preloader {
+            display: block;
+            position: absolute;
+            left: 48%;
+            top: 48%;
+            width: 54px;
+            height: 54px;
+            z-index: 1000000;
+        }
+
+        .sk-cube-grid {
+            width: 4em;
+            height: 4em;
+            margin: auto;
+        }
+
+        .sk-cube-grid .sk-cube {
+            width: 33%;
+            height: 33%;
+            background-color: #337ab7;
+            float: left;
+            -webkit-animation: sk-cube-grid-scale-delay 1.3s infinite ease-in-out;
+            animation: sk-cube-grid-scale-delay 1.3s infinite ease-in-out;
+        }
+
+        .sk-cube-grid .sk-cube-1 {
+            -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+        }
+
+        .sk-cube-grid .sk-cube-2 {
+            -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+        }
+
+        .sk-cube-grid .sk-cube-3 {
+            -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+        }
+
+        .sk-cube-grid .sk-cube-4 {
+            -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s;
+        }
+
+        .sk-cube-grid .sk-cube-5 {
+            -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+        }
+
+        .sk-cube-grid .sk-cube-6 {
+            -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+        }
+
+        .sk-cube-grid .sk-cube-7 {
+            -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+        }
+
+        .sk-cube-grid .sk-cube-8 {
+            -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s;
+        }
+
+        .sk-cube-grid .sk-cube-9 {
+            -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+        }
+		.main-header{
+	height: 3rem;
+	line-height: 3rem;
+	background: #005c85;
+	color: #FFF;
+			}
+.main-title{
+font-weight: 500;
+/*font-size: 1rem;*/
+color:#fff;
+float: left;
+line-height: 3rem;
+margin-left: 2.5rem;
+}
+
+.main-title a{
+	color:#fff;
+	text-decoration: underline;}
+.account {
+	float: right;
+
+margin-right: 2.5rem;
+	}
+        @-webkit-keyframes sk-cube-grid-scale-delay {
+            0%, 70%, 100% {
+                -webkit-transform: scale3D(1, 1, 1);
+                transform: scale3D(1, 1, 1);
+            }
+            35% {
+                -webkit-transform: scale3D(0, 0, 1);
+                transform: scale3D(0, 0, 1);
+            }
+        }
+
+        @keyframes sk-cube-grid-scale-delay {
+            0%, 70%, 100% {
+                -webkit-transform: scale3D(1, 1, 1);
+                transform: scale3D(1, 1, 1);
+            }
+            35% {
+                -webkit-transform: scale3D(0, 0, 1);
+                transform: scale3D(0, 0, 1);
+            }
+        }
+
+    .account .material-icons {
+	/*! background: #3C3; */
+	color: #fff;
+	float: left;
+	line-height: 3rem;
+cursor: default;
+}
+.account .material-icons a{color: #fff;text-decoration: none;}
+    .account .role {
+	/*! background: #C93; */
+	
+	line-height: 3rem;
+	float: left;
+	margin-right: 2rem;
+	margin-left: 0.5rem;
+}
+    .account .captlink {
+	/*! background: #CC3; */
+	
+	line-height: 3rem;
+	margin-left: 0.5rem;
+	color: #fff;
+	text-decoration: underline;
+}
+    .account .item {
+	float: left;
+}

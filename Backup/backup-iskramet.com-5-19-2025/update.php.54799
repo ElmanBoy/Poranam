@@ -1,0 +1,21 @@
+<br />
+<b>Warning</b>:  mysqli_real_connect(): (HY000/2013): Lost connection to MySQL server at 'reading initial communication packet', system error: 104 in <b>/home/iskrame2/public_html/Connections/dbconn.php</b> on line <b>22</b><br />
+<br />
+<b>Warning</b>:  mysqli_query(): invalid object or resource mysqli
+ in <b>/home/iskrame2/public_html/Connections/db.php</b> on line <b>240</b><br />
+<br />
+<b>Warning</b>:  mysqli_query(): invalid object or resource mysqli
+ in <b>/home/iskrame2/public_html/Connections/db.php</b> on line <b>240</b><br />
+<pre>UPDATE catalog_init_data SET field14 = 15 WHERE field3 < '2024-04-21 00:44:24'</pre><br><br />
+<b>Warning</b>:  mysqli_query(): invalid object or resource mysqli
+ in <b>/home/iskrame2/public_html/Connections/db.php</b> on line <b>240</b><br />
+<pre><br />
+<b>Warning</b>:  mysqli_errno(): invalid object or resource mysqli
+ in <b>/home/iskrame2/public_html/Connections/db.php</b> on line <b>167</b><br />
+<br />
+<b>Warning</b>:  mysqli_sqlstate(): invalid object or resource mysqli
+ in <b>/home/iskrame2/public_html/Connections/db.php</b> on line <b>167</b><br />
+<br />
+<b>Warning</b>:  mysqli_error(): invalid object or resource mysqli
+ in <b>/home/iskrame2/public_html/Connections/db.php</b> on line <b>167</b><br />
+:   in query: UPDATE catalog_init_data SET field14 = 15 WHERE field3 < '2024-04-21 00:44:24'</pre>

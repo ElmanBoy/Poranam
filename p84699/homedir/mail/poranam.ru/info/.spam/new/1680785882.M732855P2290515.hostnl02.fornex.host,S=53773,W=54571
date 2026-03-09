@@ -1,0 +1,798 @@
+Return-Path: <mike@ropoc.ru>
+Delivered-To: info+spam@poranam.ru
+Received: from hostnl02.fornex.host
+	by hostnl02.fornex.host with LMTP
+	id MAkKK9rBLmRT8yIAPMQOpA
+	(envelope-from <mike@ropoc.ru>)
+	for <info+spam@poranam.ru>; Thu, 06 Apr 2023 12:58:02 +0000
+Return-path: <mike@ropoc.ru>
+Envelope-to: info@poranam.ru
+Delivery-date: Thu, 06 Apr 2023 12:58:02 +0000
+Received: from [194.226.139.149] (port=40431 helo=mail.ropoc.ru)
+	by hostnl02.fornex.host with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <mike@ropoc.ru>)
+	id 1pkPBh-009pZR-0J
+	for info@poranam.ru;
+	Thu, 06 Apr 2023 12:58:02 +0000
+Message-ID: <067d66798d68b991b21eb71ce8ba909aacdf0c52@ropoc.ru>
+Reply-To: =?utf-8?B?0JTQuNCw0L3QsCDQn9C+0LTQsdC10YDQtdC30L7QstC40LrQvtCy0LA=?= <zolotilovpyotr@rambler.ru>
+From: =?utf-8?B?0JTQuNCw0L3QsCDQn9C+0LTQsdC10YDQtdC30L7QstC40LrQvtCy0LA=?= <mike@ropoc.ru>
+To: info@poranam.ru
+Date: Thu, 6 Apr 2023 15:57:17 +0300
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="09a3cb9b4c88a44f6cc619b24796294815"
+DKIM-Signature: v=1; c=relaxed/relaxed; a=rsa-sha256; s=mail; d=ropoc.ru;
+	t=1680785837; h=message-id:from:to:subject:date:mime-version;
+	bh=BKsyh41oV3SrVQQyces9sr7S26Ut0vCBa15MtJbh5Ro=;
+	b=trtvRS8pKmoR1ppaxtd1ty2v7u5TfGNB9tPQqD6kgWrW/fe8v9gc1hQF2FCIAeeJz8jqXzas
+	ICMxzWFDUxr1e4iYCrPTnEN+n5WbPMP55OhJyiwwTwYD4VV5/ByvXmZHzBZDpL//3zA6Tr4pst
+	wYqFss0NQitj6fBdvhMalmN0s=
+X-Spam-Status: Yes, score=16.4
+X-Spam-Score: 164
+X-Spam-Bar: ++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "hostnl02.fornex.host",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  12 апреля 2023 г. Очно и Онлайн Валютное
+    регулирование ВЭД. 
+ Content analysis details:   (16.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in
+                             bl.spamcop.net
+             [Blocked - see <https://www.spamcop.net/bl.shtml?194.226.139.149>]
+  1.9 URIBL_ABUSE_SURBL      Contains an URL listed in the ABUSE SURBL
+                             blocklist
+                             [URIs: ropoc.ru]
+  0.0 URIBL_DBL_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             dbl.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: ropoc.ru]
+  1.3 RCVD_IN_VALIDITY_RPBL  RBL: Relay in Validity RPBL,
+                             https://senderscore.org/blocklistlookup/
+                           [194.226.139.149 listed in bl.score.senderscore.com]
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [194.226.139.149 listed in psbl.surriel.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: ropoc.ru]
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  0.8 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+  1.0 FREEMAIL_REPLYTO       Reply-To/From or Reply-To/body contain
+                             different freemails
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+  1.2 NORDNS_LOW_CONTRAST    No rDNS + hidden text
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?utf-8?B?0JLQsNC70Y7RgtCwLiDQktCt0JQuINCR0LjQt9C90LXRgSDRgSDQmtC40YI=?=
+	=?utf-8?B?0LDQtdC8Lg==?=
+
+--09a3cb9b4c88a44f6cc619b24796294815
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+12 =D0=B0=D0=BF=D1=80=D0=B5=D0=BB=D1=8F 2023 =D0=B3.
+
+=D0=9E=D1=87=D0=BD=D0=BE =D0=B8 =D0=9E=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD
+
+=D0=92=D0=B0=D0=BB=D1=8E=D1=82=D0=BD=D0=BE=D0=B5 =D1=80=D0=B5=D0=B3=D1=83=
+=D0=BB=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D0=92=D0=AD=D0=94=
+.
+
+1. =D0=92=D0=B0=D0=BB=D1=8E=D1=82=D0=BD=D1=8B=D0=B5 =D1=80=D0=B0=D1=81=D1=
+=87=D0=B5=D1=82=D1=8B =D0=BF=D0=BE =D0=B2=D0=BD=D0=B5=D1=88=D0=BD=D0=B5=D1=
+=82=D0=BE=D1=80=D0=B3=D0=BE=D0=B2=D1=8B=D0=BC =D1=81=D0=B4=D0=B5=D0=BB=D0=
+=BA=D0=B0=D0=BC =D0=B2 =D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F=D1=85 =D0=
+=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D1=8F =D1=81=D0=BF=D0=B5=D1=86=D0=
+=B8=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D1=85 =D1=8D=D0=BA=D0=BE=D0=BD=D0=BE=D0=
+=BC=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85 =D0=BC=D0=B5=D1=80=C2=A0 =D0=
+=B2 =D0=B2=D0=B0=D0=BB=D1=8E=D1=82=D0=BD=D0=BE=D0=B9 =D1=81=D1=84=D0=B5=D1=
+=80=D0=B5: - =D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=D0=B8=
+=D1=8F =D0=BD=D0=B0 =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=
+=D0=B5 =D0=B2=D0=B0=D0=BB=D1=8E=D1=82=D0=BD=D1=8B=D1=85 =D0=BE=D0=BF=D0=B5=
+=D1=80=D0=B0=D1=86=D0=B8=D0=B9 =D1=80=D0=B5=D0=B7=D0=B8=D0=B4=D0=B5=D0=BD=
+=D1=82=D0=B0=D0=BC=D0=B8 =D0=B8 =D0=BD=D0=B5=D1=80=D0=B5=D0=B7=D0=B8=D0=B4=
+=D0=B5=D0=BD=D1=82=D0=B0=D0=BC=D0=B8;- =D1=81=D0=BC=D1=8F=D0=B3=D1=87=D0=B5=
+=D0=BD=D0=B8=D0=B5 =D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=
+=D0=B8=D1=8F =D0=BD=D0=B0 =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=B8=
+ =D1=81 =D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=BD=D0=BE=D0=B9 =D0=B8=D0=BD=D0=BE=
+=D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=BD=D0=BE=D0=B9 =D0=B2=D0=B0=D0=BB=D1=8E=
+=D1=82=D0=BE=D0=B9 =D0=B2 =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=B9=D1=81=D0=BA=
+=D0=BE=D0=B9 =D0=A4=D0=B5=D0=B4=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=B8; - =D0=
+=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B =D0=BD=D0=B0 =D0=B2=D1=8B=D0=B2=D0=BE=D0=
+=B7 =D0=B2=D0=B0=D0=BB=D1=8E=D1=82=D1=8B =D0=B7=D0=B0 =D1=80=D1=83=D0=B1=D0=
+=B5=D0=B6;- =D0=B7=D0=B0=D0=BF=D1=80=D0=B5=D1=82 =D0=BD=D0=B0 =D0=B8=D1=81=
+=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D1=8D=
+=D0=BB=D0=B5=D0=BA=D1=82=D1=80=D0=BE=D0=BD=D0=BD=D1=8B=D1=85 =D1=81=D1=80=
+=D0=B5=D0=B4=D1=81=D1=82=D0=B2 =D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=B6=D0=B0=
+;-=D0=B7=D0=B0=D0=BF=D1=80=D0=B5=D1=82 =D1=81=D0=BE=D0=B2=D0=B5=D1=80=D1=88=
+=D0=B0=D1=82=D1=8C =D0=B2=D0=BD=D0=B5=D1=88=D0=BD=D0=B5=D1=8D=D0=BA=D0=BE=
+=D0=BD=D0=BE=D0=BC=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=B5 =D1=81=D0=B4=
+=D0=B5=D0=BB=D0=BA=D0=B8 =D0=B8 =D0=BF=D1=80=D0=BE=D0=B2=D0=BE=D0=B4=D0=B8=
+=D1=82=D1=8C =D1=84=D0=B8=D0=BD=D0=B0=D0=BD=D1=81=D0=BE=D0=B2=D1=8B=D0=B5=
+ =D1=80=D0=B0=D1=81=D1=87=D0=B5=D1=82=D1=8B =D1=81 =D0=B7=D0=B0=D1=80=D1=83=
+=D0=B1=D0=B5=D0=B6=D0=BD=D1=8B=D0=BC=D0=B8 =D0=BA=D0=BE=D0=BC=D0=BF=D0=B0=
+=D0=BD=D0=B8=D1=8F=D0=BC=D0=B8, =D0=B2 =D0=BE=D1=82=D0=BD=D0=BE=D1=88=D0=B5=
+=D0=BD=D0=B8=D0=B8 =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D1=85 =D1=83=D1=81=
+=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D1=8B =D1=81=D0=B0=D0=BD=
+=D0=BA=D1=86=D0=B8=D0=B8 (=D0=A3=D0=BA=D0=B0=D0=B7 =D0=9F=D1=80=D0=B5=D0=B7=
+=D0=B8=D0=B4=D0=B5=D0=BD=D1=82=D0=B0 =D0=A0=D0=A4 =D0=BE=D1=82=C2=A0 03.0=
+5.2022 =E2=84=96 252);
+
+2. =D0=92=D0=B0=D0=BB=D1=8E=D1=82=D0=BD=D1=8B=D0=B9 =D0=BA=D0=BE=D0=BD=D1=
+=82=D1=80=D0=BE=D0=BB=D1=8C =D0=B2=D0=BD=D0=B5=D1=88=D0=BD=D0=B5=D1=82=D0=
+=BE=D1=80=D0=B3=D0=BE=D0=B2=D1=8B=D1=85 =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=
+=86=D0=B8=D0=B9 =D0=B2 2023 =D0=B3=D0=BE=D0=B4=D1=83 =D0=B2 =D1=81=D0=BE=D0=
+=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D0=B8=D0=B8 =D1=81 =D0=BF=D0=
+=BE=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F=D0=BC=D0=B8 =D0=98=D0=BD=D1=
+=81=D1=82=D1=80=D1=83=D0=BA=D1=86=D0=B8=D0=B8 =D0=A6=D0=91 =D0=A0=D0=BE=D1=
+=81=D1=81=D0=B8=D0=B8 =D0=BE=D1=82 16.08.2017 =E2=84=96 181-=D0=98 =C2=AB=
+=D0=9E =D0=BF=D0=BE=D1=80=D1=8F=D0=B4=D0=BA=D0=B5 =D0=BF=D1=80=D0=B5=D0=B4=
+=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D1=80=D0=B5=D0=B7=
+=D0=B8=D0=B4=D0=B5=D0=BD=D1=82=D0=B0=D0=BC=D0=B8 =D0=B8 =D0=BD=D0=B5=D1=80=
+=D0=B5=D0=B7=D0=B8=D0=B4=D0=B5=D0=BD=D1=82=D0=B0=D0=BC=D0=B8 =D1=83=D0=BF=
+=D0=BE=D0=BB=D0=BD=D0=BE=D0=BC=D0=BE=D1=87=D0=B5=D0=BD=D0=BD=D1=8B=D0=BC =
+=D0=B1=D0=B0=D0=BD=D0=BA=D0=B0=D0=BC =D0=BF=D0=BE=D0=B4=D1=82=D0=B2=D0=B5=
+=D1=80=D0=B6=D0=B4=D0=B0=D1=8E=D1=89=D0=B8=D1=85 =D0=B4=D0=BE=D0=BA=D1=83=
+=D0=BC=D0=B5=D0=BD=D1=82=D0=BE=D0=B2 =D0=B8 =D0=B8=D0=BD=D1=84=D0=BE=D1=80=
+=D0=BC=D0=B0=D1=86=D0=B8=D0=B8 =D0=BF=D1=80=D0=B8 =D0=BE=D1=81=D1=83=D1=89=
+=D0=B5=D1=81=D1=82=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B8 =D0=B2=D0=B0=D0=BB=
+=D1=8E=D1=82=D0=BD=D1=8B=D1=85 =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=
+=D0=B9, =D0=BF=D0=BE=D1=80=D1=8F=D0=B4=D0=BA=D0=B5 =D0=B8 =D1=81=D1=80=D0=
+=BE=D0=BA=D0=B0=D1=85 =D0=BF=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B0=D0=B2=D0=
+=BB=D0=B5=D0=BD=D0=B8=D1=8F =D0=B5=D0=B4=D0=B8=D0=BD=D1=8B=D1=85 =D1=84=D0=
+=BE=D1=80=D0=BC =D1=83=D1=87=D0=B5=D1=82=D0=B0 =D0=B8 =D0=BE=D1=82=D1=87=D0=
+=B5=D1=82=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D0=BF=D0=BE =D0=B2=D0=B0=D0=BB=D1=
+=8E=D1=82=D0=BD=D1=8B=D0=BC =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D1=
+=8F=D0=BC, =D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D0=BB=D0=B0=D1=85 =D0=BF=D1=80=D0=
+=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D0=BE=D1=82=D0=B4=D0=B5=D0=
+=BB=D1=8C=D0=BD=D1=8B=D1=85 =D0=B1=D0=B0=D0=BD=D0=BA=D0=BE=D0=B2=D1=81=D0=
+=BA=D0=B8=D1=85 =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=B9 =D0=B8 =D1=
+=81=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D1=81=D1=
+=82=D0=B0=D1=82=D0=B8=D1=81=D1=82=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=BE=D0=B9=
+ =D0=BE=D1=82=D1=87=D0=B5=D1=82=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D0=BF=D0=BE=
+ =D0=BD=D0=B8=D0=BC=C2=BB (=D1=81 =D1=83=D1=87=D0=B5=D1=82=D0=BE=D0=BC =D0=
+=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D0=B9 =D0=B8 =D0=B4=D0=BE=D0=
+=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B9). . =D0=92=D0=B0=D0=BB=D1=8E=
+=D1=82=D0=BD=D1=8B=D0=B9 =D0=BA=D0=BE=D0=BC=D0=BF=D0=BB=D0=B0=D0=B5=D0=BD=
+=D1=81=C2=A0 =D0=B2 =D0=BA=D0=BE=D0=BC=D0=BF=D0=B0=D0=BD=D0=B8=D0=B8. =D0=
+=9A=D0=B0=D0=BA =D0=B8=D0=B7=D0=B1=D0=B5=D0=B6=D0=B0=D1=82=D1=8C =D0=BE=D1=
+=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=82=
+=D0=B8 =D0=B7=D0=B0 =D0=BD=D0=B0=D1=80=D1=83=D1=88=D0=B5=D0=BD=D0=B8=D1=8F=
+ =D0=B2=D0=B0=D0=BB=D1=8E=D1=82=D0=BD=D0=BE=D0=B3=D0=BE =D0=B7=D0=B0=D0=BA=
+=D0=BE=D0=BD=D0=BE=D0=B4=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D1=81=D1=82=D0=B2=D0=
+=B0 =D0=A0=D0=A4 =D0=B2 =D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F=D1=85 =
+=D0=B2=D0=BD=D0=B5=D1=88=D0=BD=D0=B8=D1=85 =D1=81=D0=B0=D0=BD=D0=BA=D1=86=
+=D0=B8=D0=B9? .=D0=9A=D0=B0=D0=BA=D0=B8=D0=B5 =D0=B8=D0=B7=D0=BC=D0=B5=D0=
+=BD=D0=B5=D0=BD=D0=B8=D1=8F =D0=B2=D0=B0=D0=BB=D1=8E=D1=82=D0=BD=D0=BE=D0=
+=B3=D0=BE =D0=B7=D0=B0=D0=BA=D0=BE=D0=BD=D0=BE=D0=B4=D0=B0=D1=82=D0=B5=D0=
+=BB=D1=8C=D1=81=D1=82=D0=B2=D0=B0 =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=B9=D1=
+=81=D0=BA=D0=BE=D0=B9 =D0=A4=D0=B5=D0=B4=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=
+=B8 =D0=BE=D0=B6=D0=B8=D0=B4=D0=B0=D1=8E=D1=82=D1=81=D1=8F =D0=B2=C2=A0 2=
+023 =D0=B3=D0=BE=D0=B4=D1=83? =D0=9A=D0=BE=D0=BC=D0=BC=D0=B5=D0=BD=D1=82=D0=
+=B0=D1=80=D0=B8=D0=B9 =D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D1=8B=D1=85 =D0=
+=BF=D0=BE=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=B9 =D0=B7=D0=B0=D0=BA=D0=
+=BE=D0=BD=D0=BE=D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=82=D0=BE=D0=B2.
+
+=D0=A1=D1=82=D0=BE=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D1=8C =D1=83=D1=87=D0=B0=
+=D1=81=D1=82=D0=B8=D1=8F: 9500 =D1=80=D1=83=D0=B1=D0=BB=D0=B5=D0=B9.=C2=A0=
+ =D0=9E=D1=87=D0=BD=D0=BE 10500 =D1=80=D1=83=D0=B1.
+
+18 =D0=B0=D0=BF=D1=80=D0=B5=D0=BB=D1=8F 2023 =D0=B3.
+
+=D0=9E=D1=87=D0=BD=D0=BE (=D0=B2 =D0=9C=D0=BE=D1=81=D0=BA=D0=B2=D0=B5) =D0=
+=9E=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD (=D0=BD=D0=B0 =D0=B2=D1=81=D0=B5 =D1=80=
+=D0=B5=D0=B3=D0=B8=D0=BE=D0=BD=D1=8B)
+
+=D0=91=D0=B8=D0=B7=D0=BD=D0=B5=D1=81=D0=B0 =D1=81 =D0=9A=D0=B8=D1=82=D0=B0=
+=D0=B5=D0=BC. =D0=9F=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D1=82=D0=B5 =D0=BD=D0=B5=
+=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D1=8B=D0=B5 =D0=B7=D0=BD=D0=B0=
+=D0=BD=D0=B8=D1=8F =D0=BE=D0=B1 =D0=BE=D1=81=D0=BE=D0=B1=D0=B5=D0=BD=D0=BD=
+=D0=BE=D1=81=D1=82=D1=8F=D1=85 =D1=80=D0=B0=D0=B1=D0=BE=D1=82=D1=8B =D0=BD=
+=D0=B0 =D1=80=D1=8B=D0=BD=D0=BA=D0=B0=D1=85 =D0=9A=D0=B8=D1=82=D0=B0=D1=8F=
+ (=D0=B3=D1=80=D0=B0=D0=BC=D0=BE=D1=82=D0=BD=D0=BE =D0=B3=D0=BE=D1=82=D0=BE=
+=D0=B2=D0=B8=D1=82=D1=8C =D0=B2=D0=BD=D0=B5=D1=88=D0=BD=D0=B5=D1=82=D0=BE=
+=D1=80=D0=B3=D0=BE=D0=B2=D1=8B=D0=B5 =D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=B0=
+=D0=BA=D1=82=D1=8B =D1=81 =D1=83=D1=87=D1=91=D1=82=D0=BE=D0=BC =D0=BE=D1=81=
+=D0=BE=D0=B1=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=82=D0=B5=D0=B9 =D0=BD=D0=B0=
+=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D0=BE=D0=B3=D0=BE =D0=B7=
+=D0=B0=D0=BA=D0=BE=D0=BD=D0=BE=D0=B4=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D1=81=D1=
+=82=D0=B2=D0=B0)
+
+=D0=94=D0=BB=D1=8F =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=B8 =D0=9A=D0=B8=D1=82=
+=D0=B0=D0=B9 =D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=81=D1=8F=
+ =D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D1=8B=D0=BC =D0=BF=D0=BE=D0=BB=D0=B8=
+=D1=82=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=BC =D0=B8 =D1=82=D0=BE=D1=80=
+=D0=B3=D0=BE=D0=B2=D1=8B=D0=BC =D0=BF=D0=B0=D1=80=D1=82=D0=BD=D0=B5=D1=80=
+=D0=BE=D0=BC. =D0=9E=D0=B4=D0=BD=D0=B0=D0=BA=D0=BE =D0=B1=D0=B8=D0=B7=D0=BD=
+=D0=B5=D1=81 =D1=81 =D0=BA=D0=B8=D1=82=D0=B0=D0=B9=D1=81=D0=BA=D0=B8=D0=BC=
+=D0=B8 =D0=BF=D0=B0=D1=80=D1=82=D0=BD=D0=B5=D1=80=D0=B0=D0=BC=D0=B8 =D0=B8=
+=D0=BC=D0=B5=D0=B5=D1=82 =D1=86=D0=B5=D0=BB=D1=8B=D0=B9 =D1=80=D1=8F=D0=B4=
+ =D1=81=D0=BF=D0=B5=D1=86=D0=B8=D1=84=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=
+=D1=85 =D0=BE=D1=81=D0=BE=D0=B1=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=82=D0=B5=
+=D0=B9, =D0=BD=D0=B5=D0=B7=D0=BD=D0=B0=D0=BD=D0=B8=D0=B5, =D0=B8=D0=B3=D0=
+=BD=D0=BE=D1=80=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BA=D0=
+=BE=D1=82=D0=BE=D1=80=D1=8B=D1=85 =D0=BD=D0=B5=D1=81=D0=B5=D1=82 =D0=B7=D0=
+=BD=D0=B0=D1=87=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D1=80=D0=
+=B8=D1=81=D0=BA=D0=B8.
+
+=D0=9F=D1=80=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=B0 =D1=81=D0=B5=D0=BC=
+=D0=B8=D0=BD=D0=B0=D1=80=D0=B0:
+
+=D0=98=D1=81=D1=82=D0=BE=D1=87=D0=BD=D0=B8=D0=BA=D0=B8 =D0=B8=D0=BD=D1=84=
+=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D0=B8 =D0=BE =D1=82=D0=BE=D0=B2=D0=B0=
+=D1=80=D0=B0=D1=85, =D1=83=D1=81=D0=BB=D1=83=D0=B3=D0=B0=D1=85, =D0=BF=D0=
+=BE=D1=81=D1=82=D0=B0=D0=B2=D1=89=D0=B8=D0=BA=D0=B0=D1=85 =D0=B8 =D0=BF=D0=
+=BE=D0=BA=D1=83=D0=BF=D0=B0=D1=82=D0=B5=D0=BB=D1=8F=D1=85 =D0=B2 =D0=9A=D0=
+=B8=D1=82=D0=B0=D0=B5
+
+=D0=9C=D0=B5=D0=B4=D0=BE=D0=B4=D0=B8=D0=BA=D0=B0 =D0=BF=D1=80=D0=BE=D0=B2=
+=D0=B5=D1=80=D0=BA=D0=B8 =D0=BD=D0=B0=D0=B4=D0=B5=D0=B6=D0=BD=D0=BE=D1=81=
+=D1=82=D0=B8 =D0=B8 =D0=B4=D0=B5=D0=BB=D0=BE=D0=B2=D0=BE=D0=B9 =D1=80=D0=B5=
+=D0=BF=D1=83=D1=82=D0=B0=D1=86=D0=B8=D0=B8 =D0=BA=D0=B8=D1=82=D0=B0=D0=B9=
+=D1=81=D0=BA=D0=B8=D1=85 =D0=BF=D0=B0=D1=80=D1=82=D0=BD=D0=B5=D1=80=D0=BE=
+=D0=B2. =D0=90=D1=83=D0=B4=D0=B8=D1=82 =D0=BF=D1=80=D0=B5=D0=B4=D0=BF=D1=80=
+=D0=B8=D1=8F=D1=82=D0=B8=D1=8F =E2=80=93 =D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=
+=B8=D1=8F, =D1=81=D1=82=D0=BE=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D1=8C, =D1=81=
+=D1=80=D0=BE=D0=BA=D0=B8; =D0=BE=D0=B1=D1=80=D0=B0=D0=B7=D0=B5=D1=86 =D0=B0=
+=D1=83=D0=B4=D0=B8=D1=82=D0=BE=D1=80=D1=81=D0=BA=D0=BE=D0=B3=D0=BE =D0=BE=
+=D1=82=D1=87=D0=B5=D1=82=D0=B0.=C2=A0=C2=A0 =D0=9E=D1=81=D0=BD=D0=BE=D0=B2=
+=D0=BD=D1=8B=D0=B5 =D0=BF=D0=BE=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F=
+ =D0=B2=D0=BD=D0=B5=D1=88=D0=BD=D0=B5=D1=82=D0=BE=D1=80=D0=B3=D0=BE=D0=B2=
+=D0=BE=D0=B3=D0=BE =D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=B0=D0=BA=D1=82=D0=B0=
+. =D0=A3=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F =D0=BE=D0=BF=D0=BB=D0=B0=D1=82=
+=D1=8B =D0=B8 =D1=81=D1=80=D0=BE=D0=BA=D0=B8 =D0=BF=D0=BE=D1=81=D1=82=D0=B0=
+=D0=B2=D0=BA=D0=B8. =D0=9A=D0=B0=D0=BA =D0=B2=D1=8B=D0=B1=D1=80=D0=B0=D1=82=
+=D1=8C =D0=BE=D0=BF=D1=82=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D0=B9=
+ =D0=B8 =D0=B1=D0=B5=D0=B7=D0=BE=D0=BF=D0=B0=D1=81=D0=BD=D1=8B=D0=B9 =D1=81=
+=D0=BF=D0=BE=D1=81=D0=BE=D0=B1 =D0=BE=D0=BF=D0=BB=D0=B0=D1=82=D1=8B =D1=82=
+=D0=BE=D0=B2=D0=B0=D1=80=D0=B0.=C2=A0 =D0=A0=D0=B0=D0=B7=D0=BC=D0=B5=D1=89=
+=D0=B5=D0=BD=D0=B8=D0=B5, =D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8C=
+ =D0=BF=D1=80=D0=BE=D1=86=D0=B5=D1=81=D1=81=D0=B0 =D0=B8 =D1=81=D1=80=D0=BE=
+=D0=BA=D0=BE=D0=B2 =D0=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=
+=D1=8F =D0=B7=D0=B0=D0=BA=D0=B0=D0=B7=D0=B0. =D0=AD=D0=BA=D1=81=D0=BF=D0=BE=
+=D1=80=D1=82=D0=BD=D0=B0=D1=8F =D1=83=D0=BF=D0=B0=D0=BA=D0=BE=D0=B2=D0=BA=
+=D0=B0 =D0=B8 =D0=BC=D0=B0=D1=80=D0=BA=D0=B8=D1=80=D0=BE=D0=B2=D0=BA=D0=B0=
+ =D0=B3=D1=80=D1=83=D0=B7=D0=B0, =D1=81=D1=82=D0=B8=D0=BA=D0=B5=D1=80=D1=8B=
+, =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=BE=D1=81=D0=BE=D0=BF=D1=80=D0=BE=D0=B2=
+=D0=BE=D0=B4=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D0=B4=D0=BE=
+=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D1=8B.=C2=A0 =D0=9F=D1=80=D0=BE=D0=B2=
+=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BD=D0=B5=D0=B7=D0=B0=D0=B2=D0=B8=
+=D1=81=D0=B8=D0=BC=D0=BE=D0=B9 =D0=B8=D0=BD=D1=81=D0=BF=D0=B5=D0=BA=D1=86=
+=D0=B8=D0=B8 =D0=BF=D1=80=D0=BE=D0=B8=D0=B7=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=
+=D0=BD=D0=BE=D0=B3=D0=BE =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=B0 =D0=B4=D0=BE=
+ =D0=BE=D1=82=D0=B3=D1=80=D1=83=D0=B7=D0=BA=D0=B8.=C2=A0 =D0=A2=D1=80=D0=B0=
+=D0=BD=D1=81=D0=BF=D0=BE=D1=80=D1=82=D0=BD=D0=B0=D1=8F =D0=BB=D0=BE=D0=B3=
+=D0=B8=D1=81=D1=82=D0=B8=D0=BA=D0=B0.=C2=A0 =D0=A2=D0=B0=D0=BC=D0=BE=D0=B6=
+=D0=B5=D0=BD=D0=BD=D0=BE=D0=B5 =D0=BE=D1=84=D0=BE=D1=80=D0=BC=D0=BB=D0=B5=
+=D0=BD=D0=B8=D0=B5 =D0=BA=D0=B8=D1=82=D0=B0=D0=B9=D1=81=D0=BA=D0=B8=D1=85=
+ =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=BE=D0=B2. =D0=A2=D1=80=D0=B5=D0=B1=D0=BE=
+=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BA =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=
+=D0=BD=D1=82=D0=B0=D0=BC =D0=B4=D0=BB=D1=8F =D0=BF=D0=BE=D0=B4=D1=82=D0=B2=
+=D0=B5=D1=80=D0=B6=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D1=82=D0=B0=D0=BC=D0=BE=
+=D0=B6=D0=B5=D0=BD=D0=BD=D0=BE=D0=B9 =D1=81=D1=82=D0=BE=D0=B8=D0=BC=D0=BE=
+=D1=81=D1=82=D0=B8 =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=B0. . =D0=9E=D1=81=D0=
+=BE=D0=B1=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D1=8D=D0=BA=D1=81=D0=
+=BF=D0=BE=D1=80=D1=82=D0=B0 =D0=B2 =D0=9A=D0=B8=D1=82=D0=B0=D0=B9. =D0=A1=
+=D1=82=D1=80=D1=83=D0=BA=D1=82=D1=83=D1=80=D0=B0 =D1=80=D0=BE=D1=81=D1=81=
+=D0=B8=D0=B9=D1=81=D0=BA=D0=BE-=D0=BA=D0=B8=D1=82=D0=B0=D0=B9=D1=81=D0=BA=
+=D0=BE=D0=B3=D0=BE =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=BE=D0=BE=D0=B1=D0=BE=
+=D1=80=D0=BE=D1=82=D0=B0. =D0=9C=D0=B5=D1=80=D1=8B =D1=82=D0=B0=D1=80=D0=B8=
+=D1=84=D0=BD=D0=BE=D0=B3=D0=BE, =D0=BD=D0=B5=D1=82=D0=B0=D1=80=D0=B8=D1=84=
+=D0=BD=D0=BE=D0=B3=D0=BE, =D1=81=D0=B0=D0=BD=D0=B8=D1=82=D0=B0=D1=80=D0=BD=
+=D0=BE=D0=B3=D0=BE, =D0=B2=D0=B5=D1=82=D0=B5=D1=80=D0=B8=D0=BD=D0=B0=D1=80=
+=D0=BD=D0=BE=D0=B3=D0=BE =D0=B8 =D1=84=D0=B8=D1=82=D0=BE=D1=81=D0=B0=D0=BD=
+=D0=B8=D1=82=D0=B0=D1=80=D0=BD=D0=BE=D0=B3=D0=BE=C2=A0 =D1=80=D0=B5=D0=B3=
+=D1=83=D0=BB=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=B8=D0=BC=
+=D0=BF=D0=BE=D1=80=D1=82=D0=B0 =D0=B2 =D0=9A=D0=B8=D1=82=D0=B0=D0=B5. =D0=
+=9F=D1=80=D0=B0=D0=BA=D1=82=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=B5 =D0=
+=BF=D1=80=D0=BE=D1=86=D0=B5=D0=B4=D1=83=D1=80=D1=8B =D0=B4=D0=BE=D1=81=D1=
+=82=D1=83=D0=BF=D0=B0 =D0=BD=D0=B0 =D0=BA=D0=B8=D1=82=D0=B0=D0=B9=D1=81=D0=
+=BA=D0=B8=D0=B9 =D1=80=D1=8B=D0=BD=D0=BE=D0=BA. =D0=9C=D0=B5=D1=82=D0=BE=D0=
+=B4=D0=B8=D0=BA=D0=B0 =D0=BE=D1=86=D0=B5=D0=BD=D0=BA=D0=B8 =D0=BF=D0=B5=D1=
+=80=D1=81=D0=BF=D0=B5=D0=BA=D1=82=D0=B8=D0=B2 =D0=BA=D0=B8=D1=82=D0=B0=D0=
+=B9=D1=81=D0=BA=D0=BE=D0=B3=D0=BE =D1=80=D1=8B=D0=BD=D0=BA=D0=B0 =D0=B4=D0=
+=BB=D1=8F =D0=BA=D0=BE=D0=BD=D0=BA=D1=80=D0=B5=D1=82=D0=BD=D0=BE=D0=B3=D0=
+=BE =D1=80=D0=BE=D1=81=D1=81=D0=B8=D0=B9=D1=81=D0=BA=D0=BE=D0=B3=D0=BE =D1=
+=82=D0=BE=D0=B2=D0=B0=D1=80=D0=B0.
+
+=D0=A1=D1=82=D0=BE=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D1=8C 10500=C2=A0 =D1=80=
+=D1=83=D0=B1.=C2=A0 =D0=9E=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD 9500 =D1=80=D1=83=
+=D0=B1.
+
+=D0=94=D0=BB=D1=8F =D0=BE=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD =D1=83=D1=87=D0=B0=
+=D1=81=D1=82=D0=BD=D0=B8=D0=BA=D0=BE=D0=B2: =D0=B7=D0=B0=D0=BF=D0=B8=D1=81=
+=D1=8C =D0=B2=D0=B5=D0=B1=D0=B8=D0=BD=D0=B0=D1=80=D0=B0, =D0=BC=D0=B5=D1=82=
+=D0=BE=D0=B4=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=B9 =D0=BC=D0=B0=D1=82=
+=D0=B5=D1=80=D0=B8=D0=B0=D0=BB, =D1=81=D0=B5=D1=80=D1=82=D0=B8=D1=84=D0=B8=
+=D0=BA=D0=B0=D1=82 =D1=83=D1=87=D0=B0=D1=81=D1=82=D0=BD=D0=B8=D0=BA=D0=B0=
+, =D0=BF=D0=B0=D0=BA=D0=B5=D1=82 =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=
+=D1=82=D0=BE=D0=B2
+
+=D0=94=D0=BB=D1=8F =D0=BE=D1=87=D0=BD=D1=8B=D1=85 =D1=83=D1=87=D0=B0=D1=81=
+=D1=82=D0=BD=D0=B8=D0=BA=D0=BE=D0=B2: =D0=BA=D0=BE=D1=84=D0=B5, =D0=BE=D0=
+=B1=D0=B5=D0=B4, =D0=BA=D0=B0=D0=BD=D1=86=D0=B5=D0=BB=D1=8F=D1=80=D1=81=D0=
+=BA=D0=B8=D0=B5 =D0=BF=D1=80=D0=B8=D0=BD=D0=B0=D0=B4=D0=BB=D0=B5=D0=B6=D0=
+=BD=D0=BE=D1=81=D1=82=D0=B8, =D0=BC=D0=B5=D1=82=D0=BE=D0=B4=D0=B8=D1=87=D0=
+=B5=D1=81=D0=BA=D0=B8=D0=B9 =D0=BC=D0=B0=D1=82=D0=B5=D1=80=D0=B8=D0=B0=D0=
+=BB =D1=81=D0=B5=D1=80=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82 =D1=83=D1=
+=87=D0=B0=D1=81=D1=82=D0=BD=D0=B8=D0=BA=D0=B0, =D0=BF=D0=B0=D0=BA=D0=B5=D1=
+=82 =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=BE=D0=B2
+
+8 916-932-25-06
+
+=D0=9E=D0=A2=D0=9F=D0=98=D0=A1=D0=90=D0=A2=D0=AC=D0=A1=D0=AF =D0=BE=D1=82=
+ =D0=BF=D0=BE=D0=BB=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=D0=B8=D1=81=
+=D0=B5=D0=BC
+
+--09a3cb9b4c88a44f6cc619b24796294815
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3Durn:schemas-microsoft-com:office:office><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+</head>
+<body bgColor=3D"#ffffff">
+<div align=3Dcenter>
+<table class=3DMsoTableGrid style=3D"BORDER-TOP: medium none; BORDER-RIGH=
+T: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BO=
+RDER-LEFT: medium none; mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.4p=
+t 0in 5.4pt; mso-border-insideh: none; mso-border-insidev: none" cellSpac=
+ing=3D0 cellPadding=3D0 border=3D0>
+<tbody>
+<tr style=3D"mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+<td style=3D"BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 7.65in; B=
+ACKGROUND: #c00000; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0in; PADDING-=
+TOP: 0in; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt=
+" vAlign=3Dtop width=3D918>
+<p class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0pt; LI=
+NE-HEIGHT: normal" align=3Dcenter><span lang=3DRU style=3D'FONT-SIZE: 8pt=
+; FONT-FAMILY: "Cambria","serif"; mso-ansi-language: RU; mso-ascii-theme-=
+font: major-latin; mso-hansi-theme-font: major-latin'><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0pt; LI=
+NE-HEIGHT: normal" align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span lang=3DRU style=3D'FONT-SIZE: 16pt; FONT-FAMILY: "Cambria","seri=
+f"; COLOR: white; mso-ansi-language: RU; mso-ascii-theme-font: major-lati=
+n; mso-hansi-theme-font: major-latin; mso-bidi-font-size: 12.0pt; mso-the=
+mecolor: background1'>12 =D0=B0=D0=BF=D1=80=D0=B5=D0=BB=D1=8F 2023 =D0=B3=
+.<o:p></o:p></span></b></p>
+<p class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0pt; LI=
+NE-HEIGHT: normal" align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span lang=3DRU style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria","seri=
+f"; COLOR: white; mso-ansi-language: RU; mso-ascii-theme-font: major-lati=
+n; mso-hansi-theme-font: major-latin; mso-bidi-font-size: 12.0pt; mso-the=
+mecolor: background1'>=D0=9E=D1=87=D0=BD=D0=BE =D0=B8 =D0=9E=D0=BD=D0=BB=D0=
+=B0=D0=B9=D0=BD<o:p></o:p></span></b></p>
+<p class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0pt; LI=
+NE-HEIGHT: normal" align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span lang=3DRU style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria","seri=
+f"; COLOR: white; mso-ansi-language: RU; mso-ascii-theme-font: major-lati=
+n; mso-hansi-theme-font: major-latin; mso-bidi-font-size: 12.0pt; mso-the=
+mecolor: background1'>=D0=92=D0=B0=D0=BB=D1=8E=D1=82=D0=BD=D0=BE=D0=B5 =D1=
+=80=D0=B5=D0=B3=D1=83=D0=BB=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5=
+ =D0=92=D0=AD=D0=94.<o:p></o:p></span></b></p>
+<p class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0pt; LI=
+NE-HEIGHT: normal" align=3Dcenter><span lang=3DRU style=3D'FONT-SIZE: 8pt=
+; FONT-FAMILY: "Cambria","serif"; mso-ansi-language: RU; mso-ascii-theme-=
+font: major-latin; mso-hansi-theme-font: major-latin'><o:p>&nbsp;</o:p></=
+span></p></td></tr>
+<tr style=3D"mso-yfti-irow: 1">
+<td style=3D"BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 7.65in; B=
+ORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0in; PADDING-TOP: 0in; PADDING-LEF=
+T: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: t=
+ransparent" vAlign=3Dtop width=3D918>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span lang=3DRU style=3D'FONT-SIZE: 8pt; FONT-FAMILY: "Cambria","serif"; m=
+so-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-=
+font: major-latin'><o:p>&nbsp;</o:p></span></p>
+<p class=3DMsoNormal style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; L=
+INE-HEIGHT: normal"><b style=3D"mso-bidi-font-weight: normal"><span lang=3D=
+RU style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Cambria","serif"; mso-ansi-lan=
+guage: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major=
+-latin'>1. =D0=92=D0=B0=D0=BB=D1=8E=D1=82=D0=BD=D1=8B=D0=B5 =D1=80=D0=B0=D1=
+=81=D1=87=D0=B5=D1=82=D1=8B =D0=BF=D0=BE =D0=B2=D0=BD=D0=B5=D1=88=D0=BD=D0=
+=B5=D1=82=D0=BE=D1=80=D0=B3=D0=BE=D0=B2=D1=8B=D0=BC =D1=81=D0=B4=D0=B5=D0=
+=BB=D0=BA=D0=B0=D0=BC =D0=B2 =D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F=D1=
+=85 =D0=B4=D0=B5=D0=B9=D1=81=D1=82=D0=B2=D0=B8=D1=8F =D1=81=D0=BF=D0=B5=D1=
+=86=D0=B8=D0=B0=D0=BB=D1=8C=D0=BD=D1=8B=D1=85 =D1=8D=D0=BA=D0=BE=D0=BD=D0=
+=BE=D0=BC=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85 =D0=BC=D0=B5=D1=80<sp=
+an style=3D"mso-spacerun: yes">&nbsp; </span>=D0=B2 =D0=B2=D0=B0=D0=BB=D1=
+=8E=D1=82=D0=BD=D0=BE=D0=B9 =D1=81=D1=84=D0=B5=D1=80=D0=B5:</span></b><sp=
+an lang=3DRU style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Cambria","serif"; ms=
+o-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-f=
+ont: major-latin'> - =D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=D0=BD=
+=D0=B8=D1=8F =D0=BD=D0=B0 =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=
+=D0=B8=D0=B5 =D0=B2=D0=B0=D0=BB=D1=8E=D1=82=D0=BD=D1=8B=D1=85 =D0=BE=D0=BF=
+=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=B9 =D1=80=D0=B5=D0=B7=D0=B8=D0=B4=D0=B5=
+=D0=BD=D1=82=D0=B0=D0=BC=D0=B8 =D0=B8 =D0=BD=D0=B5=D1=80=D0=B5=D0=B7=D0=B8=
+=D0=B4=D0=B5=D0=BD=D1=82=D0=B0=D0=BC=D0=B8;- =D1=81=D0=BC=D1=8F=D0=B3=D1=87=
+=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BE=D0=B3=D1=80=D0=B0=D0=BD=D0=B8=D1=87=D0=B5=
+=D0=BD=D0=B8=D1=8F =D0=BD=D0=B0 =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=
+=D0=B8 =D1=81 =D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=BD=D0=BE=D0=B9 =D0=B8=D0=BD=
+=D0=BE=D1=81=D1=82=D1=80=D0=B0=D0=BD=D0=BD=D0=BE=D0=B9 =D0=B2=D0=B0=D0=BB=
+=D1=8E=D1=82=D0=BE=D0=B9 =D0=B2 =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=B9=D1=81=
+=D0=BA=D0=BE=D0=B9 =D0=A4=D0=B5=D0=B4=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=B8=
+; - =D0=BB=D0=B8=D0=BC=D0=B8=D1=82=D1=8B =D0=BD=D0=B0 =D0=B2=D1=8B=D0=B2=D0=
+=BE=D0=B7 =D0=B2=D0=B0=D0=BB=D1=8E=D1=82=D1=8B =D0=B7=D0=B0 =D1=80=D1=83=D0=
+=B1=D0=B5=D0=B6;- =D0=B7=D0=B0=D0=BF=D1=80=D0=B5=D1=82 =D0=BD=D0=B0 =D0=B8=
+=D1=81=D0=BF=D0=BE=D0=BB=D1=8C=D0=B7=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =
+=D1=8D=D0=BB=D0=B5=D0=BA=D1=82=D1=80=D0=BE=D0=BD=D0=BD=D1=8B=D1=85 =D1=81=
+=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B2 =D0=BF=D0=BB=D0=B0=D1=82=D0=B5=D0=B6=
+=D0=B0;-=D0=B7=D0=B0=D0=BF=D1=80=D0=B5=D1=82 =D1=81=D0=BE=D0=B2=D0=B5=D1=80=
+=D1=88=D0=B0=D1=82=D1=8C =D0=B2=D0=BD=D0=B5=D1=88=D0=BD=D0=B5=D1=8D=D0=BA=
+=D0=BE=D0=BD=D0=BE=D0=BC=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=B5 =D1=81=
+=D0=B4=D0=B5=D0=BB=D0=BA=D0=B8 =D0=B8 =D0=BF=D1=80=D0=BE=D0=B2=D0=BE=D0=B4=
+=D0=B8=D1=82=D1=8C =D1=84=D0=B8=D0=BD=D0=B0=D0=BD=D1=81=D0=BE=D0=B2=D1=8B=
+=D0=B5 =D1=80=D0=B0=D1=81=D1=87=D0=B5=D1=82=D1=8B =D1=81 =D0=B7=D0=B0=D1=80=
+=D1=83=D0=B1=D0=B5=D0=B6=D0=BD=D1=8B=D0=BC=D0=B8 =D0=BA=D0=BE=D0=BC=D0=BF=
+=D0=B0=D0=BD=D0=B8=D1=8F=D0=BC=D0=B8, =D0=B2 =D0=BE=D1=82=D0=BD=D0=BE=D1=88=
+=D0=B5=D0=BD=D0=B8=D0=B8 =D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D1=85 =D1=83=
+=D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=BB=D0=B5=D0=BD=D1=8B =D1=81=D0=B0=
+=D0=BD=D0=BA=D1=86=D0=B8=D0=B8 (=D0=A3=D0=BA=D0=B0=D0=B7 =D0=9F=D1=80=D0=B5=
+=D0=B7=D0=B8=D0=B4=D0=B5=D0=BD=D1=82=D0=B0 =D0=A0=D0=A4 =D0=BE=D1=82<span=
+ style=3D"mso-spacerun: yes">&nbsp; </span>03.05.2022 =E2=84=96 252);<o:p=
+></o:p></span></p>
+<p class=3DMsoNormal style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; L=
+INE-HEIGHT: normal"><span lang=3DRU style=3D'FONT-SIZE: 8pt; FONT-FAMILY:=
+ "Cambria","serif"; mso-ansi-language: RU; mso-ascii-theme-font: major-la=
+tin; mso-hansi-theme-font: major-latin'><o:p>&nbsp;</o:p></span></p>
+<p class=3DMsoNormal style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; L=
+INE-HEIGHT: normal"><b style=3D"mso-bidi-font-weight: normal"><span lang=3D=
+RU style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Cambria","serif"; mso-ansi-lan=
+guage: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major=
+-latin'>2. =D0=92=D0=B0=D0=BB=D1=8E=D1=82=D0=BD=D1=8B=D0=B9 =D0=BA=D0=BE=D0=
+=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8C =D0=B2=D0=BD=D0=B5=D1=88=D0=BD=D0=B5=D1=
+=82=D0=BE=D1=80=D0=B3=D0=BE=D0=B2=D1=8B=D1=85 =D0=BE=D0=BF=D0=B5=D1=80=D0=
+=B0=D1=86=D0=B8=D0=B9 =D0=B2 2023 =D0=B3=D0=BE=D0=B4=D1=83 =D0=B2 =D1=81=D0=
+=BE=D0=BE=D1=82=D0=B2=D0=B5=D1=82=D1=81=D1=82=D0=B2=D0=B8=D0=B8 =D1=81 =D0=
+=BF=D0=BE=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D1=8F=D0=BC=D0=B8 </span></=
+b><span lang=3DRU style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Cambria","serif=
+"; mso-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-th=
+eme-font: major-latin'>=D0=98=D0=BD=D1=81=D1=82=D1=80=D1=83=D0=BA=D1=86=D0=
+=B8=D0=B8 =D0=A6=D0=91 =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=B8 =D0=BE=D1=82 =
+16.08.2017 =E2=84=96 181-=D0=98<b style=3D"mso-bidi-font-weight: normal">=
+ </b>=C2=AB=D0=9E =D0=BF=D0=BE=D1=80=D1=8F=D0=B4=D0=BA=D0=B5 =D0=BF=D1=80=
+=D0=B5=D0=B4=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D1=80=
+=D0=B5=D0=B7=D0=B8=D0=B4=D0=B5=D0=BD=D1=82=D0=B0=D0=BC=D0=B8 =D0=B8 =D0=BD=
+=D0=B5=D1=80=D0=B5=D0=B7=D0=B8=D0=B4=D0=B5=D0=BD=D1=82=D0=B0=D0=BC=D0=B8 =
+=D1=83=D0=BF=D0=BE=D0=BB=D0=BD=D0=BE=D0=BC=D0=BE=D1=87=D0=B5=D0=BD=D0=BD=D1=
+=8B=D0=BC =D0=B1=D0=B0=D0=BD=D0=BA=D0=B0=D0=BC =D0=BF=D0=BE=D0=B4=D1=82=D0=
+=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=B0=D1=8E=D1=89=D0=B8=D1=85 =D0=B4=D0=BE=D0=
+=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=BE=D0=B2 =D0=B8 =D0=B8=D0=BD=D1=84=D0=
+=BE=D1=80=D0=BC=D0=B0=D1=86=D0=B8=D0=B8 =D0=BF=D1=80=D0=B8 =D0=BE=D1=81=D1=
+=83=D1=89=D0=B5=D1=81=D1=82=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D0=B8 =D0=B2=D0=
+=B0=D0=BB=D1=8E=D1=82=D0=BD=D1=8B=D1=85 =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=
+=86=D0=B8=D0=B9, =D0=BF=D0=BE=D1=80=D1=8F=D0=B4=D0=BA=D0=B5 =D0=B8 =D1=81=
+=D1=80=D0=BE=D0=BA=D0=B0=D1=85 =D0=BF=D1=80=D0=B5=D0=B4=D1=81=D1=82=D0=B0=
+=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=8F =D0=B5=D0=B4=D0=B8=D0=BD=D1=8B=D1=85=
+ =D1=84=D0=BE=D1=80=D0=BC =D1=83=D1=87=D0=B5=D1=82=D0=B0 =D0=B8 =D0=BE=D1=
+=82=D1=87=D0=B5=D1=82=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D0=BF=D0=BE =D0=B2=D0=
+=B0=D0=BB=D1=8E=D1=82=D0=BD=D1=8B=D0=BC =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=
+=86=D0=B8=D1=8F=D0=BC, =D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D0=BB=D0=B0=D1=85 =D0=
+=BF=D1=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D1=8F =D0=BE=D1=82=D0=
+=B4=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D1=85 =D0=B1=D0=B0=D0=BD=D0=BA=D0=BE=D0=
+=B2=D1=81=D0=BA=D0=B8=D1=85 =D0=BE=D0=BF=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=
+=B9 =D0=B8 =D1=81=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D0=BB=D0=B5=D0=BD=D0=B8=D1=
+=8F =D1=81=D1=82=D0=B0=D1=82=D0=B8=D1=81=D1=82=D0=B8=D1=87=D0=B5=D1=81=D0=
+=BA=D0=BE=D0=B9 =D0=BE=D1=82=D1=87=D0=B5=D1=82=D0=BD=D0=BE=D1=81=D1=82=D0=
+=B8 =D0=BF=D0=BE =D0=BD=D0=B8=D0=BC=C2=BB (=D1=81 =D1=83=D1=87=D0=B5=D1=82=
+=D0=BE=D0=BC =D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=D0=B8=D0=B9 =D0=B8=
+ =D0=B4=D0=BE=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D0=B9). . =D0=92=D0=
+=B0=D0=BB=D1=8E=D1=82=D0=BD=D1=8B=D0=B9 =D0=BA=D0=BE=D0=BC=D0=BF=D0=BB=D0=
+=B0=D0=B5=D0=BD=D1=81<span style=3D"mso-spacerun: yes">&nbsp; </span>=D0=B2=
+ =D0=BA=D0=BE=D0=BC=D0=BF=D0=B0=D0=BD=D0=B8=D0=B8. =D0=9A=D0=B0=D0=BA =D0=
+=B8=D0=B7=D0=B1=D0=B5=D0=B6=D0=B0=D1=82=D1=8C =D0=BE=D1=82=D0=B2=D0=B5=D1=
+=82=D1=81=D1=82=D0=B2=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D0=B7=D0=
+=B0 =D0=BD=D0=B0=D1=80=D1=83=D1=88=D0=B5=D0=BD=D0=B8=D1=8F =D0=B2=D0=B0=D0=
+=BB=D1=8E=D1=82=D0=BD=D0=BE=D0=B3=D0=BE =D0=B7=D0=B0=D0=BA=D0=BE=D0=BD=D0=
+=BE=D0=B4=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D1=81=D1=82=D0=B2=D0=B0 =D0=A0=D0=
+=A4 =D0=B2 =D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F=D1=85 =D0=B2=D0=BD=D0=
+=B5=D1=88=D0=BD=D0=B8=D1=85 =D1=81=D0=B0=D0=BD=D0=BA=D1=86=D0=B8=D0=B9? .=
+=D0=9A=D0=B0=D0=BA=D0=B8=D0=B5 =D0=B8=D0=B7=D0=BC=D0=B5=D0=BD=D0=B5=D0=BD=
+=D0=B8=D1=8F =D0=B2=D0=B0=D0=BB=D1=8E=D1=82=D0=BD=D0=BE=D0=B3=D0=BE =D0=B7=
+=D0=B0=D0=BA=D0=BE=D0=BD=D0=BE=D0=B4=D0=B0=D1=82=D0=B5=D0=BB=D1=8C=D1=81=D1=
+=82=D0=B2=D0=B0 =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=B9=D1=81=D0=BA=D0=BE=D0=
+=B9 =D0=A4=D0=B5=D0=B4=D0=B5=D1=80=D0=B0=D1=86=D0=B8=D0=B8 =D0=BE=D0=B6=D0=
+=B8=D0=B4=D0=B0=D1=8E=D1=82=D1=81=D1=8F =D0=B2<span style=3D"mso-spacerun=
+: yes">&nbsp; </span>2023 =D0=B3=D0=BE=D0=B4=D1=83? =D0=9A=D0=BE=D0=BC=D0=
+=BC=D0=B5=D0=BD=D1=82=D0=B0=D1=80=D0=B8=D0=B9 =D0=BE=D1=81=D0=BD=D0=BE=D0=
+=B2=D0=BD=D1=8B=D1=85 =D0=BF=D0=BE=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=
+=B9 =D0=B7=D0=B0=D0=BA=D0=BE=D0=BD=D0=BE=D0=BF=D1=80=D0=BE=D0=B5=D0=BA=D1=
+=82=D0=BE=D0=B2. <o:p></o:p></span></p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span lang=3DRU style=3D'FONT-SIZE: 8pt; FONT-FAMILY: "Cambria","serif"; m=
+so-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-=
+font: major-latin'><o:p>&nbsp;</o:p></span></p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+b style=3D"mso-bidi-font-weight: normal"><span lang=3DRU style=3D'FONT-SI=
+ZE: 12pt; FONT-FAMILY: "Cambria","serif"; mso-ansi-language: RU; mso-asci=
+i-theme-font: major-latin; mso-hansi-theme-font: major-latin'>=D0=A1=D1=82=
+=D0=BE=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D1=8C =D1=83=D1=87=D0=B0=D1=81=D1=82=
+=D0=B8=D1=8F: 9500 =D1=80=D1=83=D0=B1=D0=BB=D0=B5=D0=B9.<span style=3D"ms=
+o-spacerun: yes">&nbsp; </span>=D0=9E=D1=87=D0=BD=D0=BE 10500 =D1=80=D1=83=
+=D0=B1.<o:p></o:p></span></b></p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span lang=3DRU style=3D'FONT-SIZE: 8pt; FONT-FAMILY: "Cambria","serif"; m=
+so-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-=
+font: major-latin'><o:p>&nbsp;</o:p></span></p></td></tr>
+<tr style=3D"mso-yfti-irow: 2">
+<td style=3D"BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 7.65in; B=
+ACKGROUND: #c00000; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0in; PADDING-=
+TOP: 0in; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt=
+" vAlign=3Dtop width=3D918>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span lang=3DRU style=3D'FONT-SIZE: 8pt; FONT-FAMILY: "Cambria","serif"; m=
+so-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-=
+font: major-latin'><o:p>&nbsp;</o:p></span></p>
+<p class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0pt; LI=
+NE-HEIGHT: normal" align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span lang=3DRU style=3D'FONT-SIZE: 16pt; FONT-FAMILY: "Cambria","seri=
+f"; COLOR: white; mso-ansi-language: RU; mso-ascii-theme-font: major-lati=
+n; mso-hansi-theme-font: major-latin; mso-bidi-font-size: 12.0pt; mso-the=
+mecolor: background1'>18 =D0=B0=D0=BF=D1=80=D0=B5=D0=BB=D1=8F 2023 =D0=B3=
+.<o:p></o:p></span></b></p>
+<p class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0pt; LI=
+NE-HEIGHT: normal" align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span lang=3DRU style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria","seri=
+f"; COLOR: white; mso-ansi-language: RU; mso-ascii-theme-font: major-lati=
+n; mso-hansi-theme-font: major-latin; mso-bidi-font-size: 12.0pt; mso-the=
+mecolor: background1'>=D0=9E=D1=87=D0=BD=D0=BE (=D0=B2 =D0=9C=D0=BE=D1=81=
+=D0=BA=D0=B2=D0=B5) =D0=9E=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD (=D0=BD=D0=B0 =D0=
+=B2=D1=81=D0=B5 =D1=80=D0=B5=D0=B3=D0=B8=D0=BE=D0=BD=D1=8B)<o:p></o:p></s=
+pan></b></p>
+<p class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0pt; LI=
+NE-HEIGHT: normal" align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span lang=3DRU style=3D'FONT-SIZE: 14pt; FONT-FAMILY: "Cambria","seri=
+f"; COLOR: white; mso-ansi-language: RU; mso-ascii-theme-font: major-lati=
+n; mso-hansi-theme-font: major-latin; mso-bidi-font-size: 12.0pt; mso-the=
+mecolor: background1'>=D0=91=D0=B8=D0=B7=D0=BD=D0=B5=D1=81=D0=B0 =D1=81 =D0=
+=9A=D0=B8=D1=82=D0=B0=D0=B5=D0=BC. =D0=9F=D0=BE=D0=BB=D1=83=D1=87=D0=B8=D1=
+=82=D0=B5 =D0=BD=D0=B5=D0=BE=D0=B1=D1=85=D0=BE=D0=B4=D0=B8=D0=BC=D1=8B=D0=
+=B5 =D0=B7=D0=BD=D0=B0=D0=BD=D0=B8=D1=8F =D0=BE=D0=B1 =D0=BE=D1=81=D0=BE=D0=
+=B1=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=82=D1=8F=D1=85 =D1=80=D0=B0=D0=B1=D0=
+=BE=D1=82=D1=8B =D0=BD=D0=B0 =D1=80=D1=8B=D0=BD=D0=BA=D0=B0=D1=85 =D0=9A=D0=
+=B8=D1=82=D0=B0=D1=8F (=D0=B3=D1=80=D0=B0=D0=BC=D0=BE=D1=82=D0=BD=D0=BE =D0=
+=B3=D0=BE=D1=82=D0=BE=D0=B2=D0=B8=D1=82=D1=8C =D0=B2=D0=BD=D0=B5=D1=88=D0=
+=BD=D0=B5=D1=82=D0=BE=D1=80=D0=B3=D0=BE=D0=B2=D1=8B=D0=B5 =D0=BA=D0=BE=D0=
+=BD=D1=82=D1=80=D0=B0=D0=BA=D1=82=D1=8B =D1=81 =D1=83=D1=87=D1=91=D1=82=D0=
+=BE=D0=BC =D0=BE=D1=81=D0=BE=D0=B1=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=82=D0=
+=B5=D0=B9 =D0=BD=D0=B0=D1=86=D0=B8=D0=BE=D0=BD=D0=B0=D0=BB=D1=8C=D0=BD=D0=
+=BE=D0=B3=D0=BE =D0=B7=D0=B0=D0=BA=D0=BE=D0=BD=D0=BE=D0=B4=D0=B0=D1=82=D0=
+=B5=D0=BB=D1=8C=D1=81=D1=82=D0=B2=D0=B0)<o:p></o:p></span></b></p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span lang=3DRU style=3D'FONT-SIZE: 8pt; FONT-FAMILY: "Cambria","serif"; m=
+so-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-=
+font: major-latin'><o:p>&nbsp;</o:p></span></p></td></tr>
+<tr style=3D"mso-yfti-irow: 3">
+<td style=3D"BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 7.65in; B=
+ORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0in; PADDING-TOP: 0in; PADDING-LEF=
+T: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: t=
+ransparent" vAlign=3Dtop width=3D918>
+<p class=3DMsoNormal style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; L=
+INE-HEIGHT: normal"><i style=3D"mso-bidi-font-style: normal"><span lang=3D=
+RU style=3D'FONT-SIZE: 8pt; FONT-FAMILY: "Cambria","serif"; mso-ansi-lang=
+uage: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major-=
+latin'><o:p>&nbsp;</o:p></span></i></p>
+<p class=3DMsoNormal style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; L=
+INE-HEIGHT: normal"><i style=3D"mso-bidi-font-style: normal"><span lang=3D=
+RU style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Cambria","serif"; mso-ansi-lan=
+guage: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major=
+-latin'>=D0=94=D0=BB=D1=8F =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=B8 =D0=9A=D0=
+=B8=D1=82=D0=B0=D0=B9 =D1=81=D1=82=D0=B0=D0=BD=D0=BE=D0=B2=D0=B8=D1=82=D1=
+=81=D1=8F =D0=BE=D1=81=D0=BD=D0=BE=D0=B2=D0=BD=D1=8B=D0=BC =D0=BF=D0=BE=D0=
+=BB=D0=B8=D1=82=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=BC =D0=B8 =D1=82=D0=
+=BE=D1=80=D0=B3=D0=BE=D0=B2=D1=8B=D0=BC =D0=BF=D0=B0=D1=80=D1=82=D0=BD=D0=
+=B5=D1=80=D0=BE=D0=BC. =D0=9E=D0=B4=D0=BD=D0=B0=D0=BA=D0=BE =D0=B1=D0=B8=D0=
+=B7=D0=BD=D0=B5=D1=81 =D1=81 =D0=BA=D0=B8=D1=82=D0=B0=D0=B9=D1=81=D0=BA=D0=
+=B8=D0=BC=D0=B8 =D0=BF=D0=B0=D1=80=D1=82=D0=BD=D0=B5=D1=80=D0=B0=D0=BC=D0=
+=B8 =D0=B8=D0=BC=D0=B5=D0=B5=D1=82 =D1=86=D0=B5=D0=BB=D1=8B=D0=B9 =D1=80=D1=
+=8F=D0=B4 =D1=81=D0=BF=D0=B5=D1=86=D0=B8=D1=84=D0=B8=D1=87=D0=B5=D1=81=D0=
+=BA=D0=B8=D1=85 =D0=BE=D1=81=D0=BE=D0=B1=D0=B5=D0=BD=D0=BD=D0=BE=D1=81=D1=
+=82=D0=B5=D0=B9, =D0=BD=D0=B5=D0=B7=D0=BD=D0=B0=D0=BD=D0=B8=D0=B5, =D0=B8=
+=D0=B3=D0=BD=D0=BE=D1=80=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =
+=D0=BA=D0=BE=D1=82=D0=BE=D1=80=D1=8B=D1=85 =D0=BD=D0=B5=D1=81=D0=B5=D1=82=
+ =D0=B7=D0=BD=D0=B0=D1=87=D0=B8=D1=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5=
+ =D1=80=D0=B8=D1=81=D0=BA=D0=B8.<o:p></o:p></span></i></p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span lang=3DRU style=3D'FONT-SIZE: 8pt; FONT-FAMILY: "Cambria","serif"; m=
+so-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-=
+font: major-latin'><o:p>&nbsp;</o:p></span></p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+b style=3D"mso-bidi-font-weight: normal"><span lang=3DRU style=3D'FONT-SI=
+ZE: 12pt; FONT-FAMILY: "Cambria","serif"; mso-ansi-language: RU; mso-asci=
+i-theme-font: major-latin; mso-hansi-theme-font: major-latin'>=D0=9F=D1=80=
+=D0=BE=D0=B3=D1=80=D0=B0=D0=BC=D0=BC=D0=B0 =D1=81=D0=B5=D0=BC=D0=B8=D0=BD=
+=D0=B0=D1=80=D0=B0:<o:p></o:p></span></b></p>
+<p class=3DMsoNormal style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; L=
+INE-HEIGHT: normal"><span lang=3DRU style=3D'FONT-SIZE: 12pt; FONT-FAMILY=
+: "Cambria","serif"; mso-ansi-language: RU; mso-ascii-theme-font: major-l=
+atin; mso-hansi-theme-font: major-latin'>=D0=98=D1=81=D1=82=D0=BE=D1=87=D0=
+=BD=D0=B8=D0=BA=D0=B8 =D0=B8=D0=BD=D1=84=D0=BE=D1=80=D0=BC=D0=B0=D1=86=D0=
+=B8=D0=B8 =D0=BE =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=B0=D1=85, =D1=83=D1=81=
+=D0=BB=D1=83=D0=B3=D0=B0=D1=85, =D0=BF=D0=BE=D1=81=D1=82=D0=B0=D0=B2=D1=89=
+=D0=B8=D0=BA=D0=B0=D1=85 =D0=B8 =D0=BF=D0=BE=D0=BA=D1=83=D0=BF=D0=B0=D1=82=
+=D0=B5=D0=BB=D1=8F=D1=85 =D0=B2 =D0=9A=D0=B8=D1=82=D0=B0=D0=B5<o:p></o:p>=
+</span></p>
+<p class=3DMsoNormal style=3D"TEXT-ALIGN: justify; MARGIN: 0in 0in 0pt; L=
+INE-HEIGHT: normal"><span lang=3DRU style=3D'FONT-SIZE: 12pt; FONT-FAMILY=
+: "Cambria","serif"; mso-ansi-language: RU; mso-ascii-theme-font: major-l=
+atin; mso-hansi-theme-font: major-latin'>=D0=9C=D0=B5=D0=B4=D0=BE=D0=B4=D0=
+=B8=D0=BA=D0=B0 =D0=BF=D1=80=D0=BE=D0=B2=D0=B5=D1=80=D0=BA=D0=B8 =D0=BD=D0=
+=B0=D0=B4=D0=B5=D0=B6=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D0=B8 =D0=B4=D0=B5=D0=
+=BB=D0=BE=D0=B2=D0=BE=D0=B9 =D1=80=D0=B5=D0=BF=D1=83=D1=82=D0=B0=D1=86=D0=
+=B8=D0=B8 =D0=BA=D0=B8=D1=82=D0=B0=D0=B9=D1=81=D0=BA=D0=B8=D1=85 =D0=BF=D0=
+=B0=D1=80=D1=82=D0=BD=D0=B5=D1=80=D0=BE=D0=B2. =D0=90=D1=83=D0=B4=D0=B8=D1=
+=82 =D0=BF=D1=80=D0=B5=D0=B4=D0=BF=D1=80=D0=B8=D1=8F=D1=82=D0=B8=D1=8F =E2=
+=80=93 =D1=83=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F, =D1=81=D1=82=D0=BE=D0=B8=
+=D0=BC=D0=BE=D1=81=D1=82=D1=8C, =D1=81=D1=80=D0=BE=D0=BA=D0=B8; =D0=BE=D0=
+=B1=D1=80=D0=B0=D0=B7=D0=B5=D1=86 =D0=B0=D1=83=D0=B4=D0=B8=D1=82=D0=BE=D1=
+=80=D1=81=D0=BA=D0=BE=D0=B3=D0=BE =D0=BE=D1=82=D1=87=D0=B5=D1=82=D0=B0.<s=
+pan style=3D"mso-spacerun: yes">&nbsp;&nbsp; </span>=D0=9E=D1=81=D0=BD=D0=
+=BE=D0=B2=D0=BD=D1=8B=D0=B5 =D0=BF=D0=BE=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=
+=B8=D1=8F =D0=B2=D0=BD=D0=B5=D1=88=D0=BD=D0=B5=D1=82=D0=BE=D1=80=D0=B3=D0=
+=BE=D0=B2=D0=BE=D0=B3=D0=BE =D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=B0=D0=BA=D1=
+=82=D0=B0. =D0=A3=D1=81=D0=BB=D0=BE=D0=B2=D0=B8=D1=8F =D0=BE=D0=BF=D0=BB=D0=
+=B0=D1=82=D1=8B =D0=B8 =D1=81=D1=80=D0=BE=D0=BA=D0=B8 =D0=BF=D0=BE=D1=81=D1=
+=82=D0=B0=D0=B2=D0=BA=D0=B8. =D0=9A=D0=B0=D0=BA =D0=B2=D1=8B=D0=B1=D1=80=D0=
+=B0=D1=82=D1=8C =D0=BE=D0=BF=D1=82=D0=B8=D0=BC=D0=B0=D0=BB=D1=8C=D0=BD=D1=
+=8B=D0=B9 =D0=B8 =D0=B1=D0=B5=D0=B7=D0=BE=D0=BF=D0=B0=D1=81=D0=BD=D1=8B=D0=
+=B9 =D1=81=D0=BF=D0=BE=D1=81=D0=BE=D0=B1 =D0=BE=D0=BF=D0=BB=D0=B0=D1=82=D1=
+=8B =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=B0.<span style=3D"mso-spacerun: yes=
+">&nbsp; </span>=D0=A0=D0=B0=D0=B7=D0=BC=D0=B5=D1=89=D0=B5=D0=BD=D0=B8=D0=
+=B5, =D0=BA=D0=BE=D0=BD=D1=82=D1=80=D0=BE=D0=BB=D1=8C =D0=BF=D1=80=D0=BE=D1=
+=86=D0=B5=D1=81=D1=81=D0=B0 =D0=B8 =D1=81=D1=80=D0=BE=D0=BA=D0=BE=D0=B2 =D0=
+=B2=D1=8B=D0=BF=D0=BE=D0=BB=D0=BD=D0=B5=D0=BD=D0=B8=D1=8F =D0=B7=D0=B0=D0=
+=BA=D0=B0=D0=B7=D0=B0. =D0=AD=D0=BA=D1=81=D0=BF=D0=BE=D1=80=D1=82=D0=BD=D0=
+=B0=D1=8F =D1=83=D0=BF=D0=B0=D0=BA=D0=BE=D0=B2=D0=BA=D0=B0 =D0=B8 =D0=BC=D0=
+=B0=D1=80=D0=BA=D0=B8=D1=80=D0=BE=D0=B2=D0=BA=D0=B0 =D0=B3=D1=80=D1=83=D0=
+=B7=D0=B0, =D1=81=D1=82=D0=B8=D0=BA=D0=B5=D1=80=D1=8B, =D1=82=D0=BE=D0=B2=
+=D0=B0=D1=80=D0=BE=D1=81=D0=BE=D0=BF=D1=80=D0=BE=D0=B2=D0=BE=D0=B4=D0=B8=D1=
+=82=D0=B5=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5 =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=
+=B5=D0=BD=D1=82=D1=8B.<span style=3D"mso-spacerun: yes">&nbsp; </span>=D0=
+=9F=D1=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BD=D0=B5=D0=
+=B7=D0=B0=D0=B2=D0=B8=D1=81=D0=B8=D0=BC=D0=BE=D0=B9 =D0=B8=D0=BD=D1=81=D0=
+=BF=D0=B5=D0=BA=D1=86=D0=B8=D0=B8 =D0=BF=D1=80=D0=BE=D0=B8=D0=B7=D0=B2=D0=
+=B5=D0=B4=D0=B5=D0=BD=D0=BD=D0=BE=D0=B3=D0=BE =D1=82=D0=BE=D0=B2=D0=B0=D1=
+=80=D0=B0 =D0=B4=D0=BE =D0=BE=D1=82=D0=B3=D1=80=D1=83=D0=B7=D0=BA=D0=B8.<=
+span style=3D"mso-spacerun: yes">&nbsp; </span>=D0=A2=D1=80=D0=B0=D0=BD=D1=
+=81=D0=BF=D0=BE=D1=80=D1=82=D0=BD=D0=B0=D1=8F =D0=BB=D0=BE=D0=B3=D0=B8=D1=
+=81=D1=82=D0=B8=D0=BA=D0=B0.<span style=3D"mso-spacerun: yes">&nbsp; </sp=
+an>=D0=A2=D0=B0=D0=BC=D0=BE=D0=B6=D0=B5=D0=BD=D0=BD=D0=BE=D0=B5 =D0=BE=D1=
+=84=D0=BE=D1=80=D0=BC=D0=BB=D0=B5=D0=BD=D0=B8=D0=B5 =D0=BA=D0=B8=D1=82=D0=
+=B0=D0=B9=D1=81=D0=BA=D0=B8=D1=85 =D1=82=D0=BE=D0=B2=D0=B0=D1=80=D0=BE=D0=
+=B2. =D0=A2=D1=80=D0=B5=D0=B1=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D0=B5 =D0=BA =
+=D0=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=B0=D0=BC =D0=B4=D0=BB=
+=D1=8F =D0=BF=D0=BE=D0=B4=D1=82=D0=B2=D0=B5=D1=80=D0=B6=D0=B4=D0=B5=D0=BD=
+=D0=B8=D1=8F =D1=82=D0=B0=D0=BC=D0=BE=D0=B6=D0=B5=D0=BD=D0=BD=D0=BE=D0=B9=
+ =D1=81=D1=82=D0=BE=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D0=B8 =D1=82=D0=BE=D0=B2=
+=D0=B0=D1=80=D0=B0. . =D0=9E=D1=81=D0=BE=D0=B1=D0=B5=D0=BD=D0=BD=D0=BE=D1=
+=81=D1=82=D0=B8 =D1=8D=D0=BA=D1=81=D0=BF=D0=BE=D1=80=D1=82=D0=B0 =D0=B2 =D0=
+=9A=D0=B8=D1=82=D0=B0=D0=B9. =D0=A1=D1=82=D1=80=D1=83=D0=BA=D1=82=D1=83=D1=
+=80=D0=B0 =D1=80=D0=BE=D1=81=D1=81=D0=B8=D0=B9=D1=81=D0=BA=D0=BE-=D0=BA=D0=
+=B8=D1=82=D0=B0=D0=B9=D1=81=D0=BA=D0=BE=D0=B3=D0=BE =D1=82=D0=BE=D0=B2=D0=
+=B0=D1=80=D0=BE=D0=BE=D0=B1=D0=BE=D1=80=D0=BE=D1=82=D0=B0. =D0=9C=D0=B5=D1=
+=80=D1=8B =D1=82=D0=B0=D1=80=D0=B8=D1=84=D0=BD=D0=BE=D0=B3=D0=BE, =D0=BD=D0=
+=B5=D1=82=D0=B0=D1=80=D0=B8=D1=84=D0=BD=D0=BE=D0=B3=D0=BE, =D1=81=D0=B0=D0=
+=BD=D0=B8=D1=82=D0=B0=D1=80=D0=BD=D0=BE=D0=B3=D0=BE, =D0=B2=D0=B5=D1=82=D0=
+=B5=D1=80=D0=B8=D0=BD=D0=B0=D1=80=D0=BD=D0=BE=D0=B3=D0=BE =D0=B8 =D1=84=D0=
+=B8=D1=82=D0=BE=D1=81=D0=B0=D0=BD=D0=B8=D1=82=D0=B0=D1=80=D0=BD=D0=BE=D0=B3=
+=D0=BE<span style=3D"mso-spacerun: yes">&nbsp; </span>=D1=80=D0=B5=D0=B3=D1=
+=83=D0=BB=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BD=D0=B8=D1=8F =D0=B8=D0=BC=D0=
+=BF=D0=BE=D1=80=D1=82=D0=B0 =D0=B2 =D0=9A=D0=B8=D1=82=D0=B0=D0=B5. =D0=9F=
+=D1=80=D0=B0=D0=BA=D1=82=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=B5 =D0=BF=
+=D1=80=D0=BE=D1=86=D0=B5=D0=B4=D1=83=D1=80=D1=8B =D0=B4=D0=BE=D1=81=D1=82=
+=D1=83=D0=BF=D0=B0 =D0=BD=D0=B0 =D0=BA=D0=B8=D1=82=D0=B0=D0=B9=D1=81=D0=BA=
+=D0=B8=D0=B9 =D1=80=D1=8B=D0=BD=D0=BE=D0=BA. =D0=9C=D0=B5=D1=82=D0=BE=D0=B4=
+=D0=B8=D0=BA=D0=B0 =D0=BE=D1=86=D0=B5=D0=BD=D0=BA=D0=B8 =D0=BF=D0=B5=D1=80=
+=D1=81=D0=BF=D0=B5=D0=BA=D1=82=D0=B8=D0=B2 =D0=BA=D0=B8=D1=82=D0=B0=D0=B9=
+=D1=81=D0=BA=D0=BE=D0=B3=D0=BE =D1=80=D1=8B=D0=BD=D0=BA=D0=B0 =D0=B4=D0=BB=
+=D1=8F =D0=BA=D0=BE=D0=BD=D0=BA=D1=80=D0=B5=D1=82=D0=BD=D0=BE=D0=B3=D0=BE=
+ =D1=80=D0=BE=D1=81=D1=81=D0=B8=D0=B9=D1=81=D0=BA=D0=BE=D0=B3=D0=BE =D1=82=
+=D0=BE=D0=B2=D0=B0=D1=80=D0=B0. <o:p></o:p></span></p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span lang=3DRU style=3D'FONT-SIZE: 8pt; FONT-FAMILY: "Cambria","serif"; m=
+so-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-=
+font: major-latin'><o:p>&nbsp;</o:p></span></p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+b style=3D"mso-bidi-font-weight: normal"><span lang=3DRU style=3D'FONT-SI=
+ZE: 12pt; FONT-FAMILY: "Cambria","serif"; mso-ansi-language: RU; mso-asci=
+i-theme-font: major-latin; mso-hansi-theme-font: major-latin'>=D0=A1=D1=82=
+=D0=BE=D0=B8=D0=BC=D0=BE=D1=81=D1=82=D1=8C 10500<span style=3D"mso-spacer=
+un: yes">&nbsp; </span>=D1=80=D1=83=D0=B1.<span style=3D"mso-spacerun: ye=
+s">&nbsp; </span>=D0=9E=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD 9500 =D1=80=D1=83=D0=
+=B1.<o:p></o:p></span></b></p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span lang=3DRU style=3D'FONT-SIZE: 8pt; FONT-FAMILY: "Cambria","serif"; m=
+so-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-=
+font: major-latin'><o:p>&nbsp;</o:p></span></p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+b style=3D"mso-bidi-font-weight: normal"><span lang=3DRU style=3D'FONT-SI=
+ZE: 12pt; FONT-FAMILY: "Cambria","serif"; COLOR: #c00000; mso-ansi-langua=
+ge: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major-la=
+tin'>=D0=94=D0=BB=D1=8F =D0=BE=D0=BD=D0=BB=D0=B0=D0=B9=D0=BD =D1=83=D1=87=
+=D0=B0=D1=81=D1=82=D0=BD=D0=B8=D0=BA=D0=BE=D0=B2</span></b><b style=3D"ms=
+o-bidi-font-weight: normal"><span lang=3DRU style=3D'FONT-SIZE: 12pt; FON=
+T-FAMILY: "Cambria","serif"; mso-ansi-language: RU; mso-ascii-theme-font:=
+ major-latin; mso-hansi-theme-font: major-latin'>:</span></b><span lang=3D=
+RU style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Cambria","serif"; mso-ansi-lan=
+guage: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major=
+-latin'> =D0=B7=D0=B0=D0=BF=D0=B8=D1=81=D1=8C =D0=B2=D0=B5=D0=B1=D0=B8=D0=
+=BD=D0=B0=D1=80=D0=B0, =D0=BC=D0=B5=D1=82=D0=BE=D0=B4=D0=B8=D1=87=D0=B5=D1=
+=81=D0=BA=D0=B8=D0=B9 =D0=BC=D0=B0=D1=82=D0=B5=D1=80=D0=B8=D0=B0=D0=BB, =D1=
+=81=D0=B5=D1=80=D1=82=D0=B8=D1=84=D0=B8=D0=BA=D0=B0=D1=82 =D1=83=D1=87=D0=
+=B0=D1=81=D1=82=D0=BD=D0=B8=D0=BA=D0=B0, =D0=BF=D0=B0=D0=BA=D0=B5=D1=82 =D0=
+=B4=D0=BE=D0=BA=D1=83=D0=BC=D0=B5=D0=BD=D1=82=D0=BE=D0=B2<o:p></o:p></spa=
+n></p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span lang=3DRU style=3D'FONT-SIZE: 8pt; FONT-FAMILY: "Cambria","serif"; m=
+so-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-=
+font: major-latin'><o:p>&nbsp;</o:p></span></p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+b style=3D"mso-bidi-font-weight: normal"><span lang=3DRU style=3D'FONT-SI=
+ZE: 12pt; FONT-FAMILY: "Cambria","serif"; COLOR: #c00000; mso-ansi-langua=
+ge: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major-la=
+tin'>=D0=94=D0=BB=D1=8F =D0=BE=D1=87=D0=BD=D1=8B=D1=85 =D1=83=D1=87=D0=B0=
+=D1=81=D1=82=D0=BD=D0=B8=D0=BA=D0=BE=D0=B2:</span></b><span lang=3DRU sty=
+le=3D'FONT-SIZE: 12pt; FONT-FAMILY: "Cambria","serif"; mso-ansi-language:=
+ RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-font: major-latin=
+'> =D0=BA=D0=BE=D1=84=D0=B5, =D0=BE=D0=B1=D0=B5=D0=B4, =D0=BA=D0=B0=D0=BD=
+=D1=86=D0=B5=D0=BB=D1=8F=D1=80=D1=81=D0=BA=D0=B8=D0=B5 =D0=BF=D1=80=D0=B8=
+=D0=BD=D0=B0=D0=B4=D0=BB=D0=B5=D0=B6=D0=BD=D0=BE=D1=81=D1=82=D0=B8, =D0=BC=
+=D0=B5=D1=82=D0=BE=D0=B4=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=B9 =D0=BC=
+=D0=B0=D1=82=D0=B5=D1=80=D0=B8=D0=B0=D0=BB =D1=81=D0=B5=D1=80=D1=82=D0=B8=
+=D1=84=D0=B8=D0=BA=D0=B0=D1=82 =D1=83=D1=87=D0=B0=D1=81=D1=82=D0=BD=D0=B8=
+=D0=BA=D0=B0, =D0=BF=D0=B0=D0=BA=D0=B5=D1=82 =D0=B4=D0=BE=D0=BA=D1=83=D0=BC=
+=D0=B5=D0=BD=D1=82=D0=BE=D0=B2<o:p></o:p></span></p>
+<p class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span lang=3DRU style=3D'FONT-SIZE: 8pt; FONT-FAMILY: "Cambria","serif"; m=
+so-ansi-language: RU; mso-ascii-theme-font: major-latin; mso-hansi-theme-=
+font: major-latin'><o:p>&nbsp;</o:p></span></p></td></tr>
+<tr style=3D"mso-yfti-irow: 4; mso-yfti-lastrow: yes">
+<td style=3D"BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; WIDTH: 7.65in; B=
+ACKGROUND: #c00000; BORDER-BOTTOM: #f0f0f0; PADDING-BOTTOM: 0in; PADDING-=
+TOP: 0in; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt=
+" vAlign=3Dtop width=3D918>
+<p class=3DMsoNormal style=3D"TEXT-ALIGN: center; MARGIN: 0in 0in 0pt; LI=
+NE-HEIGHT: normal" align=3Dcenter><b style=3D"mso-bidi-font-weight: norma=
+l"><span lang=3DRU style=3D'FONT-SIZE: 16pt; FONT-FAMILY: "Cambria","seri=
+f"; COLOR: white; mso-ansi-language: RU; mso-ascii-theme-font: major-lati=
+n; mso-hansi-theme-font: major-latin; mso-bidi-font-size: 12.0pt; mso-the=
+mecolor: background1'>8 916-932-25-06</span></b><b style=3D"mso-bidi-font=
+-weight: normal"><span lang=3DRU style=3D'FONT-SIZE: 12pt; FONT-FAMILY: "=
+Cambria","serif"; COLOR: white; mso-ansi-language: RU; mso-ascii-theme-fo=
+nt: major-latin; mso-hansi-theme-font: major-latin; mso-themecolor: backg=
+round1'><o:p></o:p></span></b></p></td></tr></tbody></table></div>
+<div align=3Dcenter>&nbsp;</div>
+<div align=3Dcenter>&nbsp;</div>
+<div align=3Dcenter>
+<div align=3Dcenter>&nbsp;</div>
+<div align=3Dcenter>
+<div align=3Dcenter><a href=3D"mailto:arnaud.macdonald.3um9a3da@rambler.r=
+u?subject=3D=D0=9E=D1=82=D0=BF=D0=B8=D1=81=D0=BA=D0=B0">=D0=9E=D0=A2=D0=9F=
+=D0=98=D0=A1=D0=90=D0=A2=D0=AC=D0=A1=D0=AF =D0=BE=D1=82 =D0=BF=D0=BE=D0=BB=
+=D1=83=D1=87=D0=B5=D0=BD=D0=B8=D1=8F =D0=BF=D0=B8=D1=81=D0=B5=D0=BC</a></=
+div></div></div>
+<div align=3Dleft><font size=3D2 face=3DArial></font></div></body></html>
+
+--09a3cb9b4c88a44f6cc619b24796294815--

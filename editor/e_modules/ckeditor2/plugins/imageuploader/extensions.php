@@ -1,0 +1,32 @@
+<?php
+$allowExt = array(
+    'doc',
+    'docm',
+    'docx',
+    'dot',
+    'odt',
+    'dotm',
+    'dotx',
+    'pdf',
+    'xls',
+    'xlsm',
+    'xlsx',
+    'xlt',
+    'xltm',
+    'xltx',
+    'pps',
+    'ppsm',
+    'ppsx',
+    'pptm',
+    'pptx',
+    'jpg',
+    'png',
+    'jpeg',
+    'gif',
+    'ico',
+    'avi',
+    'mpeg',
+    'mp4',
+    'ogv'
+);
+?>

@@ -1,0 +1,156 @@
+Return-Path: <domain@nolof.ru>
+Delivered-To: info+spam@poranam.ru
+Received: from hostnl02.fornex.host
+	by hostnl02.fornex.host with LMTP
+	id 0LQ/CXnsnWJNxj0APMQOpA
+	(envelope-from <domain@nolof.ru>)
+	for <info+spam@poranam.ru>; Mon, 06 Jun 2022 12:00:57 +0000
+Return-path: <domain@nolof.ru>
+Envelope-to: info@poranam.ru
+Delivery-date: Mon, 06 Jun 2022 15:00:57 +0300
+Received: from [46.8.19.107] (port=33497 helo=mail.nolof.ru)
+	by hostnl02.fornex.host with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <domain@nolof.ru>)
+	id 1nyBPj-00H1XT-8o
+	for info@poranam.ru; Mon, 06 Jun 2022 15:00:57 +0300
+Message-ID: <a0793084500e242152f8b11af92d079148be3d@nolof.ru>
+From: =?utf-8?B?0JzQsNGA0Log0JHRg9C60LDQu9C+0LI=?= <domain@nolof.ru>
+To: info@poranam.ru
+Date: Mon, 6 Jun 2022 15:00:11 +0300
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="09a3f57e10d4f0ab88226bd733f74080d023"
+DKIM-Signature: v=1; c=relaxed/relaxed; a=rsa-sha256; s=mail; d=nolof.ru;
+	t=1654516811; h=message-id:from:to:subject:date:mime-version;
+	bh=05lwcv5hKJXIRVS3E+OxTs3wgc1ku41WXLqpIrYX+uk=;
+	b=hANhl2nEmz1CM6AE+aypghxlsFvO5PK7Hy80rVM86IDIVVHIKtHBushRA/bhtF18MDWRx
+	KGmRqvPd+iOQPI7U8FPQw8B1YiO2kQlPXd+JWmFnx1EfCfSdNQlp8yX/GDr1ywS00BnAAZe
+	5YSue+dFC5gg19Rsb2Wg26FrP7jytmQ=
+X-Spam-Status: Yes, score=27.4
+X-Spam-Score: 274
+X-Spam-Bar: +++++++++++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "hostnl02.fornex.host",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Проведем е-мейл рассылку. База юридических
+    лиц, 109 городов России на выбор. Например,
+    Москва 1 580 000 адресатов. П� [...] 
+ Content analysis details:   (27.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: legalaport.ru]
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [46.8.19.107 listed in psbl.surriel.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  3.6 RCVD_IN_PBL            RBL: Received via a relay in Spamhaus PBL
+                             [46.8.19.107 listed in zen.spamhaus.org]
+  4.7 RCVD_IN_XBL            RBL: Received via a relay in Spamhaus XBL
+  0.1 URIBL_SBL_A            Contains URL's A record listed in the Spamhaus SBL
+                             blocklist
+                             [URIs: nolof.ru]
+  0.6 URIBL_SBL              Contains an URL's NS IP listed in the Spamhaus SBL
+                             blocklist
+                             [URIs: nolof.ru]
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: nolof.ru]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  2.4 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+  1.7 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+  1.3 RCVD_IN_RP_RNBL        RBL: Relay in RNBL,
+                             https://senderscore.org/blacklistlookup/
+                             [46.8.19.107 listed in bl.score.senderscore.com]
+  1.9 URIBL_ABUSE_SURBL      Contains an URL listed in the ABUSE SURBL
+                             blocklist
+                             [URIs: legalaport.ru]
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?utf-8?B?0J/RgNC+0LLQtdC00LXQvCDQtS3QvNC10LnQuyDRgNCw0YHRgdGL0Ls=?=
+	=?utf-8?B?0LrRgw==?=
+
+--09a3f57e10d4f0ab88226bd733f74080d023
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=D0=9F=D1=80=D0=BE=D0=B2=D0=B5=D0=B4=D0=B5=D0=BC =D0=B5-=D0=BC=D0=B5=D0=B9=
+=D0=BB =D1=80=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D1=83.
+=D0=91=D0=B0=D0=B7=D0=B0 =D1=8E=D1=80=D0=B8=D0=B4=D0=B8=D1=87=D0=B5=D1=81=
+=D0=BA=D0=B8=D1=85 =D0=BB=D0=B8=D1=86, 109 =D0=B3=D0=BE=D1=80=D0=BE=D0=B4=
+=D0=BE=D0=B2 =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=B8 =D0=BD=D0=B0 =D0=B2=D1=8B=
+=D0=B1=D0=BE=D1=80.
+=D0=9D=D0=B0=D0=BF=D1=80=D0=B8=D0=BC=D0=B5=D1=80, =D0=9C=D0=BE=D1=81=D0=BA=
+=D0=B2=D0=B0 1 580 000 =D0=B0=D0=B4=D1=80=D0=B5=D1=81=D0=B0=D1=82=D0=BE=D0=
+=B2.
+=D0=9F=D0=BE=D0=B4=D0=B3=D0=BE=D1=82=D0=BE=D0=B2=D0=BA=D0=B0 =D1=80=D0=B5=
+=D0=BA=D0=BB=D0=B0=D0=BC=D0=BD=D0=BE=D0=B9 =D0=BA=D0=B0=D0=BC=D0=BF=D0=B0=
+=D0=BD=D0=B8=D0=B8 =D0=B7=D0=B0=D0=BD=D0=B8=D0=BC=D0=B0=D0=B5=D1=82 1-2 =D1=
+=80=D0=B0=D0=B1=D0=BE=D1=87=D0=B8=D1=85 =D0=B4=D0=BD=D1=8F.
+1 =D0=B2=D1=8B=D1=85=D0=BE=D0=B4 =D0=BD=D0=B0 1 =D0=B3=D0=BE=D1=80=D0=BE=D0=
+=B4 - 4000.
+=D0=A0=D0=BE=D1=81=D1=81=D0=B8=D1=8F 109 =D0=B3=D0=BE=D1=80=D0=BE=D0=B4=D0=
+=BE=D0=B2 - 12900.
+
+=D0=92=D1=8B=D0=B3=D0=BE=D0=B4=D0=BD=D0=BE=D0=B5 =D0=BF=D1=80=D0=B5=D0=B4=
+=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5: 5 =D0=B2=D1=8B=D1=85=D0=BE=D0=
+=B4=D0=BE=D0=B2 =D0=B7=D0=B0 8000=D1=80.=C2=A0
+=D0=9C=D0=BE=D0=B6=D0=BD=D0=BE =D0=BE=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=B8=
+=D1=82=D1=8C =D0=BF=D1=8F=D1=82=D1=8C =D1=80=D0=B0=D0=B7 =D0=B2 =D0=BE=D0=
+=B4=D0=B8=D0=BD =D0=B3=D0=BE=D1=80=D0=BE=D0=B4 =D0=B8=D0=BB=D0=B8 =D0=BF=D0=
+=BE 5 =D0=B3=D0=BE=D1=80=D0=BE=D0=B4=D0=B0=D0=BC.
+=D0=9F=D0=BE=D0=B4=D1=80=D0=BE=D0=B1=D0=BD=D0=BE=D1=81=D1=82=D0=B8 =D0=BD=
+=D0=B0 =D1=81=D0=B0=D0=B9=D1=82=D0=B5: http://legalaport.ru/54g53okpt/
+
+--09a3f57e10d4f0ab88226bd733f74080d023
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+</head>
+<body bgColor=3D"#ffffff">
+<div align=3Dleft><font size=3D2 face=3DArial>=D0=9F=D1=80=D0=BE=D0=B2=D0=
+=B5=D0=B4=D0=B5=D0=BC =D0=B5-=D0=BC=D0=B5=D0=B9=D0=BB =D1=80=D0=B0=D1=81=D1=
+=81=D1=8B=D0=BB=D0=BA=D1=83.<br>=D0=91=D0=B0=D0=B7=D0=B0 =D1=8E=D1=80=D0=B8=
+=D0=B4=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D1=85 =D0=BB=D0=B8=D1=86, 109 =
+=D0=B3=D0=BE=D1=80=D0=BE=D0=B4=D0=BE=D0=B2 =D0=A0=D0=BE=D1=81=D1=81=D0=B8=
+=D0=B8 =D0=BD=D0=B0 =D0=B2=D1=8B=D0=B1=D0=BE=D1=80. <br>=D0=9D=D0=B0=D0=BF=
+=D1=80=D0=B8=D0=BC=D0=B5=D1=80, =D0=9C=D0=BE=D1=81=D0=BA=D0=B2=D0=B0 1 58=
+0 000 =D0=B0=D0=B4=D1=80=D0=B5=D1=81=D0=B0=D1=82=D0=BE=D0=B2.<br>&nbsp;<b=
+r>=D0=9F=D0=BE=D0=B4=D0=B3=D0=BE=D1=82=D0=BE=D0=B2=D0=BA=D0=B0 =D1=80=D0=B5=
+=D0=BA=D0=BB=D0=B0=D0=BC=D0=BD=D0=BE=D0=B9 =D0=BA=D0=B0=D0=BC=D0=BF=D0=B0=
+=D0=BD=D0=B8=D0=B8 =D0=B7=D0=B0=D0=BD=D0=B8=D0=BC=D0=B0=D0=B5=D1=82 1-2 =D1=
+=80=D0=B0=D0=B1=D0=BE=D1=87=D0=B8=D1=85 =D0=B4=D0=BD=D1=8F.<br>&nbsp;<br>=
+1 =D0=B2=D1=8B=D1=85=D0=BE=D0=B4 =D0=BD=D0=B0 1 =D0=B3=D0=BE=D1=80=D0=BE=D0=
+=B4 - 4000.<br>=D0=A0=D0=BE=D1=81=D1=81=D0=B8=D1=8F 109 =D0=B3=D0=BE=D1=80=
+=D0=BE=D0=B4=D0=BE=D0=B2 - 12900.</font></div>
+<div>&nbsp;</div>
+<div align=3Dleft><font size=3D2 face=3DArial>=D0=92=D1=8B=D0=B3=D0=BE=D0=
+=B4=D0=BD=D0=BE=D0=B5 =D0=BF=D1=80=D0=B5=D0=B4=D0=BB=D0=BE=D0=B6=D0=B5=D0=
+=BD=D0=B8=D0=B5: 5 =D0=B2=D1=8B=D1=85=D0=BE=D0=B4=D0=BE=D0=B2 =D0=B7=D0=B0=
+ 8000=D1=80.&nbsp; <br>=D0=9C=D0=BE=D0=B6=D0=BD=D0=BE =D0=BE=D1=82=D0=BF=D1=
+=80=D0=B0=D0=B2=D0=B8=D1=82=D1=8C =D0=BF=D1=8F=D1=82=D1=8C =D1=80=D0=B0=D0=
+=B7 =D0=B2 =D0=BE=D0=B4=D0=B8=D0=BD =D0=B3=D0=BE=D1=80=D0=BE=D0=B4 =D0=B8=
+=D0=BB=D0=B8 =D0=BF=D0=BE 5 =D0=B3=D0=BE=D1=80=D0=BE=D0=B4=D0=B0=D0=BC.<b=
+r>&nbsp;<br>=D0=9F=D0=BE=D0=B4=D1=80=D0=BE=D0=B1=D0=BD=D0=BE=D1=81=D1=82=D0=
+=B8 =D0=BD=D0=B0 =D1=81=D0=B0=D0=B9=D1=82=D0=B5: http://legalaport.ru/54g=
+53okpt/<br></font></div></body></html>
+
+--09a3f57e10d4f0ab88226bd733f74080d023--

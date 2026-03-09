@@ -1,0 +1,527 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202305 will be lost/reset.
+# Last config file used to build this data file was /home/iskrame2/tmp/awstats/awstats.iskramet.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2691                
+POS_VISITOR 10387               
+POS_DAY 14398               
+POS_DOMAIN 3259                
+POS_LOGIN 3708                
+POS_ROBOT 3863                
+POS_WORMS 4157                
+POS_EMAILSENDER 4288                
+POS_EMAILRECEIVER 4431                
+POS_SESSION 14523               
+POS_SIDER 14698               
+POS_FILETYPES 4566                
+POS_DOWNLOADS 4667                
+POS_OS 4715                
+POS_BROWSER 5008                
+POS_SCREENSIZE 6459                
+POS_UNKNOWNREFERER 6533                
+POS_UNKNOWNREFERERBROWSER 7354                
+POS_ORIGIN 7905                
+POS_SEREFERRALS 8039                
+POS_PAGEREFS 8183                
+POS_SEARCHWORDS 8331                
+POS_KEYWORDS 8483                
+POS_MISC 2355                
+POS_ERRORS 8542                
+POS_CLUSTER 3564                
+POS_SIDER_404 8628                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230601001539 109 18821 11293486078865
+FirstTime 20230529063350
+LastTime 20230531233311
+LastUpdate 20230601111012 109 0 106 2 0
+TotalVisits 124                 
+TotalUnique 108                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 108                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 49 2 3 98
+1 3 3 147 3 4 98
+2 2 2 98 3 3 0
+3 5 5 196 0 8 0
+4 4 4 196 4 6 0
+5 3 3 147 20 20 49
+6 22 22 1263 1 2 49
+7 6 6 294 5 5 49
+8 8 8 392 43 45 49
+9 4 4 196 2 2 0
+10 5 5 245 0 1 0
+11 10 10 392 4 10 0
+12 2 2 98 0 0 0
+13 5 5 196 5 11 49
+14 4 4 196 20 20 49
+15 4 4 196 4 6 98
+16 6 6 294 11 11 147
+17 7 7 294 2 7 49
+18 12 12 588 19 19 49
+19 22 22 1029 3 9 49
+20 15 15 735 1 1 49
+21 17 17 784 19 22 49
+22 6 6 294 33 37 0
+23 2 2 98 5 6 98
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 22
+us 97 97 4731
+cn 26 26 1225
+gb 10 10 392
+ru 9 9 561
+in 4 4 147
+nl 4 4 196
+jp 3 3 147
+de 3 3 147
+pl 3 3 147
+ca 2 2 98
+ua 2 2 49
+hn 2 2 49
+az 1 1 49
+fr 1 1 49
+ro 1 1 49
+zz 1 1 87
+mx 1 1 49
+iq 1 1 49
+co 1 1 49
+se 1 1 49
+br 1 1 49
+th 1 1 49
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+no_user_agent 14 686 20230531195034 0
+curl 4 196 20230531183203 0
+java 2 98 20230531200123 0
+spider 2 49 20230531010533 0
+Go\-http\-client/ 1 49 20230530162454 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+html 164 7644 0 0
+Unknown 11 773 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+android10 2 2
+androidnougat 1 1
+macosx9 2 2
+linux 20 20
+win8.1 27 27
+win7 8 8
+macosx11 3 3
+winxp 3 3
+macosx 1 1
+androidfroyo 1 1
+ios_iphone 14 14
+androidkitkat 1 1
+macosx15 11 11
+win2003 1 1
+winnt 4 4
+win10 53 53
+Unknown 23 23
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 68
+firefox110.0 2 2
+chrome32.0.1664.3 1 1
+chrome19.0.1084.9 1 1
+safari13.0.3 9 9
+chrome84.0.4147.89 1 1
+chrome38.0.2125.111 25 25
+chrome112.0.5615.138 1 1
+chrome75.0.3770.142 2 2
+chrome92.0.4515.107 1 1
+chrome52.0.2743.116 3 3
+chrome81.0.4044.129 1 1
+chrome68.0.538 1 1
+chrome63.0.3239.132 2 2
+chrome35.0.1916.47 1 1
+chrome41.0.2224.3 1 1
+netscape5.0 3 3
+chrome50.0.211 1 1
+chrome49.0.2623.112 1 1
+chrome78.0.1268.88 1 1
+mozilla 7 7
+chrome74.0.3729.169 1 1
+chrome95.0.4638.69 4 4
+chrome78.0.3476.88 1 1
+chrome108.0.0.0 3 3
+chrome110.0.0.0 2 2
+firefox33.0 2 2
+firefox104.0 1 1
+chrome41.0.2228.0 1 1
+chrome78.0.427 1 1
+chrome71.0.3195.88 1 1
+chrome108.0.800.0 1 1
+safari13.0.5 2 2
+edge44 1 1
+safari9.1.2 1 1
+firefox52.0 1 1
+chrome40.0.2214.115 1 1
+chrome80.0.3987.162 2 2
+chrome103.0.0.0 1 1
+chrome107.0.0.0 8 8
+chrome91.0.4472.114 1 1
+android 2 2
+chrome78.0.3904.108 15 15
+chrome75.0.1763.88 1 1
+chrome111.0.0.0 1 1
+Unknown 13 13
+chrome60.0.3112.113 8 8
+chrome51.0.2704.103 2 2
+chrome105.0.0.0 2 2
+firefox73.0 2 2
+chrome83.0.4103.0 6 6
+chrome76.0.3809.132 2 2
+chrome86.0.4240.111 1 1
+chrome90.0.4430.85 1 1
+firefox77.0 1 1
+chrome83.0.4103.97 2 2
+firefox31.0 1 1
+chrome102.0.5005.63 1 1
+safari16.1 2 2
+chrome85.0.4183.127 1 1
+safari15.1 1 1
+chrome79.0.2648.88 1 1
+chrome50.0.2661.102 1 1
+chrome78.0.2118.88 1 1
+firefox103.0 1 1
+chrome110.0.5481.177 2 2
+firefox109.0 1 1
+msie8.0 1 1
+chrome27.0.1453.93 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+Cpanel-HTTP-Client/1.0 20230529063350
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20230530042652
+Mozilla/5.0_zgrab/0.x 20230531125141
+Mozilla/5.0_Firefox/33.0 20230531214658
+Mozilla/5.0_(compatible;_Dataprovider.com) 20230531111610
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20230529063354
+'Cloud_mapping_experiment._Contact_research@pdrlabs.net' 20230530074320
+Mozilla/5.0 20230531162614
+masscan/1.3_(https://github.com/robertdavidgraham/masscan) 20230529082645
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Cpanel-HTTP-Client/1.0 20230529063350
+'Cloud_mapping_experiment._Contact_research@pdrlabs.net' 20230530074320
+masscan/1.3_(https://github.com/robertdavidgraham/masscan) 20230529082645
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20230530042652
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 175 175
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 212 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 55
+/2018/wp-includes/wlwmanifest.xml 6 -
+/feed/ 2 -
+/axis2/axis2-admin/ 1 -
+/1.php 2 -
+/favicon.png 4 -
+/wordpress/wp-includes/wlwmanifest.xml 9 -
+/wp2/wp-includes/wlwmanifest.xml 6 -
+/shop/wp-includes/wlwmanifest.xml 8 -
+/2020/wp-includes/wlwmanifest.xml 2 -
+/ads.txt 3 -
+/shell 2 -
+/2021/wp-includes/wlwmanifest.xml 2 -
+/wp-content/ 2 -
+/bundle.js 2 -
+/config/getuser 1 -
+/website/wp-includes/wlwmanifest.xml 6 -
+http://www.1ucn.com/proxychecker/index.php 1 -
+/.git/ 2 -
+/2019/wp-includes/wlwmanifest.xml 8 -
+/sito/wp-includes/wlwmanifest.xml 6 -
+/humans.txt 2 -
+/.env 6 -
+http://www.iskramet.com:80/favicon.png 1 -
+/axis2-admin/ 1 -
+/administrator/index.php 1 -
+/web/wp-includes/wlwmanifest.xml 8 -
+/boaform/admin/formLogin 1 -
+/misc/ajax.js 1 -
+/.git/config 4 -
+/wp-includes/wlwmanifest.xml 10 -
+/wp1/wp-includes/wlwmanifest.xml 8 -
+/axis2/ 1 -
+/view-source: 1 -
+/cgi-bin/luci/ 1 -
+/wp/wp-includes/wlwmanifest.xml 9 -
+/blog/wp-includes/wlwmanifest.xml 9 -
+/client/get_targets 2 -
+/news/wp-includes/wlwmanifest.xml 6 -
+/agc/timeclock.php 1 -
+/cms/wp-includes/wlwmanifest.xml 9 -
+/security.txt 1 -
+/git/ 2 -
+/wp-includes/ID3/license.txt 2 -
+http://iskramet.com:80/favicon.png 3 -
+/agent/timeclock.php 1 -
+/robots.txt 6 -
+/upl.php 2 -
+/site/wp-includes/wlwmanifest.xml 9 -
+/sitemap.xml 2 -
+/test/wp-includes/wlwmanifest.xml 8 -
+/geoip/ 2 -
+/.well-known/security.txt 1 -
+/xmlrpc.php 9 -
+/media/wp-includes/wlwmanifest.xml 6 -
+/wp-admin/install.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 108
+34.69.229.204 25 25 1225 20230531212819
+76.164.198.173 8 8 392 20230531095037
+185.224.80.124 8 8 512 20230529063350
+123.60.146.214 6 6 294 20230531193810
+157.230.45.251 3 3 147 20230530143942
+43.156.128.68 3 3 147 20230530080954
+128.199.147.133 3 3 147 20230530183310
+174.138.18.17 3 3 147 20230530050114
+208.109.212.76 3 3 147 20230531210831
+89.248.168.222 2 2 98 20230531183203
+8.36.86.51 2 2 98 20230531214658
+167.172.236.112 2 2 98 20230529133848
+95.174.64.246 2 2 98 20230531083130
+52.56.143.158 2 2 98 20230530074320
+163.172.178.5 2 2 0 20230531112702
+223.240.101.111 2 2 98 20230531193045
+188.166.236.91 2 2 98 20230530045249
+58.251.94.154 2 2 49 20230529065251
+138.197.47.114 2 2 98 20230531064555
+20.163.108.68 2 2 98 20230530160916
+149.56.150.14 2 2 98 20230531111530
+140.246.164.95 2 2 98 20230531024415
+3.238.190.185 2 2 98 20230531162614
+170.231.251.238 1 1 0 20230530133129
+42.83.147.43 1 1 49 20230531184612
+107.178.200.200 1 1 49 20230531212820
+117.243.204.91 1 1 49 20230529102726
+51.254.59.113 1 1 49 20230531233311
+167.250.111.135 1 1 49 20230530180113
+111.7.100.23 1 1 49 20230529164628
+193.34.74.162 1 1 49 20230530133130
+209.127.97.131 1 1 49 20230529193249
+61.0.220.139 1 1 49 20230531024327
+107.178.200.218 1 1 49 20230531205824
+104.165.199.8 1 1 49 20230530174523
+15.204.137.229 1 1 49 20230531180613
+44.236.207.248 1 1 49 20230529064240
+35.87.0.166 1 1 87 20230529063354
+183.88.47.115 1 1 49 20230531030932
+34.30.157.204 1 1 49 20230529171659
+135.148.195.8 1 1 49 20230530114138
+82.177.124.122 1 1 49 20230530205400
+149.56.160.176 1 1 49 20230531111610
+23.178.112.106 1 1 87 20230529063354
+54.215.133.21 1 1 0 20230531212306
+152.228.243.2 1 1 49 20230531001716
+35.88.76.73 1 1 49 20230530194529
+106.75.99.225 1 1 49 20230531083547
+107.178.200.216 1 1 49 20230531192829
+14.116.150.68 1 1 49 20230530142030
+46.4.33.48 1 1 49 20230531114857
+34.214.117.190 1 1 49 20230530213932
+113.142.131.55 1 1 49 20230530184841
+209.127.105.167 1 1 49 20230531154544
+161.18.38.46 1 1 49 20230531062343
+195.201.41.238 1 1 49 20230531214947
+176.74.192.85 1 1 49 20230531032316
+14.116.157.23 1 1 49 20230530192938
+3.14.79.67 1 1 87 20230529063353
+135.148.195.2 1 1 49 20230531220817
+177.10.123.219 1 1 49 20230531211054
+23.111.114.116 1 1 49 20230530131832
+18.222.222.218 1 1 49 20230530171544
+52.47.83.33 1 1 49 20230530110220
+15.204.182.106 1 1 49 20230529205519
+146.190.88.218 1 1 49 20230530222249
+106.75.143.149 1 1 49 20230531034602
+3.144.209.160 1 1 49 20230529214600
+107.178.200.209 1 1 49 20230531195844
+107.178.239.211 1 1 49 20230531213422
+170.254.178.178 1 1 49 20230530175523
+113.142.141.105 1 1 49 20230530064721
+95.164.156.14 1 1 0 20230530175522
+14.116.152.84 1 1 49 20230531185128
+103.153.79.223 1 1 49 20230530223709
+159.223.49.158 1 1 49 20230529070022
+54.81.138.163 1 1 49 20230530152811
+81.161.52.148 1 1 49 20230531182341
+138.122.193.178 1 1 0 20230531034444
+44.210.112.87 1 1 49 20230530120417
+42.228.9.78 1 1 49 20230530213925
+65.108.186.9 1 1 49 20230530232335
+68.235.43.85 1 1 49 20230529172727
+34.212.114.15 1 1 49 20230530113406
+109.205.213.30 1 1 49 20230530104635
+205.210.31.106 1 1 49 20230530042652
+135.148.195.14 1 1 49 20230530105304
+34.218.241.82 1 1 49 20230531194924
+191.102.149.60 1 1 49 20230531034445
+198.13.62.122 1 1 49 20230531072038
+205.210.31.163 1 1 49 20230529200155
+135.148.195.4 1 1 49 20230531220817
+54.202.25.166 1 1 49 20230530194501
+139.5.106.190 1 1 49 20230531173227
+51.159.164.227 1 1 49 20230530192400
+45.139.38.5 1 1 0 20230529193248
+187.191.42.151 1 1 49 20230530094505
+106.55.225.110 1 1 49 20230531064432
+104.152.52.113 1 1 49 20230529082645
+106.75.30.226 1 1 49 20230531064240
+46.228.199.158 1 1 49 20230530074530
+128.199.146.52 1 1 49 20230530220740
+213.188.85.69 1 1 49 20230530192322
+192.241.196.43 1 1 49 20230531125141
+106.75.84.209 1 1 49 20230531014945
+107.178.200.212 1 1 49 20230531203138
+111.7.100.22 1 1 49 20230529164749
+51.81.167.146 1 1 49 20230529074748
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20230529 29 29 1557 20
+20230530 60 60 2842 49
+20230531 86 86 4018 55
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+1h+ 1
+5mn-15mn 1
+0s-30s 121
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/ 155 7399 111 111
+http://iskramet.com:80/ 7 196 7 7
+/.well-known/acme-challenge/WLrGFDHew-QX_mdGmVO9bs6k1VhSff2RQJ8uTvavc1M 3 261 3 3
+http://www.iskramet.com:80/ 2 49 2 2
+/.well-known/acme-challenge/8EMNJX6GBAKX5O890KY1L9UX7Y-FGIN3 1 64 0 0
+/.well-known/acme-challenge/RFJT-3JT947-H2BPBRR4FENSFTDC_3KY 1 64 1 0
+/.well-known/acme-challenge/VX63JFPN1ZNXRUVH47DCZ27__2VVBJ1O 1 64 0 1
+/.well-known/acme-challenge/-I_84SK8TCNA28P7_NC27P0HOH36AQA8 1 64 0 0
+/.well-known/acme-challenge/07E68VES8R7FHIODEOB85NYD93ZNTU2M 1 64 0 0
+/.well-known/acme-challenge/JH42L7H1RJN07P5AR3FDMHAEFJ25UW-0 1 64 0 0
+/.well-known/acme-challenge/ATTE985F51VFREY9N3GA2R7F0E0TR1KF 1 64 0 0
+/.well-known/acme-challenge/GZ009QHV592VEV24L6J9AKXUGAU_YFHR 1 64 0 0
+END_SIDER

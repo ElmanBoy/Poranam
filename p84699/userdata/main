@@ -1,0 +1,8 @@
+--- 
+addon_domains: 
+  poranam.ru: poranam-ru.p84699.hostnl02.fornex.host
+main_domain: p84699.hostnl02.fornex.host
+parked_domains: []
+
+sub_domains: 
+  - poranam-ru.p84699.hostnl02.fornex.host

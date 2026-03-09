@@ -1,0 +1,112 @@
+Return-Path: <met@kokum.ru>
+Delivered-To: info+spam@poranam.ru
+Received: from hostnl02.fornex.host
+	by hostnl02.fornex.host with LMTP
+	id GOahMl/6X2PdlhUAPMQOpA
+	(envelope-from <met@kokum.ru>)
+	for <info+spam@poranam.ru>; Mon, 31 Oct 2022 16:39:59 +0000
+Return-path: <met@kokum.ru>
+Envelope-to: info@poranam.ru
+Delivery-date: Mon, 31 Oct 2022 19:39:59 +0300
+Received: from mail.kokum.ru ([46.8.210.63]:49157)
+	by hostnl02.fornex.host with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <met@kokum.ru>)
+	id 1opXpN-005ytk-W6
+	for info@poranam.ru; Mon, 31 Oct 2022 19:39:59 +0300
+Message-ID: <2c839c6d995661b1922a53f80cd16b61d7ec87aa@kokum.ru>
+From: =?utf-8?B?0JvQuNC00LjRjyDQkNC80LLRgNC+0YHRjNC10LLQsA==?= <met@kokum.ru>
+To: info@poranam.ru
+Date: Mon, 31 Oct 2022 19:39:08 +0300
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8";
+Content-Transfer-Encoding: quoted-printable
+DKIM-Signature: v=1; c=relaxed/relaxed; a=rsa-sha256; s=mail; d=kokum.ru;
+	t=1667234348; h=message-id:from:to:subject:date:mime-version;
+	bh=ocfIc4ssgZbQf05iwleHT9pCX5qVPZuUFXljj+yeuYg=;
+	b=WbNFOA8sIltf2FA3rxuj/NCX6+9lsWeyNZju30dh/rcvDggKncz1xb8dKClTB4VR4eWUf
+	N0pV1IK2LIGb0UbJ72JDmbONE6hL6MgxFpwdekES1a8QTyn/fFOmhXyOfDyrBgFsRG4cLr9
+	wgqkQDZbo6Xg6ZMYNGgdkdfYZ7ULLxc=
+X-Spam-Status: Yes, score=13.1
+X-Spam-Score: 131
+X-Spam-Bar: +++++++++++++
+X-Spam-Report: Spam detection software, running on the system "hostnl02.fornex.host",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Е-мейл рассылка юридическим лицам
+    по 109 городам России. База России – 11 500 000
+    адресатов. 1 рассылка в 1 город - 4000р. 1 рассылка
+    по 109 городам - 12900р. 
+ Content analysis details:   (13.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_DBL_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             dbl.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: impulstrad.ru]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: kokum.ru]
+  1.9 URIBL_ABUSE_SURBL      Contains an URL listed in the ABUSE SURBL
+                             blocklist
+                             [URIs: impulstrad.ru]
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in
+                             bl.spamcop.net
+                 [Blocked - see <https://www.spamcop.net/bl.shtml?46.8.210.63>]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.3 RCVD_IN_RP_RNBL        RBL: Relay in RNBL,
+                             https://senderscore.org/blacklistlookup/
+                             [46.8.210.63 listed in bl.score.senderscore.com]
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [46.8.210.63 listed in psbl.surriel.com]
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  2.4 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+  1.7 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?utf-8?B?0JLRi9Cz0L7QtNC90LDRjyDRgNC10LrQu9Cw0LzQsCDQtNC70Y8g0LLQsA==?=
+	=?utf-8?B?0YjQtdC5INC+0YDQs9Cw0L3QuNC30LDRhtC40Lgu?=
+
+=D0=95-=D0=BC=D0=B5=D0=B9=D0=BB =D1=80=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=
+=D0=B0 =D1=8E=D1=80=D0=B8=D0=B4=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=BC=
+ =D0=BB=D0=B8=D1=86=D0=B0=D0=BC =D0=BF=D0=BE 109 =D0=B3=D0=BE=D1=80=D0=BE=
+=D0=B4=D0=B0=D0=BC =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=B8.
+
+=D0=91=D0=B0=D0=B7=D0=B0 =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=B8 =E2=80=93 1=
+1 500 000 =D0=B0=D0=B4=D1=80=D0=B5=D1=81=D0=B0=D1=82=D0=BE=D0=B2.
+
+1 =D1=80=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B0 =D0=B2 1 =D0=B3=D0=BE=D1=
+=80=D0=BE=D0=B4 - 4000=D1=80.
+1 =D1=80=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B0 =D0=BF=D0=BE 109 =D0=B3=
+=D0=BE=D1=80=D0=BE=D0=B4=D0=B0=D0=BC - 12900=D1=80.
+
+=D0=9F=D0=BE=D0=BC=D0=BE=D0=B6=D0=B5=D0=BC =D1=81=D0=BE=D1=81=D1=82=D0=B0=
+=D0=B2=D0=B8=D1=82=D1=8C =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=BE.=20
+=D0=9F=D0=BE=D0=B4=D0=B3=D0=BE=D1=82=D0=BE=D0=B2=D0=BA=D0=B0 =D0=B7=D0=B0=
+=D0=BD=D0=B8=D0=BC=D0=B0=D0=B5=D1=82 1 =D1=80=D0=B0=D0=B1=D0=BE=D1=87=D0=B8=
+=D0=B9 =D0=B4=D0=B5=D0=BD=D1=8C.
+
+=D0=9F=D1=80=D0=B5=D0=B4=D0=BB=D0=BE=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5 =D0=B4=
+=D0=BD=D1=8F: 5 =D0=B2=D1=8B=D1=85=D0=BE=D0=B4=D0=BE=D0=B2 =D0=B7=D0=B0 8=
+000=D1=80. =20
+=D0=9C=D0=BE=D0=B6=D0=BD=D0=BE =D0=BE=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=B8=
+=D1=82=D1=8C =D0=BF=D1=8F=D1=82=D1=8C =D1=80=D0=B0=D0=B7 =D0=B2 =D0=BE=D0=
+=B4=D0=B8=D0=BD =D0=B3=D0=BE=D1=80=D0=BE=D0=B4 =D0=B8=D0=BB=D0=B8 =D0=BF=D0=
+=BE 5 =D0=B3=D0=BE=D1=80=D0=BE=D0=B4=D0=B0=D0=BC.
+
+=D0=9F=D0=B5=D1=80=D0=B5=D0=B9=D1=82=D0=B8 =D0=BD=D0=B0 =D1=81=D0=B0=D0=B9=
+=D1=82 http://impulstrad.ru/zkxska52v/ygwb0l5uk/28ovir9v4/

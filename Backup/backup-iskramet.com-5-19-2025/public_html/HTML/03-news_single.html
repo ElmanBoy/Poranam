@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Общественное движение "Пора"- manager</title>
+
+    <link href="css/start.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/button.css" rel="stylesheet" />
+    <link href="css/check-radio.css" rel="stylesheet" />
+    <link href="css/style00.css" rel="stylesheet" />
+    <link href="css/style01.css" rel="stylesheet" media="only screen and (min-width:600px) and (max-width:959px)" />
+    <link href="css/style02.css" rel="stylesheet" media="only screen and (min-width:960px)" />
+    <link href="css/el-data.css" rel="stylesheet" />
+    <link href="css/pie-charts.css" rel="stylesheet" />
+
+    <!-- <link href="css/style01.css" rel="stylesheet" type="text/css" media="only screen and (min-width:600px) and (max-width:1024px)" />
+    <link href="css/style02.css" rel="stylesheet" type="text/css" media="only screen and (min-width:1024px)" /> -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- подключаем адаптивное меню -->
+    <!-- <script src="js/jquery.slimmenu.min.js"></script> -->
+</head>
+
+<body>
+    <header>
+        <div class="wrap">
+
+            <div class="box">
+                <div class="logo">
+                    <a href="#"><img src="images/logo_blue.svg" /></a>
+                </div>
+            </div>
+            <div class="box">
+                <nav id="top_menu">
+
+                    <ul>
+                        <li><a href="#">Деятельность</a></li>
+                        <li><a href="#">Инициативы</a></li>
+                        <li><a href="#">Голосование</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Присоединиться</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+
+            <div class="box">
+                <div class="account">
+                    <button class="button icon text" onclick="pop_up_welcome(); return false"><span class="material-icons">account_box</span>Вход</button>
+                    <div class="panel" id="pop_up_welcome">
+
+                        <div class="el_data w_100">
+                            <label>E-mail</label>
+                            <input class="el_input" type="email">
+                        </div>
+                        <div class="el_data w_100">
+                            <label>Пароль</label>
+                            <input class="el_input" type="password">
+                        </div>
+                        <a href="#">Напомнить пароль?</a>
+                        <a href="#">Регистрация</a>
+                        <button class="button text">Войти</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- Навигация для зарегистрированных. Разная в зависимости от прав -->
+    <nav id="admin_menu">
+        <div class="wrap">
+
+        </div>
+    </nav>
+
+    <div class="content">
+        <!-- изменяемая часть начало -->
+
+        <main>
+            <div class="wrap">
+                <div class="news_single">
+
+                    <div class="pic">
+                        <div class="box">
+                            <img src="images/test.jpg" />
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="box">
+                            <div class="date">28.05.21</div>
+                            <div class="title">В Красноярском отделении организации состоялась встреча с учителями и руководством средней школы №16.</div>
+                            <div class="text">
+                                <p>Aute aute cupidatat ex laboris aliquip sint eu officia consectetur qui deserunt. Consectetur occaecat id velit cupidatat fugiat est qui mollit nostrud adipisicing ullamco nostrud. In dolore amet eu nulla Lorem nisi non tempor ad laborum quis laborum. Ex excepteur elit eiusmod occaecat elit elit nostrud reprehenderit exercitation consectetur sit.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+        </main>
+        <!-- изменяемая часть конец -->
+    </div>
+
+
+    <div class="donate">
+        <div class="wrap">
+            <div class="box">
+                <h1>Помочь движению</h1>
+            </div>
+            <div class="box">
+                <div class="payment"><a href="#"><img src="images/yoomoney.svg" /></a></div>
+            </div>
+            <div class="box">
+                <div class="payment"><a href="#"><img src="images/qiwi.svg" /></a></div>
+            </div>
+            <div class="box">
+                <div class="payment"><a href="#"><img src="images/webmoney.svg" /></a></div>
+            </div>
+            <div class="box">
+                <div class="payment"><a href="#"><img src="images/paypal.svg" /></a></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="news_list">
+        <div class="wrap">
+            <!-- -->
+            <div class="item">
+                <div class="pic">
+                    <div class="box">
+                        <img src="images/test.jpg" />
+                    </div>
+                </div>
+                <div class="anons">
+                    <div class="box">
+                        <div class="date">28.05.21</div>
+                        <div class="title">В Красноярском отделении организации состоялась встреча с учителями и руководством средней школы №16.</div>
+                        <div class="disc">
+                            <p>Aute aute cupidatat ex laboris aliquip sint eu officia consectetur qui deserunt. Consectetur occaecat id velit cupidatat fugiat est qui mollit nostrud adipisicing ullamco nostrud. In dolore amet eu nulla Lorem nisi non tempor ad laborum quis laborum. Ex excepteur elit eiusmod occaecat elit elit nostrud reprehenderit exercitation consectetur sit.</p>
+                        </div>
+                        <button class="button text">Подробнее</button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- -->
+            <div class="item">
+                <div class="pic">
+                    <div class="box">
+                        <img src="images/test.jpg" />
+                    </div>
+                </div>
+                <div class="anons">
+                    <div class="box">
+                        <div class="date">28.05.21</div>
+                        <div class="title">В Красноярском отделении организации состоялась встреча с учителями и руководством средней школы №16.</div>
+                        <div class="disc">
+                            <p>Aute aute cupidatat ex laboris aliquip sint eu officia consectetur qui deserunt. Consectetur occaecat id velit cupidatat fugiat est qui mollit nostrud adipisicing ullamco nostrud. In dolore amet eu nulla Lorem nisi non tempor ad laborum quis laborum. Ex excepteur elit eiusmod occaecat elit elit nostrud reprehenderit exercitation consectetur sit.</p>
+                        </div>
+                        <button class="button text">Подробнее</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="wrap">
+            <div class="box">
+                <div class="logo">
+                    <img src="images/logo_white.svg" />
+                </div>
+            </div>
+            <div class="box">
+                <ul>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                    <li><a href="#">Пользовательское соглашение</a></li>
+                    <li><a href="#">Политика использования Cookie</a></li>
+                </ul>
+
+            </div>
+            <div class="box">
+                <h4>инфо 3</h4>
+            </div>
+            <!--            -->
+
+            <!--            -->
+        </div>
+    </footer>
+    <!-- Modals section -->
+
+    <div id="notify_show">
+        <div class="wrapper">
+            <div class="message error">
+                <div class="title">Внимание!</div>
+                <p>Вы уверены?</p>
+
+                <button type="button" class="button text">Да</button>
+                <button type="button" onclick="notify_close()" class="button text">Нет</button>
+            </div>
+        </div>
+    </div>
+    <!-- Универсальный wrapper для Pop-Up-ов -->
+    <div id="pop_up_filter_vote" class="wrap_pop_up">
+        <div class="pop_up">
+            <div class="title">
+                <h2>Фильтр</h2>
+                <div class="close" onclick="pop_up_filter_vote_close(); return false"><span class="material-icons">highlight_off</span></div>
+            </div>
+            <section>
+                <form>
+                    <div class="group">
+                        <div class="item">
+                            <div class="el_data">
+                                <label for="metka_1">ID Организатора</label>
+                                <input class="el_input" id="metka_1" type="text">
+                            </div>
+
+                        </div>
+                    </div>
+                    <h3>Участники</h3>
+                    <div class="group">
+                        <div class="item">
+                            <div class="el_data">
+                                <label for="metka_1qq">Индекс</label>
+                                <input class="el_input" id="metka_1qq" type="text">
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class=" el_data">
+                                <label for="metka_1ww">Субъект</label>
+                                <div class="el_select" id="metka_1ww" type="text">
+                                    <div class="holder">Мульти Выберите</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class=" el_data">
+                                <label for="metka_1aa">Район / Округ</label>
+                                <div class="el_select" id="metka_1aa" type="text">
+                                    <div class="holder">Мульти Выберите</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class=" el_data">
+                                <label for="metka_1ss">Населённый пункт</label>
+                                <div class="el_select" id="metka_1ss" type="text">
+                                    <div class="holder">Мульти Выберите</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="item">
+                            <div class="el_data">
+                                <label for="metka_1dd">Профессия</label>
+                                <div class="el_select" id="metka_1dd" type="text">
+                                    <div class="holder">Мульти Выберите</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Параметры</h3>
+                    <div class="group">
+                        <div class="item">
+                            <div class="el_data">
+                                <label for="metka_1ff">Тема</label>
+                                <div class="el_select" id="metka_1ff" type="text">
+                                    <div class="holder">Мульти Выберите</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="el_data">
+                                <label for="metka_1gg">Статус</label>
+                                <div class="el_select" id="metka_1gg" type="text">
+                                    <div class="holder">Выберите</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <h3>Время проведения</h3>
+                    <div class="group">
+                        <div class="item">
+                            <div class="el_data">
+                                <label for="metka_1hh">Начало</label>
+                                <input class="el_input" id="metka_1hh" type="date" value="2021-06-08">
+
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="el_data">
+                                <label for="metka_1jj">Окончание</label>
+                                <input class="el_input" id="metka_1jj" type="date">
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="item">
+                            <button class="button icon text"><span class="material-icons">search</span>Найти</button>
+                        </div>
+                        <div class="item">
+                            <button class="button icon text"><span class="material-icons">
+                                    restart_alt
+                                </span>Сбросить</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+        </div>
+    </div>
+
+    <script>
+        /*    !!!!  Show hidden cells !!! Change icons don`t working :-(       */
+        $(document).ready(function () {
+            $('.more').click(function () {
+                $(this).parent().parent().next('.hidden').slideToggle(100, function () {
+
+
+                    if ($(this).is(':hidden')) {
+                        $('.more .material-icons').html('unfold_less');
+
+                    } else {
+
+                        $('.more .material-icons').html('unfold_more');
+
+                    }
+                });
+                return false;
+            });
+        });
+    </script>
+    <script src="js/notify.js"></script>
+
+    <script src="js/call_popups.js"></script>
+</body>
+
+</html>

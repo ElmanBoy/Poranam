@@ -1,0 +1,291 @@
+Return-Path: <parts@guguc.ru>
+Delivered-To: info+spam@poranam.ru
+Received: from hostnl02.fornex.host
+	by hostnl02.fornex.host with LMTP
+	id p80QGEF3QmTeWCgAPMQOpA
+	(envelope-from <parts@guguc.ru>)
+	for <info+spam@poranam.ru>; Fri, 21 Apr 2023 11:45:05 +0000
+Return-path: <parts@guguc.ru>
+Envelope-to: info@poranam.ru
+Delivery-date: Fri, 21 Apr 2023 11:45:05 +0000
+Received: from [193.163.203.16] (port=45695 helo=mail.guguc.ru)
+	by hostnl02.fornex.host with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96)
+	(envelope-from <parts@guguc.ru>)
+	id 1pppCJ-00B5Xe-1k
+	for info@poranam.ru;
+	Fri, 21 Apr 2023 11:45:05 +0000
+Message-ID: <0cca485aae6689fbd8745df6024fe5efebbfc9ef@guguc.ru>
+From: =?utf-8?B?0JDQu9GM0YTQsC3QkdCw0L3Qug==?= <parts@guguc.ru>
+To: info@poranam.ru
+Date: Fri, 21 Apr 2023 04:44:21 -0700
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="aacb822514a9838ecd672e0c78bdb090f476"
+DKIM-Signature: v=1; c=relaxed/relaxed; a=rsa-sha256; s=mail; d=guguc.ru;
+	t=1682077461; h=message-id:from:to:subject:date:mime-version;
+	bh=7zm2eoKBkUdcufezHGuzN2CPAAvfoyhy31CrEqprQuc=;
+	b=da0CczT8TEC6BB8EKAdqa7C4GcpjkQ1XMi3i2UmzpRe3oOSMbAZlryhWaqbs7HpOY/QZ5
+	0yuvSq9RskBPvDAoJc3oBdAOp7jXeJA2NPSuRBhKysFL+Z52l/19pUX/fkD5fce6MuCrVmi
+	g2p/joCVl1WkQWZL8+baTDeBU+/0xcU=
+X-Spam-Status: Yes, score=16.5
+X-Spam-Score: 165
+X-Spam-Bar: ++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "hostnl02.fornex.host",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Ваши 100 дней начнутся заново на следующий
+    день после того, как вы вернёте потраченные
+    средства. И так снова и с [...] 
+ Content analysis details:   (16.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_DBL_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             dbl.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: rusprofily.ru]
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in
+                             bl.spamcop.net
+              [Blocked - see <https://www.spamcop.net/bl.shtml?193.163.203.16>]
+  0.0 URIBL_ZEN_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage
+                             of an open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URIs: rusprofily.ru]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mobilstil.ru]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  1.7 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+  2.4 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [193.163.203.16 listed in psbl.surriel.com]
+  1.9 URIBL_ABUSE_SURBL      Contains an URL listed in the ABUSE SURBL
+                             blocklist
+                             [URIs: guguc.ru]
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  1.8 HTML_FONT_TINY_NORDNS  Font too small to read, no rDNS
+  0.8 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?utf-8?B?0JrRgNC10LTQuNGC0LrQsCwg0LrQvtGC0L7RgNGD0Y4g0LLRiyDQv9C+0Ls=?=
+	=?utf-8?B?0Y7QsdC40YLQtQ==?=
+
+--aacb822514a9838ecd672e0c78bdb090f476
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=D0=92=D0=B0=D1=88=D0=B8 100 =D0=B4=D0=BD=D0=B5=D0=B9 =D0=BD=D0=B0=D1=87=D0=
+=BD=D1=83=D1=82=D1=81=D1=8F =D0=B7=D0=B0=D0=BD=D0=BE=D0=B2=D0=BE =D0=BD=D0=
+=B0 =D1=81=D0=BB=D0=B5=D0=B4=D1=83=D1=8E=D1=89=D0=B8=D0=B9 =D0=B4=D0=B5=D0=
+=BD=D1=8C =D0=BF=D0=BE=D1=81=D0=BB=D0=B5 =D1=82=D0=BE=D0=B3=D0=BE, =D0=BA=
+=D0=B0=D0=BA =D0=B2=D1=8B =D0=B2=D0=B5=D1=80=D0=BD=D1=91=D1=82=D0=B5 =D0=BF=
+=D0=BE=D1=82=D1=80=D0=B0=D1=87=D0=B5=D0=BD=D0=BD=D1=8B=D0=B5 =D1=81=D1=80=
+=D0=B5=D0=B4=D1=81=D1=82=D0=B2=D0=B0. =D0=98 =D1=82=D0=B0=D0=BA =D1=81=D0=
+=BD=D0=BE=D0=B2=D0=B0 =D0=B8 =D1=81=D0=BD=D0=BE=D0=B2=D0=B0.=20
+
+=D0=9E=D0=B7=D0=BD=D0=B0=D0=BA=D0=BE=D0=BC=D0=B8=D1=82=D1=8C=D1=81=D1=8F =
+=D0=BF=D0=BE=D0=B4=D1=80=D0=BE=D0=B1=D0=BD=D0=B5=D0=B5=20
+
+--aacb822514a9838ecd672e0c78bdb090f476
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+</head>
+<body style=3D"MIN-WIDTH: 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PA=
+DDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px" bgColor=3D"#ffffff">
+<div align=3Dleft><font size=3D2 face=3DArial></font></div><!-- TPL --><!=
+-->
+<META content=3DIE=3Dedge http-equiv=3DX-UA-Compatible><!--<![endif]-->
+<meta name=3Dviewport content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<style type=3D"text/css">
+@media Unknown   =20
+{
+.left-sidebar .column100 {
+	MAX-WIDTH: 100% !important
+}
+[data-column] {
+	MAX-WIDTH: 100% !important
+}
+IMG {
+	WIDTH: 100%
+}
+.two-column .column {
+	MAX-WIDTH: 100% !important
+}
+.three-column .column {
+	MAX-WIDTH: 100% !important
+}
+.two-column IMG {
+	MAX-WIDTH: 100% !important
+}
+.three-column IMG {
+	MAX-WIDTH: 50% !important
+}
+[data-column] {
+	MAX-WIDTH: 100% !important
+}
+IMG {
+	WIDTH: 100%
+}
+.three-column .column {
+	MAX-WIDTH: 33% !important
+}
+.two-column .column {
+	MAX-WIDTH: 50% !important
+}
+[data-column] {
+	MAX-WIDTH: 100% !important
+}
+
+}
+</style>
+
+<style type=3D"text/css">TABLE {
+	BORDER-COLLAPSE: collapse !important
+}
+</style>
+<!-- template-body -->
+<div style=3D"WIDTH: 100%; TABLE-LAYOUT: fixed; -MS-TEXT-SIZE-ADJUST: 100=
+%; MARGIN: 0px; -webkit-text-size-adjust: 100%">
+<table style=3D"WIDTH: 100%; BACKGROUND-REPEAT: no-repeat" cellSpacing=3D=
+0 cellPadding=3D0 width=3D"100%" background=3D>
+<tbody>
+<tr><!-- template-blocks -->
+<td style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PA=
+DDING-RIGHT: 0px" vAlign=3Dtop align=3Dcenter data-template-wrapper=3D>
+<table style=3D"WIDTH: 100%; BACKGROUND-REPEAT: no-repeat" cellSpacing=3D=
+0 cellPadding=3D0 width=3D"100%" border=3D0 data-block-id=3D>
+<tbody>
+<tr>
+<td style=3D"FONT-SIZE: 0px; LINE-HEIGHT: 10px">&nbsp;</td>
+<td style=3D"WIDTH: 600px; BACKGROUND-REPEAT: no-repeat; PADDING-LEFT: 0p=
+x; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #ffebf7" width=3D600 data-templa=
+te-content=3D>
+<div style=3D"MAX-WIDTH: 600px">
+<table style=3D"FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333=
+; BORDER-SPACING: 0" width=3D600 align=3Dcenter>
+<tbody>
+<tr>
+<td style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PA=
+DDING-RIGHT: 0px">
+<table style=3D"MAX-WIDTH: 600px; FONT-FAMILY: Arial, Helvetica, sans-ser=
+if; WIDTH: 100%; COLOR: #333333; MARGIN: 0px auto; BORDER-SPACING: 0" ali=
+gn=3Dcenter>
+<tbody>
+<tr>
+<td style=3D"FONT-SIZE: 0px; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PAD=
+DING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px">
+<table style=3D"FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333=
+; BORDER-SPACING: 0" width=3D"100%">
+<tbody>
+<tr>
+<td style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PA=
+DDING-RIGHT: 0px" vAlign=3Dtop width=3D600>
+<div style=3D"MAX-WIDTH: 600px; WIDTH: 100%; VERTICAL-ALIGN: top; DISPLAY=
+: inline-block" data-column=3D>
+<table style=3D"FONT-FAMILY: Arial, Helvetica, sans-serif; WIDTH: 100%; C=
+OLOR: #333333; BORDER-SPACING: 0">
+<tbody>
+<tr>
+<td style=3D"PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PA=
+DDING-RIGHT: 0px">
+<table style=3D"FONT-SIZE: 14px; FONT-FAMILY: Arial, Helvetica, sans-seri=
+f; WIDTH: 100%; COLOR: #333333; TEXT-ALIGN: center; BORDER-SPACING: 0" da=
+ta-column-content=3D>
+<tbody>
+<tr data-element-type=3Dimage>
+<td style=3D"PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PA=
+DDING-RIGHT: 5px" align=3Dcenter><img style=3D"BORDER-LEFT-WIDTH: 0px; MA=
+X-WIDTH: 56px; HEIGHT: auto; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH=
+: 0px; DISPLAY: block; BORDER-TOP-WIDTH: 0px" alt=3D"" src=3D"http://mobi=
+lstil.ru/znachok.png" width=3D56> </td></tr>
+<tr data-element-type=3Dspacer>
+<td style=3D"HEIGHT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING=
+-LEFT: 0px; PADDING-RIGHT: 0px" height=3D20></td></tr>
+<tr data-element-type=3Dimage>
+<td style=3D"PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PA=
+DDING-RIGHT: 5px" align=3Dleft><img style=3D"BORDER-LEFT-WIDTH: 0px; MAX-=
+WIDTH: 600px; HEIGHT: auto; BORDER-RIGHT-WIDTH: 0px; WIDTH: 100%; BORDER-=
+BOTTOM-WIDTH: 0px; DISPLAY: block; BORDER-TOP-WIDTH: 0px" alt=3D"" src=3D=
+"http://mobilstil.ru/mytarget_1080_607_copy_12.jpg" width=3D590> </td></t=
+r>
+<tr style=3D"COLOR: #333333" data-element-type=3Dtext>
+<td style=3D"PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PA=
+DDING-RIGHT: 5px">
+<p style=3D"MARGIN: 0px; LINE-HEIGHT: 16px" align=3Dcenter data-lineHeigh=
+tRatio=3D1.2><span style=3D"FONT-SIZE: 15px; LINE-HEIGHT: 18px"><span sty=
+le=3D"FONT-FAMILY: Arial, serif; LINE-HEIGHT: 18px">=D0=92=D0=B0=D1=88=D0=
+=B8 100 =D0=B4=D0=BD=D0=B5=D0=B9 =D0=BD=D0=B0=D1=87=D0=BD=D1=83=D1=82=D1=81=
+=D1=8F =D0=B7=D0=B0=D0=BD=D0=BE=D0=B2=D0=BE =D0=BD=D0=B0 =D1=81=D0=BB=D0=B5=
+=D0=B4=D1=83=D1=8E=D1=89=D0=B8=D0=B9 =D0=B4=D0=B5=D0=BD=D1=8C =D0=BF=D0=BE=
+=D1=81=D0=BB=D0=B5 =D1=82=D0=BE=D0=B3=D0=BE, =D0=BA=D0=B0=D0=BA =D0=B2=D1=
+=8B =D0=B2=D0=B5=D1=80=D0=BD=D1=91=D1=82=D0=B5 =D0=BF=D0=BE=D1=82=D1=80=D0=
+=B0=D1=87=D0=B5=D0=BD=D0=BD=D1=8B=D0=B5 =D1=81=D1=80=D0=B5=D0=B4=D1=81=D1=
+=82=D0=B2=D0=B0. =D0=98 =D1=82=D0=B0=D0=BA =D1=81=D0=BD=D0=BE=D0=B2=D0=B0=
+ =D0=B8 =D1=81=D0=BD=D0=BE=D0=B2=D0=B0.</span></span> </p></td></tr>
+<tr data-element-type=3Dspacer>
+<td style=3D"HEIGHT: 15px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING=
+-LEFT: 0px; PADDING-RIGHT: 0px" height=3D15></td></tr>
+<tr data-element-type=3Dimage>
+<td style=3D"PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PA=
+DDING-RIGHT: 5px" align=3Dcenter><img style=3D"BORDER-LEFT-WIDTH: 0px; MA=
+X-WIDTH: 535px; HEIGHT: auto; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDT=
+H: 0px; DISPLAY: block; BORDER-TOP-WIDTH: 0px" alt=3D"" src=3D"http://mob=
+ilstil.ru/3.gif" width=3D535> </td></tr>
+<tr data-element-type=3Dspacer>
+<td style=3D"HEIGHT: 15px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING=
+-LEFT: 0px; PADDING-RIGHT: 0px" height=3D15></td></tr>
+<tr data-element-type=3Dimage>
+<td style=3D"PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PA=
+DDING-RIGHT: 5px" align=3Dcenter><img style=3D"BORDER-LEFT-WIDTH: 0px; MA=
+X-WIDTH: 549px; HEIGHT: auto; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDT=
+H: 0px; DISPLAY: block; BORDER-TOP-WIDTH: 0px" alt=3D"" src=3D"http://mob=
+ilstil.ru/2.gif" width=3D549> </td></tr>
+<tr data-element-type=3Dspacer>
+<td style=3D"HEIGHT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING=
+-LEFT: 0px; PADDING-RIGHT: 0px" height=3D20></td></tr>
+<tr data-element-type=3Dbutton>
+<td style=3D"PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PA=
+DDING-RIGHT: 5px" align=3Dcenter>
+<table cellSpacing=3D0 cellPadding=3D0>
+<tbody>
+<tr>
+<td style=3D"BORDER-TOP: #df4b01 0px solid; BORDER-RIGHT: #df4b01 0px sol=
+id; BORDER-BOTTOM: #df4b01 0px solid; COLOR: #ffffff; PADDING-BOTTOM: 10p=
+x; PADDING-TOP: 10px; PADDING-LEFT: 15px; BORDER-LEFT: #df4b01 0px solid;=
+ DISPLAY: block; PADDING-RIGHT: 15px; border-radius: 20px" bgColor=3D"#ff=
+2121" align=3Dcenter><a style=3D"FONT-SIZE: 13px; TEXT-DECORATION: none; =
+FONT-FAMILY: Arial; WIDTH: 100%; FONT-WEIGHT: 600; COLOR: #ffffff; TEXT-A=
+LIGN: center; DISPLAY: inline-block; LINE-HEIGHT: 18px; -webkit-text-size=
+-adjust: none" href=3D"http://rusprofily.ru/4yfrghsc/" data-lineHeight=3D=
+1.4em>=D0=9E=D0=B7=D0=BD=D0=B0=D0=BA=D0=BE=D0=BC=D0=B8=D1=82=D1=8C=D1=81=D1=
+=8F =D0=BF=D0=BE=D0=B4=D1=80=D0=BE=D0=B1=D0=BD=D0=B5=D0=B5</a> </td></tr>=
+</tbody></table></td></tr>
+<tr data-element-type=3Dspacer>
+<td style=3D"HEIGHT: 25px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING=
+-LEFT: 0px; PADDING-RIGHT: 0px" height=3D25></td></tr></tbody></table></t=
+d></tr></tbody></table></div></td></tr></tbody></table></td></tr></tbody>=
+</table></td></tr></tbody></table></div></td>
+<td style=3D"FONT-SIZE: 0px; LINE-HEIGHT: 10px">&nbsp;</td></tr></tbody><=
+/table></td><!-- /template-blocks --></tr></tbody></table></div>
+<div>&nbsp;</div></body></html>
+
+--aacb822514a9838ecd672e0c78bdb090f476--

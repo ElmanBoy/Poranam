@@ -1,0 +1,181 @@
+Return-Path: <>
+Delivered-To: info@poranam.ru
+Received: from hostnl02.fornex.host
+	by hostnl02.fornex.host with LMTP
+	id MCGsOeVFs2L3+xcAPMQOpA
+	(envelope-from <>)
+	for <info@poranam.ru>; Wed, 22 Jun 2022 16:40:05 +0000
+Return-path: <>
+Envelope-to: info@poranam.ru
+Delivery-date: Wed, 22 Jun 2022 19:40:05 +0300
+Received: from st43p00im-ztbu10063601.me.com ([17.58.63.174]:57878)
+	by hostnl02.fornex.host with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	id 1o43Oe-006bU1-9H
+	for info@poranam.ru; Wed, 22 Jun 2022 19:40:05 +0300
+Received: by st43p00im-ztbu10063601.me.com (Postfix)
+	id 5B45A8C0676; Wed, 22 Jun 2022 16:39:23 +0000 (UTC)
+Date: Wed, 22 Jun 2022 16:39:23 +0000 (UTC)
+From: Mail Delivery System <postmaster@icloud.com>
+Subject: Undelivered Mail Returned to Sender
+To: info@poranam.ru
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="C48748C067E.1655915963/st43p00im-ztbu10063601.me.com"
+Message-Id: <20220622163923.5B45A8C0676@st43p00im-ztbu10063601.me.com>
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "hostnl02.fornex.host",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  This is a system-generated message to inform you that your
+    email could not be delivered to one or more recipients. Details of the email
+    and the error are as follows: <elmanforward@gmail.com>: host gmail-smtp-in.l.google.com[172.253.115.26]
+    said: 550-5.7.1 [17.58.63.174] Messages missing a valid messageId header
+   are not 550 5.7.1 accepted. o1-20020ad45c81000000b004 [...] 
+ Content analysis details:   (1.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: poranam.ru]
+  1.0 MIXED_ES               Too many es are not es
+X-Spam-Flag: NO
+
+This is a MIME-encapsulated message.
+
+--C48748C067E.1655915963/st43p00im-ztbu10063601.me.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is a system-generated message to inform you that your email could not
+be delivered to one or more recipients. Details of the email and the error are as follows:
+
+
+<elmanforward@gmail.com>: host gmail-smtp-in.l.google.com[172.253.115.26] said:
+    550-5.7.1 [17.58.63.174] Messages missing a valid messageId header are not
+    550 5.7.1 accepted. o1-20020ad45c81000000b0046b0ef3ce76si2143807qvh.214 -
+    gsmtp (in reply to end of DATA command)
+
+--C48748C067E.1655915963/st43p00im-ztbu10063601.me.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; st43p00im-ztbu10063601.me.com
+X-Postfix-Queue-ID: C48748C067E
+X-Postfix-Sender: rfc822; info@poranam.ru
+Arrival-Date: Wed, 22 Jun 2022 16:39:22 +0000 (UTC)
+
+Final-Recipient: rfc822; ************@*********
+Original-Recipient: rfc822;elman@icloud.com
+Action: failed
+Status: 5.7.1
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.7.1 [17.58.63.174] Messages missing a valid
+    messageId header are not 550 5.7.1 accepted.
+    o1-20020ad45c81000000b0046b0ef3ce76si2143807qvh.214 - gsmtp
+
+--C48748C067E.1655915963/st43p00im-ztbu10063601.me.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <info@poranam.ru>
+Received: from st43p00im-ztbu10063601.me.com (st43p00im-ztbu10063601.me.com [17.58.63.174])
+	by st43p00im-ztbu10063601.me.com (Postfix) with ESMTPS id C48748C067E
+	for <elmanforward@gmail.com>; Wed, 22 Jun 2022 16:39:22 +0000 (UTC)
+Received: from unknown (st43p00im.dlb-asmtpoutvip.me.com [10.76.196.233])
+	by st43p00im-ztbu10063601.me.com (Postfix) with SMTP id A46738C0050
+	for <elmanforward@gmail.com>; Wed, 22 Jun 2022 16:39:22 +0000 (UTC)
+Received: from qs51p00im-qukt01061502.me.com by p119-mailgateway-smtp-688964d5f-jlvgx (mailgateway 2216B301)
+	with SMTP id dd009acc-ae57-4d0e-8881-0b1af16b0f83 
+	for <elman@icloud.com>; Wed, 22 Jun 2022 16:39:22 GMT
+X-Apple-Action: FORWARD/elmanforward@gmail.com
+Original-Recipient: rfc822;elman@icloud.com
+x-apple-request-uuid: dd009acc-ae57-4d0e-8881-0b1af16b0f83
+Received: from hostnl02.fornex.host (hostnl02.fornex.host [185.18.52.167])
+	by qs51p00im-qukt01061502.me.com (Postfix) with ESMTPS id 4D6FC9001D4
+	for <elman@icloud.com>; Wed, 22 Jun 2022 16:39:18 +0000 (UTC)
+X-ICL-SCORE: 3.3220332300
+X-ICL-INFO: GAtbVUseBVBHSVVESgMGUldZCh4MXUMRSFsIVVhDQ19XFwkZHRIWBxFERB4WVlkiBRYUFhZRW0wH
+ DERXHlQLQAUWFBYWUVtMBwxEVwtZRl9XSF5CVgEOTEBLSEZOBxRCHRwKGEUSXg0GDQgbSAIYBBoL
+ CBIAHl4NBg1EVwhERF9XEQkEDF5aUkdXABgKXlMaWxEJBAwSFgYRREQCFltYDQIXRFcVWVJfV0UU
+ Ew8ATgdbEgweGQZTIktbRgUbDRQHGRQHGThZVQ4aDAJZG19bQA==
+Authentication-Results: bimi.icloud.com; bimi=skipped reason="insufficient dmarc"
+Authentication-Results: dmarc.icloud.com; dmarc=none header.from=poranam.ru
+X-DMARC-Info: pass=none; dmarc-policy=(nopolicy); s=u0; d=u0; pdomain=poranam.ru
+X-DMARC-Policy: none
+Authentication-Results: dkim-verifier.icloud.com; dkim=none
+Authentication-Results: spf.icloud.com; spf=pass (spf.icloud.com: domain of info@poranam.ru designates 185.18.52.167 as permitted sender) smtp.mailfrom=info@poranam.ru
+Received-SPF: pass (spf.icloud.com: domain of info@poranam.ru designates 185.18.52.167 as permitted sender) receiver=spf.icloud.com; client-ip=185.18.52.167; helo=hostnl02.fornex.host; envelope-from=info@poranam.ru
+Received: from p84699 by hostnl02.fornex.host with local (Exim 4.94.2)
+	(envelope-from <info@poranam.ru>)
+	id 1o43Nq-006bPj-EY
+	for elman@icloud.com; Wed, 22 Jun 2022 19:39:14 +0300
+To: elman@icloud.com
+Subject: =?UTF-8?Q??==?UTF-8?Q??==?UTF-8?Q??=poranam.ru
+X-PHP-Script: poranam.ru/index.php for 46.138.161.28, 46.138.161.28
+X-PHP-Originating-Script: 1765:htmlMimeMail.php
+MIME-Version: 1.0
+From: "poranam.ru" <info@poranam.ru>
+X-Mailer: HTML Mime mail
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <rdw0xe.kjia6e@>
+Sender:  <p84699@hostnl02.fornex.host>
+Date: Wed, 22 Jun 2022 19:39:14 +0300
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - hostnl02.fornex.host
+X-AntiAbuse: Original Domain - icloud.com
+X-AntiAbuse: Originator/Caller UID/GID - [1765 990] / [47 12]
+X-AntiAbuse: Sender Address Domain - poranam.ru
+X-Get-Message-Sender-Via: hostnl02.fornex.host: authenticated_id: p84699/from_h
+X-Authenticated-Sender: hostnl02.fornex.host: info@poranam.ru
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: p84699.hostnl02.fornex.host:/public_html/poranam.ru
+X-From-Rewrite: unmodified, already matched
+X-Proofpoint-GUID: SY_SKM7UOX9d-UAZb_TF2MxBsbltMfD9
+X-Proofpoint-ORIG-GUID: SY_SKM7UOX9d-UAZb_TF2MxBsbltMfD9
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.138,18.0.883,17.0.605.474.0000000_definitions?=
+ =?UTF-8?Q?=3D2022-06-21=5F08:2020-02-14=5F02,2022-06-21=5F08,2020-01-23?=
+ =?UTF-8?Q?=5F02_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=1 mlxscore=1 malwarescore=0
+ mlxlogscore=224 adultscore=0 bulkscore=0 suspectscore=0 spamscore=1
+ clxscore=1030 phishscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2202240000 definitions=main-2206220080
+
+<h4>=D0=97=D0=B4=D1=80=D0=B0=D0=B2=D1=81=D1=82=D0=B2=D1=83=D0=B9=D1=82=D0=
+=B5, =D0=A2=D0=B5=D1=81=D1=82=D0=BE=D0=B2 =D0=A2=D0=B5=D1=81=D1=82 =D0=A2=
+=D0=B5=D1=81=D1=82=D0=BE=D0=B2=D0=B8=D1=87!</h4>=20
+		=D0=92=D1=8B =D0=B7=D0=B0=D1=80=D0=B5=D0=B3=D0=B8=D1=81=D1=82=D1=80=D0=B8=
+=D1=80=D0=BE=D0=B2=D0=B0=D0=BB=D0=B8=D1=81=D1=8C =D0=BD=D0=B0 =D1=81=D0=B0=
+=D0=B9=D1=82=D0=B5 poranam.ru.<br>
+            =D0=94=D0=BB=D1=8F =D0=B0=D0=BA=D1=82=D0=B8=D0=B2=D0=B0=D1=86=
+=D0=B8=D0=B8 =D1=83=D1=87=D0=B5=D1=82=D0=BD=D0=BE=D0=B9 =D0=B7=D0=B0=D0=BF=
+=D0=B8=D1=81=D0=B8 =D0=BF=D0=B5=D1=80=D0=B5=D0=B9=D0=B4=D0=B8=D1=82=D0=B5 =
+=D0=BF=D0=BE =D1=8D=D1=82=D0=BE=D0=B9=20
+            <a href=3D"https://poranam.ru/aktivatsiya-akkaunta/?recip=3Dyf9=
+2sucR27&activate=3Dy">=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B5</a>
+		=D0=95=D1=81=D0=BB=D0=B8 =D0=92=D1=8B =D0=BD=D0=B5 =D1=80=D0=B5=D0=B3=D0=
+=B8=D1=81=D1=82=D1=80=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D0=BB=D0=B8=D1=81=D1=8C=
+ =D0=B8=D0=BB=D0=B8 =D0=BD=D0=B5 =D0=B6=D0=B5=D0=BB=D0=B0=D0=B5=D1=82=D0=B5=
+ =D0=B0=D0=BA=D1=82=D0=B8=D0=B2=D0=B8=D1=80=D0=BE=D0=B2=D0=B0=D1=82=D1=8C =
+=D1=83=D1=87=D0=B5=D1=82=D0=BD=D1=83=D1=8E =D0=B7=D0=B0=D0=BF=D0=B8=D1=81=
+=D1=8C, =D0=BF=D1=80=D0=BE=D1=81=D1=82=D0=BE =D1=83=D0=B4=D0=B0=D0=BB=D0=B8=
+=D1=82=D0=B5 =D1=8D=D1=82=D0=BE =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=BE.
+		<p>&nbsp;</p>
+		=D0=A1 =D1=83=D0=B2=D0=B0=D0=B6=D0=B5=D0=BD=D0=B8=D0=B5=D0=BC,<br>
+		=D0=B0=D0=B4=D0=BC=D0=B8=D0=BD=D0=B8=D1=81=D1=82=D1=80=D0=B0=D1=86=D0=B8=
+=D1=8F =D1=81=D0=B0=D0=B9=D1=82=D0=B0 poranam.ru.
+		
+
+
+--C48748C067E.1655915963/st43p00im-ztbu10063601.me.com--

@@ -1,0 +1,115 @@
+Return-Path: <gerard@cerek.ru>
+Delivered-To: info+spam@poranam.ru
+Received: from hostnl02.fornex.host
+	by hostnl02.fornex.host with LMTP
+	id AIYFMzIH2mKmyycAPMQOpA
+	(envelope-from <gerard@cerek.ru>)
+	for <info+spam@poranam.ru>; Fri, 22 Jul 2022 02:10:58 +0000
+Return-path: <gerard@cerek.ru>
+Envelope-to: info@poranam.ru
+Delivery-date: Fri, 22 Jul 2022 05:10:58 +0300
+Received: from mail.cerek.ru ([89.253.218.32]:49268)
+	by hostnl02.fornex.host with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <gerard@cerek.ru>)
+	id 1oEi80-00AxCJ-Fz
+	for info@poranam.ru; Fri, 22 Jul 2022 05:10:58 +0300
+Message-ID: <a2b1f8138719332ad9733a9172f6dc20d7fd70@cerek.ru>
+From: =?utf-8?B?0JbQsNC90L3QsCDQktC40YDRj9GB0L7QstCw?= <gerard@cerek.ru>
+To: info@poranam.ru
+Date: Fri, 22 Jul 2022 05:10:12 +0300
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8";
+Content-Transfer-Encoding: quoted-printable
+DKIM-Signature: v=1; c=relaxed/relaxed; a=rsa-sha256; s=mail; d=cerek.ru;
+	t=1658455812; h=message-id:from:to:subject:date:mime-version;
+	bh=QtFqgXYPSL+ofFGELCrVKpvdrK275qf++FqcFywWKWc=;
+	b=CjgaysZNQ58oV+4bG96n3lC/2qwNVIktk2k5PLPiU6a5q84zMMzCdiGGednfbr8wrFr9K
+	/UTaDazcO0WRgahr3oHc+ngfXb1mGxMBNCNm0iyfxVCZquuSE7P6HK34cg1a+nIvWqNpbWv
+	ECbGZCtRgqMT1gDHzaz+16xa+tdp6Lg=
+X-Spam-Status: Yes, score=21.4
+X-Spam-Score: 214
+X-Spam-Bar: +++++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "hostnl02.fornex.host",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  E-mail рассылка. Быстрый результат
+    от нашей рекламы. Отправим рекламные письма
+    юридическим лицам. В наличии 109 городов России.
+    База: 12 000 000 адресатов. Россия 109 городов
+   – 12 900р 1 рассылка на 1 город - 4000р. Создадим
+    [...] 
+ Content analysis details:   (21.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: cerek.ru]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  4.7 RCVD_IN_XBL            RBL: Received via a relay in Spamhaus XBL
+                             [89.253.218.32 listed in zen.spamhaus.org]
+  0.1 URIBL_CSS_A            Contains URL's A record listed in the Spamhaus CSS
+                             blocklist
+                             [URIs: cerek.ru]
+  0.1 URIBL_CSS              Contains an URL's NS IP listed in the Spamhaus CSS
+                             blocklist
+                             [URIs: cerek.ru]
+  2.7 RCVD_IN_PSBL           RBL: Received via a relay in PSBL
+                             [89.253.218.32 listed in psbl.surriel.com]
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  2.4 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+  1.7 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+  0.1 URIBL_SBL_A            Contains URL's A record listed in the Spamhaus SBL
+                             blocklist
+                             [URIs: legalaport.ru]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: legalaport.ru]
+  1.2 RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in
+                             bl.spamcop.net
+               [Blocked - see <https://www.spamcop.net/bl.shtml?89.253.218.32>]
+  1.9 URIBL_ABUSE_SURBL      Contains an URL listed in the ABUSE SURBL
+                             blocklist
+                             [URIs: legalaport.ru]
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?utf-8?B?0JHRi9GB0YLRgNGL0Lkg0YDQtdC30YPQu9GM0YLQsNGCINC+0YIg0L3QsNGI?=
+	=?utf-8?B?0LXQuSDRgNC10LrQu9Cw0LzRiy4=?=
+
+E-mail =D1=80=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B0. =D0=91=D1=8B=D1=81=
+=D1=82=D1=80=D1=8B=D0=B9 =D1=80=D0=B5=D0=B7=D1=83=D0=BB=D1=8C=D1=82=D0=B0=
+=D1=82 =D0=BE=D1=82 =D0=BD=D0=B0=D1=88=D0=B5=D0=B9 =D1=80=D0=B5=D0=BA=D0=BB=
+=D0=B0=D0=BC=D1=8B.
+=D0=9E=D1=82=D0=BF=D1=80=D0=B0=D0=B2=D0=B8=D0=BC =D1=80=D0=B5=D0=BA=D0=BB=
+=D0=B0=D0=BC=D0=BD=D1=8B=D0=B5 =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=B0 =D1=8E=
+=D1=80=D0=B8=D0=B4=D0=B8=D1=87=D0=B5=D1=81=D0=BA=D0=B8=D0=BC =D0=BB=D0=B8=
+=D1=86=D0=B0=D0=BC.=20
+
+=D0=92 =D0=BD=D0=B0=D0=BB=D0=B8=D1=87=D0=B8=D0=B8 109 =D0=B3=D0=BE=D1=80=D0=
+=BE=D0=B4=D0=BE=D0=B2 =D0=A0=D0=BE=D1=81=D1=81=D0=B8=D0=B8.
+=D0=91=D0=B0=D0=B7=D0=B0: 12 000 000 =D0=B0=D0=B4=D1=80=D0=B5=D1=81=D0=B0=
+=D1=82=D0=BE=D0=B2.=20
+=D0=A0=D0=BE=D1=81=D1=81=D0=B8=D1=8F 109 =D0=B3=D0=BE=D1=80=D0=BE=D0=B4=D0=
+=BE=D0=B2 =E2=80=93 12 900=D1=80
+1 =D1=80=D0=B0=D1=81=D1=81=D1=8B=D0=BB=D0=BA=D0=B0 =D0=BD=D0=B0 1 =D0=B3=D0=
+=BE=D1=80=D0=BE=D0=B4 - 4000=D1=80.=20
+=D0=A1=D0=BE=D0=B7=D0=B4=D0=B0=D0=B4=D0=B8=D0=BC =D0=BC=D0=B0=D0=BA=D0=B5=
+=D1=82 =D0=BF=D0=B8=D1=81=D1=8C=D0=BC=D0=B0, =D0=B2=D1=8B=D1=81=D1=82=D0=B0=
+=D0=B2=D0=B8=D0=BC =D1=81=D1=87=D0=B5=D1=82, =D0=BF=D1=80=D0=B5=D0=B4=D0=BE=
+=D1=81=D1=82=D0=B0=D0=B2=D0=B8=D0=BC =D0=BE=D1=82=D1=87=D0=B5=D1=82.
+
+=D0=97=D0=B2=D0=BE=D0=BD=D0=B8=D1=82=D0=B5: 8(800)700-23-51
+=D0=A1=D0=B0=D0=B9=D1=82: http://legalaport.ru/o4nqudy/rqshara/=20

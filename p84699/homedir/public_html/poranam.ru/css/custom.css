@@ -1,0 +1,37 @@
+.loginFrm{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+.loginFrm .el_data{
+    margin: 1.5rem 0;
+}
+.loginFrm .button{
+    margin: 1rem auto;
+}
+.note{
+    font-weight: 200;
+    font-size: small;
+}
+.promo a{
+    color: var(--blue);
+}
+.agree a{
+    text-decoration: underline;
+}
+
+.deleteProfile{
+    background: var(--grey);
+    color: white;
+    float: right;
+    margin-top: -54px;
+}
+.deleteProfile:hover{
+    background: var(--orange);
+}
+
+@media (max-width: 768px) {
+    .loginFrm{
+        width: 100%;
+    }
+}
