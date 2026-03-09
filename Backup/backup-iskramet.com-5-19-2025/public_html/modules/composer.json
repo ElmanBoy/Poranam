@@ -1,6 +1,0 @@
-{
-    "require": {
-        "phpmailer/phpmailer": "^6.1",
-        "hflabs/dadata": "^20.7"
-    }
-}
