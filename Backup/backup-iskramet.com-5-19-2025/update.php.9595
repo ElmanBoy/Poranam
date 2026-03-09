@@ -1,1 +1,0 @@
-<pre>UPDATE catalog_init_data SET active = 0 WHERE field3 < '2024-03-20 15:18:02'</pre><br>

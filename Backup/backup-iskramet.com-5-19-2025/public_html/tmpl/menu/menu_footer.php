@@ -1,1 +1,0 @@
-<li><a href="<?=$row_menupart['path']?>/" <?=$clas?>><?=$row_menupart['name']?></a></li>

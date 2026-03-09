@@ -1,6 +1,0 @@
-Jul 18 15:17:14.292045 check[947279]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/iskrame2/.razor/razor-agent.log
-Jul 18 15:17:16.000332 check[947279]: [ 3] mail 1 is not known spam.
-Jul 31 13:17:26.506477 check[939706]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/iskrame2/.razor/razor-agent.log
-Jul 31 13:17:28.253925 check[939706]: [ 3] mail 1 is not known spam.
-Nov 14 16:29:32.453321 check[507512]: [ 2] [bootup] Logging initiated LogDebugLevel=3 to file:/home/iskrame2/.razor/razor-agent.log
-Nov 14 16:29:34.186596 check[507512]: [ 3] mail 1 is not known spam.

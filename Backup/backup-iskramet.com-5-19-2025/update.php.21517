@@ -1,1 +1,0 @@
-<pre>UPDATE catalog_init_data SET field14 = 15 WHERE field14 = 14 AND field3 < '2025-02-06 20:45:01'</pre><br>

@@ -15,6 +15,7 @@
       <excludeFolder url="file://$MODULE_DIR$/modules/vendor/guzzlehttp/guzzle" />
       <excludeFolder url="file://$MODULE_DIR$/modules/vendor/ralouphie/getallheaders" />
       <excludeFolder url="file://$MODULE_DIR$/modules/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/IGNORED" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
