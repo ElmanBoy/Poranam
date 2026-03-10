@@ -1221,7 +1221,7 @@ function el_clearcache($subdir = '', $cat = '')
 function el_returnbytes($val)
 {
 	$val = trim($val);
-	$last = strtolower($val{strlen($val) - 1});
+	$last = strtolower($val[strlen($val) - 1]);
 	switch ($last) {
 		case 'g':
 			$val *= 1024;
@@ -3150,6 +3150,11 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
 											$soper = "<='" . intval($avar[$v]) . "'";
 										} else {
 											$soper = "='" . intval($avar[$v]) . "'";
+                                            if($catalog_id == 'init' && $sfieldNum == '5'){
+                                                // Для фильтра по субъекту показываем как голосования данного субъекта, так и голосования для всех (field5=0 или пусто)
+                                                $asubquery[] = "(field5='" . intval($avar[$v]) . "' OR field5='0' OR field5='' OR field5 IS NULL)";
+                                                continue 2;
+                                            }
                                             if($catalog_id == 'users' && $sfieldNum == '16'){
                                                 $soper = "='" . intval($avar[$v]) . "'"; // OR field25 = '" . intval($avar[$v]) . "'
                                             }

@@ -615,7 +615,7 @@ class Sypex_Dumper {
 				}
 				clearstatcache(); 
 			}
-			switch($q{0}){
+			switch($q[0]){
 				case '(':
 					if($continue) {
 						$this->addLog(sprintf("{$this->LNG['restore_TC']} {$this->LNG['continue_from']}", $this->rtl[5], $this->rtl[3]));
@@ -799,7 +799,7 @@ class Sypex_Dumper {
 				$repeat = false;
 				//error_log("-----------------\n[{$q}]\n", 3, "q.log");
 				//if(empty($q)) {continue 2;}
-				switch($q{0}){
+				switch($q[0]){
 					case '(':
 						if($continue) {
 							$this->addLog(sprintf("{$this->LNG['restore_TC']} {$this->LNG['continue_from']}", $this->rtl[5], $this->rtl[3]));
@@ -837,7 +837,7 @@ class Sypex_Dumper {
 							}
 						}
 						break;
-					case '-' && $q{1} == '-':
+					case '-' && $q[1] == '-':
 					case '#':
 						$repeat = true;
 						$q = ltrim(substr($q, strpos($q, $this->JOB['eol'])));
@@ -1518,7 +1518,7 @@ function sxd_read_sql($f, &$seek, $ei, $delimiter = "\t;", $eol = "\n"){
 		}
 		if($ei) {
 			$pos = strrpos($l, $eol);
-			if($pos > 0 && $l{$pos-1} === ',') {
+			if($pos > 0 && $l[$pos-1] === ',') {
 				// Окончание не найдено
 				$q = substr($l, 0, $pos-1);
 				$l = substr($l, $pos+ strlen($eol));

@@ -134,22 +134,30 @@ let initiatives = {
     },
 
     popupNewInit: function(){
+        // Инициализация выбора субъекта и загрузка районов
         $("select[name=region]").on("el_select_change", function(){
-            if($(this).val().length === 1){
-                $.post("/", {ajax: 1, action: "getRegion", subject: $(this).val()}, function (data) {
-                    $("select[name=district]").html(data);
-                    $(".detail").show();
-                });
-            }else {
-                $(".detail").hide();
-            }
+            initiatives.loadDistricts($(this));
         });
 
+        // Инициализация при загрузке формы - если субъект уже выбран, загрузить районы
+        let currentRegion = $("select[name=region]").val();
+        if(currentRegion && currentRegion.length > 0){
+            initiatives.loadDistricts($("select[name=region]"));
+        }
+
+        // Логика "Выбрать всех"
         $("#init_select_all").on("change", function(){
             let elems = $(".subject, .prof");
             if($(this).prop("checked")){
                 elems.hide();
                 $(".detail").hide();
+                // Очистить все select поля
+                $("select[name=region]").val(null).trigger("change");
+                $("select[name=professions]").val(null).trigger("change");
+                $("#district").val(null).trigger("change");
+                $("#city").val('');
+                $("#post_index").val('');
+                $("#groups").val(null).html('<option value="0">Без группы</option>').closest(".item").hide();
             }else{
                 elems.show();
                 if($("select[name=region]").val().length === 1){
@@ -164,19 +172,54 @@ let initiatives = {
 
         initiatives.cloneAnswer();
 
+        // Инициализация загрузки групп по индексу (при загрузке формы и при вводе)
+        initiatives.initIndexGroups();
+
         $("#post_index, #fpost_index").off("input keyup").on("input keyup", function(){
             if($(this).val().replace(/_/g, "").length >= 5){
-                $.post("/", {ajax: 1, action: "getGroups", index: $(this).val(), values: $(this).data("values")},
-                    function(data){
-                        let answer = JSON.parse(data);
-
-                        if(answer.result) {
-                            $("#groups").html(answer.resultText).closest(".item").show();
-                        }
-                    }
-                );
+                initiatives.loadGroups($(this));
             }
         }).mask('999999');
+    },
+
+    loadDistricts: function($element){
+        let regionVal = $element.val();
+        if(regionVal && regionVal.length === 1){
+            // Получить выбранные районы для восстановления
+            let selectedDistricts = $("#district").val() ? (Array.isArray($("#district").val()) ? $("#district").val() : [$("#district").val()]) : [];
+            
+            $.post("/", {ajax: 1, action: "getRegion", subject: regionVal, values: selectedDistricts}, function (data) {
+                $("#district").html(data);
+                $(".detail").show();
+            });
+        }else {
+            $(".detail").hide();
+            $("#district").html('').closest(".item").hide();
+        }
+    },
+
+    loadGroups: function($element){
+        let indexVal = $element.val().replace(/_/g, "");
+        let groupId = $element.attr("name") === "post_index" ? "groups" : "sf17"; // для фильтра sf17
+        let selectedGroups = $("#" + groupId).val() ? (Array.isArray($("#" + groupId).val()) ? $("#" + groupId).val() : [$("#" + groupId).val()]) : [];
+        
+        $.post("/", {ajax: 1, action: "getGroups", index: indexVal, values: selectedGroups}, function(data){
+            let answer = JSON.parse(data);
+            if(answer.result) {
+                $("#" + groupId).html(answer.resultText).closest(".item").show();
+            }
+        });
+    },
+
+    initIndexGroups: function(){
+        // При загрузке формы: если индекс уже заполнен, загрузить группы
+        let indexField = $("#post_index, #fpost_index").filter(function(){
+            return $(this).val().replace(/_/g, "").length >= 5;
+        });
+        
+        if(indexField.length > 0){
+            initiatives.loadGroups(indexField);
+        }
     },
 
     cloneAnswer: function(){

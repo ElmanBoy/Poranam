@@ -15,8 +15,8 @@ if (el_checkAjax()) {
             <div class="group">
                 <div class="item">
                     <div class="el_data">
-                        <label for="fid">ID</label>
-                        <input class="el_input" id="fid" name="sf4" type="text">
+                        <label for="fid">ID / Индекс автора</label>
+                        <input class="el_input" id="fid" name="sf4" type="text" placeholder="ID или индекс">
                     </div>
                 </div>
                 <div class="item">
@@ -31,7 +31,7 @@ if (el_checkAjax()) {
                 <div class="item">
                     <select multiple data-label="Субъект" data-place="Выберите" name="region"
                             data-multibarshow="false">
-                        <?= el_buildRegistryList('subjects', $_GET['region'], false) ?>
+                        <?= el_buildRegistryList('subjects', $_GET['region'], true) ?>
                     </select>
                 </div>
                 <div class="item">
@@ -137,7 +137,28 @@ if (el_checkAjax()) {
         initiatives.popupNewInit();
         $(document).ready(
             function () {
+                // Инициализация загрузки районов в фильтре при выборе субъекта
+                $("form[method=get] select[name=region]").on("el_select_change", function(){
+                    let regionVal = $(this).val();
+                    let selectedDistricts = $("form[method=get] #district").val() ? 
+                        (Array.isArray($("form[method=get] #district").val()) ? 
+                        $("form[method=get] #district").val() : [$("form[method=get] #district").val()]) : [];
+                    
+                    if(regionVal && regionVal.length === 1){
+                        $.post("/", {ajax: 1, action: "getRegion", subject: regionVal, values: selectedDistricts}, function (data) {
+                            $("form[method=get] #district").html(data);
+                        });
+                    }
+                });
+
+                // Инициализация загрузки групп по индексу в фильтре
                 $('#fpost_index').trigger('keyup');
+                
+                // Эмуляция выбора субъекта если он уже выбран при открытии фильтра
+                let filterRegion = $("form[method=get] select[name=region]").val();
+                if(filterRegion && filterRegion.length > 0){
+                    $("form[method=get] select[name=region]").trigger("el_select_change");
+                }
 
                 $('button[type=reset]').on('click', function (e) {
                     e.preventDefault();

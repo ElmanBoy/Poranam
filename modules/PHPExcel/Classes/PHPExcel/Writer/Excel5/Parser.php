@@ -519,7 +519,7 @@ class PHPExcel_Writer_Excel5_Parser
     {
         $this->currentCharacter = 0;
         $this->formula = $formula;
-        $this->lookAhead = isset($formula{1}) ? $formula{1} : '';
+        $this->lookAhead = isset($formula[1]) ? $formula[1] : '';
         $this->advance();
         $this->parseTree = $this->condition();
         return true;
@@ -1184,7 +1184,7 @@ class PHPExcel_Writer_Excel5_Parser
         $col = 0;
         $col_ref_length = strlen($col_ref);
         for ($i = 0; $i < $col_ref_length; ++$i) {
-            $col += (ord($col_ref{$i}) - 64) * pow(26, $expn);
+            $col += (ord($col_ref[$i]) - 64) * pow(26, $expn);
             --$expn;
         }
 

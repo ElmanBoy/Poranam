@@ -70,7 +70,7 @@ do {
             <button class="button text icon more"><span class="material-icons">unfold_more</span>Участники</button>
         </td>
 
-        <td><?= $row_catalog['field2'] ?></td>
+        <td><?= $row_catalog['field3'] ?: $row_catalog['field2'] ?></td>
         <td><?= stripslashes($row_catalog['field1']) ?></td>
         <?/*td>
             <?
@@ -221,14 +221,17 @@ do {
                     }
                     break;
                 case 7: //Завершенная инициатива
+                    ?>
+                    <button class="button icon votes_statement" data-id="<?= $row_catalog['id'] ?>" title="Результаты голосования">
+                        <span class="material-icons">assessment</span>
+                    </button>
+                    <?
                     if ($_SESSION['user_level'] == 11) {
                         ?>
                         <button class="button icon edit_votes" data-id="<?= $row_catalog['id'] ?>" title="Просмотр">
                             <span class="material-icons">remove_red_eye</span>
                         </button>
                         <?
-                    } else {
-                        echo 'Завершено';
                     }
                     break;
 
