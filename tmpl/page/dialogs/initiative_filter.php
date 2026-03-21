@@ -15,8 +15,14 @@ if (el_checkAjax()) {
             <div class="group">
                 <div class="item">
                     <div class="el_data">
-                        <label for="fid">ID</label>
-                        <input class="el_input" id="fid" name="sf4" type="text">
+                        <label for="findex">Индекс автора</label>
+                        <input class="el_input" id="findex" name="sf4_index" type="text" placeholder="Индекс">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="el_data">
+                        <label for="fid">ID автора</label>
+                        <input class="el_input" id="fid" name="sf4_id" type="text" placeholder="ID">
                     </div>
                 </div>
                 <div class="item">

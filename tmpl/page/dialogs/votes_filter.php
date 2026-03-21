@@ -15,8 +15,14 @@ if (el_checkAjax()) {
             <div class="group">
                 <div class="item">
                     <div class="el_data">
-                        <label for="fid">ID / Индекс автора</label>
-                        <input class="el_input" id="fid" name="sf4" type="text" placeholder="ID или индекс">
+                        <label for="findex">Индекс автора</label>
+                        <input class="el_input" id="findex" name="sf4_index" type="text" placeholder="Индекс">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="el_data">
+                        <label for="fid">ID автора</label>
+                        <input class="el_input" id="fid" name="sf4_id" type="text" placeholder="ID">
                     </div>
                 </div>
                 <div class="item">
@@ -72,7 +78,7 @@ if (el_checkAjax()) {
                 <?
                 }
                 ?>
-                <div class='item' style='display: none'>
+                <div class='item'>
                     <div class='el_data'>
                         <select data-label='Группа в индексе' data-place='Выберите' name='sf17'
                                 id='groups'>
@@ -133,16 +139,15 @@ if (el_checkAjax()) {
         </form>
     </section>
 </div>
-    <script>
+        <script>
         initiatives.popupNewInit();
         $(document).ready(
             function () {
                 // Инициализация загрузки районов в фильтре при выборе субъекта
+                let initialDistricts = <?php echo json_encode(is_array($_GET['district']) ? $_GET['district'] : (strlen($_GET['district']) > 0 ? explode(',', $_GET['district']) : [])); ?>;
                 $("form[method=get] select[name=region]").on("el_select_change", function(){
                     let regionVal = $(this).val();
-                    let selectedDistricts = $("form[method=get] #district").val() ? 
-                        (Array.isArray($("form[method=get] #district").val()) ? 
-                        $("form[method=get] #district").val() : [$("form[method=get] #district").val()]) : [];
+                    let selectedDistricts = initialDistricts;
                     
                     if(regionVal && regionVal.length === 1){
                         $.post("/", {ajax: 1, action: "getRegion", subject: regionVal, values: selectedDistricts}, function (data) {
@@ -157,7 +162,10 @@ if (el_checkAjax()) {
                 // Эмуляция выбора субъекта если он уже выбран при открытии фильтра
                 let filterRegion = $("form[method=get] select[name=region]").val();
                 if(filterRegion && filterRegion.length > 0){
-                    $("form[method=get] select[name=region]").trigger("el_select_change");
+                    let selectedDistricts = initialDistricts;
+                    $.post("/", {ajax: 1, action: "getRegion", subject: filterRegion, values: selectedDistricts}, function (data) {
+                        $("form[method=get] #district").html(data);
+                    });
                 }
 
                 $('button[type=reset]').on('click', function (e) {

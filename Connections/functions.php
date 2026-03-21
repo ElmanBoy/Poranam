@@ -3155,6 +3155,11 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
                                                 $asubquery[] = "(field5='" . intval($avar[$v]) . "' OR field5='0' OR field5='' OR field5 IS NULL)";
                                                 continue 2;
                                             }
+                                            if($catalog_id == '398' && $sfieldNum == '5'){
+                                                // Аналогично для голосований
+                                                $asubquery[] = "(field5='" . intval($avar[$v]) . "' OR field5='0' OR field5='' OR field5 IS NULL)";
+                                                continue 2;
+                                            }
                                             if($catalog_id == 'users' && $sfieldNum == '16'){
                                                 $soper = "='" . intval($avar[$v]) . "'"; // OR field25 = '" . intval($avar[$v]) . "'
                                             }
@@ -3245,6 +3250,31 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
         if (strlen(trim($_GET['search'])) == 0) {
             $subquery .= " AND (cat = '" . $parentid . "' OR cat LIKE '% " . $parentid . " %')";
         }
+	}
+	// Special handling for sf4_index and sf4_id
+	if (isset($_REQUEST['sf4_index']) && strlen(trim($_REQUEST['sf4_index'])) > 0) {
+		$subquery .= " $searchOper field4 LIKE '" . addslashes($_REQUEST['sf4_index']) . "%'";
+	}
+	if (isset($_REQUEST['sf4_id']) && strlen(trim($_REQUEST['sf4_id'])) > 0) {
+		$subquery .= " $searchOper field4 LIKE '%" . addslashes($_REQUEST['sf4_id']) . "'";
+	}
+	// Restrictions for votes catalog to show only relevant to user
+	if($catalog_id == '398' && intval($_SESSION['user_level']) > 0 && intval($_SESSION['user_level']) < 11){
+		$subquery .= " AND (field5 = '" . addslashes($_SESSION['user_subject']) . "' OR field5 = '0' OR field5 = '' OR field5 IS NULL)";
+		$subquery .= " AND (field6 = '" . addslashes($_SESSION['user_region']) . "' OR field6 = '0' OR field6 = '' OR field6 IS NULL)";
+		$subquery .= " AND (field7 = '" . addslashes($_SESSION['user_prof']) . "' OR field7 = '0' OR field7 = '' OR field7 IS NULL)";
+		$subquery .= " AND (field8 = '" . addslashes($_SESSION['user_city']) . "' OR field8 = '0' OR field8 = '' OR field8 IS NULL)";
+		$subquery .= " AND (field9 = '" . addslashes($_SESSION['user_index']) . "' OR field9 = '0' OR field9 = '' OR field9 IS NULL)";
+		$subquery .= " AND (field17 = '" . addslashes($_SESSION['user_group']) . "' OR field17 = '0' OR field17 = '' OR field17 IS NULL)";
+		$themes = explode(',', $_SESSION['user_themes']);
+		$themeConditions = [];
+		foreach($themes as $theme){
+			$themeConditions[] = "field12 = '" . addslashes($theme) . "'";
+		}
+		$themeConditions[] = "field12 = '0'";
+		$themeConditions[] = "field12 = ''";
+		$themeConditions[] = "field12 IS NULL";
+		$subquery .= " AND (" . implode(' OR ', $themeConditions) . ")";
 	}
 	if($catalog_id == 'init') {
         $uid = $_SESSION['visual_user_id'];

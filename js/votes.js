@@ -156,11 +156,11 @@ let initiatives = {
                 $("select[name=professions]").val(null).trigger("change");
                 $("#district").val(null).trigger("change");
                 $("#city").val('');
-                $("#post_index").val('');
+                $("#post_index").val('').trigger('input');
                 $("#groups").val(null).html('<option value="0">Без группы</option>').closest(".item").hide();
             }else{
                 elems.show();
-                if($("select[name=region]").val().length === 1){
+                if($("select[name=region]").val() && $("select[name=region]").val().length === 1){
                     $(".detail").show();
                 }
             }
@@ -186,7 +186,7 @@ let initiatives = {
         let regionVal = $element.val();
         if(regionVal && regionVal.length === 1){
             // Получить выбранные районы для восстановления
-            let selectedDistricts = $("#district").val() ? (Array.isArray($("#district").val()) ? $("#district").val() : [$("#district").val()]) : [];
+            let selectedDistricts = initialDistricts;
             
             $.post("/", {ajax: 1, action: "getRegion", subject: regionVal, values: selectedDistricts}, function (data) {
                 $("#district").html(data);

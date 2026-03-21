@@ -265,7 +265,7 @@
                                 <div class="el_data">
                                     <label>Не началось</label>
                                     <input disabled class="el_input" type="text" value="<?=$votesNotRun?>">
-                                    <a href="/golosovanie/?sf14=5&sf4=<?=$_SESSION['user_index'].'-'.$_SESSION['user_id']?>">
+                                    <a href="/golosovanie/?sf14=5&sf4_index=<?=urlencode($_SESSION['user_index'])?>&sf4_id=<?=urlencode($_SESSION['user_id'])?>">
                                         <button class="button icon"><span class="material-icons">visibility</span></button></a>
                                 </div>
                             </div>
@@ -273,7 +273,7 @@
                                 <div class="el_data">
                                     <label>Идёт</label>
                                     <input disabled class="el_input" type="text" value="<?=$votesRun?>">
-                                    <a href="/golosovanie/?sf14=6&sf4=<?=$_SESSION['user_index'].'-'.$_SESSION['user_id']?>">
+                                    <a href="/golosovanie/?sf14=6&sf4_index=<?=urlencode($_SESSION['user_index'])?>&sf4_id=<?=urlencode($_SESSION['user_id'])?>">
                                         <button class="button icon"><span class="material-icons">visibility</span></button></a>
                                 </div>
                             </div>
@@ -343,7 +343,7 @@
                                 <div class="el_data">
                                     <label>Не началось</label>
                                     <input disabled class="el_input" type="text" value="<?=$votesNotRun?>">
-                                    <a href="/meropriyatiya/?sf14=13&sf4=<?=$_SESSION['user_index'].'-'.$_SESSION['user_id']?>">
+                                    <a href="/meropriyatiya/?sf14=13&sf4_index=<?=urlencode($_SESSION['user_index'])?>&sf4_id=<?=urlencode($_SESSION['user_id'])?>">
                                         <button class="button icon"><span class="material-icons">visibility</span></button></a>
                                 </div>
                             </div>
@@ -351,7 +351,7 @@
                                 <div class="el_data">
                                     <label>Идёт</label>
                                     <input disabled class="el_input" type="text" value="<?=$votesRun?>">
-                                    <a href="/meropriyatiya/?sf14=14&sf4=<?=$_SESSION['user_index'].'-'.$_SESSION['user_id']?>"><button class="button icon"><span class="material-icons">visibility</span></button></a>
+                                    <a href="/meropriyatiya/?sf14=14&sf4_index=<?=urlencode($_SESSION['user_index'])?>&sf4_id=<?=urlencode($_SESSION['user_id'])?>"><button class="button icon"><span class="material-icons">visibility</span></button></a>
                                 </div>
                             </div>
                             <div class="item">
