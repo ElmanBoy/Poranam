@@ -3266,11 +3266,12 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
 	// Special handling for sf4_index and sf4_id
 	if (isset($_REQUEST['sf4_index']) && strlen(trim($_REQUEST['sf4_index'])) > 0) {
 		$indexValue = addslashes($_REQUEST['sf4_index']);
-		$subquery .= " $searchOper (field4 LIKE '$indexValue-%' OR field4 LIKE '$indexValue\_%')";
+		$subquery .= " $searchOper field4 LIKE '$indexValue\_%'";
 	}
 	if (isset($_REQUEST['sf4_id']) && strlen(trim($_REQUEST['sf4_id'])) > 0) {
 		$idValue = addslashes($_REQUEST['sf4_id']);
-		$subquery .= " $searchOper (field4 LIKE '%-$idValue' OR field4 LIKE '%\_$idValue')";
+		$idValue = str_replace('-', '_', $idValue);
+		$subquery .= " $searchOper field4 = '$idValue'";
 	}
 	// Restrictions for votes catalog to show only relevant to user
 	if($catalog_id == '398' && intval($_SESSION['user_level']) > 0 && intval($_SESSION['user_level']) < 11){
