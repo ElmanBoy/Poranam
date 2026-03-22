@@ -3,152 +3,152 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/Connections/dbconn.php';
 if (el_checkAjax()) {
 
     $_GET = $_POST['params'];
-?>
-<div class="pop_up">
-    <div class="title">
-        <h2>Фильтр по голосованиям</h2>
-        <div class="close" onclick="pop_up_filter_init_close(); return false"><span class="material-icons">highlight_off</span></div>
-    </div>
-    <section>
-        <form method="get">
-            <h3>Автор голосования</h3>
-            <div class="group">
-                <div class="item">
-                    <div class="el_data">
-                        <label for="findex">Индекс автора</label>
-                        <input class="el_input" id="findex" name="sf4_index" type="text" placeholder="Индекс" value="<?= htmlspecialchars($_GET['sf4_index'], ENT_QUOTES) ?>">
+    ?>
+    <div class="pop_up">
+        <div class="title">
+            <h2>Фильтр по голосованиям</h2>
+            <div class="close" onclick="pop_up_filter_init_close(); return false"><span class="material-icons">highlight_off</span></div>
+        </div>
+        <section>
+            <form method="get">
+                <h3>Автор голосования</h3>
+                <div class="group">
+                    <div class="item">
+                        <div class="el_data">
+                            <label for="findex">Индекс автора</label>
+                            <input class="el_input" id="findex" name="sf4_index" type="text" placeholder="Индекс" value="<?= htmlspecialchars($_GET['sf4_index'], ENT_QUOTES) ?>">
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <div class="el_data">
-                        <label for="fid">ID автора</label>
-                        <input class="el_input" id="fid" name="sf4_id" type="text" placeholder="ID" value="<?= htmlspecialchars($_GET['sf4_id'], ENT_QUOTES) ?>">
+                    <div class="item">
+                        <div class="el_data">
+                            <label for="fid">ID автора</label>
+                            <input class="el_input" id="fid" name="sf4_id" type="text" placeholder="ID" value="<?= htmlspecialchars($_GET['sf4_id'], ENT_QUOTES) ?>">
+                        </div>
                     </div>
-                </div>
-                <div class="item">
-                    <select multiple data-label="Ранг" data-place="Выберите" name="sf13">
-                        <?= el_buildRegistryList('userstatus', $_GET['sf13'], false) ?>
-                    </select>
-                </div>
-            </div>
-            <h3>Участники</h3>
-            <div class="group">
-
-                <div class="item">
-                    <select multiple data-label="Субъект" data-place="Выберите" name="region"
-                            data-multibarshow="false">
-                        <?= el_buildRegistryList('subjects', $_GET['region'], true) ?>
-                    </select>
-                </div>
-                <div class="item">
-                    <select multiple data-label="Район / Округ" data-place="Выберите" name="district" id="district">
-                    </select>
-                </div>
-                <div class="item">
-                    <div class="el_data">
-                        <label for="fcity">Населённый пункт</label>
-                        <input class="el_input" value="<?= $_GET['sf8'] ?>" id="fcity" name="sf8" type="text">
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="el_data">
-                        <label for="fpost_index">Индекс</label>
-                        <input class="el_input" id="fpost_index" name="sf9" type="text" value="<?= $_GET['sf9'] ?>">
-                    </div>
-
-                </div>
-                <?
-                if(isset($_SESSION['user_level']) && $_SESSION['user_level'] != 9){
-                ?>
-                <div class="item">
-                    <div class="el_data">
-                        <label for="fstreet">Улица</label>
-                        <input class="el_input" id="fstreet" name="sf10" type="text" value="<?= $_GET['sf10'] ?>">
-                    </div>
-
-                </div>
-                <div class="item">
-                    <div class="el_data">
-                        <label for="fhouse">Номер дома</label>
-                        <input class="el_input" id="fhouse" name="sf11" type="text" value="<?= $_GET['sf11'] ?>">
-                    </div>
-
-                </div>
-
-                <?
-                }
-                ?>
-                <div class='item'>
-                    <div class='el_data'>
-                        <select data-label='Группа в индексе' data-place='Выберите' name='sf17'
-                                id='groups'>
+                    <div class="item">
+                        <select multiple data-label="Ранг" data-place="Выберите" name="sf13">
+                            <?= el_buildRegistryList('userstatus', $_GET['sf13'], false) ?>
                         </select>
                     </div>
                 </div>
-            </div>
-            <div class="group">
+                <h3>Участники</h3>
+                <div class="group">
 
-                <div class="item">
-                    <select multiple data-label="Профессия" data-place="Выберите" name="sf7">
-                        <?= el_buildRegistryList('proffesions', $_GET['sf7'], false) ?>
-                    </select>
-                </div>
-            </div>
-            <h3>Параметры</h3>
-            <div class="group">
-                <div class="item">
-                    <select multiple data-label="Тема" data-place="Выберите" name="sf12">
-                        <?= el_buildRegistryList('registryVote', $_GET['sf12'], false) ?>
-                    </select>
-                </div>
-                <div class="item">
-                    <select data-label="Статус голосования" data-place="Выберите" name="sf14">
-                        <option value=""<?=(intval($_GET['sf14']) == 0) ? ' selected' : ''?>>Все</option>
-                        <option value="7"<?=(intval($_GET['sf14']) == 7) ? ' selected' : ''?>>Голосование завершено</option>
-                        <option value="6"<?=(intval($_GET['sf14']) == 6) ? ' selected' : ''?>>Голосование идёт</option>
-                        <?/*option value="4">Переведена в "Голосования"</option*/?>
-                    </select>
-                </div>
-            </div>
-            <h3>Время проведения</h3>
-            <div class="group">
-                <div class="item">
-                    <div class="el_data">
-                        <label for="fstart">Начало</label>
-                        <input class="el_input" id="start" type="date" value="<?= $_GET['sf2'] ?>" name="sf2">
+                    <div class="item">
+                        <select multiple data-label="Субъект" data-place="Выберите" name="region"
+                                data-multibarshow="false">
+                            <?= el_buildRegistryList('subjects', $_GET['region'], true) ?>
+                        </select>
+                    </div>
+                    <div class="item">
+                        <select multiple data-label="Район / Округ" data-place="Выберите" name="district" id="district">
+                        </select>
+                    </div>
+                    <div class="item">
+                        <div class="el_data">
+                            <label for="fcity">Населённый пункт</label>
+                            <input class="el_input" value="<?= $_GET['sf8'] ?>" id="fcity" name="sf8" type="text">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="el_data">
+                            <label for="fpost_index">Индекс</label>
+                            <input class="el_input" id="fpost_index" name="sf9" type="text" value="<?= $_GET['sf9'] ?>">
+                        </div>
+
+                    </div>
+                    <?
+                    if(isset($_SESSION['user_level']) && $_SESSION['user_level'] != 9){
+                        ?>
+                        <div class="item">
+                            <div class="el_data">
+                                <label for="fstreet">Улица</label>
+                                <input class="el_input" id="fstreet" name="sf10" type="text" value="<?= $_GET['sf10'] ?>">
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="el_data">
+                                <label for="fhouse">Номер дома</label>
+                                <input class="el_input" id="fhouse" name="sf11" type="text" value="<?= $_GET['sf11'] ?>">
+                            </div>
+
+                        </div>
+
+                        <?
+                    }
+                    ?>
+                    <div class='item'>
+                        <div class='el_data'>
+                            <select data-label='Группа в индексе' data-place='Выберите' name='sf17'
+                                    id='groups'>
+                            </select>
+                        </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="el_data">
-                        <label for="fend">Окончание</label>
-                        <input class="el_input" id="end" type="date" name="sf3" value="<?= $_GET['sf3'] ?>">
+                <div class="group">
+
+                    <div class="item">
+                        <select multiple data-label="Профессия" data-place="Выберите" name="sf7">
+                            <?= el_buildRegistryList('proffesions', $_GET['sf7'], false) ?>
+                        </select>
                     </div>
                 </div>
-            </div>
-            <div class="group">
-                <div class="item">
-                    <input type="hidden" name="filter" value="1">
-                    <button type="submit" class="button icon text"><span class="material-icons">search</span>Найти</button>
+                <h3>Параметры</h3>
+                <div class="group">
+                    <div class="item">
+                        <select multiple data-label="Тема" data-place="Выберите" name="sf12">
+                            <?= el_buildRegistryList('registryVote', $_GET['sf12'], false) ?>
+                        </select>
+                    </div>
+                    <div class="item">
+                        <select data-label="Статус голосования" data-place="Выберите" name="sf14">
+                            <option value=""<?=(intval($_GET['sf14']) == 0) ? ' selected' : ''?>>Все</option>
+                            <option value="7"<?=(intval($_GET['sf14']) == 7) ? ' selected' : ''?>>Голосование завершено</option>
+                            <option value="6"<?=(intval($_GET['sf14']) == 6) ? ' selected' : ''?>>Голосование идёт</option>
+                            <?/*option value="4">Переведена в "Голосования"</option*/?>
+                        </select>
+                    </div>
                 </div>
-                <div class="item">
-                    <button type="reset" class="button icon text"><span class="material-icons">
+                <h3>Время проведения</h3>
+                <div class="group">
+                    <div class="item">
+                        <div class="el_data">
+                            <label for="fstart">Начало</label>
+                            <input class="el_input" id="start" type="date" value="<?= $_GET['sf2'] ?>" name="sf2">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="el_data">
+                            <label for="fend">Окончание</label>
+                            <input class="el_input" id="end" type="date" name="sf3" value="<?= $_GET['sf3'] ?>">
+                        </div>
+                    </div>
+                </div>
+                <div class="group">
+                    <div class="item">
+                        <input type="hidden" name="filter" value="1">
+                        <button type="submit" class="button icon text"><span class="material-icons">search</span>Найти</button>
+                    </div>
+                    <div class="item">
+                        <button type="reset" class="button icon text"><span class="material-icons">
                                     restart_alt
                                 </span>Сбросить</button>
+                    </div>
                 </div>
-            </div>
-        </form>
-    </section>
-</div>
-        <script>
+            </form>
+        </section>
+    </div>
+    <script>
         initiatives.popupNewInit();
         $(document).ready(
             function () {
                 // Инициализация загрузки районов в фильтре при выборе субъекта
-                let initialDistricts = <?php echo json_encode(is_array($_GET['district']) ? $_GET['district'] : (strlen($_GET['district']) > 0 ? explode(',', $_GET['district']) : [])); ?>;
+                initialDistricts = <?php echo json_encode(isset($_GET['district']) ? (is_array($_GET['district']) ? $_GET['district'] : (strlen(trim($_GET['district'])) > 0 ? explode(',', $_GET['district']) : [])) : []); ?>;
                 $("form[method=get] select[name=region]").on("el_select_change", function(){
                     let regionVal = $(this).val();
-                    let selectedDistricts = initialDistricts;
-                    
+                    let selectedDistricts = initialDistricts || [];
+
                     if(regionVal && regionVal.length === 1){
                         $.post("/", {ajax: 1, action: "getRegion", subject: regionVal, values: selectedDistricts}, function (data) {
                             $("form[method=get] #district").html(data);
@@ -158,11 +158,11 @@ if (el_checkAjax()) {
 
                 // Инициализация загрузки групп по индексу в фильтре
                 $('#fpost_index').trigger('keyup');
-                
+
                 // Эмуляция выбора субъекта если он уже выбран при открытии фильтра
                 let filterRegion = $("form[method=get] select[name=region]").val();
                 if(filterRegion && filterRegion.length > 0){
-                    let selectedDistricts = initialDistricts;
+                    let selectedDistricts = initialDistricts || [];
                     $.post("/", {ajax: 1, action: "getRegion", subject: filterRegion, values: selectedDistricts}, function (data) {
                         $("form[method=get] #district").html(data);
                     });
@@ -174,6 +174,6 @@ if (el_checkAjax()) {
                 });
             })
     </script>
-<?php
+    <?php
 }
 ?>
