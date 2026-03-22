@@ -3277,7 +3277,10 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
         if(substr_count($idValue, '-') > 0){
             $idArr = explode('-', $idValue);
         }
-		$subquery .= " $searchOper (field4 = '$idArr[0]".'_'."$idArr[1]' OR field4 = '$idArr[0]".'-'."$idArr[1]') ";
+        $userIds = null;
+        $userIds = el_dbselect("SELECT id FROM catalog_users_data 
+        WHERE user_id = '$idArr[0]".'_'."$idArr[1]' OR user_id = '$idArr[0]".'-'."$idArr[1]'", 0, $userIds, 'row', true);
+		$subquery .= " $searchOper (field4 = '$idArr[0]".'_'.$userIds['id']."' OR field4 = '$idArr[0]".'-'.$userIds['id']."') ";
 	}
 	// Restrictions for votes catalog to show only relevant to user
 	if($catalog_id == '398' && intval($_SESSION['user_level']) > 0 && intval($_SESSION['user_level']) < 11){
