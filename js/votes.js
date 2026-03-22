@@ -1,3 +1,6 @@
+// Глобальная переменная для хранения выбранных районов при фильтрации
+let initialDistricts = [];
+
 let initiatives = {
     buttons_init: function(){
         //Снять выделние в таблице
@@ -96,7 +99,7 @@ let initiatives = {
         });
 
     },
- 
+
     groupSetInitStatus: async function(status){
         let ids = [];
         if(await confirm("Вы уверены?")){
@@ -186,8 +189,8 @@ let initiatives = {
         let regionVal = $element.val();
         if(regionVal && regionVal.length === 1){
             // Получить выбранные районы для восстановления
-            let selectedDistricts = initialDistricts;
-            
+            let selectedDistricts = initialDistricts || [];
+
             $.post("/", {ajax: 1, action: "getRegion", subject: regionVal, values: selectedDistricts}, function (data) {
                 $("#district").html(data);
                 $(".detail").show();
@@ -202,7 +205,7 @@ let initiatives = {
         let indexVal = $element.val().replace(/_/g, "");
         let groupId = $element.attr("name") === "post_index" ? "groups" : "sf17"; // для фильтра sf17
         let selectedGroups = $("#" + groupId).val() ? (Array.isArray($("#" + groupId).val()) ? $("#" + groupId).val() : [$("#" + groupId).val()]) : [];
-        
+
         $.post("/", {ajax: 1, action: "getGroups", index: indexVal, values: selectedGroups}, function(data){
             let answer = JSON.parse(data);
             if(answer.result) {
@@ -216,7 +219,7 @@ let initiatives = {
         let indexField = $("#post_index, #fpost_index").filter(function(){
             return $(this).val().replace(/_/g, "").length >= 5;
         });
-        
+
         if(indexField.length > 0){
             initiatives.loadGroups(indexField);
         }
