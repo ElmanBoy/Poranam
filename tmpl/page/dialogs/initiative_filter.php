@@ -16,13 +16,13 @@ if (el_checkAjax()) {
                 <div class="item">
                     <div class="el_data">
                         <label for="findex">Индекс автора</label>
-                        <input class="el_input" id="findex" name="sf4_index" type="text" placeholder="Индекс">
+                        <input class="el_input" id="findex" name="sf4_index" type="text" placeholder="Индекс" value="<?= htmlspecialchars($_GET['sf4_index'], ENT_QUOTES) ?>">
                     </div>
                 </div>
                 <div class="item">
                     <div class="el_data">
                         <label for="fid">ID автора</label>
-                        <input class="el_input" id="fid" name="sf4_id" type="text" placeholder="ID">
+                        <input class="el_input" id="fid" name="sf4_id" type="text" placeholder="ID" value="<?= htmlspecialchars($_GET['sf4_id'], ENT_QUOTES) ?>">
                     </div>
                 </div>
                 <div class="item">
