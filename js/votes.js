@@ -96,7 +96,7 @@ let initiatives = {
         });
 
     },
-
+ 
     groupSetInitStatus: async function(status){
         let ids = [];
         if(await confirm("Вы уверены?")){

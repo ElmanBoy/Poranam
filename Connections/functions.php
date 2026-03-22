@@ -3177,7 +3177,7 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
                                                 }
                                             }
 										};
-									}
+									} 
 									break;
 							}
 							$asubquery[] = $preOper . "field" . $sfieldNum . $soper;
@@ -3270,8 +3270,14 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
 	}
 	if (isset($_REQUEST['sf4_id']) && strlen(trim($_REQUEST['sf4_id'])) > 0) {
 		$idValue = addslashes($_REQUEST['sf4_id']);
-		$idValue = str_replace('-', '_', $idValue);
-		$subquery .= " $searchOper field4 = '$idValue'";
+        $idArr = [];
+		if(substr_count($idValue, '_') > 0){
+		    $idArr = explode('_', $idValue);
+        }
+        if(substr_count($idValue, '-') > 0){
+            $idArr = explode('-', $idValue);
+        }
+		$subquery .= " $searchOper (field4 = '$idArr[0]".'_'."$idArr[1]' OR field4 = '$idArr[0]".'-'."$idArr[1]') ";
 	}
 	// Restrictions for votes catalog to show only relevant to user
 	if($catalog_id == '398' && intval($_SESSION['user_level']) > 0 && intval($_SESSION['user_level']) < 11){
