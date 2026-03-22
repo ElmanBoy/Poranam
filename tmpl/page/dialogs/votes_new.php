@@ -214,7 +214,7 @@ if (el_checkAjax()) {
 
     </div>
     <script>
-        let initialDistricts = <?php echo json_encode(is_array($init['field6']) ? explode(',', $init['field6']) : (strlen($init['field6']) > 0 ? [$init['field6']] : [])); ?>;
+        initialDistricts = <?php echo json_encode(is_array($init['field6']) ? explode(',', $init['field6']) : (strlen($init['field6']) > 0 ? [$init['field6']] : [])); ?>;
         initiatives.popupNewInit();
     </script>
     <?php
