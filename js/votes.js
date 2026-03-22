@@ -1,5 +1,5 @@
 // Глобальная переменная для хранения выбранных районов при фильтрации
-let initialDistricts = [];
+var initialDistricts = [];
 
 let initiatives = {
     buttons_init: function(){
