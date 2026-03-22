@@ -1,5 +1,5 @@
 // Глобальная переменная для хранения выбранных районов при фильтрации
-let initialDistricts = [];
+var initialDistricts = [];
 
 let initiatives = {
     buttons_init: function(){
@@ -258,6 +258,12 @@ let initiatives = {
             initiatives.buttons_init();
         });
     }
+};
+
+// Функция для открытия редактирования голосования, если в HTML используется onclick="pop_up_welcome(id)"
+function pop_up_welcome(id) {
+    el_app.dialog_open('votes_new', id);
+}
 }
 
 $(document).ready(function(){
