@@ -140,11 +140,11 @@ if (el_checkAjax()) {
     </section>
 </div>
         <script>
+        initialDistricts = <?php echo json_encode(isset($_GET['district']) ? (is_array($_GET['district']) ? $_GET['district'] : (strlen(trim($_GET['district'])) > 0 ? explode(',', $_GET['district']) : [])) : []); ?>;
         initiatives.popupNewInit();
         $(document).ready(
             function () {
                 // Инициализация загрузки районов в фильтре при выборе субъекта
-                initialDistricts = <?php echo json_encode(isset($_GET['district']) ? (is_array($_GET['district']) ? $_GET['district'] : (strlen(trim($_GET['district'])) > 0 ? explode(',', $_GET['district']) : [])) : []); ?>;
                 $("form[method=get] select[name=region]").on("el_select_change", function(){
                     let regionVal = $(this).val();
                     let selectedDistricts = initialDistricts || [];
