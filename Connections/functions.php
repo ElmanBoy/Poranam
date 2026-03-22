@@ -3091,6 +3091,10 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
 		foreach ($_REQUEST as $varname => $var) {
 			$sfieldNum = str_replace(array('sf', '_d', '_from', '_to'), '', $varname);
 			$preOper = "";
+			// Skip special handling fields that are processed separately
+			if ($varname == 'sf4_index' || $varname == 'sf4_id') {
+				continue;
+			}
 			if ($var && substr_count($varname, 'sf') > 0) {
 				if (@substr_count($var, '|') > 0 || is_array($var)) {
 					$avar = array();
@@ -3104,6 +3108,10 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
 
 					if (count($avar) > 0) {
 						$ct = el_dbselect("DESCRIBE catalog_" . $catalog_id . "_data field" . $sfieldNum, 0, $ct, 'row', true);
+						// Skip if field doesn't exist
+						if (empty($ct) || !isset($ct['Type'])) {
+							continue;
+						}
 						for ($v = 0; $v < count($avar); $v++) {
 							switch (strtolower($ct['Type'])) {
 								case 'text'    :
@@ -3178,6 +3186,10 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
 					}
 				} else {
 					$ct = el_dbselect("DESCRIBE catalog_" . $catalog_id . "_data field" . $sfieldNum, 0, $ct, 'row');
+					// Skip if field doesn't exist
+					if (empty($ct) || !isset($ct['Type'])) {
+						continue;
+					}
 					switch (strtolower($ct['Type'])) {
 						case 'text'    :
 						case 'longtext':
