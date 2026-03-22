@@ -144,10 +144,10 @@ if (el_checkAjax()) {
         $(document).ready(
             function () {
                 // Инициализация загрузки районов в фильтре при выборе субъекта
-                let initialDistricts = <?php echo json_encode(is_array($_GET['district']) ? $_GET['district'] : (strlen($_GET['district']) > 0 ? explode(',', $_GET['district']) : [])); ?>;
+                initialDistricts = <?php echo json_encode(isset($_GET['district']) ? (is_array($_GET['district']) ? $_GET['district'] : (strlen(trim($_GET['district'])) > 0 ? explode(',', $_GET['district']) : [])) : []); ?>;
                 $("form[method=get] select[name=region]").on("el_select_change", function(){
                     let regionVal = $(this).val();
-                    let selectedDistricts = initialDistricts;
+                    let selectedDistricts = initialDistricts || [];
                     
                     if(regionVal && regionVal.length === 1){
                         $.post("/", {ajax: 1, action: "getRegion", subject: regionVal, values: selectedDistricts}, function (data) {
@@ -162,7 +162,7 @@ if (el_checkAjax()) {
                 // Эмуляция выбора субъекта если он уже выбран при открытии фильтра
                 let filterRegion = $("form[method=get] select[name=region]").val();
                 if(filterRegion && filterRegion.length > 0){
-                    let selectedDistricts = initialDistricts;
+                    let selectedDistricts = initialDistricts || [];
                     $.post("/", {ajax: 1, action: "getRegion", subject: filterRegion, values: selectedDistricts}, function (data) {
                         $("form[method=get] #district").html(data);
                     });

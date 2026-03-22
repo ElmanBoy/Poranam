@@ -1,3 +1,6 @@
+// Глобальная переменная для хранения выбранных районов при фильтрации
+let initialDistricts = [];
+
 let initiatives = {
     buttons_init: function(){
         //Снять выделние в таблице
@@ -186,7 +189,7 @@ let initiatives = {
         let regionVal = $element.val();
         if(regionVal && regionVal.length === 1){
             // Получить выбранные районы для восстановления
-            let selectedDistricts = initialDistricts;
+            let selectedDistricts = initialDistricts || [];
             
             $.post("/", {ajax: 1, action: "getRegion", subject: regionVal, values: selectedDistricts}, function (data) {
                 $("#district").html(data);
