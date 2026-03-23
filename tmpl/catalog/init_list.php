@@ -231,6 +231,9 @@ do {
                         <button class="button icon edit_votes" data-id="<?= $row_catalog['id'] ?>" title="Просмотр">
                             <span class="material-icons">remove_red_eye</span>
                         </button>
+                        <button class="button icon red votes_remove" data-id="<?= $row_catalog['id'] ?>" title="Удалить">
+                            <span class="material-icons">delete_forever</span>
+                        </button>
                         <?
                     }
                     break;

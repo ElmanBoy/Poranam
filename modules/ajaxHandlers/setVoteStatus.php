@@ -25,7 +25,7 @@ if (el_checkAjax()) {
             case 6:
                 $action1 = 'запущен'.$ending;
                 $action2 = 'запуска';
-                $query .= ' AND field14 = 4';
+                $query .= ' AND (field14 = 4 OR field14 = 5)'; // Можно запустить из черновика (4) или утвержденного (5)
                 break;
             case 5:
                 $action1 = 'утвержден'.$ending;
