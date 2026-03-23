@@ -81,7 +81,7 @@ if (el_checkAjax()) {
             'field2' => $_POST['init_start'],
             'field3' => $_POST['init_end'],
             'field24' => $message,
-            'field14' => ($is_vote) ? 4 : 1
+            'field14' => ($is_vote) ? $init['field14'] : 1  // Сохраняем текущий статус голосования, не переводим в черновик
         );
 
         if($is_vote){
