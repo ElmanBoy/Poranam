@@ -30,7 +30,7 @@ if (el_checkAjax()) {
             case 5:
                 $action1 = 'утвержден'.$ending;
                 $action2 = 'утверждения';
-                $query .= ' AND field14 = 4';
+                $query .= ' AND field14 = 5';
                 break;
             case 3:
             case 7:

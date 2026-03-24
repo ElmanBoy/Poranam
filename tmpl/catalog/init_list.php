@@ -196,8 +196,7 @@ do {
                             <span class="material-icons">edit</span></button>
                         <button data-id="<?= $row_catalog['id'] ?>" class="button icon votes_run" title="Запустить">
                             <span class="material-icons">play_arrow</span></button>
-                        <button class="button icon red votes_remove" data-id="<?= $row_catalog['id'] ?>"
-                                title="Удалить">
+                        <button class="button icon red votes_remove" data-id="<?= $row_catalog['id'] ?>" title="Удалить">
                             <span class="material-icons">delete_forever</span></button>
                         <?
                     } elseif (($_SESSION['user_level'] != 4 || $_SESSION['user_level'] != 11)
@@ -236,6 +235,9 @@ do {
                         <button class="button icon edit_votes" data-id="<?= $row_catalog['id'] ?>" title="Просмотр">
                             <span class="material-icons">remove_red_eye</span>
                         </button>
+                        <button class='button icon red votes_remove' data-id="<?= $row_catalog['id'] ?>"
+                                title='Удалить'>
+                            <span class='material-icons'>delete_forever</span></button>
                         <?
                     }
                     break;
