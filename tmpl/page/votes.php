@@ -99,7 +99,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/tmpl/page/blocks/header.php';
 							    $_GET['sf14'] = [6, 7]; //Голосование запущено
                             }
 						}
-						el_module('el_pagemodule', '');
+						el_module('el_pagemodule', ''); 
 						?>
 
 					</div>
