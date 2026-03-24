@@ -275,7 +275,6 @@ let initiatives = {
 function pop_up_welcome(id) {
     el_app.dialog_open('votes_new', id);
 }
-}
 
 $(document).ready(function(){
     initiatives.buttons_init();
