@@ -253,7 +253,18 @@ let initiatives = {
     },
 
     initListUpdate: function(){
-        $.post("/", {ajax: 1, action: "getVotes"}, function(data){
+        // Получаем текущие параметры фильтра из URL и передаём их при обновлении
+        let currentParams = {};
+        const urlParams = new URLSearchParams(window.location.search);
+        for (let [key, value] of urlParams.entries()) {
+            if (key.startsWith('sf')) {  // Передаём все параметры фильтра sf*
+                currentParams[key] = value;
+            }
+        }
+        currentParams.ajax = 1;
+        currentParams.action = "getVotes";
+        
+        $.post("/", currentParams, function(data){
             $("#init_table").html(data);
             initiatives.buttons_init();
         });

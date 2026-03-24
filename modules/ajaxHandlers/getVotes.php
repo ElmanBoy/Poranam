@@ -8,6 +8,10 @@ if (el_checkAjax()) {
     if(intval($_SESSION['user_level']) == 0 || intval($_SESSION['user_level']) == 10){
         $_GET['sf14_from'] = 4;
     }
+    // Восстанавливаем фильтр для администратора при AJAX обновлении
+    if(intval($_SESSION['user_level']) == 11){
+        $_GET['sf14'] = [5, 6, 7]; //Голосование утверждено, идёт, завершено
+    }
     if(intval($_SESSION['user_level']) > 0 && intval($_SESSION['user_level']) < 11){
         // Фильтр по группе пользователя - показывать только голосования его группы или общие
         if(!empty($_SESSION['user_group']) && $_SESSION['user_group'] != '0'){
