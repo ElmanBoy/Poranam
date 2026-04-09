@@ -74,14 +74,15 @@ if (el_checkAjax()) {
             'field6' => intval($_POST['district']),
             'field8' => $_POST['city'],
             'field9' => $_POST['post_index'],
+            'field17' => (is_array($_POST['groups'])) ? implode(', ', $_POST['groups']) : $_POST['groups'],
             'field10' => $_POST['street'],
             'field11' => $_POST['house'],
             'field7' => intval($_POST['professions']),
             'field13' => intval($_POST['rank']),
             'field2' => $_POST['init_start'],
             'field3' => $_POST['init_end'],
-            'field24' => $message,
-            'field14' => ($is_vote) ? 4 : 1
+            'field24' => $message
+            //'field14' => ($is_vote) ? 4 : 1
         );
 
         if($is_vote){

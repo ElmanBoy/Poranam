@@ -157,7 +157,12 @@ if (count($_REQUEST) > 1) {
 								}
 								break;
 						}
-						$asubquery[] = $preOper."field" . $sfieldNum . $soper;
+						// Для полей участников (субъект, район, профессия и т.д.) учитываем значение 0 (все участники)
+						if (in_array($sfieldNum, array('5', '6', '7', '8', '9', '17')) && intval($avar[$v]) != 0) {
+							$asubquery[] = "(field" . $sfieldNum . " = 0 OR " . $preOper."field" . $sfieldNum . $soper . ")";
+						} else {
+							$asubquery[] = $preOper."field" . $sfieldNum . $soper;
+						}
 					}
 					$subquery .= ' '.$searchOper.' (' . implode(' OR ', $asubquery) . ')';
 				}
@@ -185,7 +190,12 @@ if (count($_REQUEST) > 1) {
 						};
 						break;
 				}
-				$subquery .= " $searchOper field" . $sfieldNum . $soper;
+				// Для полей участников (субъект, район, профессия и т.д.) учитываем значение 0 (все участники)
+				if (in_array($sfieldNum, array('5', '6', '7', '8', '9', '17')) && intval($var) != 0 && strtolower($ct['Type']) != 'text' && strtolower($ct['Type']) != 'longtext') {
+					$subquery .= " $searchOper (field" . $sfieldNum . " = 0 OR field" . $sfieldNum . $soper . ")";
+				} else {
+					$subquery .= " $searchOper field" . $sfieldNum . $soper;
+				}
 			}
 		}
 		if (trim($varname) == 'cat' && intval($varname) > 0) {

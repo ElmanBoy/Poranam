@@ -216,6 +216,19 @@ if (el_checkAjax()) {
     <script>
         initialDistricts = <?php echo json_encode(is_array($init['field6']) ? explode(',', $init['field6']) : (strlen($init['field6']) > 0 ? [$init['field6']] : [])); ?>;
         initiatives.popupNewInit();
+
+        // Инициализация групп в индексе при редактировании
+        <?php if(isset($init['field9']) && strlen($init['field9']) >= 5): ?>
+        $(document).ready(function(){
+            let selectedGroups = <?php echo json_encode(!empty($init['field17']) ? (is_array($init['field17']) ? $init['field17'] : explode(',', $init['field17'])) : []); ?>;
+            $.post("/", {ajax: 1, action: "getGroups", index: "<?= $init['field9'] ?>", values: selectedGroups}, function(data){
+                let answer = JSON.parse(data);
+                if(answer.result) {
+                    $("#groups").html(answer.resultText).closest(".item").show();
+                }
+            });
+        });
+        <?php endif; ?>
     </script>
     <?php
 }

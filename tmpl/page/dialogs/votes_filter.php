@@ -22,7 +22,7 @@ if (el_checkAjax()) {
                     <div class="item">
                         <div class="el_data">
                             <label for="fid">ID автора</label>
-                            <input class="el_input" id="fid" name="sf4_id" type="text" placeholder="ID" value="<?= htmlspecialchars($_GET['sf4_id'], ENT_QUOTES) ?>">
+                            <input class="el_input" id="fid" name="sf4_id" type="text" placeholder="100000-1lf" value="<?= htmlspecialchars($_GET['sf4_id'], ENT_QUOTES) ?>">
                         </div>
                     </div>
                     <div class="item">
@@ -58,7 +58,7 @@ if (el_checkAjax()) {
 
                     </div>
                     <?
-                    if(isset($_SESSION['user_level']) && $_SESSION['user_level'] != 9){
+                    if(isset($_SESSION['user_level']) && $_SESSION['user_level'] == 9){
                         ?>
                         <div class="item">
                             <div class="el_data">
@@ -157,7 +157,9 @@ if (el_checkAjax()) {
                 });
 
                 // Инициализация загрузки групп по индексу в фильтре
-                $('#fpost_index').trigger('keyup');
+                if($('#fpost_index').val() && $('#fpost_index').val().replace(/_/g, "").length >= 5){
+                    initiatives.loadGroups($('#fpost_index'));
+                }
 
                 // Эмуляция выбора субъекта если он уже выбран при открытии фильтра
                 let filterRegion = $("form[method=get] select[name=region]").val();
