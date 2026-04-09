@@ -59,6 +59,10 @@ do {
                 $uidArr = explode('_', $row_catalog['field4']);
                 $uid = $users[$uidArr[1]][1];
             }
+            if(substr_count($row_catalog['field4'], '-') > 0){
+                $uidArr = explode('-', $row_catalog['field4']);
+                $uid = $users[$uidArr[1]][1];
+            }
             if (intval($_SESSION['user_level']) > 0 && intval($_SESSION['user_level']) != 10) {
                 ?>
                 <a href="" class="user_profile_link" data-id="<?= $uid ?>"><?= $uid ?></a>
@@ -70,7 +74,8 @@ do {
             <button class="button text icon more"><span class="material-icons">unfold_more</span>Участники</button>
         </td>
 
-        <td><?= $row_catalog['field3'] ?: $row_catalog['field2'] ?></td>
+        <td><?= el_date1($row_catalog['field2']) . (!empty($row_catalog['field3']) &&
+            $row_catalog['field3'] != '0000-00-00 00:00:00' ? ' - ' . el_date1($row_catalog['field3']) : '') ?></td>
         <td><?= stripslashes($row_catalog['field1']) ?></td>
         <?/*td>
             <?

@@ -74,7 +74,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/tmpl/page/blocks/header.php';
 							//Показываем Администратору утвержденные, идущие и завершенные голосования
 						} elseif (intval($_SESSION['user_level']) == 11) {
 							$_GET['sf14'] = [5, 6, 7]; //Голосование утверждено, идёт, завершено
-  
+							//Показываем голосования всем остальным зарегистрированным пользователям
 						} elseif (intval($_SESSION['user_level']) > 0 && intval($_SESSION['user_level']) < 11) {
 							//Показываем голосования всем остальным зарегистрированным пользователям
                             if(!isset($_GET['filter'])) {

@@ -1,50 +1,53 @@
 // Глобальная переменная для хранения выбранных районов при фильтрации
+
 // var initialDistricts = []; // Убрано, чтобы избежать конфликтов
 
+var initialDistricts = [];
+
 let initiatives = {
-    buttons_init: function(){
+    buttons_init: function () {
         //Снять выделние в таблице
         $("#check_all").on("click", function () {
             $("tr td:first-child .custom_checkbox input").prop("checked", $(this).prop("checked"));
         });
-        $("#button_votes_filter").off("click").on("click", function(e){
+        $("#button_votes_filter").off("click").on("click", function (e) {
             e.preventDefault();
             el_app.dialog_open('votes_filter', el_tools.getUrlVar());
         });
-        $("#button_votes_new").off("click").on("click", function(e){
+        $("#button_votes_new").off("click").on("click", function (e) {
             e.preventDefault();
             el_app.dialog_open('votes_new');
         });
-        $("#button_votes_approve").off("click").on("click", function(e){
+        $("#button_votes_approve").off("click").on("click", function (e) {
             e.preventDefault();
             initiatives.groupSetInitStatus(5);
         });
-        $("#button_votes_start").off("click").on("click", function(e){
+        $("#button_votes_start").off("click").on("click", function (e) {
             e.preventDefault();
             initiatives.groupSetInitStatus(6);
         });
-        $("#button_votes_stop").off("click").on("click", function(e){
+        $("#button_votes_stop").off("click").on("click", function (e) {
             e.preventDefault();
             initiatives.groupSetInitStatus(3);
         });
-        $("#button_votes_remove").off("click").on("click", function(e){
+        $("#button_votes_remove").off("click").on("click", function (e) {
             e.preventDefault();
             initiatives.groupSetInitStatus(0);
         });
 
-        $(".edit_votes").off("click").on("click", function(){
+        $(".edit_votes").off("click").on("click", function () {
             el_app.dialog_open('votes_new', $(this).data("id"));
         });
 
-        $(".votes_approve").off("click").on("click", async function(){
+        $(".votes_approve").off("click").on("click", async function () {
             initiatives.setInitStatus($(this).data("id"), 5);
         });
 
-        $(".votes_run").off("click").on("click", async function(){
+        $(".votes_run").off("click").on("click", async function () {
             initiatives.setInitStatus($(this).data("id"), 6);
         });
 
-        $(".votes_stop").off("click").on("click", function(){
+        $(".votes_stop").off("click").on("click", function () {
             initiatives.setInitStatus($(this).data("id"), 7);
         });
 
@@ -52,19 +55,19 @@ let initiatives = {
             initiatives.setInitStatus($(this).data("id"), 4);
         });*/
 
-        $(".votes_remove").off("click").on("click", function(){
+        $(".votes_remove").off("click").on("click", function () {
             initiatives.setInitStatus($(this).data("id"), 0);
         });
 
-        $(".votes_statement").off("click").on("click", function(e){
+        $(".votes_statement").off("click").on("click", function (e) {
             e.preventDefault();
             initiatives.showStatement($(this).data("id"));
         });
 
-        $("[name=votes_vote]").off("change").on("change", function(){
+        $("[name=votes_vote]").off("change").on("change", function () {
             let initId = $(this).data("id");
 
-            $.post("/", {ajax: 1, action: "init_vote", id: initId, vote: $(this).val()}, function(data){
+            $.post("/", { ajax: 1, action: "init_vote", id: initId, vote: $(this).val() }, function (data) {
                 let answer = JSON.parse(data),
                     statValue = $("#tr" + initId + " .description .svg_value"),
                     statCalc = $("#tr" + initId + " .description .svg_calc"),
@@ -74,9 +77,9 @@ let initiatives = {
                     .css("width", "0%").find("span").html("0");
                 $("#tr" + initId + " .description .answer span").html("");
 
-                if(answer.result) {
+                if (answer.result) {
                     let votes = answer.votes;
-                    for(let vid in votes) {
+                    for (let vid in votes) {
                         let bar = $("#tr" + initId + " .description .answer.choice" + vid + " .bar"),
                             choice = el_tools.el_calcPercent(parseInt(votes[vid]), answer.totalVotes) || 0,
                             voteResult = $("#tr" + initId + " .description .answer .voteResult" + vid);
@@ -93,23 +96,23 @@ let initiatives = {
             })
         })
 
-        $(".user_profile_link").off("click").on("click", function(e){
+        $(".user_profile_link").off("click").on("click", function (e) {
             e.preventDefault();
             el_app.dialog_open('user_new', $(this).data("id"));
         });
 
     },
- 
-    groupSetInitStatus: async function(status){
+
+    groupSetInitStatus: async function (status) {
         let ids = [];
-        if(await confirm("Вы уверены?")){
+        if (await confirm("Вы уверены?")) {
             let checked = $(".table_data .group_check:checked");
-            for(let i = 0; i < checked.length; i++){
+            for (let i = 0; i < checked.length; i++) {
                 ids.push($(checked[i]).val());
             }
-            $.post("/", {ajax: 1, action: "setInitStatus", value: status, id: ids}, function (data) {
+            $.post("/", { ajax: 1, action: "setInitStatus", value: status, id: ids }, function (data) {
                 let answer = JSON.parse(data);
-                if(answer.result) {
+                if (answer.result) {
                     initiatives.initListUpdate();
                 }
                 alert(answer.resultText);
@@ -117,12 +120,12 @@ let initiatives = {
         }
     },
 
-    setInitStatus: async function(id, status){
+    setInitStatus: async function (id, status) {
         let ok = await confirm("Вы уверены?");
-        if(ok){
-            $.post("/", {ajax: 1, action: "setVoteStatus", value: status, id: id}, function (data) {
+        if (ok) {
+            $.post("/", { ajax: 1, action: "setVoteStatus", value: status, id: id }, function (data) {
                 let answer = JSON.parse(data);
-                if(answer.result) {
+                if (answer.result) {
                     initiatives.initListUpdate();
                 }
                 alert(answer.resultText);
@@ -130,28 +133,28 @@ let initiatives = {
         }
     },
 
-    showStatement: function(id){
+    showStatement: function (id) {
         //window.open('/statement?id=' + id, '_blank');
 
         el_app.dialog_open('vote_participants', id);
     },
 
-    popupNewInit: function(){
+    popupNewInit: function () {
         // Инициализация выбора субъекта и загрузка районов
-        $("select[name=region]").on("el_select_change", function(){
+        $("select[name=region]").on("el_select_change", function () {
             initiatives.loadDistricts($(this));
         });
 
         // Инициализация при загрузке формы - если субъект уже выбран, загрузить районы
         let currentRegion = $("select[name=region]").val();
-        if(currentRegion && currentRegion.length > 0){
+        if (currentRegion && currentRegion.length > 0) {
             initiatives.loadDistricts($("select[name=region]"));
         }
 
         // Логика "Выбрать всех"
-        $("#init_select_all").on("change", function(){
+        $("#init_select_all").on("change", function () {
             let elems = $(".subject, .prof");
-            if($(this).prop("checked")){
+            if ($(this).prop("checked")) {
                 elems.hide();
                 $(".detail").hide();
                 // Очистить все select поля
@@ -161,15 +164,15 @@ let initiatives = {
                 $("#city").val('');
                 $("#post_index").val('').trigger('input');
                 $("#groups").val(null).html('<option value="0">Без группы</option>').closest(".item").hide();
-            }else{
+            } else {
                 elems.show();
-                if($("select[name=region]").val() && $("select[name=region]").val().length === 1){
+                if ($("select[name=region]").val() && $("select[name=region]").val().length === 1) {
                     $(".detail").show();
                 }
             }
         });
 
-        $("#initiative_filter button[type=reset]").off("click").on("click", function(){
+        $("#initiative_filter button[type=reset]").off("click").on("click", function () {
             document.location.href = document.location.pathname;
         });
 
@@ -178,55 +181,54 @@ let initiatives = {
         // Инициализация загрузки групп по индексу (при загрузке формы и при вводе)
         initiatives.initIndexGroups();
 
-        $("#post_index, #fpost_index").off("input keyup").on("input keyup", function(){
-            if($(this).val().replace(/_/g, "").length >= 5){
+        $("#post_index, #fpost_index").off("input keyup").on("input keyup", function () {
+            if ($(this).val().replace(/_/g, "").length >= 5) {
                 initiatives.loadGroups($(this));
             }
         }).mask('999999');
     },
 
-    loadDistricts: function($element){
+    loadDistricts: function ($element) {
         let regionVal = $element.val();
-        if(regionVal && regionVal.length === 1){
+        if (regionVal && regionVal.length === 1) {
             // Получить выбранные районы для восстановления
             let selectedDistricts = initialDistricts || [];
-            
-            $.post("/", {ajax: 1, action: "getRegion", subject: regionVal, values: selectedDistricts}, function (data) {
+            $.post("/", { ajax: 1, action: "getRegion", subject: regionVal, values: selectedDistricts }, function (data) {
                 $("#district").html(data);
                 $(".detail").show();
             });
-        }else {
+        } else {
             $(".detail").hide();
             $("#district").html('').closest(".item").hide();
         }
     },
 
-    loadGroups: function($element){
+    loadGroups: function ($element) {
         let indexVal = $element.val().replace(/_/g, "");
         let groupId = $element.attr("name") === "post_index" ? "groups" : "sf17"; // для фильтра sf17
         let selectedGroups = $("#" + groupId).val() ? (Array.isArray($("#" + groupId).val()) ? $("#" + groupId).val() : [$("#" + groupId).val()]) : [];
-        
-        $.post("/", {ajax: 1, action: "getGroups", index: indexVal, values: selectedGroups}, function(data){
+
+        $.post("/", { ajax: 1, action: "getGroups", index: indexVal, values: selectedGroups }, function (data) {
             let answer = JSON.parse(data);
-            if(answer.result) {
+            if (answer.result) {
                 $("#" + groupId).html(answer.resultText).closest(".item").show();
             }
         });
     },
 
-    initIndexGroups: function(){
+    initIndexGroups: function () {
         // При загрузке формы: если индекс уже заполнен, загрузить группы
-        let indexField = $("#post_index, #fpost_index").filter(function(){
+        let indexField = $("#post_index, #fpost_index").filter(function () {
             return $(this).val().replace(/_/g, "").length >= 5;
         });
-        
-        if(indexField.length > 0){
+
+        if (indexField.length > 0) {
             initiatives.loadGroups(indexField);
         }
     },
 
-    cloneAnswer: function(){
-        $(".wrap_pop_up .icon.add").off("click").on("click", function(){
+    cloneAnswer: function () {
+        $(".wrap_pop_up .icon.add").off("click").on("click", function () {
             let answer = $(this).closest(".item"),
                 clone = answer.clone();
 
@@ -238,21 +240,21 @@ let initiatives = {
             initiatives.cloneAnswer();
         });
 
-        $(".wrap_pop_up .icon.remove").off("click").on("click", function(){
+        $(".wrap_pop_up .icon.remove").off("click").on("click", function () {
             let answer = $(this).closest(".item");
             answer.remove();
             initiatives.answerNumbers();
         });
     },
 
-    answerNumbers: function(){
+    answerNumbers: function () {
         let $items = $("#answers .item");
-        for(let i = 0; i < $items.length; i++){
+        for (let i = 0; i < $items.length; i++) {
             $($items[i]).find("label").html("Ответ " + (i + 1));
         }
     },
 
-    initListUpdate: function(){
+    initListUpdate: function () {
         // Получаем текущие параметры фильтра из URL и передаём их при обновлении
         let currentParams = {};
         const urlParams = new URLSearchParams(window.location.search);
@@ -263,8 +265,8 @@ let initiatives = {
         }
         currentParams.ajax = 1;
         currentParams.action = "getVotes";
-        
-        $.post("/", currentParams, function(data){
+
+        $.post("/", currentParams, function (data) {
             $("#init_table").html(data);
             initiatives.buttons_init();
         });
@@ -276,6 +278,6 @@ function pop_up_welcome(id) {
     el_app.dialog_open('votes_new', id);
 }
 
-$(document).ready(function(){
+$(document).ready(function () {
     initiatives.buttons_init();
 });
