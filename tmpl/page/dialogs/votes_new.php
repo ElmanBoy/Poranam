@@ -173,7 +173,7 @@ if (el_checkAjax()) {
                         <div class="el_data">
                             <label for="init_start">Начало</label>
                             <input class="el_input" id="init_start" type="date" name="init_start"
-                                   value="<?= $init['field2'] ?>">
+                                   value="<?= substr($init['field2'], 0, 10) ?>">
 
 
                         </div>
@@ -182,7 +182,7 @@ if (el_checkAjax()) {
                         <div class="el_data">
                             <label for="init_end">Окончание</label>
                             <input class="el_input" id="init_end" type="date" name="init_end"
-                                   value="<?= $init['field3'] ?>">
+                                   value="<?= substr($init['field3'], 0, 10) ?>">
                         </div>
                     </div>
                 </div>

@@ -179,8 +179,16 @@ let initiatives = {
         initiatives.initIndexGroups();
 
         $("#post_index, #fpost_index").off("input keyup").on("input keyup", function(){
-            if($(this).val().replace(/_/g, "").length >= 5){
+            let val = $(this).val().replace(/_/g, "");
+            if(val.length >= 5){
                 initiatives.loadGroups($(this));
+            } else {
+                // Индекс очищен — скрываем и сбрасываем группы
+                let groupId = $(this).attr("name") === "post_index" ? "groups" : "sf17";
+                let $select = $("#" + groupId);
+                $select.next(".el_data").remove();
+                $select.show().html('<option value="0">Без группы</option>').closest(".item").hide();
+                $select.el_select();
             }
         }).mask('999999');
     },
@@ -209,7 +217,11 @@ let initiatives = {
         $.post("/", {ajax: 1, action: "getGroups", index: indexVal, values: selectedGroups}, function(data){
             let answer = JSON.parse(data);
             if(answer.result) {
-                $("#" + groupId).html(answer.resultText).closest(".item").show();
+                let $select = $("#" + groupId);
+                // Удаляем старый кастомный select и пересоздаём после обновления опций
+                $select.next(".el_data").remove();
+                $select.show().html(answer.resultText).closest(".item").show();
+                $select.el_select();
             }
         });
     },

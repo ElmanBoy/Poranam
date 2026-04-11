@@ -26,7 +26,7 @@ if (el_checkAjax()) {
                         </div>
                     </div>
                     <div class="item">
-                        <select multiple data-label="Ранг" data-place="Выберите" name="sf13">
+                        <select multiple data-label="Ранг" data-place="Выберите" name="sf13[]">
                             <?= el_buildRegistryList('userstatus', $_GET['sf13'], false) ?>
                         </select>
                     </div>
@@ -57,27 +57,6 @@ if (el_checkAjax()) {
                         </div>
 
                     </div>
-                    <?
-                    if(isset($_SESSION['user_level']) && $_SESSION['user_level'] == 9){
-                        ?>
-                        <div class="item">
-                            <div class="el_data">
-                                <label for="fstreet">Улица</label>
-                                <input class="el_input" id="fstreet" name="sf10" type="text" value="<?= $_GET['sf10'] ?>">
-                            </div>
-
-                        </div>
-                        <div class="item">
-                            <div class="el_data">
-                                <label for="fhouse">Номер дома</label>
-                                <input class="el_input" id="fhouse" name="sf11" type="text" value="<?= $_GET['sf11'] ?>">
-                            </div>
-
-                        </div>
-
-                        <?
-                    }
-                    ?>
                     <div class='item'>
                         <div class='el_data'>
                             <select data-label='Группа в индексе' data-place='Выберите' name='sf17'
@@ -89,7 +68,7 @@ if (el_checkAjax()) {
                 <div class="group">
 
                     <div class="item">
-                        <select multiple data-label="Профессия" data-place="Выберите" name="sf7">
+                        <select multiple data-label="Профессия" data-place="Выберите" name="sf7[]">
                             <?= el_buildRegistryList('proffesions', $_GET['sf7'], false) ?>
                         </select>
                     </div>
@@ -97,7 +76,7 @@ if (el_checkAjax()) {
                 <h3>Параметры</h3>
                 <div class="group">
                     <div class="item">
-                        <select multiple data-label="Тема" data-place="Выберите" name="sf12">
+                        <select multiple data-label="Тема" data-place="Выберите" name="sf12[]">
                             <?= el_buildRegistryList('registryVote', $_GET['sf12'], false) ?>
                         </select>
                     </div>
@@ -173,6 +152,12 @@ if (el_checkAjax()) {
                 $('button[type=reset]').on('click', function (e) {
                     e.preventDefault();
                     document.location.href = '/golosovanie';
+                });
+
+                // Очищаем символы маски из поля индекса перед отправкой формы
+                $("form[method=get]").on("submit", function(){
+                    let $idx = $("#fpost_index");
+                    $idx.val($idx.val().replace(/_/g, ""));
                 });
             })
     </script>

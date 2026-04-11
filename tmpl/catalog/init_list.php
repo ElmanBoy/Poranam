@@ -162,25 +162,16 @@ do {
             switch (intval($row_catalog['field14'])) {
                 case 1: //Мероприятие создано
                 case 4:
-                    //Если автор мероприятия или КЦ
+                    //Если автор или КЦ
                     if ($_SESSION['visual_user_id'] == $uid || $_SESSION['user_level'] == 4) {
                         ?>
                         <button class='button icon edit_votes' data-id="<?= $row_catalog['id'] ?>"
                                 title='редактировать'>
                             <span class='material-icons'>edit</span></button>
-                        <?
-                    }
-                    if ($_SESSION['user_level'] == 4 || $_SESSION['visual_user_id'] == $uid) {
-                        //Куратор центра
-                        ?>
-                        <button data-id="<?= $row_catalog['id'] ?>" class="button icon votes_approve"
-                                title="На утверждение">
-                            <span class="material-icons">play_arrow</span></button>
                         <button class="button icon red votes_remove" data-id="<?= $row_catalog['id'] ?>"
                                 title="Удалить">
                             <span class="material-icons">delete_forever</span></button>
                         <?
-
                     } else {
                         echo 'Черновик';
                     }

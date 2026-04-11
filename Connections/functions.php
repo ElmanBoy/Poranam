@@ -2398,7 +2398,13 @@ function el_buildRegistryList($type, $selected = '', $firstEmpty = true, $exclud
 {
     $items = getRegistry($type, $fields, $order, $where);
     $list = ($firstEmpty) ? '<option value="">Все</option>'."\n" : '';
-    $selected = (substr_count($selected, ',') > 0) ? explode(',', $selected) : array($selected);
+    if (is_array($selected)) {
+        // already an array — use as-is
+    } elseif (substr_count($selected, ',') > 0) {
+        $selected = explode(',', $selected);
+    } else {
+        $selected = array($selected);
+    }
     foreach($items as $id => $name){
         $sel = (in_array($id, $selected)) ? ' selected' : '';
         if(!in_array($id, $exclude)) {
@@ -3159,12 +3165,7 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
 										} else {
 											$soper = "='" . intval($avar[$v]) . "'";
                                             if($catalog_id == 'init' && $sfieldNum == '5'){
-                                                // Для фильтра по субъекту показываем как голосования данного субъекта, так и голосования для всех (field5=0 или пусто)
-                                                $asubquery[] = "(field5='" . intval($avar[$v]) . "' OR field5='0' OR field5='' OR field5 IS NULL)";
-                                                continue 2;
-                                            }
-                                            if($catalog_id == '398' && $sfieldNum == '5'){
-                                                // Аналогично для голосований
+                                                // При фильтре по субъекту включаем также голосования для всех субъектов (field5=0 или пусто)
                                                 $asubquery[] = "(field5='" . intval($avar[$v]) . "' OR field5='0' OR field5='' OR field5 IS NULL)";
                                                 continue 2;
                                             }
