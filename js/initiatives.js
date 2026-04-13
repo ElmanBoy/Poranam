@@ -136,6 +136,8 @@ let initiatives = {
                 $("#district").val(null).trigger("change");
                 $("#city").val('');
                 $("#post_index").val('');
+                $("#street").val('');
+                $("#house").val('');
                 $("#groups").val(null).html('<option value="0">Без группы</option>').closest(".item").hide();
             }else{
                 elems.show();

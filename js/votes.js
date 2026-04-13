@@ -175,9 +175,26 @@ let initiatives = {
         // Инициализация загрузки групп по индексу (при загрузке формы и при вводе)
         initiatives.initIndexGroups();
 
+        // ДОПОЛНИТЕЛЬНАЯ ИНИЦИАЛИЗАЦИЯ: если индекс уже заполнен при редактировании, загрузить группы
+        let postIndexVal = $("#post_index").val();
+        if(postIndexVal && postIndexVal.replace(/_/g, "").length >= 5){
+            initiatives.loadGroups($("#post_index"));
+        }
+
+        // ИНИЦИАЛИЗАЦИЯ ДЛЯ ФИЛЬТРА: если индекс заполнен в фильтре, загрузить группы
+        let filterIndexVal = $("#fpost_index").val();
+        if(filterIndexVal && filterIndexVal.replace(/_/g, "").length >= 5){
+            initiatives.loadGroups($("#fpost_index"));
+        }
+
         $("#post_index, #fpost_index").off("input keyup").on("input keyup", function(){
-            if($(this).val().replace(/_/g, "").length >= 5){
+            let val = $(this).val().replace(/_/g, "");
+            if(val.length >= 5){
                 initiatives.loadGroups($(this));
+            } else if(val.length === 0) {
+                // Очистить группы при очистке индекса
+                let groupId = $(this).attr("id") === "post_index" ? "groups" : "groups";
+                $("#" + groupId).val(null).html('<option value="0">Без группы</option>').closest(".item").hide();
             }
         }).mask('999999');
     },

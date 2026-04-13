@@ -151,6 +151,14 @@ let meetings = {
             if($(this).prop("checked")){
                 elems.hide();
                 $(".detail").hide();
+                // Очищаем значения полей при выборе "выбрать всех"
+                $("select[name='region']").val('').trigger('change');
+                $("select[name='professions']").val('').trigger('change');
+                $("input[name='city']").val('');
+                $("input[name='post_index']").val('');
+                $("input[name='street']").val('');
+                $("input[name='house']").val('');
+                $("#groups").html('').closest(".item").hide();
             }else{
                 elems.show();
                 if($("select[name='region']").val().length > 0){

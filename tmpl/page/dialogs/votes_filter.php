@@ -52,7 +52,7 @@ if (el_checkAjax()) {
 
                 </div>
                 <?
-                if(isset($_SESSION['user_level']) && $_SESSION['user_level'] != 9){
+                if(isset($_SESSION['user_level']) && ($_SESSION['user_level'] != 9 || $_SESSION['user_level'] == 4)){
                 ?>
                 <div class="item">
                     <div class="el_data">

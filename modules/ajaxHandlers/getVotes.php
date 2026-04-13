@@ -9,17 +9,9 @@ if (el_checkAjax()) {
         $_GET['sf14_from'] = 4;
     }
     if(intval($_SESSION['user_level']) > 0 && intval($_SESSION['user_level']) < 11){
-        // Фильтр по группе пользователя - показывать только голосования его группы или общие
-        if(!empty($_SESSION['user_group']) && $_SESSION['user_group'] != '0'){
-            $_GET['sf17'] = array(0, '', $_SESSION['user_group']);
-        }
-        $_GET['sf5'] = array(0, '', $_SESSION['user_subject']);
-        $_GET['sf6'] = array(0, '', $_SESSION['user_region']);
-        $_GET['sf7'] = array(0, '', $_SESSION['user_prof']);
-        $_GET['sf8'] = array(0, '', $_SESSION['user_city']);
-        $_GET['sf9'] = array(0, '', $_SESSION['user_index']);
-        $_GET['sf10'] = array(0, '', $_SESSION['user_street']);
-        $_GET['sf11'] = array(0, '', $_SESSION['user_house']);
+        // Для обычных пользователей: показывать голосования, где они участвуют ИЛИ участвуют все
+        // Это достигается через специальную логику в catalog.php - голосования фильтруются по OR условиям
+        $_GET['user_filter_mode'] = 'participant_or_all'; // Специальный режим фильтрации
     }
     include_once $_SERVER['DOCUMENT_ROOT'] . "/modules/catalog.php";
 }

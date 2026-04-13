@@ -2967,14 +2967,14 @@ function el_calcVoteUsers($initId){
     $res = el_dbselect("SELECT * FROM catalog_init_data WHERE id = ".intval($initId),
         1, $res, 'row', true);
 
-    (intval($res['field13']) > 0) ? $subQuery[] = "field6 = ".intval($res['field13']) : ''; //Ранг
-    (intval($res['field7']) > 0) ? $subQuery[] = "field7 = ".intval($res['field7']) : ''; //Профессия
-    (intval($res['field5']) > 0) ? $subQuery[] = "field8 = ".intval($res['field5']) : ''; //Субъект
-    (intval($res['field6']) > 0) ? $subQuery[] = "field9 = ".intval($res['field6']) : ''; //Регион
-    (strlen($res['field8']) > 0) ? $subQuery[] = "field10 = '".$res['field8']."'" : ''; //Город
-    (strlen($res['field9']) > 0) ? $subQuery[] = "field11 = '".$res['field11']."'" : ''; //Индекс
-    (strlen($res['field10']) > 0) ? $subQuery[] = "field12 = '".$res['field10']."'" : ''; //Улица
-    (strlen($res['field11']) > 0) ? $subQuery[] = "field13 = '".$res['field11']."'" : ''; //Дом
+    (intval($res['field13']) > 0) ? $subQuery[] = "field6 = ".intval($res['field13']) : ''; //Ранг -> field6 пользователя
+    (intval($res['field7']) > 0) ? $subQuery[] = "field7 = ".intval($res['field7']) : ''; //Профессия -> field7 пользователя
+    (intval($res['field5']) > 0) ? $subQuery[] = "field8 = ".intval($res['field5']) : ''; //Субъект -> field8 пользователя
+    (intval($res['field6']) > 0) ? $subQuery[] = "field9 = ".intval($res['field6']) : ''; //Регион -> field9 пользователя
+    (strlen($res['field8']) > 0) ? $subQuery[] = "field10 = '".$res['field8']."'" : ''; //Город -> field10 пользователя
+    (strlen($res['field9']) > 0) ? $subQuery[] = "field11 = '".$res['field9']."'" : ''; //Индекс -> field11 пользователя
+    (strlen($res['field10']) > 0) ? $subQuery[] = "field12 = '".$res['field10']."'" : ''; //Улица -> field12 пользователя
+    (strlen($res['field11']) > 0) ? $subQuery[] = "field13 = '".$res['field11']."'" : ''; //Дом -> field13 пользователя
 
     if(count($subQuery) > 0) {
         $where = " WHERE ".implode(" AND ", $subQuery);
@@ -3048,6 +3048,115 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
 	$query_cat_form1 = "SELECT * FROM catalogs WHERE catalog_id='" . $catalog_id . "'";
 	$cat_form1 = el_dbselect($query_cat_form1, 0, $cat_form1);
 	$row_cat_form1 = el_dbfetch($cat_form1);
+
+// СПЕЦИАЛЬНАЯ ЛОГИКА ФИЛЬТРАЦИИ ДЛЯ ГОЛОСОВАНИЙ: ПОЛЬЗОВАТЕЛЬ ВИДИТ ГОЛОСОВАНИЯ, ГДЕ ОН УЧАСТВУЕТ ИЛИ УЧАСТВУЮТ ВСЕ
+	if($catalog_id == 'init' && isset($_GET['user_filter_mode']) && $_GET['user_filter_mode'] == 'participant_or_all' && intval($_SESSION['user_id']) > 0) {
+		$userData = el_dbselect("SELECT * FROM catalog_users_data WHERE id = '".intval($_SESSION['user_id'])."'", 1, $userData, 'row', true);
+
+		// Создаем условия: (поле пустое ИЛИ соответствует пользователю)
+		$userConditions = array();
+
+		// Субъект: field5 голосования -> field8 пользователя
+		if(intval($userData['field8']) > 0) {
+			$userConditions[] = "(field5 = '' OR field5 IS NULL OR field5 = ".intval($userData['field8']).")";
+		} else {
+			$userConditions[] = "(field5 = '' OR field5 IS NULL)";
+		}
+
+		// Регион: field6 голосования -> field9 пользователя
+		if(intval($userData['field9']) > 0) {
+			$userConditions[] = "(field6 = '' OR field6 IS NULL OR field6 = ".intval($userData['field9']).")";
+		} else {
+			$userConditions[] = "(field6 = '' OR field6 IS NULL)";
+		}
+
+		// Профессия: field7 голосования -> field7 пользователя
+		if(intval($userData['field7']) > 0) {
+			$userConditions[] = "(field7 = '' OR field7 IS NULL OR field7 = ".intval($userData['field7']).")";
+		} else {
+			$userConditions[] = "(field7 = '' OR field7 IS NULL)";
+		}
+
+		// Город: field8 голосования -> field10 пользователя
+		if(strlen($userData['field10']) > 0) {
+			$userConditions[] = "(field8 = '' OR field8 IS NULL OR field8 = '".addslashes($userData['field10'])."')";
+		} else {
+			$userConditions[] = "(field8 = '' OR field8 IS NULL)";
+		}
+
+		// Индекс: field9 голосования -> field11 пользователя
+		if(strlen($userData['field11']) > 0) {
+			$userConditions[] = "(field9 = '' OR field9 IS NULL OR field9 = '".addslashes($userData['field11'])."')";
+		} else {
+			$userConditions[] = "(field9 = '' OR field9 IS NULL)";
+		}
+
+		// Улица: field10 голосования -> field12 пользователя
+		if(strlen($userData['field12']) > 0) {
+			$userConditions[] = "(field10 = '' OR field10 IS NULL OR field10 = '".addslashes($userData['field12'])."')";
+		} else {
+			$userConditions[] = "(field10 = '' OR field10 IS NULL)";
+		}
+
+		// Дом: field11 голосования -> field13 пользователя
+		if(strlen($userData['field13']) > 0) {
+			$userConditions[] = "(field11 = '' OR field11 IS NULL OR field11 = '".addslashes($userData['field13'])."')";
+		} else {
+			$userConditions[] = "(field11 = '' OR field11 IS NULL)";
+		}
+
+		// Ранг: field13 голосования -> field6 пользователя
+		if(intval($userData['field6']) > 0) {
+			$userConditions[] = "(field13 = '' OR field13 IS NULL OR field13 = ".intval($userData['field6']).")";
+		} else {
+			$userConditions[] = "(field13 = '' OR field13 IS NULL)";
+		}
+
+		// Группа: field17 голосования -> field16 пользователя (группа в индексе)
+		if(strlen($userData['field16']) > 0 && $userData['field16'] != '0') {
+			$userConditions[] = "(field17 = '' OR field17 IS NULL OR field17 LIKE '%".addslashes($userData['field16'])."%')";
+		} else {
+			$userConditions[] = "(field17 = '' OR field17 IS NULL)";
+		}
+
+		if(count($userConditions) > 0) {
+			$subquery = " active=1 AND (cat = '" . $parentid . "' OR cat LIKE '% " . $parentid . " %') AND site_id = 1 AND (" . implode(" AND ", $userConditions) . ")";
+		} else {
+			$subquery = " active=1 AND (cat = '" . $parentid . "' OR cat LIKE '% " . $parentid . " %') AND site_id = 1 ";
+		}
+
+		return array($subquery, '');
+	}
+
+// СПЕЦИАЛЬНАЯ ЛОГИКА ФИЛЬТРАЦИИ ПО РОЛЯМ ПОЛЬЗОВАТЕЛЯ
+	if($catalog_id == 'init' && intval($_SESSION['user_id']) > 0) {
+		$userLevel = intval($_SESSION['user_level']);
+		$roleConditions = array();
+
+		if($userLevel == 4) { // КЦ
+			// Не видит голосования по профессии (field7), рангам (field13), группе (field17)
+			$roleConditions[] = "(field7 = '' OR field7 IS NULL OR field7 = 0)";
+			$roleConditions[] = "(field13 = '' OR field13 IS NULL OR field13 = 0)";
+			$roleConditions[] = "(field17 = '' OR field17 IS NULL)";
+		} elseif(in_array($userLevel, [5,6,7,8,9])) { // КГ, КС, КНП, КР, КИ
+			// Не видят голосования по рангам (field13), группе (field17), профессии (field7) для некоторых
+			$roleConditions[] = "(field13 = '' OR field13 IS NULL OR field13 = 0)";
+			$roleConditions[] = "(field17 = '' OR field17 IS NULL)";
+			if(in_array($userLevel, [7,9])) { // КНП, КИ - не видят по профессии
+				$roleConditions[] = "(field7 = '' OR field7 IS NULL OR field7 = 0)";
+			}
+		} elseif($userLevel == 10) { // П
+			// Не видит по рангам, группе, профессии
+			$roleConditions[] = "(field13 = '' OR field13 IS NULL OR field13 = 0)";
+			$roleConditions[] = "(field17 = '' OR field17 IS NULL)";
+			$roleConditions[] = "(field7 = '' OR field7 IS NULL OR field7 = 0)";
+		}
+
+		if(count($roleConditions) > 0) {
+			$subquery = " active=1 AND (cat = '" . $parentid . "' OR cat LIKE '% " . $parentid . " %') AND site_id = 1 AND (" . implode(" AND ", $roleConditions) . ")";
+			return array($subquery, '');
+		}
+	}
 
 //Создаем поисковый подзапрос
 	$childCats = el_getChild($row_dbcontent['path']);
@@ -3153,6 +3262,11 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
                                             if($catalog_id == 'init' && $sfieldNum == '5'){
                                                 // Для фильтра по субъекту показываем как голосования данного субъекта, так и голосования для всех (field5=0 или пусто)
                                                 $asubquery[] = "(field5='" . intval($avar[$v]) . "' OR field5='0' OR field5='' OR field5 IS NULL)";
+                                                continue 2;
+                                            }
+                                            if($catalog_id == 'init' && $sfieldNum == '17'){
+                                                // Для фильтра по группе в индексе показываем как голосования данной группы, так и голосования для всех (field17 пусто)
+                                                $asubquery[] = "(field17='" . intval($avar[$v]) . "' OR field17='' OR field17 IS NULL OR field17 LIKE '%" . intval($avar[$v]) . "%')";
                                                 continue 2;
                                             }
                                             if($catalog_id == 'users' && $sfieldNum == '16'){

@@ -122,7 +122,7 @@ if (el_checkAjax()) {
                         <div class="el_data">
                             <label for="post_index">Индекс</label>
                             <input class="el_input" id="post_index" name="post_index" type="text"
-                                   value="<?= $init['field9'] ?>">
+                                   value="<?= $init['field9'] ?>" maxlength="6">
                         </div>
                     </div>
                     <?/*div class="item detail" style="display: none">
@@ -138,7 +138,7 @@ if (el_checkAjax()) {
                             <input class="el_input" value="<?= $init['field11'] ?>" id="house" name="house" type="text">
                         </div>
                     </div*/?>
-                    <div class="item" style="display: none">
+                    <div class="item detail" style="display: none">
                         <div class="el_data">
                             <select multiple data-label="Группа в индексе" data-place="Выберите" name="groups[]" id="groups">
                             </select>
