@@ -184,8 +184,10 @@ let initiatives = {
                 initiatives.loadGroups($(this));
             } else {
                 // Индекс очищен — скрываем и сбрасываем группы
-                let groupId = $(this).attr("name") === "post_index" ? "groups" : "sf17";
-                let $select = $("#" + groupId);
+                let $select = $(this).attr("name") === "post_index" ? $("#groups") : $("select[name='sf17']");
+                if(!$select.length) {
+                    $select = $("#groups");
+                }
                 $select.next(".el_data").remove();
                 $select.show().html('<option value="0">Без группы</option>').closest(".item").hide();
                 $select.el_select();
@@ -211,13 +213,15 @@ let initiatives = {
 
     loadGroups: function($element){
         let indexVal = $element.val().replace(/_/g, "");
-        let groupId = $element.attr("name") === "post_index" ? "groups" : "sf17"; // для фильтра sf17
-        let selectedGroups = $("#" + groupId).val() ? (Array.isArray($("#" + groupId).val()) ? $("#" + groupId).val() : [$("#" + groupId).val()]) : [];
+        let $select = $element.attr("name") === "post_index" ? $("#groups") : $("select[name='sf17']");
+        if(!$select.length) {
+            $select = $("#groups");
+        }
+        let selectedGroups = $select.val() ? (Array.isArray($select.val()) ? $select.val() : [$select.val()]) : [];
 
         $.post("/", {ajax: 1, action: "getGroups", index: indexVal, values: selectedGroups}, function(data){
             let answer = JSON.parse(data);
             if(answer.result) {
-                let $select = $("#" + groupId);
                 // Удаляем старый кастомный select и пересоздаём после обновления опций
                 $select.next(".el_data").remove();
                 $select.show().html(answer.resultText).closest(".item").show();
