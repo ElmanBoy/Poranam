@@ -1,10 +1,10 @@
 <?php
 @session_start();
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
-$hostname_dbconn = "localhost";
-$database_dbconn = "eydbznsl_poranam";
-$username_dbconn = "eydbznsl_iskramet";
-$password_dbconn = "QyLkVVoGTiehHHru";
+$hostname_dbconn = getenv('DB_HOST') ?: "localhost";
+$database_dbconn = getenv('DB_NAME') ?: "eydbznsl_poranam";
+$username_dbconn = getenv('DB_USER') ?: "eydbznsl_iskramet";
+$password_dbconn = getenv('DB_PASS') ?: "QyLkVVoGTiehHHru";
 
 $pop_mail_server = "localhost";
 $smtp_mail_server = "localhost";

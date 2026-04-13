@@ -15,8 +15,14 @@ if (el_checkAjax()) {
             <div class="group">
                 <div class="item">
                     <div class="el_data">
-                        <label for="fid">ID</label>
-                        <input class="el_input" id="fid" name="sf4" type="text" value="<?=$_GET['sf4']?>">
+                        <label for="findex">Индекс автора</label>
+                        <input class="el_input" id="findex" name="sf4_index" type="text" placeholder="Индекс" value="<?=$_GET['sf4_index']?>">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="el_data">
+                        <label for="fid">ID автора</label>
+                        <input class="el_input" id="fid" name="sf4_id" type="text" placeholder="ID" value="<?=$_GET['sf4_id']?>">
                     </div>
                 </div>
             </div>

@@ -25,18 +25,18 @@ if (el_checkAjax()) {
             case 6:
                 $action1 = 'запущен'.$ending;
                 $action2 = 'запуска';
-                $query .= ' AND field14 = 4';
+                //$query .= ' AND field14 = 6';
                 break;
             case 5:
                 $action1 = 'утвержден'.$ending;
                 $action2 = 'утверждения';
-                $query .= ' AND field14 = 4';
+                //$query .= ' AND field14 = 5';
                 break;
             case 3:
             case 7:
                 $action1 = 'завершен'.$ending;
                 $action2 = 'завершения';
-                $query .= ' AND field14 = 6';
+                //$query .= ' AND field14 = 7';
                 break;
             /*case 4:
                 $action1 = 'переведен'.$ending.' в Голосования';

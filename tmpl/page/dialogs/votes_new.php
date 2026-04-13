@@ -173,7 +173,7 @@ if (el_checkAjax()) {
                         <div class="el_data">
                             <label for="init_start">Начало</label>
                             <input class="el_input" id="init_start" type="date" name="init_start"
-                                   value="<?= $init['field2'] ?>">
+                                   value="<?= substr($init['field2'], 0, 10) ?>">
 
 
                         </div>
@@ -182,7 +182,7 @@ if (el_checkAjax()) {
                         <div class="el_data">
                             <label for="init_end">Окончание</label>
                             <input class="el_input" id="init_end" type="date" name="init_end"
-                                   value="<?= $init['field3'] ?>">
+                                   value="<?= substr($init['field3'], 0, 10) ?>">
                         </div>
                     </div>
                 </div>
@@ -214,7 +214,21 @@ if (el_checkAjax()) {
 
     </div>
     <script>
+        initialDistricts = <?php echo json_encode(is_array($init['field6']) ? explode(',', $init['field6']) : (strlen($init['field6']) > 0 ? [$init['field6']] : [])); ?>;
         initiatives.popupNewInit();
+
+        // Инициализация групп в индексе при редактировании
+        <?php if(isset($init['field9']) && strlen($init['field9']) >= 5): ?>
+        $(document).ready(function(){
+            let selectedGroups = <?php echo json_encode(!empty($init['field17']) ? (is_array($init['field17']) ? $init['field17'] : explode(',', $init['field17'])) : []); ?>;
+            $.post("/", {ajax: 1, action: "getGroups", index: "<?= $init['field9'] ?>", values: selectedGroups}, function(data){
+                let answer = JSON.parse(data);
+                if(answer.result) {
+                    $("#groups").html(answer.resultText).closest(".item").show();
+                }
+            });
+        });
+        <?php endif; ?>
     </script>
     <?php
 }

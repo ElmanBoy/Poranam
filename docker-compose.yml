@@ -1,0 +1,40 @@
+services:
+  web:
+    build: .
+    container_name: poranam_web
+    ports:
+      - "8081:80"
+    volumes:
+      - .:/var/www/html
+    environment:
+      - APACHE_DOCUMENT_ROOT=/var/www/html
+      - DB_HOST=db
+      - DB_NAME=eydbznsl_poranam
+      - DB_USER=eydbznsl_iskramet
+      - DB_PASS=QyLkVVoGTiehHHru
+    depends_on:
+      - db
+    networks:
+      - poranam
+
+  db:
+    image: mariadb:10.11
+    container_name: poranam_db
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: eydbznsl_poranam
+      MYSQL_USER: eydbznsl_iskramet
+      MYSQL_PASSWORD: QyLkVVoGTiehHHru
+    volumes:
+      - poranam_db_data:/var/lib/mysql
+      - ./Dump.sql:/docker-entrypoint-initdb.d/dump.sql
+    networks:
+      - poranam
+
+networks:
+  poranam:
+
+volumes:
+  poranam_db_data:

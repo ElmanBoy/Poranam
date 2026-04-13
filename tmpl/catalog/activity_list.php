@@ -70,7 +70,7 @@ do {
             <button class="button text icon more"><span class="material-icons">unfold_more</span>Участники</button>
         </td>
 
-        <td><?= $row_catalog['field2'] ?></td>
+        <td><?= date('d.m.Y', strtotime($row_catalog['field2'])) ?></td>
         <td><?= $themes[$row_catalog['field12']]; ?></td>
         <td><?= stripslashes($row_catalog['field1']) ?></td>
         <td>
@@ -132,9 +132,8 @@ do {
                     break;
                 case 4: //Голосование создано и рассматривает КЦ
 				case 5: //Голосование рассматривает Администратор
-                    if ($_SESSION['user_level'] > 0) { //Редактировать может автор или КЦ
-                        if ($_SESSION['user_index'] . '_' . $_SESSION['user_id'] == $row_catalog['field4']
-								|| $_SESSION['user_level'] == 4) {
+                    if ($_SESSION['user_level'] > 0) { //Редактировать может только КЦ
+                        if($_SESSION['user_level'] == 4) {
                             ?>
                             <button class="button icon edit_votes" data-id="<?= $row_catalog['id'] ?>"
                                     title="редактировать">

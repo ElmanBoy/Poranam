@@ -1,3 +1,6 @@
+// Глобальная переменная для хранения выбранных районов при фильтрации
+var initialDistricts = [];
+
 let initiatives = {
     buttons_init: function(){
         //Снять выделние в таблице
@@ -156,11 +159,11 @@ let initiatives = {
                 $("select[name=professions]").val(null).trigger("change");
                 $("#district").val(null).trigger("change");
                 $("#city").val('');
-                $("#post_index").val('');
+                $("#post_index").val('').trigger('input');
                 $("#groups").val(null).html('<option value="0">Без группы</option>').closest(".item").hide();
             }else{
                 elems.show();
-                if($("select[name=region]").val().length === 1){
+                if($("select[name=region]").val() && $("select[name=region]").val().length === 1){
                     $(".detail").show();
                 }
             }
@@ -175,26 +178,17 @@ let initiatives = {
         // Инициализация загрузки групп по индексу (при загрузке формы и при вводе)
         initiatives.initIndexGroups();
 
-        // ДОПОЛНИТЕЛЬНАЯ ИНИЦИАЛИЗАЦИЯ: если индекс уже заполнен при редактировании, загрузить группы
-        let postIndexVal = $("#post_index").val();
-        if(postIndexVal && postIndexVal.replace(/_/g, "").length >= 5){
-            initiatives.loadGroups($("#post_index"));
-        }
-
-        // ИНИЦИАЛИЗАЦИЯ ДЛЯ ФИЛЬТРА: если индекс заполнен в фильтре, загрузить группы
-        let filterIndexVal = $("#fpost_index").val();
-        if(filterIndexVal && filterIndexVal.replace(/_/g, "").length >= 5){
-            initiatives.loadGroups($("#fpost_index"));
-        }
-
         $("#post_index, #fpost_index").off("input keyup").on("input keyup", function(){
             let val = $(this).val().replace(/_/g, "");
             if(val.length >= 5){
                 initiatives.loadGroups($(this));
-            } else if(val.length === 0) {
-                // Очистить группы при очистке индекса
-                let groupId = $(this).attr("id") === "post_index" ? "groups" : "groups";
-                $("#" + groupId).val(null).html('<option value="0">Без группы</option>').closest(".item").hide();
+            } else {
+                // Индекс очищен — скрываем и сбрасываем группы
+                let groupId = $(this).attr("name") === "post_index" ? "groups" : "sf17";
+                let $select = $("#" + groupId);
+                $select.next(".el_data").remove();
+                $select.show().html('<option value="0">Без группы</option>').closest(".item").hide();
+                $select.el_select();
             }
         }).mask('999999');
     },
@@ -203,8 +197,8 @@ let initiatives = {
         let regionVal = $element.val();
         if(regionVal && regionVal.length === 1){
             // Получить выбранные районы для восстановления
-            let selectedDistricts = $("#district").val() ? (Array.isArray($("#district").val()) ? $("#district").val() : [$("#district").val()]) : [];
-            
+            let selectedDistricts = initialDistricts || [];
+
             $.post("/", {ajax: 1, action: "getRegion", subject: regionVal, values: selectedDistricts}, function (data) {
                 $("#district").html(data);
                 $(".detail").show();
@@ -219,11 +213,15 @@ let initiatives = {
         let indexVal = $element.val().replace(/_/g, "");
         let groupId = $element.attr("name") === "post_index" ? "groups" : "sf17"; // для фильтра sf17
         let selectedGroups = $("#" + groupId).val() ? (Array.isArray($("#" + groupId).val()) ? $("#" + groupId).val() : [$("#" + groupId).val()]) : [];
-        
+
         $.post("/", {ajax: 1, action: "getGroups", index: indexVal, values: selectedGroups}, function(data){
             let answer = JSON.parse(data);
             if(answer.result) {
-                $("#" + groupId).html(answer.resultText).closest(".item").show();
+                let $select = $("#" + groupId);
+                // Удаляем старый кастомный select и пересоздаём после обновления опций
+                $select.next(".el_data").remove();
+                $select.show().html(answer.resultText).closest(".item").show();
+                $select.el_select();
             }
         });
     },
@@ -233,7 +231,7 @@ let initiatives = {
         let indexField = $("#post_index, #fpost_index").filter(function(){
             return $(this).val().replace(/_/g, "").length >= 5;
         });
-        
+
         if(indexField.length > 0){
             initiatives.loadGroups(indexField);
         }

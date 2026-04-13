@@ -120,8 +120,6 @@ var timer_connected = "", loader_active = true, el_app = {
             }else {
                 $("[type=date]").flatpickr({
                     locale: 'ru',
-                    //mode: 'range',
-                    //inline: true,
                     time_24hr: true,
                     dateFormat: 'Y-m-d',
                     altFormat: 'd.m.Y',
@@ -130,7 +128,7 @@ var timer_connected = "", loader_active = true, el_app = {
                     altInputClass: "el_input",
                     allowInvalidPreload: true,
                     firstDayOfWeek: 1,
-                    minDate: "today"
+                    minDate: "2020-01-01"
                 });
             }
 

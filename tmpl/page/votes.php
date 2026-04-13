@@ -67,17 +67,44 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/tmpl/page/blocks/header.php';
 						}
 						//Показываем голосования Куратору центра
 						if (intval($_SESSION['user_level']) == 4) {
-						    $_GET['sf5'] = [0, '', $_SESSION['user_subject']];
-							$_GET['sf6'] = [0, '', $_SESSION['user_region']];
-							$_GET['sf14_from'] = 4; //Голосование создано
+						    if(!isset($_GET['filter'])) {
+						        $_GET['sf5'] = [0, '', $_SESSION['user_subject']];
+						        $_GET['sf6'] = [0, '', $_SESSION['user_region']];
+						    }
+						    // КЦ видит только созданные и идущие (статус 4, 5, 6), но не завершённые (7)
+						    if(strlen($_GET['sf14']) == 0){
+						        $_GET['sf14'] = [4, 5, 6];
+						    }
 
 							//Показываем Администратору утвержденные голосования
 						} elseif (intval($_SESSION['user_level']) == 11) {
-							$_GET['sf14'] = [5, 6]; //Голосование утверждено
+							if(!isset($_GET['filter'])) {
+								$_GET['sf14'] = [5, 6, 7]; //Голосование утверждено
+							}
 
 						} elseif (intval($_SESSION['user_level']) > 0 && intval($_SESSION['user_level']) < 11) {
 							//Показываем голосования всем остальным зарегистрированным пользователям
-                            // Фильтры будут применены в getVotes.php через user_filter_mode
+                            if(!isset($_GET['filter'])) {
+                                if (strlen($_GET['sf5']) == 0)
+                                    $_GET['sf5'] = ['0', '', 'null', $_SESSION['user_subject']];
+                                if (strlen($_GET['sf6']) == 0)
+                                    $_GET['sf6'] = ['0', '', 'null', $_SESSION['user_region']];
+                                if (strlen($_GET['sf7']) == 0)
+                                    $_GET['sf7'] = ['0', '', 'null', $_SESSION['user_prof']];
+                                if (strlen($_GET['sf8']) == 0)
+                                    $_GET['sf8'] = ['0', '', 'null', $_SESSION['user_city']];
+                                if (strlen($_GET['sf9']) == 0)
+                                    $_GET['sf9'] = ['0', '', 'null', $_SESSION['user_index']];
+                                if (strlen($_GET['sf17']) == 0)
+                                    $_GET['sf17'] = ['0', '', 'null', $_SESSION['user_group']];
+                                if (strlen($_GET['sf12']) == 0)
+                                    $_GET['sf12'] = array_merge(['0', '', 'null'], explode(',', $_SESSION['user_themes']));
+                                // Добавляем фильтр по рангу пользователя
+                                if (strlen($_GET['sf13']) == 0)
+                                    $_GET['sf13'] = ['0', '', 'null', $_SESSION['user_level']];
+                                //$_GET['sf10'] = ['0', '', 'null', $_SESSION['user_street']];
+                                //$_GET['sf11'] = ['0', '', 'null', $_SESSION['user_house']];
+                            }
 							if(strlen($_GET['sf14']) == 0){
 							    $_GET['sf14'] = [6, 7]; //Голосование запущено
                             }

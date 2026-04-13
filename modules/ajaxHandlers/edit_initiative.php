@@ -70,18 +70,19 @@ if (el_checkAjax()) {
             'site_id' => 1,
             'field12' => intval($_POST['theme']),
             'field1' => $_POST['question'],
-            'field5' => (isset($_POST['init_select_all']) && $_POST['init_select_all'] == '1') ? '' : intval($_POST['region']),
-            'field6' => (isset($_POST['init_select_all']) && $_POST['init_select_all'] == '1') ? '' : intval($_POST['district']),
-            'field8' => (isset($_POST['init_select_all']) && $_POST['init_select_all'] == '1') ? '' : $_POST['city'],
-            'field9' => (isset($_POST['init_select_all']) && $_POST['init_select_all'] == '1') ? '' : $_POST['post_index'],
-            'field10' => (isset($_POST['init_select_all']) && $_POST['init_select_all'] == '1') ? '' : $_POST['street'],
-            'field11' => (isset($_POST['init_select_all']) && $_POST['init_select_all'] == '1') ? '' : $_POST['house'],
-            'field7' => (isset($_POST['init_select_all']) && $_POST['init_select_all'] == '1') ? '' : intval($_POST['professions']),
+            'field5' => intval($_POST['region']),
+            'field6' => intval($_POST['district']),
+            'field8' => $_POST['city'],
+            'field9' => $_POST['post_index'],
+            'field17' => (is_array($_POST['groups'])) ? implode(', ', $_POST['groups']) : $_POST['groups'],
+            'field10' => $_POST['street'],
+            'field11' => $_POST['house'],
+            'field7' => intval($_POST['professions']),
             'field13' => intval($_POST['rank']),
             'field2' => $_POST['init_start'],
             'field3' => $_POST['init_end'],
-            'field24' => $message,
-            'field14' => ($is_vote) ? 4 : 1
+            'field24' => $message
+            //'field14' => ($is_vote) ? 4 : 1
         );
 
         if($is_vote){

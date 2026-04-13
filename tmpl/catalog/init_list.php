@@ -59,6 +59,10 @@ do {
                 $uidArr = explode('_', $row_catalog['field4']);
                 $uid = $users[$uidArr[1]][1];
             }
+            if(substr_count($row_catalog['field4'], '-') > 0){
+                $uidArr = explode('-', $row_catalog['field4']);
+                $uid = $users[$uidArr[1]][1];
+            }
             if (intval($_SESSION['user_level']) > 0 && intval($_SESSION['user_level']) != 10) {
                 ?>
                 <a href="" class="user_profile_link" data-id="<?= $uid ?>"><?= $uid ?></a>
@@ -70,7 +74,8 @@ do {
             <button class="button text icon more"><span class="material-icons">unfold_more</span>Участники</button>
         </td>
 
-        <td><?= $row_catalog['field3'] ?: $row_catalog['field2'] ?></td>
+        <td><?= el_date1($row_catalog['field2']) . (!empty($row_catalog['field3']) &&
+            $row_catalog['field3'] != '0000-00-00 00:00:00' ? ' - ' . el_date1($row_catalog['field3']) : '') ?></td>
         <td><?= stripslashes($row_catalog['field1']) ?></td>
         <?/*td>
             <?
@@ -157,25 +162,16 @@ do {
             switch (intval($row_catalog['field14'])) {
                 case 1: //Мероприятие создано
                 case 4:
-                    //Если автор мероприятия или КЦ
+                    //Если автор или КЦ
                     if ($_SESSION['visual_user_id'] == $uid || $_SESSION['user_level'] == 4) {
                         ?>
                         <button class='button icon edit_votes' data-id="<?= $row_catalog['id'] ?>"
                                 title='редактировать'>
                             <span class='material-icons'>edit</span></button>
-                        <?
-                    }
-                    if ($_SESSION['user_level'] == 4 || $_SESSION['visual_user_id'] == $uid) {
-                        //Куратор центра
-                        ?>
-                        <button data-id="<?= $row_catalog['id'] ?>" class="button icon votes_approve"
-                                title="На утверждение">
-                            <span class="material-icons">play_arrow</span></button>
                         <button class="button icon red votes_remove" data-id="<?= $row_catalog['id'] ?>"
                                 title="Удалить">
                             <span class="material-icons">delete_forever</span></button>
                         <?
-
                     } else {
                         echo 'Черновик';
                     }
@@ -191,8 +187,7 @@ do {
                             <span class="material-icons">edit</span></button>
                         <button data-id="<?= $row_catalog['id'] ?>" class="button icon votes_run" title="Запустить">
                             <span class="material-icons">play_arrow</span></button>
-                        <button class="button icon red votes_remove" data-id="<?= $row_catalog['id'] ?>"
-                                title="Удалить">
+                        <button class="button icon red votes_remove" data-id="<?= $row_catalog['id'] ?>" title="Удалить">
                             <span class="material-icons">delete_forever</span></button>
                         <?
                     } elseif (($_SESSION['user_level'] != 4 || $_SESSION['user_level'] != 11)
@@ -231,6 +226,9 @@ do {
                         <button class="button icon edit_votes" data-id="<?= $row_catalog['id'] ?>" title="Просмотр">
                             <span class="material-icons">remove_red_eye</span>
                         </button>
+                        <button class='button icon red votes_remove' data-id="<?= $row_catalog['id'] ?>"
+                                title='Удалить'>
+                            <span class='material-icons'>delete_forever</span></button>
                         <?
                     }
                     break;

@@ -2398,7 +2398,13 @@ function el_buildRegistryList($type, $selected = '', $firstEmpty = true, $exclud
 {
     $items = getRegistry($type, $fields, $order, $where);
     $list = ($firstEmpty) ? '<option value="">Все</option>'."\n" : '';
-    $selected = (substr_count($selected, ',') > 0) ? explode(',', $selected) : array($selected);
+    if (is_array($selected)) {
+        // already an array — use as-is
+    } elseif (substr_count($selected, ',') > 0) {
+        $selected = explode(',', $selected);
+    } else {
+        $selected = array($selected);
+    }
     foreach($items as $id => $name){
         $sel = (in_array($id, $selected)) ? ' selected' : '';
         if(!in_array($id, $exclude)) {
@@ -3200,6 +3206,10 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
 		foreach ($_REQUEST as $varname => $var) {
 			$sfieldNum = str_replace(array('sf', '_d', '_from', '_to'), '', $varname);
 			$preOper = "";
+			// Skip special handling fields that are processed separately
+			if ($varname == 'sf4_index' || $varname == 'sf4_id') {
+				continue;
+			}
 			if ($var && substr_count($varname, 'sf') > 0) {
 				if (@substr_count($var, '|') > 0 || is_array($var)) {
 					$avar = array();
@@ -3213,6 +3223,10 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
 
 					if (count($avar) > 0) {
 						$ct = el_dbselect("DESCRIBE catalog_" . $catalog_id . "_data field" . $sfieldNum, 0, $ct, 'row', true);
+						// Skip if field doesn't exist
+						if (empty($ct) || !isset($ct['Type'])) {
+							continue;
+						}
 						for ($v = 0; $v < count($avar); $v++) {
 							switch (strtolower($ct['Type'])) {
 								case 'text'    :
@@ -3260,7 +3274,7 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
 										} else {
 											$soper = "='" . intval($avar[$v]) . "'";
                                             if($catalog_id == 'init' && $sfieldNum == '5'){
-                                                // Для фильтра по субъекту показываем как голосования данного субъекта, так и голосования для всех (field5=0 или пусто)
+                                                // При фильтре по субъекту включаем также голосования для всех субъектов (field5=0 или пусто)
                                                 $asubquery[] = "(field5='" . intval($avar[$v]) . "' OR field5='0' OR field5='' OR field5 IS NULL)";
                                                 continue 2;
                                             }
@@ -3278,7 +3292,7 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
                                                 }
                                             }
 										};
-									}
+									} 
 									break;
 							}
 							$asubquery[] = $preOper . "field" . $sfieldNum . $soper;
@@ -3287,6 +3301,10 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
 					}
 				} else {
 					$ct = el_dbselect("DESCRIBE catalog_" . $catalog_id . "_data field" . $sfieldNum, 0, $ct, 'row');
+					// Skip if field doesn't exist
+					if (empty($ct) || !isset($ct['Type'])) {
+						continue;
+					}
 					switch (strtolower($ct['Type'])) {
 						case 'text'    :
 						case 'longtext':
@@ -3359,6 +3377,43 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
         if (strlen(trim($_GET['search'])) == 0) {
             $subquery .= " AND (cat = '" . $parentid . "' OR cat LIKE '% " . $parentid . " %')";
         }
+	}
+	// Special handling for sf4_index and sf4_id
+	if (isset($_REQUEST['sf4_index']) && strlen(trim($_REQUEST['sf4_index'])) > 0) {
+		$indexValue = addslashes($_REQUEST['sf4_index']);
+		$subquery .= " $searchOper field4 LIKE '$indexValue\_%'";
+	}
+	if (isset($_REQUEST['sf4_id']) && strlen(trim($_REQUEST['sf4_id'])) > 0) {
+		$idValue = addslashes($_REQUEST['sf4_id']);
+        $idArr = [];
+		if(substr_count($idValue, '_') > 0){
+		    $idArr = explode('_', $idValue);
+        }
+        if(substr_count($idValue, '-') > 0){
+            $idArr = explode('-', $idValue);
+        }
+        $userIds = null;
+        $userIds = el_dbselect("SELECT id FROM catalog_users_data 
+        WHERE user_id = '$idArr[0]".'_'."$idArr[1]' OR user_id = '$idArr[0]".'-'."$idArr[1]'", 0, $userIds, 'row', true);
+		$subquery .= " $searchOper (field4 = '$idArr[0]".'_'.$userIds['id']."' OR field4 = '$idArr[0]".'-'.$userIds['id']."') ";
+	}
+	// Restrictions for votes catalog to show only relevant to user
+	if($catalog_id == '398' && intval($_SESSION['user_level']) > 0 && intval($_SESSION['user_level']) < 11){
+		$subquery .= " AND (field5 = '" . addslashes($_SESSION['user_subject']) . "' OR field5 = '0' OR field5 = '' OR field5 IS NULL)";
+		$subquery .= " AND (field6 = '" . addslashes($_SESSION['user_region']) . "' OR field6 = '0' OR field6 = '' OR field6 IS NULL)";
+		$subquery .= " AND (field7 = '" . addslashes($_SESSION['user_prof']) . "' OR field7 = '0' OR field7 = '' OR field7 IS NULL)";
+		$subquery .= " AND (field8 = '" . addslashes($_SESSION['user_city']) . "' OR field8 = '0' OR field8 = '' OR field8 IS NULL)";
+		$subquery .= " AND (field9 = '" . addslashes($_SESSION['user_index']) . "' OR field9 = '0' OR field9 = '' OR field9 IS NULL)";
+		$subquery .= " AND (field17 = '" . addslashes($_SESSION['user_group']) . "' OR field17 = '0' OR field17 = '' OR field17 IS NULL)";
+		$themes = explode(',', $_SESSION['user_themes']);
+		$themeConditions = [];
+		foreach($themes as $theme){
+			$themeConditions[] = "field12 = '" . addslashes($theme) . "'";
+		}
+		$themeConditions[] = "field12 = '0'";
+		$themeConditions[] = "field12 = ''";
+		$themeConditions[] = "field12 IS NULL";
+		$subquery .= " AND (" . implode(' OR ', $themeConditions) . ")";
 	}
 	if($catalog_id == 'init') {
         $uid = $_SESSION['visual_user_id'];
