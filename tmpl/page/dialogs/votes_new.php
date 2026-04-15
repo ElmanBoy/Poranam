@@ -67,7 +67,7 @@ if (el_checkAjax()) {
                 <div class="group">
                     <div class="item">
                         <div class="el_data w_50">
-                            <select name="theme" class="el_select" data-label="Тема голосования" data-place="Выберите">
+                            <select name="theme" data-label="Тема голосования" data-place="Выберите">
                                 <option value="0">Без темы</option>
                                 <?= el_buildRegistryList('registryVote', $init['field12'], false) ?>
                             </select>

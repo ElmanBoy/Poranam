@@ -3134,35 +3134,6 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
 		return array($subquery, '');
 	}
 
-// СПЕЦИАЛЬНАЯ ЛОГИКА ФИЛЬТРАЦИИ ПО РОЛЯМ ПОЛЬЗОВАТЕЛЯ
-	if($catalog_id == 'init' && intval($_SESSION['user_id']) > 0) {
-		$userLevel = intval($_SESSION['user_level']);
-		$roleConditions = array();
-
-		if($userLevel == 4) { // КЦ
-			// Не видит голосования по профессии (field7), рангам (field13), группе (field17)
-			$roleConditions[] = "(field7 = '' OR field7 IS NULL OR field7 = 0)";
-			$roleConditions[] = "(field13 = '' OR field13 IS NULL OR field13 = 0)";
-			$roleConditions[] = "(field17 = '' OR field17 IS NULL)";
-		} elseif(in_array($userLevel, [5,6,7,8,9])) { // КГ, КС, КНП, КР, КИ
-			// Не видят голосования по рангам (field13), группе (field17), профессии (field7) для некоторых
-			$roleConditions[] = "(field13 = '' OR field13 IS NULL OR field13 = 0)";
-			$roleConditions[] = "(field17 = '' OR field17 IS NULL)";
-			if(in_array($userLevel, [7,9])) { // КНП, КИ - не видят по профессии
-				$roleConditions[] = "(field7 = '' OR field7 IS NULL OR field7 = 0)";
-			}
-		} elseif($userLevel == 10) { // П
-			// Не видит по рангам, группе, профессии
-			$roleConditions[] = "(field13 = '' OR field13 IS NULL OR field13 = 0)";
-			$roleConditions[] = "(field17 = '' OR field17 IS NULL)";
-			$roleConditions[] = "(field7 = '' OR field7 IS NULL OR field7 = 0)";
-		}
-
-		if(count($roleConditions) > 0) {
-			$subquery = " active=1 AND (cat = '" . $parentid . "' OR cat LIKE '% " . $parentid . " %') AND site_id = 1 AND (" . implode(" AND ", $roleConditions) . ")";
-			return array($subquery, '');
-		}
-	}
 
 //Создаем поисковый подзапрос
 	$childCats = el_getChild($row_dbcontent['path']);
@@ -3317,6 +3288,11 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
 										$soper = " = 0";
 										break;
 									default:
+										// Для субъекта (field5) и района (field6) в голосованиях используем точное равенство
+										if($catalog_id == 'init' && in_array($sfieldNum, ['5', '6']) && is_numeric($var)) {
+											$asubquery[] = "(field" . $sfieldNum . " = '" . intval($var) . "' OR field" . $sfieldNum . " = '0' OR field" . $sfieldNum . " = '' OR field" . $sfieldNum . " IS NULL)";
+											continue 3;
+										}
 										$soper = " LIKE '%" . addslashes($var) . "%'";
 								}
 							}else{
@@ -3419,8 +3395,10 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
         $uid = $_SESSION['visual_user_id'];
         $uidArr = explode('-', $_SESSION['visual_user_id']);
         $uidAlt = $uidArr[0].'_'.$_SESSION['user_id'];
-        if($filtered == 0 && strlen($_SESSION['visual_user_id']) > 0 && strlen($_GET['filter']) == 0) {
-            $subquery .= " OR ((field4 = '" . $uid . "' OR field4 = '" . $uidAlt . "') AND cat = $parentid)"; //print_r($_GET);
+        // Добавляем свои черновики (статусы 1 и 4) через OR — видит только автор
+        if(isset($_GET['own_draft_uid']) && intval($_GET['own_draft_uid']) > 0) {
+            $ownUid = intval($_GET['own_draft_uid']);
+            $subquery = "(" . $subquery . ") OR ((field4 = '" . $uid . "' OR field4 LIKE '%_" . $ownUid . "') AND field14 IN (1, 4) AND cat = $parentid AND active = 1)";
         }
         if(isset($_GET['sf12']) && $_GET['sf12'][0] == 0){
             $subquery = str_replace("AND (field12 = 0)", '', $subquery);

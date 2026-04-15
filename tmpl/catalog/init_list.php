@@ -74,8 +74,8 @@ do {
             <button class="button text icon more"><span class="material-icons">unfold_more</span>Участники</button>
         </td>
 
-        <td><?= el_date1($row_catalog['field2']) . (!empty($row_catalog['field3']) &&
-            $row_catalog['field3'] != '0000-00-00 00:00:00' ? ' - ' . el_date1($row_catalog['field3']) : '') ?></td>
+        <td><?= (!empty($row_catalog['field2']) && $row_catalog['field2'] != '0000-00-00' ? date('d.m.Y', strtotime($row_catalog['field2'])) : '') .
+            (!empty($row_catalog['field3']) && $row_catalog['field3'] != '0000-00-00 00:00:00' ? ' - ' . date('d.m.Y', strtotime($row_catalog['field3'])) : '') ?></td>
         <td><?= stripslashes($row_catalog['field1']) ?></td>
         <?/*td>
             <?

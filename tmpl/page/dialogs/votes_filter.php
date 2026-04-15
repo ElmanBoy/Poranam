@@ -122,22 +122,23 @@ if (el_checkAjax()) {
         initiatives.popupNewInit();
         $(document).ready(
             function () {
-                // Инициализация загрузки районов в фильтре при выборе субъекта
+                // В фильтре поле Район всегда видимо (в отличие от формы создания)
+                $("#district").closest(".item").show();
+                // Инициализация выбранных районов для восстановления при загрузке субъекта
                 initialDistricts = <?php echo json_encode(isset($_GET['district']) ? (is_array($_GET['district']) ? $_GET['district'] : (strlen(trim($_GET['district'])) > 0 ? explode(',', $_GET['district']) : [])) : []); ?>;
-                $("form[method=get] select[name=region]").on("el_select_change", function(){
-                    let regionVal = $(this).val();
-                    let selectedDistricts = initialDistricts || [];
 
-                    if(regionVal && regionVal.length === 1){
-                        $.post("/", {ajax: 1, action: "getRegion", subject: regionVal, values: selectedDistricts}, function (data) {
-                            $("form[method=get] #district").html(data);
-                        });
-                    }
-                });
-
-                // Инициализация загрузки групп по индексу в фильтре
+                // Инициализация загрузки групп по индексу в фильтре с восстановлением выбранного значения
                 if($('#fpost_index').val() && $('#fpost_index').val().replace(/_/g, "").length >= 5){
-                    initiatives.loadGroups($('#fpost_index'));
+                    let selectedGroups = <?php echo json_encode(isset($_GET['sf17']) ? (is_array($_GET['sf17']) ? $_GET['sf17'] : (strlen(trim($_GET['sf17'])) > 0 ? [$_GET['sf17']] : [])) : []); ?>;
+                    let indexVal = $('#fpost_index').val().replace(/_/g, "");
+                    $.post("/", {ajax: 1, action: "getGroups", index: indexVal, values: selectedGroups}, function(data){
+                        let answer = JSON.parse(data);
+                        if(answer.result) {
+                            $("#groups").next(".el_data").remove();
+                            $("#groups").show().html(answer.resultText).closest(".item").show();
+                            $("#groups").el_select();
+                        }
+                    });
                 }
 
                 // Эмуляция выбора субъекта если он уже выбран при открытии фильтра

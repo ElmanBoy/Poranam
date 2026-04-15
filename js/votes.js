@@ -197,17 +197,24 @@ let initiatives = {
 
     loadDistricts: function($element){
         let regionVal = $element.val();
+        let isFilter = $("form[method=get]").length > 0;
         if(regionVal && regionVal.length === 1){
             // Получить выбранные районы для восстановления
             let selectedDistricts = initialDistricts || [];
 
             $.post("/", {ajax: 1, action: "getRegion", subject: regionVal, values: selectedDistricts}, function (data) {
                 $("#district").html(data);
-                $(".detail").show();
+                if(!isFilter) $(".detail").show();
+                $("#district").closest(".item").show();
             });
         }else {
-            $(".detail").hide();
-            $("#district").html('').closest(".item").hide();
+            if(!isFilter) {
+                $(".detail").hide();
+                $("#district").html('').closest(".item").hide();
+            } else {
+                $("#district").html('');
+                $("#district").closest(".item").show();
+            }
         }
     },
 
