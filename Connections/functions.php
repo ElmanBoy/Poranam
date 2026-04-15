@@ -3407,8 +3407,15 @@ function el_buildCatalogSubQuery($addSortFields = '', $addGroupFields = '')
             if($_GET['region'] == -1) {
                 $subquery = str_replace("AND field5 LIKE '%-1%'", '', $subquery);
             }
-            if($_GET['region'] == 0) {
-                $subquery .= " AND (field5 IS NULL OR field5 = '')";
+            $regionArr = is_array($_GET['region']) ? $_GET['region'] : [$_GET['region']];
+            if(in_array('0', $regionArr) || in_array(0, $regionArr)) {
+                // Пользователь явно выбрал "Для всех субъектов" — показываем только голосования без субъекта
+                $otherSubjects = array_filter($regionArr, function($v){ return $v !== '0' && $v !== 0 && $v !== ''; });
+                if(empty($otherSubjects)) {
+                    // Только "для всех" — строгий фильтр
+                    $subquery = "(" . $subquery . ") AND (field5 IS NULL OR field5 = '' OR field5 = '0')";
+                }
+                // Если выбраны и другие субъекты — обычный OR уже сработал через sf5, ничего не добавляем
             }
         }
     }

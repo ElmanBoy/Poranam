@@ -22,7 +22,7 @@ if (el_checkAjax()) {
                     <div class="item">
                         <div class="el_data">
                             <label for="fid">ID автора</label>
-                            <input class="el_input" id="fid" name="sf4_id" type="text" placeholder="100000-1lf" value="<?= htmlspecialchars($_GET['sf4_id'], ENT_QUOTES) ?>">
+                            <input class="el_input" id="fid" name="sf4_id" type="text" placeholder="100000-1" value="<?= htmlspecialchars($_GET['sf4_id'], ENT_QUOTES) ?>">
                         </div>
                     </div>
                     <div class="item">
@@ -35,9 +35,10 @@ if (el_checkAjax()) {
                 <div class="group">
 
                     <div class="item">
-                        <select multiple data-label="Субъект" data-place="Выберите" name="region"
+                        <select multiple data-label="Субъект" data-place="Выберите" name="region[]"
                                 data-multibarshow="false">
-                            <?= el_buildRegistryList('subjects', $_GET['region'], true) ?>
+                            <option value="0"<?= (is_array($_GET['region']) ? in_array('0', $_GET['region']) : $_GET['region'] === '0') ? ' selected' : '' ?>>Для всех субъектов</option>
+                            <?= el_buildRegistryList('subjects', $_GET['region'], false) ?>
                         </select>
                     </div>
                     <div class="item">
@@ -94,13 +95,13 @@ if (el_checkAjax()) {
                     <div class="item">
                         <div class="el_data">
                             <label for="fstart">Начало</label>
-                            <input class="el_input" id="start" type="date" value="<?= $_GET['sf2'] ?>" name="sf2">
+                            <input class="el_input" id="start" type="date" value="<?= $_GET['sf2_from'] ?>" name="sf2_from">
                         </div>
                     </div>
                     <div class="item">
                         <div class="el_data">
                             <label for="fend">Окончание</label>
-                            <input class="el_input" id="end" type="date" name="sf3" value="<?= $_GET['sf3'] ?>">
+                            <input class="el_input" id="end" type="date" name="sf3_to" value="<?= $_GET['sf3_to'] ?>">
                         </div>
                     </div>
                 </div>
@@ -142,7 +143,7 @@ if (el_checkAjax()) {
                 }
 
                 // Эмуляция выбора субъекта если он уже выбран при открытии фильтра
-                let filterRegion = $("form[method=get] select[name=region]").val();
+                let filterRegion = $("form[method=get] select[name='region[]']").val();
                 if(filterRegion && filterRegion.length > 0){
                     let selectedDistricts = initialDistricts || [];
                     $.post("/", {ajax: 1, action: "getRegion", subject: filterRegion, values: selectedDistricts}, function (data) {

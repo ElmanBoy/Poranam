@@ -94,12 +94,20 @@
         $this.children().each(function () {
             if (this.tagName === "OPTION") {
                 newList.push(buildOption(this, is_multiple));
-                selected = getSelected(this);
+                if (is_multiple !== "") {
+                    selected += getSelected(this);
+                } else {
+                    selected = getSelected(this);
+                }
             } else if (this.tagName === "OPTGROUP") {
                 newList.push('<div class="el_select_title">' + this.label + '</div><div class="el_optgroup">');
                 $(this).children().each(function () {
                     newList.push(buildOption(this, is_multiple));
-                    selected = getSelected(this);
+                    if (is_multiple !== "") {
+                        selected += getSelected(this);
+                    } else {
+                        selected = getSelected(this);
+                    }
                 });
                 newList.push('</div>');
             }
@@ -465,21 +473,23 @@
 
     function buildOption(obj, is_multiple) {
         let img = $(obj).data("image");
+        let isSelected = obj.outerHTML.search('selected') > -1;
         return is_multiple !== "" ?
             '<div class="el_option'
             + ((obj.disabled) ? ' disabled' : '')
-            + ((obj.selected && obj.outerHTML.search("selected") > -1) ? ' selected' : '')
+            + (isSelected ? ' selected' : '')
             + '" data-value="' + obj.value + '">'
             + '<label class="container">'
             + (typeof img !== "undefined" ? '<img src="' + img + '">' : '')
             + obj.text
             + '<input type="checkbox"' + ((obj.disabled) ? ' disabled' : '')
+            + (isSelected ? ' checked' : '')
             + '><span class="checkmark"></span>'
             + '</label></div>'
             :
             '<div class="el_option'
             + ((obj.disabled) ? ' disabled' : '')
-            + ((obj.selected && obj.outerHTML.search("selected") > -1) ? ' selected' : '')
+            + (isSelected ? ' selected' : '')
             + '" data-value="' + obj.value + '">'
             + (typeof img !== "undefined" ? '<img src="' + img + '">' : '')
             + obj.text + '</div>';
@@ -487,7 +497,9 @@
 
     function getSelected(obj) {
         let selected = "";
-        if (obj.selected && obj.value !== "" && obj.outerHTML.search("selected") > -1) {
+        let isSelected = obj.outerHTML.search('selected') > -1;
+        if (isSelected && obj.value !== "") {
+            obj.selected = true;
             selected = '<div class="select_row" data-value="' + obj.value + '">'
                 + obj.text + '<span class="material-icons">cancel</span></div>';
         }else{

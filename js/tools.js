@@ -464,7 +464,7 @@ const el_tools = {
 
                 // обработка данных вида: list[]=thing1&list[]=thing2
                 let paramNum = undefined;
-                let paramName = a[0].replace(/\[\d*\]/, function (v) {
+                let paramName = decodeURIComponent(a[0]).replace(/\[\d*\]/, function (v) {
                     paramNum = v.slice(1, -1);
                     return '';
                 });
@@ -483,7 +483,7 @@ const el_tools = {
                         obj[paramName] = [obj[paramName]];
                     }
                     // если не задан индекс...
-                    if (typeof paramNum === 'undefined') {
+                    if (typeof paramNum === 'undefined' || paramNum === '') {
                         // помещаем значение в конец массива
                         obj[paramName].push(paramValue);
                     }

@@ -99,6 +99,12 @@ var timer_connected = "", loader_active = true, el_app = {
             $("#logout").on("click", function () {
                 document.location.href = "?logout";
             });
+            // Синхронизируем DOM-свойство selected из HTML-атрибута перед инициализацией плагина
+            $("select:not(.flatpickr-monthDropdown-months) option").each(function() {
+                if (this.hasAttribute("selected")) {
+                    this.selected = true;
+                }
+            });
             $("select:not(.flatpickr-monthDropdown-months)").el_select();
 
 
